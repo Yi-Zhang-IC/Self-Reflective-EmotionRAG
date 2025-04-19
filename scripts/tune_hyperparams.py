@@ -15,25 +15,30 @@ import datetime
 from pathlib import Path
 import json
 from torch.utils.data import Dataset
+import optuna
+from typing import Union, Optional
 
-
-# Create logs directory if needed
+# Create logs and outputs directory if needed
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
+output_dir = Path("outputs")
+output_dir.mkdir(exist_ok=True)
 
 # Create a timestamped log file
 timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 log_path = log_dir / f"optuna_tuning_{timestamp}.log"
+output_log_path = output_dir / f"trial_log_{timestamp}.jsonl"
 
-# Redirect all stdout to file (plus console if needed)
-sys.stdout = open(log_path, "w", encoding="utf-8")
+# Redirect stdout to the log file BEFORE any prints
+sys.stdout = open(log_path, "w", encoding="utf-8", buffering=1)
+sys.stderr = sys.stdout
 
 
 print(torch.__version__)
 print(torch.version.cuda)
 print(torch.cuda.is_available())
 
-# Set random seeds for reproducibility
+# Reproducibility
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
@@ -42,7 +47,6 @@ def set_seed(seed):
 
 set_seed(42)
 
-# Determine the device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f'Using device: {device}')
 
@@ -145,32 +149,71 @@ class BSCLossSingleLabel(torch.nn.Module):
 
         return torch.mean(torch.stack(losses))
 
+def log_trial_result(trial_id, epoch, step, train_loss=None, val_loss=None):
+    log_file = Path("outputs/training_log.jsonl")
+    log_entry = {
+        "trial": trial_id,
+        "epoch": epoch,
+        "step": step,
+        "train_loss": train_loss,
+        "val_loss": val_loss,
+        "timestamp": datetime.datetime.now().isoformat()
+    }
+    with open(log_file, "a", encoding="utf-8") as f:
+        f.write(json.dumps(log_entry) + "\n")
+
+
+@torch.no_grad()
+def compute_validation_loss(model, dataset, criterion, batch_size=32):
+    model.eval()
+    val_loader = DataLoader(dataset, batch_size=batch_size)
+    total_loss = 0.0
+    steps = 0
+
+    for batch in val_loader:
+        input_ids      = batch["input_ids"].to(device)
+        attention_mask = batch["attention_mask"].to(device)
+        labels         = batch["label"].to(device)
+
+        embeddings = model(input_ids=input_ids, attention_mask=attention_mask)
+        loss       = criterion(embeddings, labels)
+
+        total_loss += loss.item()
+        steps += 1
+
+    return total_loss / steps
+
 class EmotionDataset(Dataset):
-    def __init__(self, path, tokenizer, max_length=128):
+    def __init__(self,
+                 path: Union[Path,str],
+                 tokenizer,
+                 split: Optional[str] = None,
+                 max_length: int = 128):
         self.samples = []
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 item = json.loads(line)
-                if item["split"] == "train":  # use only training data
+                # if split is None, take all; otherwise only items matching that split
+                if split is None or item["split"] == split:
                     self.samples.append(item)
 
-        self.tokenizer = tokenizer
+        self.tokenizer  = tokenizer
         self.max_length = max_length
-        self.labels = [s["label"] for s in self.samples]
+        self.labels     = [s["label"] for s in self.samples]
 
     def __getitem__(self, idx):
         item = self.samples[idx]
-        encoded = self.tokenizer(
+        enc  = self.tokenizer(
             item["text"],
             max_length=self.max_length,
             truncation=True,
             padding="max_length",
-            return_tensors="pt"
+            return_tensors="pt",
         )
         return {
-            "input_ids": encoded["input_ids"].squeeze(0),
-            "attention_mask": encoded["attention_mask"].squeeze(0),
-            "label": item["label"]
+            "input_ids":      enc["input_ids"].squeeze(0),
+            "attention_mask": enc["attention_mask"].squeeze(0),
+            "label":          item["label"]
         }
 
     def __len__(self):
@@ -179,149 +222,98 @@ class EmotionDataset(Dataset):
     def get_labels(self):
         return self.labels
 
-@torch.no_grad()
-def compute_validation_loss(model, dataset, criterion, num_classes=28, batch_size=32, max_steps=30):
-    model.eval()
+# 1) point at your local “model” folder
+model_path = Path(__file__).resolve().parent.parent / "model"
+tokenizer  = AutoTokenizer.from_pretrained(model_path)
 
-    # Build balanced sampler
-    val_labels = dataset.get_labels()
-    val_sampler = UniformBalancedBatchSampler(
-        dataset=dataset,
-        batch_size=batch_size,
-        num_classes=num_classes,
-        labels=val_labels
-    )
-
-    total_loss = 0.0
-    steps = 0
-    sampler_iter = iter(val_sampler)
-
-    for _ in range(max_steps):
-        batch_indices = next(sampler_iter)
-        batch = [dataset[i] for i in batch_indices]
-
-        input_ids = torch.stack([item["input_ids"] for item in batch]).to(device)
-        attention_mask = torch.stack([item["attention_mask"] for item in batch]).to(device)
-        labels = torch.tensor([item["label"] for item in batch]).to(device)
-
-        embeddings = model(input_ids=input_ids, attention_mask=attention_mask)
-        loss = criterion(embeddings, labels)
-
-        total_loss += loss.item()
-        steps += 1
-
-    return total_loss / steps
-
-
-from transformers import AutoTokenizer
-
-# Load tokenizer and dataset
-model_name = "microsoft/deberta-v3-base"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-base_dir = Path(__file__).resolve().parent.parent
+# 2) point at the single JSONL that already has 'split' fields
+base_dir     = Path(__file__).resolve().parent.parent
 dataset_path = base_dir / "data" / "augmented_single_label.jsonl"
 
-train_dataset = EmotionDataset(dataset_path, tokenizer)
-train_labels = train_dataset.get_labels()
+# 3) load train/val by passing split="train" or split="validation"
+train_dataset = EmotionDataset(dataset_path, tokenizer, split="train")
+val_dataset   = EmotionDataset(dataset_path, tokenizer, split="validation")
 
-# Load validation data (same tokenizer)
-val_dataset = EmotionDataset(dataset_path, tokenizer)
-val_samples = [s for s in val_dataset.samples if s["split"] == "validation"]
-val_dataset.samples = val_samples
-val_dataset.labels = [s["label"] for s in val_samples]
+train_labels = train_dataset.get_labels()
+val_labels   = val_dataset.get_labels()
+
 
 class EmotionEmbeddingModel(nn.Module):
-    def __init__(self, model_name="microsoft/deberta-v3-base"):
+    def __init__(self, model_dir: Path = None):
         super().__init__()
-        self.encoder = AutoModel.from_pretrained(model_name)
+        # if no path passed, default to your local “model” directory one level
+        if model_dir is None:
+            model_dir = Path(__file__).resolve().parent.parent / "model"
+        # force local‑only load
+        self.encoder = AutoModel.from_pretrained(
+            str(model_dir),
+            local_files_only=True
+        )
 
     def forward(self, input_ids, attention_mask):
-        # Forward through encoder
         outputs = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
-        # Use [CLS] token embedding as sentence representation
-        cls_embedding = outputs.last_hidden_state[:, 0]  # shape: (batch_size, hidden_dim)
-        return cls_embedding
+        # take [CLS] embedding
+        return outputs.last_hidden_state[:, 0]
 
 model = EmotionEmbeddingModel().to(device)
 
-def train_and_evaluate(hparams, train_dataset, val_dataset, device, num_classes=28, steps_per_epoch=100, val_steps=30):
-    from torch.utils.data import DataLoader
-    import torch.nn as nn
-    import torch
-
-    # 1. Setup
-    batch_size = hparams["batch_size"]
-    learning_rate = hparams["learning_rate"]
-    temperature = hparams["temperature"]
-
+def train_and_evaluate(hparams, train_dataset, val_dataset, device,
+                       num_classes=28, steps_per_epoch=400):
     model = EmotionEmbeddingModel().to(device)
-    criterion = BSCLossSingleLabel(temperature=temperature)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    criterion = BSCLossSingleLabel(temperature=hparams["temperature"])
+    optimizer = torch.optim.AdamW(model.parameters(), lr=hparams["learning_rate"])
 
-    # 2. Sampler & Iterators
-    train_labels = train_dataset.get_labels()
+    # only need a sampler for training
     train_sampler = UniformBalancedBatchSampler(
-        dataset=train_dataset,
-        batch_size=batch_size,
-        num_classes=num_classes,
-        labels=train_labels
+        dataset    = train_dataset,
+        batch_size = hparams["batch_size"],
+        num_classes= num_classes,
+        labels     = train_dataset.get_labels()
     )
-    train_sampler_iter = iter(train_sampler)
+    train_it = iter(train_sampler)
 
-    val_labels = val_dataset.get_labels()
-    val_sampler = UniformBalancedBatchSampler(
-        dataset=val_dataset,
-        batch_size=batch_size,
-        num_classes=num_classes,
-        labels=val_labels
-    )
-    val_sampler_iter = iter(val_sampler)
-
-
-    # 3. Training Loop
-    num_epochs = hparams.get("num_epochs", 3)
-    print_every = hparams.get("print_every", 10)
-
-    for epoch in range(num_epochs):
+    for epoch in range(hparams["num_epochs"]):
         model.train()
         total_loss = 0.0
 
         print(f"\n==== Epoch {epoch + 1} ====")
         for step in range(steps_per_epoch):
-            batch_indices = next(train_sampler_iter)
+            batch_indices = next(train_it)
             batch = [train_dataset[i] for i in batch_indices]
 
-            input_ids = torch.stack([item["input_ids"] for item in batch]).to(device)
-            attention_mask = torch.stack([item["attention_mask"] for item in batch]).to(device)
-            labels = torch.tensor([item["label"] for item in batch]).to(device)
+            input_ids      = torch.stack([b["input_ids"]      for b in batch]).to(device)
+            attention_mask = torch.stack([b["attention_mask"] for b in batch]).to(device)
+            labels         = torch.tensor([b["label"] for b in batch]).to(device)
 
             optimizer.zero_grad()
             embeddings = model(input_ids=input_ids, attention_mask=attention_mask)
-            loss = criterion(embeddings, labels)
+            loss       = criterion(embeddings, labels)
             loss.backward()
             optimizer.step()
 
             total_loss += loss.item()
-
-            if step % print_every == 0:
+            if step % hparams["print_every"] == 0:
                 print(f"Step {step:03d} | Train Loss: {loss.item():.4f}")
 
         avg_train_loss = total_loss / steps_per_epoch
-        avg_val_loss = compute_validation_loss(model, val_sampler_iter, val_dataset, criterion, steps=val_steps)
-        print(f"Epoch {epoch + 1} — Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}")
 
-    return avg_val_loss  # Use for Optuna or score-based model selection
+        # VALIDATE over the *entire* val set
+        avg_val_loss = compute_validation_loss(
+            model, val_dataset, criterion,
+            batch_size=hparams["batch_size"]
+        )
 
-import optuna
+        print(f"[Epoch {epoch+1}] Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}", flush=True)
+
+    return avg_val_loss
 
 def objective(trial):
     hparams = {
         "learning_rate": trial.suggest_float("learning_rate", 1e-6, 5e-5, log=True),
         "temperature": trial.suggest_float("temperature", 0.03, 0.2, log=True),
         "batch_size": trial.suggest_categorical("batch_size", [32, 64, 128]),
-        "num_epochs": 3,
-        "print_every": 10
+        "num_epochs": 4,
+        "print_every": 100
     }
 
     val_loss = train_and_evaluate(
@@ -331,10 +323,20 @@ def objective(trial):
         device=device
     )
 
+    # Save trial summary *before* returning
+    with open(output_log_path, "a", encoding="utf-8") as f:
+        json.dump({
+            "trial_number": trial.number,
+            "params": trial.params,
+            "val_loss": val_loss
+        }, f)
+        f.write("\n")
+
+
     return val_loss
 
 study = optuna.create_study(direction="minimize")
-study.optimize(objective, n_trials=50)
+study.optimize(objective, n_trials=100)
 
 # Final results
 print("Best trial:")
@@ -343,8 +345,8 @@ print("Hyperparameters:")
 for key, value in study.best_params.items():
     print(f"    {key}: {value}")
 
-Path("outputs").mkdir(exist_ok=True)
-with open(f"outputs/best_params_{timestamp}.json", "w", encoding="utf-8") as f:
+# Save the best parameters
+with open(output_dir / f"best_params_{timestamp}.json", "w", encoding="utf-8") as f:
     json.dump({
         "best_value": study.best_value,
         "best_params": study.best_params
