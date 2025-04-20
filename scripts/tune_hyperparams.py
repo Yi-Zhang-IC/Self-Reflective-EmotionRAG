@@ -239,31 +239,38 @@ val_labels   = val_dataset.get_labels()
 
 
 class EmotionEmbeddingModel(nn.Module):
-    def __init__(self, model_dir: Path = None):
+    def __init__(self, model_dir: Path = None, dropout_rate: float = 0.3):
         super().__init__()
-        # if no path passed, default to your local “model” directory one level
         if model_dir is None:
             model_dir = Path(__file__).resolve().parent.parent / "model"
-        # force local‑only load
+        
+        # Load the pre-trained model
         self.encoder = AutoModel.from_pretrained(
             str(model_dir),
             local_files_only=True
         )
+        
+        # Add Dropout Layer
+        self.dropout = nn.Dropout(dropout_rate)  # Use the passed dropout rate
 
     def forward(self, input_ids, attention_mask):
+        # Get the outputs from the encoder
         outputs = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
-        # take [CLS] embedding
-        return outputs.last_hidden_state[:, 0]
+        # Apply dropout and take the [CLS] token embedding
+        return self.dropout(outputs.last_hidden_state[:, 0])
+
+
 
 model = EmotionEmbeddingModel().to(device)
 
 def train_and_evaluate(hparams, train_dataset, val_dataset, device,
-                       num_classes=28, steps_per_epoch=400):
-    model = EmotionEmbeddingModel().to(device)
+                       num_classes=28, steps_per_epoch=600):
+    # Pass dropout_rate from hparams to the model
+    model = EmotionEmbeddingModel(dropout_rate=hparams["dropout_rate"]).to(device)  # Use the dropout_rate from hparams
     criterion = BSCLossSingleLabel(temperature=hparams["temperature"])
-    optimizer = torch.optim.AdamW(model.parameters(), lr=hparams["learning_rate"])
+    optimizer = torch.optim.AdamW(model.parameters(), lr=hparams["learning_rate"], weight_decay=1e-5)
 
-    # only need a sampler for training
+    # Create sampler for training
     train_sampler = UniformBalancedBatchSampler(
         dataset    = train_dataset,
         batch_size = hparams["batch_size"],
@@ -290,6 +297,7 @@ def train_and_evaluate(hparams, train_dataset, val_dataset, device,
             loss       = criterion(embeddings, labels)
             loss.backward()
             optimizer.step()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
 
             total_loss += loss.item()
             if step % hparams["print_every"] == 0:
@@ -297,7 +305,7 @@ def train_and_evaluate(hparams, train_dataset, val_dataset, device,
 
         avg_train_loss = total_loss / steps_per_epoch
 
-        # VALIDATE over the *entire* val set
+        # VALIDATE over the *entire* validation set
         avg_val_loss = compute_validation_loss(
             model, val_dataset, criterion,
             batch_size=hparams["batch_size"]
@@ -307,11 +315,13 @@ def train_and_evaluate(hparams, train_dataset, val_dataset, device,
 
     return avg_val_loss
 
+
 def objective(trial):
     hparams = {
         "learning_rate": trial.suggest_float("learning_rate", 1e-6, 5e-5, log=True),
         "temperature": trial.suggest_float("temperature", 0.03, 0.2, log=True),
         "batch_size": trial.suggest_categorical("batch_size", [32, 64, 128]),
+        "dropout_rate": trial.suggest_float("dropout_rate", 0.3, 0.6),  # Added dropout rate to search space
         "num_epochs": 4,
         "print_every": 100
     }
@@ -323,7 +333,7 @@ def objective(trial):
         device=device
     )
 
-    # Save trial summary *before* returning
+    # Log the trial result
     with open(output_log_path, "a", encoding="utf-8") as f:
         json.dump({
             "trial_number": trial.number,
@@ -331,7 +341,6 @@ def objective(trial):
             "val_loss": val_loss
         }, f)
         f.write("\n")
-
 
     return val_loss
 
