@@ -29,6 +29,7 @@ import os
 # Create logs and outputs directory if needed
 output_dir = Path("outputs")
 output_dir.mkdir(exist_ok=True)
+Path("outputs/NT_XENT").mkdir(parents=True, exist_ok=True)
 
 # Create a timestamped log file for JSONL
 timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -134,62 +135,51 @@ class UniformBalancedBatchSampler(Sampler):
     def __len__(self):
         return 1000000
     
-
-class MultiLabelContrastiveLoss(nn.Module):
-    def __init__(self, temperature: float = 0.07, va_matrix: torch.Tensor = None):
+class NTXentLoss(nn.Module):
+    def __init__(self, temperature=0.07):
         super().__init__()
         self.temperature = temperature
-        self.va_matrix = va_matrix  # shape (C, C), cosine similarity between classes
 
-    def forward(self, embeddings: torch.Tensor, labels: torch.Tensor) -> torch.Tensor:
-        """
-        embeddings: (N, D) L2-normalized
-        labels: (N, C) binary multi-label (0/1)
-        """
+    def forward(self, embeddings, labels):
         device = embeddings.device
-        N, C = labels.shape
+        N = embeddings.size(0)
 
-        # 1. Contrastive Setup
         sim_matrix = torch.matmul(embeddings, embeddings.T) / self.temperature
-        logits_mask = ~torch.eye(N, dtype=torch.bool, device=device)  # Mask out the diagonal (self-pair)
+        logits_mask = ~torch.eye(N, dtype=torch.bool, device=device)  # Mask diagonal
+
         label_sets = [set(torch.nonzero(lbl, as_tuple=True)[0].tolist()) for lbl in labels]
 
         losses = []
         for i in range(N):
-            # Replace sets with boolean values indicating whether there's an intersection
-            pos_mask = torch.tensor([i != j and len(label_sets[i].intersection(label_sets[j])) > 0 for j in range(N)], device=device)
-
+            pos_mask = torch.tensor(
+                [i != j and len(label_sets[i].intersection(label_sets[j])) > 0 for j in range(N)],
+                device=device
+            )
             if pos_mask.sum() == 0:
                 continue
 
             positives = sim_matrix[i][pos_mask]
             negatives = sim_matrix[i][logits_mask[i]]
 
-            # Optional: VA-based soft weights
-            if self.va_matrix is not None:
-                va_weights = []
-                for j in range(N):
-                    if i == j:
-                        continue
-                    shared = label_sets[i].intersection(label_sets[j])
-                    if shared:
-                        va_weights.append(1.0)
-                    else:
-                        sim = max(self.va_matrix[a][b] for a in label_sets[i] for b in label_sets[j])
-                        va_weights.append(sim)
-                va_weights = torch.tensor(va_weights, dtype=torch.float, device=device)
-            else:
-                raise ValueError("VA matrix is not provided. Please provide a valid VA matrix.")
-
-            # Stable log-sum-exp trick
             c = torch.max(negatives).detach()
             pos_exp = torch.exp(positives - c).sum()
-            neg_exp = (torch.exp(negatives - c) * va_weights).sum()
-            loss_i = -torch.log(pos_exp / (neg_exp + 1e-8))  # Only contrastive loss (no BCE)
-            losses.append(loss_i)
+            neg_exp = torch.exp(negatives - c).sum()
+            losses.append(-torch.log(pos_exp / (neg_exp + 1e-8)))
 
-        contrastive_loss = torch.stack(losses).mean() if losses else torch.tensor(0.0, device=device)
-        return contrastive_loss
+        return torch.stack(losses).mean() if losses else torch.tensor(0.0, device=device)
+
+def log_trial_result(trial_id, epoch, step, train_loss=None, val_loss=None):
+    log_file = Path("outputs/training_log.jsonl")
+    log_entry = {
+        "trial": trial_id,
+        "epoch": epoch,
+        "step": step,
+        "train_loss": train_loss,
+        "val_loss": val_loss,
+        "timestamp": datetime.datetime.now().isoformat()
+    }
+    with open(log_file, "a", encoding="utf-8") as f:
+        f.write(json.dumps(log_entry) + "\n")
 
 def create_balanced_loader(dataset, batch_size, num_classes):
     sampler = UniformBalancedBatchSampler(
@@ -401,7 +391,7 @@ class ProjectionHead(nn.Module):
 
 
 class EmotionEmbeddingModel(nn.Module):
-    def __init__(self, dropout_rate: float = 0.3, projection_dim: int = 128, num_classes: int = 28, model_path=None, freeze_encoder: bool = True):
+    def __init__(self, dropout_rate: float = 0.3, projection_dim: int = 128, model_path=None, freeze_encoder: bool = True):
         super().__init__()
         
         # Load model and tokenizer from local path
@@ -430,18 +420,16 @@ class EmotionEmbeddingModel(nn.Module):
             dropout=dropout_rate
         )
 
-
     def forward(self, input_ids, attention_mask):
         outputs = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
         cls_embedding = self.dropout(outputs.last_hidden_state[:, 0])  # [CLS] token
 
         # Two outputs
         projected = self.projection_head(cls_embedding)
-
         return projected
-
+    
 # Function to log to JSONL
-def log_to_jsonl(log_entry, log_file="outputs/my_loss_no_CE/train_encoder_my_loss_no_CE.jsonl"):
+def log_to_jsonl(log_entry, log_file="outputs/NT_unfreeze/unfreeze_encoder_NT_Xent_loss.jsonl"):
     Path(log_file).parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_entry) + "\n")
@@ -449,17 +437,20 @@ def log_to_jsonl(log_entry, log_file="outputs/my_loss_no_CE/train_encoder_my_los
 def train(model, train_loader, val_loader, contrastive_loss_fn, device, total_steps=10000, log_interval=10):
     step = 0
     best_macro_precision = 0.0
-    best_classification_accuracy = 0.0  # Track best classification accuracy
-
-    # Initialize GradScaler for mixed precision training
     scaler = torch.amp.GradScaler()
 
-    projection_params = list(model.projection_head.parameters())
-
-    optimizer_projection = torch.optim.Adam(projection_params, lr=5e-5)
+    # Decide optimizer scope and save path
+    freeze_encoder = not any(p.requires_grad for p in model.encoder.parameters())
+    if freeze_encoder:
+        optimizer = torch.optim.Adam(model.projection_head.parameters(), lr=5e-5)
+        save_path = "outputs/NT_unfreeze/best_projection_head_freeze_encoder.pt"
+        logging.info("Optimizer includes projection head only (encoder frozen).")
+    else:
+        optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
+        save_path = "outputs/NT_unfreeze/best_full_model_train_encoder.pt"
+        logging.info("Optimizer includes encoder and projection head.")
 
     model.train()
-    logging.info(f"Training started. Total steps: {total_steps}")
 
     while step < total_steps:
         for batch in tqdm(train_loader, desc=f"Training Step {step + 1}", ncols=100):
@@ -467,79 +458,64 @@ def train(model, train_loader, val_loader, contrastive_loss_fn, device, total_st
             attention_mask = batch["attention_mask"].to(device)
             labels = batch["label"].to(device)
 
-            optimizer_projection.zero_grad()
+            optimizer.zero_grad()
 
-            # Forward pass with mixed precision
-            with torch.amp.autocast(device_type="cuda", dtype=torch.float16):  # Use mixed precision for GPU
+            with torch.amp.autocast(device_type="cuda", dtype=torch.float16):
                 embeddings = model(input_ids, attention_mask)
+                loss = contrastive_loss_fn(embeddings, labels)
 
-                # Compute classification loss and contrastive loss separately
-                contrastive_loss = contrastive_loss_fn(embeddings, labels)  # Loss for projection head
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
 
-                # Update projection head
-                scaler.scale(contrastive_loss).backward()
-                scaler.step(optimizer_projection)
-                scaler.update()
-
-            # Log the loss every log_interval steps (only log train loss)
             if (step + 1) % log_interval == 0:
-                logging.info(
-                    f"Step {step + 1} - Contrastive Loss: {contrastive_loss.item():.4f} | "
+                logging.info(f"Step {step + 1} - Contrastive Loss: {loss.item():.4f}")
+
+            if (step + 1) % 10 == 0:
+                val_macro_precision, val_class_avg_precisions = evaluate_embeddings_macro_precision(
+                    model, val_loader.dataset, device
                 )
 
-            # Validate every 10 minibatches
-            if (step + 1) % 10 == 0:
-                # Evaluate macro precision (for contrastive learning)
-                val_macro_precision, val_class_avg_precisions = evaluate_embeddings_macro_precision(model, val_loader.dataset, device, batch_size=64, top_k=5, num_classes=28)
-
-                # Save the best model based on validation macro precision or classification accuracy
                 if val_macro_precision > best_macro_precision:
                     best_macro_precision = val_macro_precision
-                    torch.save(model.state_dict(), f"outputs/my_loss_no_CE/best_full_model_train_encoder.pt")
-                    logging.info(f"Best full model saved with macro precision: {val_macro_precision:.4f}")
+                    torch.save(model.state_dict(), save_path)
+                    logging.info(f"Saved best model to: {save_path}")
 
-
-                # Prepare log entry for validation
                 log_entry = {
                     "step": step + 1,
-                    "log_contrastive_loss": contrastive_loss.item(),
+                    "contrastive_loss": loss.item(),
                     "val_macro_precision": val_macro_precision,
                     "val_class_avg_precisions": val_class_avg_precisions,
                     "timestamp": datetime.datetime.now().isoformat()
                 }
-
-                # Log to the JSONL file
                 log_to_jsonl(log_entry)
 
             step += 1
             if step >= total_steps:
                 break
 
-    # Final log entry after training completes
     logging.info(f"Training complete. Best macro precision achieved: {best_macro_precision:.4f}")
-    logging.info(f"Best classification accuracy achieved: {best_classification_accuracy:.4f}")
-    logging.info(f"Best projection and classification heads saved.")
 
 # Define paths and configurations
 train_loader = create_balanced_loader(train_dataset, batch_size=32, num_classes=28)
 val_loader = create_balanced_loader(val_dataset, batch_size=32, num_classes=28)
 
 # Initialize the model
-model = EmotionEmbeddingModel(dropout_rate=0.3, projection_dim=128, num_classes=28, model_path=model_path, freeze_encoder=False).to(device)
-
-# Initialize loss functions
-contrastive_loss_fn = MultiLabelContrastiveLoss(temperature=0.07)
+model = EmotionEmbeddingModel(dropout_rate=0.3, projection_dim=128, model_path=model_path, freeze_encoder=False).to(device)
 
 # Set up the optimizer for the model
 optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
 
-# Start training
+# Only need contrastive loss now
+contrastive_loss_fn = NTXentLoss(temperature=0.07)
+
 train(
     model=model,
     train_loader=train_loader,
     val_loader=val_loader,
     contrastive_loss_fn=contrastive_loss_fn,
     device=device,
-    total_steps=10000,  # Define the number of steps you want to train
-    log_interval=10   # Interval for logging
+    total_steps=10000,
+    log_interval=10
 )
+

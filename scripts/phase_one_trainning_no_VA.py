@@ -32,7 +32,7 @@ output_dir.mkdir(exist_ok=True)
 
 # Create a timestamped log file for JSONL
 timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-output_log_path = output_dir / f"phase_two{timestamp}.jsonl"
+output_log_path = output_dir / f"phase_one{timestamp}.jsonl"
 
 # Set up logging for stdout (to control output)
 logging.basicConfig(level=logging.INFO)
@@ -198,19 +198,6 @@ class MultiLabelContrastiveLoss(nn.Module):
 
         contrastive_loss = torch.stack(losses).mean() if losses else torch.tensor(0.0, device=device)
         return contrastive_loss
-
-def log_trial_result(trial_id, epoch, step, train_loss=None, val_loss=None):
-    log_file = Path("outputs/training_log.jsonl")
-    log_entry = {
-        "trial": trial_id,
-        "epoch": epoch,
-        "step": step,
-        "train_loss": train_loss,
-        "val_loss": val_loss,
-        "timestamp": datetime.datetime.now().isoformat()
-    }
-    with open(log_file, "a", encoding="utf-8") as f:
-        f.write(json.dumps(log_entry) + "\n")
 
 def create_balanced_loader(dataset, batch_size, num_classes):
     sampler = UniformBalancedBatchSampler(
@@ -481,7 +468,8 @@ class EmotionEmbeddingModel(nn.Module):
         return projected, logits
 
 # Function to log to JSONL
-def log_to_jsonl(log_entry, log_file="phase_one_training_log.jsonl"):
+def log_to_jsonl(log_entry, log_file="outputs/stage_one_trainning/stage_one_trainning.jsonl"):
+    Path(log_file).parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_entry) + "\n")
 
@@ -533,7 +521,11 @@ def train(model, train_loader, val_loader, classification_loss_fn, contrastive_l
 
             # Log the loss every log_interval steps (only log train loss)
             if (step + 1) % log_interval == 0:
-                logging.info(f"Step {step + 1} - Train Loss: {classification_loss.item() + contrastive_loss.item():.4f}")
+                logging.info(
+                    f"Step {step + 1} - Classification Loss: {classification_loss.item():.4f} | "
+                    f"Contrastive Loss: {contrastive_loss.item():.4f} | "
+                    f"Total Loss: {(classification_loss.item() + contrastive_loss.item()):.4f}"
+                )
 
             # Validate every 10 minibatches
             if (step + 1) % 10 == 0:
@@ -546,17 +538,19 @@ def train(model, train_loader, val_loader, classification_loss_fn, contrastive_l
                 # Save the best model based on validation macro precision or classification accuracy
                 if val_macro_precision > best_macro_precision:
                     best_macro_precision = val_macro_precision
-                    torch.save(model.projection_head.state_dict(), f"outputs/best_projection_head_{step+1}.pt")  # Save projection head based on macro precision
+                    torch.save(model.projection_head.state_dict(), f"outputs/stage_one_trainning/best_projection_head.pt")  # Save projection head based on macro precision
                     logging.info(f"Best projection head saved with macro precision: {val_macro_precision:.4f}")
 
                 if val_classification_accuracy > best_classification_accuracy:
                     best_classification_accuracy = val_classification_accuracy
-                    torch.save(model.classification_head.state_dict(), f"outputs/best_classification_head_{step+1}.pt")  # Save classification head based on classification accuracy
+                    torch.save(model.classification_head.state_dict(), f"outputs/stage_one_trainning/best_classification_head.pt")  # Save classification head based on classification accuracy
                     logging.info(f"Best classification head saved with accuracy: {val_classification_accuracy:.4f}")
 
                 # Prepare log entry for validation
                 log_entry = {
                     "step": step + 1,
+                    "log_classification_loss": classification_loss.item(),
+                    "log_contrastive_loss": contrastive_loss.item(),
                     "val_macro_precision": val_macro_precision,
                     "val_classification_accuracy": val_classification_accuracy,
                     "val_class_avg_precisions": val_class_avg_precisions,

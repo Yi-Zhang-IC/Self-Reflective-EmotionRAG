@@ -133,8 +133,54 @@ class UniformBalancedBatchSampler(Sampler):
 
     def __len__(self):
         return 1000000
-    
 
+def load_va_matrix(nrc_vad_path, emotion_class_words):
+    """
+    Build a 28x2 VA matrix and then compute cosine similarity between emotion classes.
+    
+    Args:
+        nrc_vad_path (str): Path to NRC-VAD-Lexicon.txt
+        emotion_class_words (List[str]): 28 class labels mapped to representative words
+    
+    Returns:
+        torch.Tensor: (28, 28) cosine similarity matrix between emotion classes
+    """
+    # Load the VAD lexicon into a dictionary: word -> (valence, arousal)
+    vad_dict = {}
+    with open(nrc_vad_path, "r", encoding="utf-8") as f:
+        for line in f:
+            parts = line.strip().split()
+            if len(parts) != 4:
+                continue
+            word, valence, arousal, _ = parts
+            vad_dict[word.lower()] = (float(valence), float(arousal))
+
+    # Extract VA vectors for your 28 emotion classes
+    va_vectors = []
+    for word in emotion_class_words:
+        if word.lower() not in vad_dict:
+            raise ValueError(f"Word '{word}' not found in NRC-VAD lexicon.")
+        va_vectors.append(vad_dict[word.lower()])
+
+    # Convert to tensor: (28, 2)
+    va_tensor = torch.tensor(va_vectors, dtype=torch.float32)
+
+    # Normalize and compute cosine similarity: (28, 28)
+    va_tensor = F.normalize(va_tensor, p=2, dim=1)
+    similarity_matrix = torch.matmul(va_tensor, va_tensor.T)
+
+    return similarity_matrix
+
+# Modify the loss function for phase 1
+class ClassificationLoss(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.bce_loss = nn.BCEWithLogitsLoss()
+
+    def forward(self, logits, labels):
+        return self.bce_loss(logits, labels)
+    
+ 
 class MultiLabelContrastiveLoss(nn.Module):
     def __init__(self, temperature: float = 0.07, va_matrix: torch.Tensor = None):
         super().__init__()
@@ -179,7 +225,7 @@ class MultiLabelContrastiveLoss(nn.Module):
                         va_weights.append(sim)
                 va_weights = torch.tensor(va_weights, dtype=torch.float, device=device)
             else:
-                raise ValueError("VA matrix is not provided. Please provide a valid VA matrix.")
+                raise ValueError("VA matrix is not provided for soft weighting.")
 
             # Stable log-sum-exp trick
             c = torch.max(negatives).detach()
@@ -190,7 +236,7 @@ class MultiLabelContrastiveLoss(nn.Module):
 
         contrastive_loss = torch.stack(losses).mean() if losses else torch.tensor(0.0, device=device)
         return contrastive_loss
-
+    
 def create_balanced_loader(dataset, batch_size, num_classes):
     sampler = UniformBalancedBatchSampler(
         dataset=dataset,
@@ -399,7 +445,6 @@ class ProjectionHead(nn.Module):
         x = self.net(x)
         return F.normalize(x, p=2, dim=1)  # L2-normalization for contrastive learning
 
-
 class EmotionEmbeddingModel(nn.Module):
     def __init__(self, dropout_rate: float = 0.3, projection_dim: int = 128, num_classes: int = 28, model_path=None, freeze_encoder: bool = True):
         super().__init__()
@@ -410,10 +455,6 @@ class EmotionEmbeddingModel(nn.Module):
         
         self.encoder = AutoModel.from_pretrained(model_path)  # Load from local directory
         self.dropout = nn.Dropout(dropout_rate)
-
-        # Drop classification layer if exists in encoder
-        if hasattr(self.encoder, "classifier"):
-            self.encoder.classifier = nn.Identity()
 
         hidden_size = self.encoder.config.hidden_size
 
@@ -430,7 +471,6 @@ class EmotionEmbeddingModel(nn.Module):
             dropout=dropout_rate
         )
 
-
     def forward(self, input_ids, attention_mask):
         outputs = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
         cls_embedding = self.dropout(outputs.last_hidden_state[:, 0])  # [CLS] token
@@ -441,7 +481,7 @@ class EmotionEmbeddingModel(nn.Module):
         return projected
 
 # Function to log to JSONL
-def log_to_jsonl(log_entry, log_file="outputs/my_loss_no_CE/train_encoder_my_loss_no_CE.jsonl"):
+def log_to_jsonl(log_entry, log_file="outputs/freeze_encoder_va/freeze_encoder_va.jsonl"):
     Path(log_file).parent.mkdir(parents=True, exist_ok=True)  # Ensure directory exists
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_entry) + "\n")
@@ -453,9 +493,9 @@ def train(model, train_loader, val_loader, contrastive_loss_fn, device, total_st
 
     # Initialize GradScaler for mixed precision training
     scaler = torch.amp.GradScaler()
-
     projection_params = list(model.projection_head.parameters())
 
+    # Create optimizers for the two parts of the model
     optimizer_projection = torch.optim.Adam(projection_params, lr=5e-5)
 
     model.train()
@@ -472,20 +512,12 @@ def train(model, train_loader, val_loader, contrastive_loss_fn, device, total_st
             # Forward pass with mixed precision
             with torch.amp.autocast(device_type="cuda", dtype=torch.float16):  # Use mixed precision for GPU
                 embeddings = model(input_ids, attention_mask)
-
-                # Compute classification loss and contrastive loss separately
                 contrastive_loss = contrastive_loss_fn(embeddings, labels)  # Loss for projection head
 
                 # Update projection head
                 scaler.scale(contrastive_loss).backward()
                 scaler.step(optimizer_projection)
                 scaler.update()
-
-            # Log the loss every log_interval steps (only log train loss)
-            if (step + 1) % log_interval == 0:
-                logging.info(
-                    f"Step {step + 1} - Contrastive Loss: {contrastive_loss.item():.4f} | "
-                )
 
             # Validate every 10 minibatches
             if (step + 1) % 10 == 0:
@@ -495,10 +527,8 @@ def train(model, train_loader, val_loader, contrastive_loss_fn, device, total_st
                 # Save the best model based on validation macro precision or classification accuracy
                 if val_macro_precision > best_macro_precision:
                     best_macro_precision = val_macro_precision
-                    torch.save(model.state_dict(), f"outputs/my_loss_no_CE/best_full_model_train_encoder.pt")
-                    logging.info(f"Best full model saved with macro precision: {val_macro_precision:.4f}")
-
-
+                    torch.save(model.projection_head.state_dict(), f"outputs/freeze_encoder_va/best_projection_head.pt")  # Save projection head based on macro precision
+                    logging.info(f"Best projection head saved with macro precision: {val_macro_precision:.4f}")
                 # Prepare log entry for validation
                 log_entry = {
                     "step": step + 1,
@@ -525,11 +555,20 @@ train_loader = create_balanced_loader(train_dataset, batch_size=32, num_classes=
 val_loader = create_balanced_loader(val_dataset, batch_size=32, num_classes=28)
 
 # Initialize the model
-model = EmotionEmbeddingModel(dropout_rate=0.3, projection_dim=128, num_classes=28, model_path=model_path, freeze_encoder=False).to(device)
+model = EmotionEmbeddingModel(dropout_rate=0.3, projection_dim=128, num_classes=28, model_path=model_path, freeze_encoder=True).to(device)
+
+# This must be your exact class-to-word mapping
+goemotions_class_words = [
+    "admiration", "amusement", "anger", "annoyance", "approval", "caring", "confusion", "curiosity",
+    "desire", "disappointment", "disapproval", "disgust", "embarrassment", "excitement", "fear",
+    "gratitude", "grief", "joy", "love", "nervousness", "optimism", "pride", "realization",
+    "relief", "remorse", "sadness", "surprise", "neutral"
+]
+
+va_matrix = load_va_matrix("scripts/NRC-VAD-Lexicon.txt", goemotions_class_words)
 
 # Initialize loss functions
-contrastive_loss_fn = MultiLabelContrastiveLoss(temperature=0.07)
-
+contrastive_loss_fn = MultiLabelContrastiveLoss(temperature=0.07, va_matrix= va_matrix)
 # Set up the optimizer for the model
 optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
 
