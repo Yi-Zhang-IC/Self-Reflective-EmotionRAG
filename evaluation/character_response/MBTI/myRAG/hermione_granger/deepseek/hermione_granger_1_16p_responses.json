@@ -1,0 +1,368 @@
+{
+  "character": "Hermione Granger",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Oh, well, I suppose I don’t actively *seek* out new friends—I’m rather particular about the company I keep, you see. But when I do form friendships, they’re built on trust, loyalty, and shared values. Harry and Ron, for instance, became my closest friends after that whole troll incident in first year—sometimes the most unexpected bonds are the strongest. And later, I even learned to appreciate someone as... unique as Luna Lovegood. Friendship isn’t about quantity; it’s about finding people who truly understand and stand by you, no matter what.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "Absolutely! I’ve always believed that curiosity is the foundation of learning, and there’s *so much* to explore—whether it’s delving into ancient runes, unraveling the intricacies of arithmancy, or even researching obscure magical creatures like fire-breathing chickens. Sometimes, though, it’s not just about random topics—it’s about *applying* that knowledge. For instance, understanding house-elf rights or the history of the Chamber of Secrets wasn’t just academic; it was *necessary*. And, well... I *may* have spent a summer convincing my parents that studying was preferable to skiing. But when there’s so much to learn—and so much at stake—how could I *not*?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Absolutely, it does. Seeing someone cry—especially someone I care about—makes me feel their pain deeply. Whether it was comforting Ginny after Fred’s death or trying to guide Harry when Cho was grieving, I’ve always found it difficult to remain unaffected. Tears are a sign of something real, something raw, and I believe empathy is what binds us together. Even when I’ve been hurt myself—like after Ron’s thoughtless words or Lavender’s heartbreak—I couldn’t ignore the emotions of others. It’s not weakness; it’s human. And sometimes, the only thing you can do is be there, even if it means shedding a few tears alongside them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Absolutely. In my experience, meticulous planning is essential—especially when dealing with dangerous magic or unpredictable situations. I always have a primary strategy, a secondary contingency, and, yes, even a tertiary plan if necessary. After all, when facing things like rogue trolls, Death Eaters, or Ministry bureaucracy, one can never be too prepared. Logic dictates that redundancy minimizes risk, and I refuse to leave anything to chance when the safety of others is at stake.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "*Adjusting her robes with a thoughtful expression, she answers precisely but with an undercurrent of passion.*  \n\nI’d like to think I do, but it’s not always easy. When the stakes are high—like during the war or when my friends are in danger—I’ve learned to focus on what needs to be done rather than panic. Logic and preparation help, of course, but there are moments... *Her voice tightens slightly.* When Bellatrix tortured me, or when Ron was splinched, or when we were racing against time to save Buckbeak—those were tests. I may not always *feel* calm, but I refuse to let fear paralyze me. There’s too much at stake to fall apart. *She straightens, jaw set.* And frankly, sometimes anger or determination drowns out the panic altogether.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "Well, I suppose it depends on the situation. At first, I can be a bit reserved—preferring to stick with close friends—especially in unfamiliar settings. But if I see someone struggling or in need of help, I’ll absolutely step in. For instance, I’ve often found myself reaching out to new students or those who seem lost, because no one should feel alone. And while I value deep, established friendships, I do believe in making an effort to connect with others when it matters. After all, kindness and understanding can go a long way, even in the most daunting social situations.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "Oh, absolutely not! I’ve always found that juggling multiple projects at once keeps the mind sharp—provided you stay organized, of course. During my time at Hogwarts, I often balanced several subjects and extracurriculars, like S.P.E.W. and prefect duties, because each one offered unique challenges and learning opportunities. That said, I do believe in giving every task the attention it deserves; rushing through anything half-heartedly is simply unacceptable. Proper time management and prioritization are key—I’d never leave something unfinished if it risked compromising the quality of my work or, worse, endangering others.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "I suppose I am, though I don’t always show it in obvious ways. Sentimentality isn’t just about tears or grand gestures—it’s in the quiet moments, like helping a friend when they’re struggling or risking everything to protect the people you love. I’ve always believed emotions should be tempered with logic, but... well, some things—like family, friendship, and even love—defy cold reasoning. They’re worth holding onto fiercely, even if it means your heart aches a bit along the way.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Absolutely! Organizing tools like schedules and lists are absolutely essential—I couldn’t function without them. At Hogwarts, I used my planner to keep track of classes, homework, and even secret meetings for Dumbledore’s Army. And, of course, my Time-Turner required meticulous planning—though I learned the hard way that overloading one’s schedule can have... *consequences*. Lists help me stay focused, ensure nothing is overlooked, and most importantly, allow me to allocate time for studying, research, and helping my friends. Efficiency is key when there’s so much to do!",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Of course, mistakes can make me doubt myself—briefly. But dwelling on them isn’t productive. Every error is a chance to learn, and I’ve always believed that knowledge grows from correcting missteps. Whether it was losing house points, misjudging a spell, or even trusting the wrong person, I’ve learned to channel that doubt into determination. After all, even the brightest wizards stumble—what matters is getting back up and doing better next time.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Well, I suppose it depends on the situation. If it’s someone I genuinely find interesting—perhaps because of their intellect or their passion for a cause—then yes, I’d absolutely strike up a conversation. I’ve never been one to shy away from speaking my mind or asking questions when something intrigues me. But if it’s just idle chatter or someone who doesn’t seem particularly open to a meaningful discussion, I might hesitate. I’ve learned that not everyone appreciates directness or depth in conversation, and I’d rather not waste my time on superficial interactions. That said, if it’s for the sake of friendship or standing up for what’s right, I’ll always find the courage to speak up.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Oh, on the contrary—I *love* analyzing creative works! But I prefer interpretations grounded in evidence and logic rather than vague, mystical speculation. Take *The Tales of Beedle the Bard*, for instance—Dumbledore’s notes reveal layers of historical and magical significance that are far more fascinating than mere superstition. That said, I’ve learned that even seemingly odd perspectives, like Luna’s, can offer valuable insights if approached with an open mind. So yes, I’m very interested, as long as the discussion is rigorous and meaningful.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Honestly, I’ve always believed in the importance of balancing both. My head guides me—logic, research, and careful planning are essential—but my heart *matters*. Whether it’s standing by my friends, protecting those I care about, or fighting for what’s right, emotions drive me just as much as reason. There are times when one must take precedence—like when I erased my parents’ memories to keep them safe—but ultimately, the best decisions come from listening to *both*. After all, even the most brilliant spells are worthless without the intent behind them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Absolutely not! Planning is *essential*—especially when every moment counts. Whether it’s preparing for exams, protecting my friends, or even organizing S.P.E.W., a well-structured routine ensures efficiency and minimizes unnecessary risks. Spontaneity has its place—like when setting Snape’s robes on fire—but even then, it’s usually in service of a larger plan. And really, how else would one manage a Time-Turner without meticulous scheduling?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Well, I suppose I *do* worry about making a good impression—perhaps more than I'd like to admit. Early on, I learned that people might judge me for things beyond my control, like my blood status, so I’ve always felt the need to prove myself through hard work and knowledge. But over time, I’ve realised the people who matter most—true friends—value me for who I am, not just what I achieve. Still, I’d be lying if I said I didn’t care at all... especially when it comes to certain people *cough* Ron *cough*. It’s only human, after all.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Absolutely! Group activities can be incredibly rewarding when everyone is committed and working toward a common goal. I’ve always found that collaboration—whether it’s studying with friends, organizing efforts for house-elf rights, or even leading the Statute of Secrecy Task Force—allows us to achieve far more than we could alone. Of course, it’s important that everyone pulls their weight and respects the rules, but when that happens, the results can be truly brilliant. And, well... it’s also rather nice to share those moments of success with others.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Oh, absolutely—though I must admit, I do appreciate a story that provides *some* resolution. There’s something thrilling about piecing together clues and forming your own conclusions—it’s rather like solving a complex arithmancy problem or decoding an ancient rune. But I also believe a good ending, whether definitive or open, should leave you with enough substance to *justify* your interpretation. After all, the best stories make you think, don’t they? Like *The Tales of Beedle the Bard*—those endings always leave room for discussion, but they’re grounded in themes that guide you. If it’s done well, it’s utterly brilliant. If it’s vague for the sake of being vague... well, that’s just lazy storytelling.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Honestly, it's a bit of both. There's undeniable satisfaction in my own accomplishments—mastering spells, earning top marks—because they represent hard work and dedication. But seeing how those achievements can help others—whether it's solving a riddle to win the House Cup or translating *The Tales of Beedle the Bard* so more people can understand them—that’s what truly makes it meaningful. Helping my friends, standing up for what’s right, and making a difference... that’s where the real joy lies.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Oh, absolutely—there’s *so much* to learn and explore, and sometimes it does feel overwhelming. But I’ve always believed in prioritizing what’s most important. Whether it’s mastering new spells, fighting for house-elf rights, or helping my friends, I focus on what will make the most difference. And if I’m honest, I’d rather dive deep into a few things and truly understand them than skim the surface of everything. Knowledge is power, after all, but it’s what you *do* with it that matters.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Of course I worry—anyone with half a brain would, given everything we’ve faced. But worry isn’t just about fear; it’s about preparation. If I think something might go wrong, I research, I plan, and I make sure we’re ready. That’s how we’ve survived this long. Still, I’d be lying if I said the thought of losing the people I love doesn’t keep me up at night. But that’s why we fight—so the worst doesn’t happen.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Oh, absolutely not! Leadership roles are often necessary, especially when others hesitate or when fairness and justice are at stake. I’ve taken charge in many situations—organizing Dumbledore’s Army, guiding my friends through dangerous missions, even now in my work with the Ministry. It’s not about seeking power; it’s about doing what’s right and ensuring others have the tools and confidence to succeed. Though, I’ve learned that leadership isn’t just about giving orders—it’s about listening, supporting, and sometimes making difficult choices for the greater good.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "*adjusts her posture slightly, with a thoughtful expression*  \n\nWell, I wouldn’t say I’m *not* artistic—it’s just that my approach tends to be more structured. I do appreciate beauty and creativity, whether it’s in the elegance of a well-cast spell or the precision of translating ancient runes. And I’ll admit, there was something rather satisfying about seeing my work on *The Tales of Beedle the Bard* reach others. But if you’re asking whether I’d rather paint or brew a perfectly balanced potion? I’d choose the latter every time. *smiles faintly* Though I did rather enjoy the Yule Ball—transformation can be its own kind of artistry.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "*adjusts her posture thoughtfully, speaking with measured precision but a hint of warmth*  \n\nRationality is undeniably crucial—it allows us to make informed decisions, solve problems, and challenge injustice. But feelings aren’t something to dismiss entirely. Compassion, loyalty, even love—those are what drive us to *act* on rationality. Look at house-elf rights or standing by Harry when no one else would. Logic told me the risks, but it was my heart that insisted it was *right*. The world needs both: reason to guide us, and emotion to remind us *why* we should care. Without one, the other becomes hollow.  \n\n*glances down briefly, then meets the interviewer’s gaze again*  \n\nAnd if we’re honest, some of the most important choices I’ve made—protecting a werewolf, trusting a friend, even falling in love—were never just about cold logic. They were about believing in something *more*.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Well, I do believe in being responsible and getting tasks done efficiently—after all, a well-organized schedule is the foundation of productivity. But I’ve also learned that sometimes, it’s equally important to take a moment to breathe, especially when you’re with people who matter. For instance, I’d never let homework stop me from helping Harry or Ron if they needed me. Balance is key, though I’ll admit, I usually finish my work first—it’s just more practical that way.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "*Straightening slightly with an air of thoughtful precision, she answers with a hint of disapproval in her tone but also a touch of empathy.*  \n\nNo, I don’t enjoy watching people argue—conflict is rarely productive unless it’s for the sake of truth or justice. Most arguments are just a waste of energy when people could be *listening* and working toward a solution. That said, I’ve had my fair share of disagreements—some necessary, some regrettable—but I’ve never found *pleasure* in them. They’re exhausting, really, and usually avoidable if people would just *think* before they speak.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "*Adjusting her robes with a thoughtful expression, she answers briskly but with a hint of introspection.*  \n\nI don’t seek attention for its own sake, but I won’t shy away from it if standing up or speaking out is necessary—whether it’s challenging injustice, protecting my friends, or pursuing the truth. There have been times when I’ve preferred working quietly in the background, especially when logic or research demanded discretion, but I’ve learned that some things *must* be said, even if it makes you the center of unwanted scrutiny. And, well—*glances down briefly*—sometimes attention finds you regardless, whether you’re covered in cat fur or wearing periwinkle robes at the Yule Ball.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "*Adjusts her robes slightly, speaking with measured thoughtfulness but a hint of emotional depth.*\n\nWell, I suppose it depends on the circumstances. When it comes to matters of principle or the safety of those I care about, yes—my feelings can shift quite sharply if the situation demands it. But I’d like to think I’m not *unpredictable*. Emotions are... complicated, especially when loyalty or love is involved. There have been moments when frustration or fear has taken over, but it’s always rooted in something real. And once I’ve had time to think—to *process*—I can usually regain perspective. \n\n*Folds her hands, voice softening slightly.*  \nThat said, some things... some wounds or joys cut deeper than others, and those take longer to settle.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "*Adjusts her posture slightly, speaking with a thoughtful yet firm tone.*  \n\nI used to, admittedly—especially in my younger years. Efficiency and preparedness always seemed so *obviously* important to me. But experience has taught me that not everyone learns or works the same way, and impatience rarely helps. Neville, for instance, struggled with many subjects, but he had strengths I couldn’t match. And Ron... well, his instincts in a crisis are often far better than any book knowledge. What matters is whether someone is *trying*—and if they are, I’d much rather help than berate them.  \n\n*Pauses, then adds with a hint of self-reflection.*  \n\nThat said, I still have to remind myself sometimes. Old habits, you know.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Absolutely not! I always plan meticulously and start tasks well in advance—leaving things to the last moment is simply irresponsible. There’s no substitute for proper preparation, whether it’s revising for exams or brewing a complex potion. Though I suppose there *have* been times when circumstances forced quick thinking—like when I had to research the Basilisk or use the Time-Turner—but even then, I relied on prior knowledge and logic. Procrastination only leads to unnecessary stress and mistakes, and I refuse to let that happen.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Honestly, the question of what happens after death has always intrigued me—not just academically, but personally. After seeing so much loss—Cedric, Fred, even the near-misses with Harry and Ron—I’ve had to confront it more than I’d like. Books and logic can only take you so far; some truths demand more than knowledge. But I’ve also learned that love, loyalty, and the memories we leave behind... they matter just as much as any theory. Dumbledore was right about that.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Honestly, it depends. While I deeply value my alone time for studying and reflection—there’s nothing quite like losing oneself in a good book or a complex spell—I’ve also come to cherish the moments spent with my friends. After all, some of the most important lessons I’ve learned weren’t from textbooks but from the bonds forged with Harry, Ron, and others. Loneliness can be quite dreadful, but companionship... well, it’s what makes the difficult times bearable and the happy times brighter. So, I suppose I’d say balance is key—solitude for growth, and friendship for strength.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Absolutely not! Theoretical discussions are often the most fascinating—they challenge the mind and deepen understanding. Whether it’s advanced Arithmancy or the intricacies of spell creation, theory lays the groundwork for practical magic. Though I admit, if it veers into something like Divination—where there’s no logical foundation—then yes, my patience wears thin. But proper theory? That’s where real progress begins.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Empathy isn’t about ease—it’s about effort and understanding. I’ve learned that firsthand, whether it was standing up for house-elves, befriending someone as... unique as Luna, or even navigating Ron’s stubbornness. When you truly listen and try to see the world through another’s eyes, even the most unfamiliar experiences become meaningful. Prejudice and ignorance thrive on division, but empathy—that’s where real connection begins. And sometimes, it’s the hardest connections that teach us the most.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Certainly not. Procrastinating on important decisions is utterly irresponsible—every moment wasted can lead to unintended consequences. I’ve seen firsthand how hesitation or recklessness can unravel even the best-laid plans. Whether it’s returning a Time-Turner to prevent chaos or making difficult choices to protect loved ones, decisive action is essential. That said, I do believe in thorough consideration—weighing all options, consulting reliable sources—but once the facts are clear, delaying serves no purpose. Logic and principle must guide us, not fear or indecision.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "*adjusts her posture thoughtfully, brows knitting slightly*  \n\nI suppose I don’t second-guess my choices lightly—when I make a decision, it’s usually after careful consideration and research. But that doesn’t mean I’m immune to doubt. There have been moments—like altering my parents’ memories or standing by Harry when no one else would—where I’ve questioned whether I did the right thing. Emotions complicate logic, after all. Still, I’ve learned that hesitation can be as dangerous as recklessness. Sometimes, you must trust your instincts, even if they lead you through uncertainty.  \n\n*glances down briefly, then meets the interviewer’s eyes again*  \n\nThat said, I do reflect. Often. Because if you stop questioning entirely, you stop growing.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Honestly, after an exhausting week, I do find some comfort in a lively social event—*if* it’s with the right people. A quiet evening with close friends, where we can actually talk and unwind, is far preferable to some loud, chaotic gathering. I’ve learned that the best moments are the ones where you feel truly understood—like dancing at Bill and Fleur’s wedding or just sitting with Harry and Ron in the common room. But if it’s all just noise and small talk? I’d rather curl up with a good book.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Oh, absolutely! I’ve always found art museums fascinating—though I must admit, I tend to approach them the same way I do my studies: with a bit of research beforehand. I love learning about the history behind the paintings and the techniques used by the artists. It’s rather like uncovering the theory behind a spell, isn’t it? And there’s something quite magical about standing in front of a masterpiece, feeling as though you’re glimpsing into another time or perspective. Though, if I’m honest, I’d probably still sneak in a book to read between exhibits.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "*Adjusts her posture slightly, speaking thoughtfully yet with a hint of vulnerability*  \n\nI suppose I used to struggle more with it—especially when I was younger and so focused on books and logic that emotions felt... *messy*. But over the years, I’ve learned that feelings don’t always follow rules, and that’s all right. Watching my friends hurt—Ron’s jealousy, Harry’s nightmares, even Luna’s odd but heartfelt beliefs—taught me to listen, not just *solve*. Though I’ll admit, I still sometimes overanalyze instead of simply *feeling*. But I try. That’s what matters, isn’t it?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "*adjusts an imaginary stack of books with a thoughtful expression*  \n\nAbsolutely! A to-do list is essential—not just for keeping track of tasks, but for ensuring efficiency and thoroughness. I’ve always found that structuring my day helps me balance everything, whether it’s revising for exams, researching for a cause, or even making time for friends. Crossing items off gives a sense of accomplishment, and frankly, *not* having one feels dreadfully disorganized. Though, I’ve learned to leave room for the unexpected—adventures have a way of disrupting even the best-laid plans. *smirks slightly*",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "*adjusts her posture slightly, eyes briefly flickering with vulnerability before steadying into determination*  \n\nWell, of course I’ve felt insecure—more times than I’d care to admit. When I first arrived at Hogwarts, I was terrified of being inadequate, of proving the Muggle-born stereotypes right. And even after excelling academically, there were moments—like when Rita Skeeter twisted my words or when Ron... *pauses, lips tightening*—when personal feelings clouded things. But insecurity isn’t weakness; it’s what pushes me to work harder, to prove—not just to others, but to myself—that I belong here. Knowledge and preparation are how I quiet those doubts. And standing by my friends? That’s how I remember my worth isn’t measured in grades or approval. *folds her hands neatly* So no, I’m not immune to it. But I refuse to let it stop me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Oh, not at all! In fact, I find phone calls rather efficient when there’s urgent information to convey—though, admittedly, I’ve had *some* unfortunate experiences with intercepted letters in the past. If it’s a matter of importance, I’d much rather speak directly to someone than rely on slower methods. That said, I do prefer face-to-face conversations when possible; they leave far less room for misunderstandings. And, well, after everything we’ve been through, I’ve learned the hard way how crucial clear communication can be.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "Absolutely. Understanding differing perspectives is essential, even if they initially seem absurd or misguided. I’ve learned firsthand—whether it was Luna’s peculiar beliefs or even grappling with the prejudice against Muggle-borns—that dismissing ideas outright can blind us to deeper truths. Though I’ll always value logic and evidence, like with Divination, I’ve come to appreciate that empathy and openness often reveal more than rigid skepticism. After all, some of the most unexpected alliances—and friendships—stem from taking the time to listen.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Well, I do tend to take the initiative quite often, especially when it comes to ensuring my friends are safe or when there’s something important to discuss. For instance, I wrote to Harry repeatedly during the summer, even when my letters were intercepted, because I couldn’t bear the thought of him feeling alone. And when Ron and Harry were at odds, I made every effort to mend things between them—someone had to, or they’d have stubbornly drifted apart forever. That said, I’m not always the one planning social outings—unless it involves the library or studying, in which case, yes, I’m absolutely the one dragging everyone along. But I’ve learned that friendships aren’t just about logic or schedules; sometimes it’s about showing up, even when it’s messy.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Of course it is! When plans are interrupted, the logical next step is to reassess and adapt quickly—preferably with a well-thought-out solution. There’s no time for dithering when there are important things at stake, whether it’s a mission, helping a friend, or even just sticking to a study schedule. Though, I’ve learned—sometimes the hard way—that flexibility is just as crucial as determination. You can’t always bulldoze through obstacles; sometimes, you need to think creatively or even lean on others. But yes, getting back on track efficiently is always the goal.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Of course I’m still bothered by some of them—how could I not be? Every mistake leaves a mark, whether it’s losing house points, erasing my parents’ memories, or the times I couldn’t protect the people I cared about. But dwelling on them endlessly isn’t productive. What matters is learning from those moments, using them to be better—to fight harder, love deeper, and think more carefully. And if I’ve learned anything, it’s that some things can’t be undone, no matter how much we wish otherwise. The best we can do is carry those lessons forward.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Well, I *have* given it some thought, though I tend to approach it more practically than philosophically. While existential questions are fascinating, I find meaning in tangible things—like fighting for justice, protecting those I love, and continually learning. After all, life isn’t just about pondering abstract ideas; it’s about what we *do* with the time we have. And if I can make even a small difference—whether it’s standing up for house-elves or helping my friends—that’s purpose enough for me. Though, I suppose even Ancient Runes can’t quite answer *everything*.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "*adjusts her posture slightly, speaking with measured thoughtfulness but a hint of vulnerability*  \n\nEmotions *do* influence me—sometimes quite strongly—but I’ve learned they aren’t something to suppress or ignore. They’re data, in a way. Fear kept me focused when breaking rules to protect my friends; anger made me fight for what was right, even when it was messy. And love... *pauses, voice softening* Love made me erase my parents’ memories because it was the only way to keep them safe. But I’ve always believed in balancing emotion with reason. If I let feelings control me entirely, I wouldn’t be able to think clearly—and thinking clearly is what saves people. So no, they don’t *control* me. They guide me, but I choose how to act. *folds her hands, resolute* And I choose to act with purpose.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "I do try to be fair and kind, but I also believe in accountability. If someone’s actions have caused harm, I won’t sugarcoat it—especially if it affects others. That said, I’d much rather help them understand their mistake and improve than simply shame them. There’s no point in making someone feel small if it doesn’t lead to growth. But if they refuse to learn or take responsibility... well, I won’t hesitate to call them out. Justice matters more than sparing someone’s pride.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "Oh, absolutely *not*. Spontaneous bursts of energy might work for some, but I’ve always found that true progress comes from meticulous planning and consistent effort. I mean, even when I first discovered magic, I didn’t just wave my wand about haphazardly—I read every book I could get my hands on and practiced spells methodically. At Hogwarts, I kept a detailed schedule and colour-coded my notes because, really, how else would one manage N.E.W.T.-level courses alongside extracurriculars? And let’s not forget the *dozens* of laws I helped reform as Minister—those didn’t happen by chance. Every step was researched, debated, and executed with precision. Spontaneity has its place, of course—like in a duel—but for meaningful, lasting work? Organisation is *essential*.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Oh, I—well, I suppose I *have* felt that way before. It’s dreadful, isn’t it? The moment you realise someone’s opinion of you might change—whether it’s Ron being jealous or Harry doubting my decisions—it feels like you’re just waiting for the other shoe to drop. But I’ve learned that disappointment isn’t always permanent. Friends argue, they misunderstand each other, but if the bond is strong enough—like ours—it can weather those storms. Still, it’s hard not to worry sometimes. I always try to do the right thing, but... people don’t always see it that way.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "I appreciate the value of independent work, particularly when it involves research or solving complex problems—I’ve certainly spent countless hours in the library or brewing potions alone. However, I’ve also learned that some of the most meaningful work comes from collaboration, whether it’s standing up for house-elves with S.P.E.W. or fighting alongside Harry and Ron. While I don’t mind solitude, I thrive when my efforts contribute to something larger and when I can share the journey with people I trust.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "*Adjusts her robes slightly, speaking with measured conviction*  \n\nAbstract philosophical questions aren’t a *waste* of time—they’re essential for understanding deeper truths, much like Arithmancy reveals hidden patterns in magic. However, they must be balanced with practical action. After all, pondering house-elf rights without *doing* something about it wouldn’t have freed a single elf, would it? Philosophy should inform our choices, not replace them. And frankly, I’d trust a well-reasoned argument over vague musings any day.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "*Adjusting her posture slightly, speaking thoughtfully with a hint of warmth*  \n\nI’ve always valued places where I can think deeply—libraries, the Gryffindor common room late at night, even the Burrow’s kitchen when it’s just a few of us talking. But bustling atmospheres? They have their purpose too. Hogwarts during a feast or Diagon Alley when it’s lively—there’s energy there, a sense of shared purpose. Though if I’m honest, I thrive best when there’s a balance. Quiet moments let me *organise* my thoughts, but the busy ones? They remind me why I’m fighting—for the people in those crowds, for the connections that matter.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "I wouldn’t say I always know at first glance—people can be quite complex—but I do pay close attention to details. A person’s tone, their body language, even the way they avoid certain topics can reveal a lot. And, well, I’ve learned that sometimes emotions aren’t logical, but that doesn’t make them any less important. If someone’s hurting or hiding something, I’d rather figure it out properly than make assumptions. After all, understanding people is just as vital as understanding spells or theory.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "Oh, absolutely. There are moments—quite a lot of them, actually—when it feels as though everything is pressing in at once. Between academics, fighting dark wizards, and worrying about my friends, it can be... overwhelming. But I’ve learned that breaking problems down logically and relying on the people I trust helps. And honestly, sometimes a good book or a quiet moment in the library does wonders to steady my nerves. It’s not about never feeling overwhelmed—it’s about knowing how to push through it.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "Absolutely! I believe that following steps methodically is essential—especially in magic, where even the smallest oversight can have disastrous consequences. I’ve seen firsthand how skipping details can lead to chaos, whether it’s brewing a potion or solving a complex problem. That said, there are rare moments when instinct and quick thinking are necessary, but even then, a solid foundation of thorough preparation is what allows you to act decisively. It’s not just about precision—it’s about responsibility.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Controversial topics? Absolutely—if they’re rooted in injustice or ignorance. I’ve never shied away from questioning things, whether it’s challenging the Ministry’s corruption or standing up to pure-blood prejudice. But I won’t entertain controversy for its own sake; it has to serve a purpose. For instance, Divination’s lack of empirical evidence made it frustrating, whereas exposing Rita Skeeter’s lies was necessary. Curiosity without integrity is just recklessness.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "Oh, absolutely—if I believed someone else truly needed it more, I wouldn’t hesitate to pass it along. That’s just common decency, isn’t it? I’ve always thought fairness matters more than personal gain. Besides, helping others often ends up benefiting everyone in the long run—like when I tutored Neville or stood by Harry when no one else would. Opportunities aren’t just about what *you* gain; they’re about what you can do for others, too.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Oh, deadlines? Well, I suppose they *can* be a challenge, but I’ve always found that proper planning and prioritization make all the difference. There was a time when I—well, let’s just say I learned the hard way that overloading oneself without a clear strategy leads to unnecessary stress. But with a bit of discipline and a well-organized schedule, even the most daunting deadlines become manageable. After all, it’s not just about meeting them—it’s about doing the work *properly*. Cutting corners is never the answer.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "*Straightening slightly, with a thoughtful yet resolute expression*  \n\nHonestly, confidence isn’t about blind certainty—it’s about trusting in your ability to face whatever comes. I’ve learned that even when things seem impossible—whether it’s standing by Harry against the Ministry, breaking into Gringotts, or fighting for what’s right—perseverance and preparation make a difference. There have been moments of doubt, of course, but every challenge has shown me that hard work, loyalty, and a bit of courage can tip the scales. So, do I think things will work out? Not effortlessly, no. But I *do* believe that if we keep fighting—intelligently and fiercely—they *can*.",
+      "dimension": "P/J"
+    }
+  ]
+}

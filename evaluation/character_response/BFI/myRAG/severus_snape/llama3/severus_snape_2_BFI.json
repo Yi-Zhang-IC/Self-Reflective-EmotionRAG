@@ -1,0 +1,272 @@
+{
+  "character": "Severus Snape",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "(Tone is dry and detached) I suppose I am not... talkative. My reserve is a product of experience, one that has taught me the futility of unnecessary discourse. The fewer words I speak, the less opportunity there is for misinterpretation. (pauses, eyeing the interviewer with suspicion) Do not assume my silence is a sign of weakness.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "(Fixing the interviewer with a stern gaze) Ah, the impertinence of your question is almost...palpable. Yes, I do find fault with others - it is a necessary evil in a world where incompetence and ignorance seem to thrive. My sharp eye for detail and unwavering standards can be...overwhelming to those who fail to meet my expectations.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "(With a hint of disdain and a raised eyebrow) I do not simply \"do a thorough job.\" I am meticulous in every aspect of my work, ensuring that the highest standards are maintained, and that my students are properly prepared for the challenges they will face. Anything less would be a dereliction of my duty, and I will not be held to such a paltry standard.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "(sighing) I am not \"depressed, blue\" as you so crudely phrase it. I am a man of intellect and conviction, one who has endured the trials of a difficult past and has seen the darkest aspects of human nature. My... demeanor, I suppose, is a reflection of the many hurts and disappointments that have shaped me into the person I am today. (pausing, his gaze becoming distant) But do not think for a moment that I am weak or vulnerable. I am merely a being who has been tempered by the fires of adversity.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "(In a dry, measured tone) I do, indeed, generate new ideas - though they often stem from a place of necessity rather than frivolity. The art of potion-making, for instance, is a constant source of innovation, as one must continually adapt to the complexities of the human body and the subtleties of magic. My... endeavors, I suppose, are driven by a desire to excel, to push the boundaries of what is possible, and to ensure that the darkness I once knew does not prevail.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "(In a cold, measured tone) I am reserved, a quality that has served me well in my...line of work. It is not an affectation, merely a necessary aspect of my profession, one that allows me to observe and deduce without the distraction of...exuberance. My demeanor is a shield, one that guards my true feelings and intentions.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "(The sound of a deep, measured breath)  \"Helpful and unselfish with others?\"  (pauses, a hint of sarcasm creeping into the tone)  I suppose one might argue that I have, on occasion, displayed a certain... propensity for selflessness.  My actions, though often misconstrued, have been guided by a singular commitment to protect those I deem worthy, even if it means sacrificing my own interests or dignity.  (pauses again, his eyes narrowing)  But do not think for a moment that this benevolence stems from any desire for praise or admiration.  It is simply a necessary aspect of my duty, one that I have sworn to uphold, no matter the cost.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "I am not careless.  A careless individual would be reckless and prone to chaos, much like the student, Jacob, who tampered with cursed vaults, nearly causing irreparable harm to others. My actions, on the other hand, are guided by a deep sense of duty and a resolve to protect, even when it means enduring the weight of suspicion and misunderstanding.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "\"Relaxation is a luxury I can ill afford. Stress is a constant companion, one that I have grown accustomed to bearing. The burdens of responsibility, the weight of secrets, and the demands of duty often leave me feeling...under siege.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Curiosity, a trait I possess in abundance, though often masked by my demeanor. It is a double-edged sword, capable of both illuminating the darkness and plunging one further into the shadows. I have found that curiosity can be a most... perilous companion, yet one that I have never truly been able to abandon.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "(I gaze at the interviewer with a hint of disdain, my voice low and measured) \"Full of energy? No, I am driven by a singular focus, a dedication to my craft, and a duty to protect those who require it. The petty concept of 'energy' is of little consequence when one's mind is consumed by the weight of responsibility and the burden of secrets.\"",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "(Snape's gaze narrows) \"I start quarrels, not out of a desire for conflict, but to ensure that the unwary do not falter or falter too long. The fires of ambition and the taint of ignorance can be... corrosive, and I have found it necessary to temper these elements, to remind those around me of the importance of discipline and intellect.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Reliability is a trait I expect from those around me, not something I am required to demonstrate myself. My dedication to the education and safety of these students has been unwavering, despite the challenges and...personal costs that have arisen throughout my tenure here. I will continue to discharge my duties with the utmost precision and vigilance, no matter the scrutiny or suspicion that may accompany it.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "(In a cold, detached tone) I find it...amusing that you would even suggest I am capable of such a pedestrian emotion. Tense, you say? (pausing for a moment) Very well, I shall condescend to explain. My demeanor is a carefully crafted mask, a defense mechanism against the world's unwarranted intrusions. Behind this mask, I have endured the pangs of loneliness, the sting of rejection, and the weight of unrequited love. These are the true sources of tension, not some fleeting emotional state you might so cavalierly attribute to me.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "(In a dry, measured tone) I am not one for indulging in frivolous self-aggrandizement, but I suppose I have always been driven by a restless genius, one that has propelled me to excel in the dark arts, as well as in the more... mundane pursuits of potions and teaching. My mind is a repository of knowledge, a calculated and deliberate machine that has been honed over the years to achieve a singular purpose: to protect and guide those who require it, no matter the cost to myself.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "(I speak in a dry, measured tone, my eyes narrowing slightly as I consider the question) \"Enthusiasm is a...waste of time. It clouds one's judgment and often leads to reckless behavior. As an educator, I strive for excellence, not empty enthusiasm.\"",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "(Frowning) Forgiveness is a luxury I have never afforded myself, nor do I believe it is a virtue to be prized. The wounds inflicted by my past, particularly at the hands of those who once called me friend, have left scars that remain tender to this day. (Pausing, my gaze intensifies) I have, however, come to understand that forgiveness is not for the sake of the transgressor, but for the sake of one's own soul.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Disorganization? (Scoffs) A concept far removed from my own organized and precise existence. My life has been marked by discipline and control, a necessity born from the chaos that surrounds me. I do not tolerate sloppiness or carelessness, particularly not in myself.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "(In a low, measured tone) Ah, do I worry? It is a frivolous question, really. I have more pressing concerns than trivial emotions. My... attentions are consumed by the weight of duty, the burden of secrets, and the responsibility to protect those who would otherwise be defenseless.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "(With a hint of disdain) The notion of an \"active imagination\" is a frivolous concept, hardly worthy of consideration in the realm of true intellectual pursuits. My mind has always been consumed by the pursuit of knowledge, the crafting of complex spells, and the mastery of potions. To suggest that I indulge in flights of fancy is to misunderstand the nature of my intellectual endeavors entirely.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "(In a dry, measured tone) Yes, I tend to be quiet. The burden of knowledge and the weight of responsibility often render me speechless. Silence, in my experience, is a valuable tool for observation, contemplation, and concealment. It also serves as a shield, protecting me from the inane chatter and frivolous concerns of those who would seek to distract me from my duties.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "(In a cold, measured tone) Trust, in my experience, is a luxury one can ill afford. Loyalty, however, is a different matter altogether. It is a virtue that can be earned, and one that I have learned to cultivate, even in the face of betrayal and duplicity.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "The audacity of the question.  To suggest that I, a man consumed by duty and responsibility, would be lazy is an insult.  I have dedicated my life to the pursuit of knowledge, and the education of these... students.  My mind is always focused, always racing with the intricacies of potions and the complexities of human nature.  I do not have the luxury of idleness.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "(With a hint of disdain) I am stable, as one must be in the face of the chaos that surrounds this... institution. My emotions are a carefully guarded fortress, not easily breached by the petty dramas and frivolities that seem to plague the students and faculty of this place. (Pausing for a moment) That is all you need to know.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "(In a cold, measured tone) Ah, inventiveness. A trait often associated with the reckless and the unrefined. Yet, I have always been drawn to the art of crafting and creating, of distilling the complexities of magic into a singular, potent form. The pursuit of innovation is a solitary one, often driven by necessity and a desire to impose order upon the chaos that surrounds us.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "The notion of an assertive personality is a simplistic one, often misunderstood by those who fail to grasp the complexities of human nature. I would say that my personality is better described as disciplined, a necessity in one who has dedicated their life to the pursuit of knowledge and the safeguarding of this institution. My actions, though often misconstrued as assertive, are, in truth, a calculated balance of authority and restraint, tempered by a deep understanding of the world's darker corners.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "(In a cold, detached tone) Ah, the notion of being \"cold and aloof\" is a simplistic concept, hardly worthy of discussion. One might say I have mastered the art of maintaining a facade, a carefully crafted mask that conceals the complexities of my nature. Beneath the surface, however, lies a labyrinth of emotions, a tangled web of long-standing grief, loyalty, and unspoken regret.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "The task at hand is of little consequence, yet I find myself bound to its completion.  My resolve, forged in the fires of rejection and rejection, remains unshakeable. I persevere, not for the sake of completion, but for the sake of duty, loyalty, and the protection of those who require my... particular brand of vigilance.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "(Muttering under his breath)  Moodiness, you say?  A trivial concern, really.  My emotions are as precise as the potions I create, calculated to serve a purpose, not to be indulged in petty outbursts.  I am a master of control, and my demeanor reflects the discipline required to maintain that control.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "(With a hint of disdain and a raised eyebrow) Ah, the value placed on \"artistic, aesthetic experiences\" is a frivolous notion, hardly worthy of consideration in an institution such as Hogwarts. However, I must admit that the pursuit of knowledge, particularly in the realm of potions, can be a beautiful and intricate dance of art and science. (Pausing for a moment) But do not think for a moment that my interest in such pursuits is driven by any sentimental attachment to \"beauty\" or \"aesthetics.\" No, my motivations are far more...practical.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "(In a low, measured tone) I suppose the label of 'shy' might be applied to certain periods in my...past. The vulnerability of youth, however, has long since given way to a more practical, guarded demeanor. One cannot afford the luxury of sentiment or emotional entanglements when navigating the treacherous waters of this world. (pausing) Besides, I have learned to temper my expressions with a calculated reserve, lest my true thoughts and feelings become...illuminated.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "(Snape's eyes narrow, his voice measured and detached) I am considerate and kind to those who have earned my respect and loyalty. It is a trait that has been forged in the fires of isolation and rejection, a hard-won understanding of the value of compassion and the importance of guarding one's heart.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "(I gaze at the interviewer with a mix of disdain and superiority) Efficiency, you ask? It is a virtue I have honed to perfection, a quality that has served me well in the pursuit of excellence and the protection of those I deem worthy. My methods are not for the faint of heart, but for those who demand the very best, I am willing to make the necessary sacrifices to ensure that my goals are achieved.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "(Calmly, yet with a hint of disdain) Ah, the notion of remaining calm in tense situations is a trivial concern for those who possess the intellectual fortitude and emotional control that I have honed over the years. In situations where chaos and turmoil reign, I remain focused, my thoughts guided by a singular purpose: the protection of this institution and its students. My demeanor, though unyielding and perhaps intimidating to some, is merely a reflection of the unrelenting standards I set for myself and others.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "The notion of routine is a foreign concept to one such as myself. My work is a calculated dance of discipline and vigilance, ever-prepared to address the complexities and dangers that Hogwarts presents. Routine would only serve to dull the edge of my faculties, rendering me less effective in my duty to protect this institution and its students.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "(In a dry, measured tone) I am not outgoing, nor am I sociable in the manner that some of my... colleagues might be. My past experiences have conditioned me to be wary of emotional connections, and I find that my reserve serves as a necessary shield against the petty cruelties and shallow affections that seem to plague this institution.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "(The voice is low, measured, and laced with a hint of disdain) \n\nYes, I have been known to be... direct in my interactions with others. My expectations are high, and those who fail to meet them often find themselves on the receiving end of a less-than-gentle rebuke. It is not rudeness, per se, but rather a necessary measure to ensure that my students and colleagues are not swayed by sentiment or frivolity.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "(In a dry, measured tone) Plans and follow-through. A concept I have grown accustomed to, particularly in the realm of potion-making. I have found that a well-crafted plan, executed with precision, can be a most effective tool in achieving one's objectives. However, it is essential to remain flexible, as the path to success is rarely straightforward. (pausing for a moment) I have, on occasion, found it necessary to alter my plans in response to unforeseen circumstances.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "The notion of being \"nervous\" is... beneath me. My reactions are calculated, a product of years of hardship and the weight of secrets. To reveal vulnerability would be to invite chaos, and I will not be swayed by such frivolity.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "(I gaze at the interviewer with a mixture of disdain and curiosity) \n\nTo reflect and play with ideas is a trivial pursuit, often a distraction from more pressing matters. However, as a student of the dark and the arcane, I have always been drawn to the intricacies of potion-making, where the boundaries between science and art blur. In my younger years, I would often lose myself in the pursuit of innovation, crafting new curses and concoctions in the secrecy of my own mind. (My eyes narrow slightly) But such indulgences are a luxury I can ill afford, given the weight of my responsibilities.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "(In a dry, almost imperceptible tone) Ah, artistic interests. It is a frivolous notion, really. I have always been drawn to the precise and the calculated, the art of potion-making being a prime example. My focus has been on harnessing the subtleties of magic, not indulging in some fleeting notion of 'art.'",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Cooperation with others is a... delicate affair. While I have learned to appreciate the value of certain alliances, I must admit that my natural inclination is towards solitude. The experience of being misunderstood and maligned by those who should have understood me has left its mark, making me wary of forming close bonds.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "The question of being easily distracted.  It is a notion I find...amusing.  As a potions master, one must remain focused, always mindful of the subtleties and complexities at play.  To be distracted is to invite chaos, and I will not be swayed by such frivolity.  My attention is a razor-sharp instrument, honed by years of discipline and dedication.  It will not be dulled by the whims of others.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "(Snape's gaze falls, his voice measured) Ah, the pursuit of art, music, and literature. While I do possess a certain... appreciation for the finer things in life, my true affinity lies in the realm of potions and the dark arts. The intricacies of brewing, the subtleties of spellcraft, these are the things that truly stir my... passion. (pausing, his eyes narrowing) Of course, my tastes are rather... refined, and I fear that few of my students would be able to appreciate the nuances of, say, a well-crafted Wolfsbane potion. (his tone turns dismissive) But, really, what is the point of art, music, or literature when one can create something truly original and powerful, as I have done with my own... research?",
+      "dimension": "Openness"
+    }
+  ]
+}

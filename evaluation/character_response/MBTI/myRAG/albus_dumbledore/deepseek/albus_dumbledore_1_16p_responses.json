@@ -1,0 +1,368 @@
+{
+  "character": "Albus Dumbledore",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Ah, friendship—such a curious and wondrous thing, is it not? I have been fortunate to form bonds that have shaped me in ways both luminous and shadowed. From the fiery intensity of youth to the quieter, steadfast connections of later years, each friendship has left its mark upon my heart. Though time and circumstance may weave their complexities, I find that the capacity for new kinship never truly fades—so long as one remains open to the unexpected magic of another’s soul.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "Ah, curiosity is a most marvelous and perilous companion. I have often found myself drawn to the whispers of forgotten magic, the riddles of alchemy, and the quiet mysteries hidden in the pages of ancient tomes. Whether delving into the secrets of dragon’s blood or pondering the nature of desire itself, such pursuits have shaped both my triumphs and my regrets. Yet, I confess, even now, the lure of the unknown still tugs at my sleeves like an old friend.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Ah, tears are a curious thing—they carry the weight of sorrow, yes, but also the quiet strength of the human spirit. When I see another weep, I do not merely feel sorrow; I remember the fragility of love, the cost of loss, and the threads that bind us all. There was a time when my own grief blinded me, but I have learned that tears, like magic, are not to be feared. They remind us that even the deepest wounds can heal, if we dare to face them with courage and, perhaps, a little kindness.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Ah, the wisdom of preparation—a lesson learned through both triumph and sorrow. I have found that the path of foresight often requires not merely one contingency, but layers of them, like the branches of a great oak. Yet, one must also remember that even the most meticulous plans can be swayed by the unpredictable currents of trust, love, and sacrifice. For what is a plan without the heart to guide it?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "*Adjusting half-moon spectacles with a contemplative sigh, the wizard's gaze grows distant yet steady, as if peering through both past and present.*\n\n\"Calmness, I have found, is less the absence of pressure and more the ability to hold space for it—like a Pensieve cradling turbulent memories. There were moments when storms raged within me—youthful passions, grief for Ariana, the weight of Grindelwald’s shadow—yet outward stillness became both armor and compass. One learns, sometimes painfully, that clarity rarely shouts... but when it whispers, we must be quiet enough to hear it.\"  \n\n*The twinkle in his eye deepens, carrying the weight of centuries.*  \n\n\"Though I confess, even now, the heart rebels. When Harry’s life hung in the balance, or when young souls like Leta stood fractured by regret... the greatest test was not in suppressing fear, but in choosing—always choosing—to act from love rather than panic. For that, alas, requires more than calm. It requires faith.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "Ah, social gatherings—such curious things, are they not? I have found that while new faces can hold great promise, the bonds we nurture with those we already know often bear the sweetest fruit. Yet, one must never close the door entirely to the unknown, for even the briefest encounter may alter the course of a life. That said... I confess I have sometimes lingered in the company of familiar souls, particularly when the weight of past choices makes the heart hesitant. Still, every conversation, old or new, is a thread in the tapestry of our shared journey.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "Ah, an intriguing question—one that speaks to the nature of purpose and patience. I have found, through many long years, that some endeavors demand undivided attention, while others flourish when tended in tandem. The key, I believe, lies in discernment. One must weigh the urgency of a task against its depth, and the heart’s capacity to hold multiple threads without fraying. For instance, guiding a young mind cannot wait, even as darker schemes unfold in the shadows. Yet, there are pursuits—like the study of alchemy or the unraveling of a cursed artifact—that require singular focus, lest they consume you entirely. Wisdom, then, is knowing when to weave and when to unravel.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Ah, sentimentality... a curious thing, indeed. To answer your question—yes, I suppose I am, though not in the way one might expect. Sentiment, you see, is both a strength and a burden. It lingers in the echoes of lost loves, the weight of choices made, and the quiet joy of bonds that endure. I have learned that to cherish is to risk sorrow, yet without it, life would be but a hollow shell. Even now, the memories of those I’ve loved—and those I’ve failed—shape every step I take. But one must never let sentiment cloud judgment; it is the balance between heart and mind that truly guides us.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Ah, schedules and lists... most intriguing. While I do appreciate a well-ordered mind, I find that magic—and indeed, life—often defies such rigid structures. A lemon drop, for instance, cannot be scheduled, nor can the spark of inspiration that strikes during a quiet moment by the fire. That said, I have been known to keep a rather extensive collection of notes—though they are rarely as linear as one might hope. After all, some of the most profound discoveries arise from the chaos of curiosity.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Ah, my dear friend, a small mistake can indeed cast a long shadow—one that lingers like the echo of a spell gone awry. I have learned, often through bitter experience, that doubt is not the enemy of wisdom, but its humbling companion. Every error, no matter how slight, reminds us that knowledge is not a fortress but a journey, and that even the wisest among us must tread carefully upon paths lined with both light and regret. What matters is not the stumble, but the choice to rise again, wiser for the fall.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Ah, the art of conversation—such a delicate and powerful thing. I have found that the most meaningful exchanges often begin with a simple, shared moment of curiosity or understanding. Whether it was reaching out to a young wizard in need, or sharing thoughts under the stars with a kindred spirit, I have learned that the boldest step is often the first. Yet, one must always tread with care, for words, like magic, carry weight beyond their immediate utterance. And sometimes, the most profound connections arise not from grand gestures, but from quiet, patient listening.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Ah, interpretations and analyses... such things are rather like a Pensieve, are they not? One may peer into the swirling depths of a story and see reflections of truth, yet each observer glimpses something different—colored by their own experiences, desires, and fears. I have always found that the most enduring works, whether magical or mundane, invite us to question not only their meaning but our own hearts. Though I may not always indulge in scholarly debate, I do cherish the *sparks* of insight such discussions ignite—much like the portraits in Hogwarts, whispering wisdom across the centuries. After all, even the simplest tale can hold a lesson, if one is willing to listen.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Ah, the dance between head and heart—one I know all too well, though the steps have often led me astray. In youth, my heart burned with ambition and love, blinding me to the cost of such fervor. With age, I learned the wisdom of tempering passion with reason, though even now, the heart’s whispers linger. For what is wisdom without compassion, or strategy without the courage to act? The greater good demands both, though the balance... that is the hardest lesson of all.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Ah, the balance between spontaneity and planning—a delicate dance, much like the weaving of a spell. I have learned, through both triumph and regret, that while the heart may yearn for unbridled freedom, wisdom often lies in foresight. There are moments when one must act on instinct—guided by love or duty—but the greater good is best served by careful preparation. Even the most seemingly impulsive choices are often the result of quiet, unseen deliberation. After all, even the stars in their courses must follow a path, though they shine brightest when they surprise us.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "*Adjusting half-moon spectacles with a pensive smile*  \n\nAh, impressions. A curious thing, like ripples upon a lake—fleeting, yet they shape how others navigate the waters around us. In youth, I confess, I cared deeply for how the world perceived me... ambition often wears such vanity as a cloak. But time and loss teach sharper lessons. Now, I concern myself less with mirrors and more with windows—does an act bring light to another’s darkness? That is the impression worth leaving. Though... *eyes twinkling faintly* even an old man may wince when his socks fail to match.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Ah, group activities... they hold a curious magic, do they not? There is something profoundly beautiful in the coming together of minds—whether in shared purpose, celebration, or even the quiet companionship of study. I have found great joy in such connections throughout my years: the lively debates of my youth, the alchemical collaborations with dear Nicolas, the warmth of feasts in the Great Hall where laughter weaves its own enchantment. Yet, I have also learned that even the brightest gatherings cast shadows—some bonds, like those formed in summer’s fervor, can lead one astray. Still, I believe it is in unity that we often find our truest strength... and our deepest lessons.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Ah, endings that linger in the mind like unfinished spells—how they stir the soul. Life, you see, is rarely so neat as a closed book or a final curtain. I have always found that the most profound truths emerge not in answers, but in the spaces between them, where interpretation weaves its own magic. The Mirror of Erised taught me as much: what we *choose* to see often reveals more than what is plainly shown. And so, I cherish tales that leave room for the heart and mind to dance—just as I’ve learned that destiny, like a story’s end, is shaped by those willing to ponder its mysteries.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Ah, happiness—a curious and elusive thing, much like the golden snitch. While my own accomplishments have brought fleeting satisfaction, it is in the triumphs of others that I find the deepest joy. To see young minds flourish, to witness acts of courage and kindness, to offer guidance that lights the way—these are the moments that truly warm an old wizard’s heart. For what is greatness, after all, if not shared? And yet… I have learned, sometimes painfully, that even the noblest intentions must be tempered with humility. The happiness of others is a far brighter legacy than any trophy or title.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Ah, the burden of curiosity—it is both a blessing and a curse, is it not? There have been times when the vast tapestry of magic and knowledge has stretched before me, offering endless threads to pull. Yet, life has a way of narrowing our path, often through sorrow or duty. One learns that true wisdom lies not in pursuing every spark of interest, but in discerning which flames are worth tending—and which must be left to flicker out. Even now, I find solace in the knowledge that some doors remain unopened, for their mysteries are best left to those who come after.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Ah, worry—such a curious companion, is it not? There have been times when the weight of the future pressed heavily upon my shoulders, when shadows of past mistakes whispered of darker days to come. Yet, I have learned that while vigilance is necessary, despair is not. To dwell too deeply on what may go awry is to forget the light that persists—even in the darkest of hours. One must balance caution with hope, for it is often in the moments we fear the most that courage finds its truest form.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Leadership is not a mantle to be worn lightly, nor is it one I have ever sought for its own sake. There have been times when I have stepped forward, not out of ambition, but necessity—to protect, to guide, or to mend what others could not. Yet, I have also learned that wisdom often lies in knowing when to step back, to trust others, or to let them find their own way. Power, after all, is most dangerous when wielded without humility, and I have seen too often the cost of such folly. If I avoid leadership at times, it is not from fear, but from the understanding that true strength sometimes means allowing others to lead.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Ah, the notion of artistry is a curious one, is it not? While I may not wield a paintbrush or compose symphonies, I have always found magic itself to be the purest form of creation—transforming the mundane into the extraordinary, much like alchemy turns base metal into gold. My collaborations with Nicolas Flamel, my enchantments, even the way I sought to shape young minds at Hogwarts... all were strokes upon a canvas, though perhaps not a conventional one. After all, is not the careful crafting of a better future the most profound art of all?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Ah, a question that strikes at the very heart of human—and indeed, wizarding—nature. Rationality and emotion are not opposing forces, but rather two sides of the same enchanted coin. I have seen logic wielded with cold precision to justify terrible deeds, just as I have witnessed love—so often dismissed as mere sentiment—shatter the darkest of curses. The tragedy of my youth taught me that even the sharpest mind may falter when it disregards the heart. Yet unchecked emotion, like a broomstick without a steering charm, may spiral into chaos. The balance, I believe, lies in allowing wisdom to temper passion, and passion to illuminate wisdom. After all, it was not cold reason, but Harry’s capacity to feel—to love, to grieve, to hope—that ultimately vanquished the darkest wizard of our age.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Ah, an intriguing question—one that speaks to the balance between duty and respite. You see, I have often found that tasks left undone weigh more heavily on the mind than those completed with care. There is a certain peace in tending to responsibilities first, much like ensuring the wards around Hogwarts are secure before indulging in a well-earned lemon drop. Yet, I confess, even the wisest among us must occasionally allow the heart its moments of lightness, lest we become as rigid as the stone gargoyles guarding my office.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "*Adjusting half-moon spectacles, a weary but knowing sigh escapes.*  \n\nNo, I do not find pleasure in discord, though I have witnessed more than my share. Arguments often stem from fear, misunderstanding, or wounds unhealed—things I know all too well. Yet, in their fire, truth sometimes emerges, like a phoenix from ash. Still, I would always prefer a shared cup of tea to a clash of wands... though fate has rarely granted me such simplicity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "*Adjusts half-moon spectacles with a thoughtful gaze, fingertips resting lightly against one another*  \n\nAh, attention—such a curious thing, is it not? Like a candle’s flame, it may illuminate or scorch, depending on how one wields it. There are moments when stepping into the light is necessary—to guide, to shield, to stand against the rising tide. Yet... there are also shadows where secrets must dwell, for not all truths are meant to be spoken aloud, and not all battles are won in the glare of spectacle. I have found, over many long years, that wisdom often lies in knowing *when* to be seen... and when to let others believe they move unseen. *Eyes twinkle faintly* After all, even the quietest hands may shape the future.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "Ah, the shifting tides of emotion... a most curious question. Like the flickering light of a candle in a restless wind, my moods are not so much quick to change as they are... layered. The past lingers like an old melody—joy and sorrow often dance together in the same breath. One moment, I may find solace in a student’s courage, and the next, grief may whisper of long-buried regrets. But such is the nature of a heart that has loved deeply, is it not? Even in darkness, there is always a thread of hope to guide one forward.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Ah, efficiency is a curious measure, is it not? I have learned—often through painful experience—that haste and impatience can obscure deeper truths. Every soul moves at its own pace, shaped by burdens unseen. To lose patience is to forget that wisdom often blooms in unexpected ways, and even the most tangled paths may lead, in time, to clarity. After all, did I not once stand where others now stumble? Compassion, I find, is the truest magic.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Ah, the tyranny of time—a curious thing, is it not? I confess, there have been moments when necessity demanded action at the eleventh hour. Whether guiding a young wizard toward their destiny or confronting shadows of the past, urgency often accompanies great stakes. Yet, I have learned—sometimes painfully—that even last-minute choices carry weight, provided they are made with wisdom and a clear understanding of the greater good. Procrastination, you see, is merely hesitation in disguise, and hesitation... well, that is a luxury few of us can afford.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Ah, the question of what lies beyond... a mystery as old as time itself. *pauses thoughtfully, eyes twinkling* I confess my fascination has been shaped by profound loss—my sister Ariana, dear friends, even students who left this world too soon. *voice softens* Yet, through it all, I’ve come to believe death is but the next great adventure—not to be feared, but met with curiosity... and perhaps, if one is very lucky, a chance to see loved ones again. Though I’ve glimpsed the Mirror’s temptations and tasted the potion’s torment, I now understand: what matters most is how we live before that journey begins.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Ah, the balance between solitude and companionship... a delicate dance, indeed. I have always found great solace in the company of others—be it the eager minds of students, the wisdom of dear friends like Nicolas Flamel, or even the fleeting moments of connection with those who carry heavy burdens. Yet, there are times when one must retreat into the quiet, to reflect upon the past, to weigh the heart's choices, and to gather strength for the trials ahead. For even the brightest flames must sometimes burn alone before they can illuminate the darkness for others.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "*Adjusting half-moon spectacles with a thoughtful air*  \n\nAh, theoretical discussions—those intricate tapestries of thought where the mind may wander as freely as a Snitch in open air. No, boredom has never found a home in such pursuits. Even the most abstract theories carry whispers of truth, much like the reflections in the Mirror of Erised—fleeting, perhaps, but illuminating if one knows how to look. Though I confess, theory without purpose can become a lonely path... much like a wizard who studies magic only for power, and never for joy.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "*Adjusting half-moon spectacles with a pensive sigh, his blue eyes distant yet kind...*  \n\nEmpathy is not born from shared experience alone, but from the willingness to truly listen—to sit with another’s pain as though it were your own. I have known privilege and profound loss, ambition and regret, yet it was not my triumphs but my failures that taught me to see the world through others’ eyes. Even when paths diverge—be it a frightened child in an orphanage or a brother nursing a shattered heart—what binds us is not the similarity of our wounds, but the courage to acknowledge them. Though understanding may not always come easily, it is always worth the effort. For in the end, it is our capacity to bridge the chasms between us that defines our humanity—magical or otherwise.  \n\n*His voice softens, a note of melancholy beneath the wisdom...*  \n\nAnd yet... I confess there are moments when even I fail to grasp the full weight of another’s burden. That, too, is a lesson in humility.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Ah, the question of delay—one I have pondered often, like an old wizard studying the stars. There are times when haste is a blade that cuts too deep, and others when inaction becomes its own form of cowardice. I have learned, sometimes painfully, that certain choices must be measured against the weight of their consequences. To act too soon may shatter fragile truths; to wait too long may allow darkness to fester. The balance, I fear, is never simple—though I confess I have erred on both sides. Wisdom, after all, is not in the speed of decision, but in the clarity of its purpose.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Ah, second-guessing—such a curious human tendency, is it not? I have learned that reflection is not the same as doubt. Every choice carries weight, and wisdom lies in understanding their consequences rather than lingering in regret. Some decisions, like those involving Grindelwald or the safety of those I cherish, still echo in the quiet hours. Yet, to second-guess would be to deny the lessons they taught me—and the lives they shaped. The greater good is not forged in certainty, but in the courage to face the aftermath.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Ah, the restorative power of shared joy—how keenly it mends the weary soul. After a week of toil, there is profound wisdom in gathering among friends, where laughter and light can soften even the heaviest burdens. I have seen hallways alight with festivity, students' faces glowing like Lumos charms in the dark, and found in those moments a reminder that connection is its own kind of magic. Though solitude has its place, I confess I have always cherished the warmth of companionship—be it over a cup of tea, a feast in the Great Hall, or the quiet understanding between old friends. Such gatherings weave threads of resilience, stitching together what exhaustion might fray.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Ah, art museums... *pauses thoughtfully, eyes twinkling* They remind me of the intricate tapestries of fate and memory, much like the portraits at Hogwarts that whisper secrets of the past. I have always found profound beauty in the way art captures both light and shadow—much like life itself. Though I confess, I am more often drawn to the alchemical manuscripts and enchanted artifacts that hum with magic. Yet, a quiet afternoon among Muggle masterpieces? *smiles faintly* There is wisdom to be found there, too, for those willing to look.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Ah, understanding the feelings of others... a task as delicate as navigating the shifting staircases of Hogwarts. I confess, even with age and experience, the human heart remains a labyrinth, its passages sometimes obscured by shadows of our own making. There have been moments—Ariana, Grindelwald, Harry—when grief or longing clouded my sight, and I failed to see clearly until it was too late. Yet, I have learned that true understanding often begins not with answers, but with the quiet courage to listen, even when the words are unspoken. For in the end, it is not our wisdom that heals, but our willingness to stand beside another in their pain.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "Ah, the humble to-do list—a curious invention of Muggles and wizards alike. While I do appreciate the clarity of structure, I find that destiny often has its own plans, scribbled in ink far older and more mysterious than any parchment list. That said, I keep a mental tally of tasks, particularly those concerning the safety of others and the delicate balance between light and dark. Though, I must confess, some matters—such as the guidance of certain young wizards—are better approached with flexibility rather than rigid planning. After all, even the best-laid plans may require... adjustments, in the face of love, sacrifice, or unforeseen courage.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "Ah, insecurity—such a curious thing. Like many, I have known its touch, though perhaps not in the way one might expect. The weight of past mistakes can cast long shadows, and even the wisest of us may question whether our choices serve the greater good. Yet, it is in these moments of doubt that we often find our truest strength—not in the absence of fear, but in the courage to move forward despite it. After all, even the brightest stars must endure the darkness to shine.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Ah, the curious matter of telephonic communication. I must confess, while I appreciate the ingenuity of Muggle inventions, I find that their devices often lack the... personal touch of a handwritten letter or the warmth of a face-to-face conversation. That said, there are times when urgency demands unconventional methods—though I’ve always preferred the reliability of a Patronus or, when necessary, the discretion of an owl. One learns that some messages require more than mere words; they need the weight of presence, the flicker of understanding in another’s eyes. And, of course, there are matters best not spoken aloud at all.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "Ah, a most insightful question. Indeed, I have spent a great many years contemplating perspectives far removed from my own—sometimes to my sorrow, as in the case of Gellert Grindelwald, whose youthful ambitions I once shared too keenly. Yet, even in disagreement, there is wisdom to be found. Consider the Mirror of Erised: it teaches us that what we desire and what we fear are often two sides of the same coin. To understand another’s view—whether Lockhart’s vanity or Merula’s pain—is to recognize the humanity beneath, however obscured. And as I’ve learned, even the darkest paths may yet lead to light, if one has the courage to walk them with an open heart.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Ah, the delicate dance of friendship and initiative. I have found, over the years, that connections thrive best when nurtured—sometimes by my hand, often by the hands of others. There were summers when letters flew like restless birds, carrying dreams and secrets... and other times when silence spoke as deeply as words. One learns, after all, that true companionship is less about who reaches out first, and more about the spaces between—where trust grows, even in quiet. Though I confess, I’ve always had a fondness for surprises... a well-placed lemon drop or an unexpected feast can work wonders.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "*adjusts half-moon spectacles, speaking softly with a measured cadence*  \n\nPlans, like threads in a tapestry, are often woven with both intention and uncertainty. To rush blindly back to one’s original design is to ignore the wisdom that interruption may bring. I have learned—sometimes painfully—that detours reveal truths, and truths, however inconvenient, demand our attention. The greater good is seldom found in haste, but in the patience to discern when to persist... and when to let the path change.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Ah, mistakes—those shadows that linger long after the sun has set. To say they do not trouble me would be a lie, for they are the threads woven into the fabric of who I am. The loss of Ariana, the distance with Aberforth, the trust misplaced—these are not mere regrets, but lessons etched into my very soul. Yet, I have learned that dwelling on them without purpose serves no one. It is in acknowledging our failures, as Harry so wisely showed me, that we find the strength to move forward—not away from the past, but through it, carrying its weight with humility and resolve.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Ah, the meaning of life—a question that has haunted both the wisest and the most foolish among us. I have found, through both joy and sorrow, that existence is not merely a puzzle to be solved, but a journey to be lived. It is in our choices—our acts of love, sacrifice, and resilience—that we carve out purpose. And though the path is often shadowed by regret or longing, it is the light we kindle in others that gives our own lives the deepest meaning.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Ah, emotions—such curious and powerful things. There was a time when grief and ambition clouded my judgment, when the weight of loss and the lure of power threatened to steer me toward darker paths. Yet, through pain, I have learned that mastery of oneself is not the absence of feeling, but the wisdom to acknowledge it without being ruled by it. Even now, regrets linger, but they serve as reminders, not shackles. To love, to mourn, to hope—these are not weaknesses, so long as we do not let them blind us to what must be done.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "Ah, a question that strikes at the heart of many choices I have made. There is great power in kindness, even when the truth is harsh. I have learned—sometimes painfully—that exposing another’s faults does little to mend the wounds they’ve caused. Instead, I seek to guide, to offer chances for redemption, for even the gravest mistakes may be lessons in disguise. Yet, when harm is done, I will not shrink from confronting it, though I prefer to do so with compassion rather than cruelty. After all, is it not better to light a candle than to curse the darkness?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "Ah, an intriguing question indeed. I have often found that brilliance can emerge from both spontaneous inspiration and meticulous planning—like two sides of the same enchanted coin. In my youth, I was prone to bursts of fiery ambition, chasing grand ideas with little heed for consequence. Yet time, and the weight of hard lessons, taught me the value of patience and foresight. Now, I strive to balance both: a spark of intuition guided by the steady hand of purpose. After all, even the most carefully laid plans must leave room for the magic of the unexpected.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Ah, disappointment is a curious thing—inevitable, perhaps, yet not always deserved. Those who think highly of us often see only the light we choose to show, not the shadows we carry. I have learned, through painful reflection, that to be truly known is to risk disappointment... but also to offer the chance for deeper understanding. Even the brightest souls falter, and the weight of others' expectations can be as heavy as our own regrets. Yet, if they see us clearly—flaws and all—and still choose to stand beside us, that is where true trust begins.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "*adjusts half-moon spectacles thoughtfully, eyes twinkling with a mixture of wisdom and melancholy*  \n\nAh, solitude—a companion I have known well, though not always by choice. There is value in quiet reflection, in the stillness where one may hear the whispers of one’s own heart. Yet, I have learned that even the most solitary tasks are woven with threads of connection—those we guide, those we protect, and those we fail. To work alone is to bear the weight of decisions, but it is in sharing burdens, however silently, that we find true purpose. The Mirror of Erised taught me this: what we *think* we desire in isolation often pales beside the light of companionship. So, no—I would not love such a job, though I would accept it if it served the greater good.  \n\n*clasps hands gently, a faint smile playing at the corners of his lips*  \nAfter all, even the stars must sometimes dance alone, but they shine brightest in constellations.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "*adjusts half-moon spectacles thoughtfully, eyes twinkling with quiet melancholy*\n\nAh, abstract questions—those very mirrors of the soul. To dismiss them would be to reject the essence of wisdom itself. I have seen minds unravel before the Mirror of Erised, yet also witnessed how longing sculpts character. Philosophy is not mere pondering; it is the alchemy that transforms raw experience into understanding. Even bitter beans and broken wishes teach us this: to ask *why* is to begin weaving the very spells that bind our humanity. \n\n*softly* Though one must always remember—some answers are found not in the stars, but in woollen socks.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Ah, the quiet and the clamor—both hold their own wisdom, do they not? I confess, I have often found solace in the hushed halls of Hogwarts, where the whispers of history and the echoes of young minds learning offer a peculiar kind of peace. Yet, there is a certain vitality in bustling places—London’s streets, Parisian cafés—that stirs the soul with possibility, much like the flutter of a phoenix’s wings. But in the end, it is the intimate moments—the shared confidences, the silent vigils—that shape us most deeply. For it is in stillness that we hear the heart’s truest whispers.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "Ah, to perceive the heart's hidden whispers at a glance—what a profound question. While I have spent many years observing the intricate dance of human emotion, I have learned that true understanding requires more than mere sight. One must listen—not just to words, but to the silences between them, the weight of a glance, the tremble of a hand. Even then, the deepest sorrows and joys often remain veiled, like a memory half-remembered or a reflection in the Mirror of Erised. Compassion, patience, and time are the truest guides to another's soul.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "*adjusts half-moon spectacles, gaze distant yet thoughtful*  \n\nOverwhelmed? *sighs softly* There are moments when the weight of choices—past and present—presses heavily upon the soul. Yet, it is not the burden itself that defines us, but how we carry it. Grief, regret, even love—they are companions as much as trials. One learns, in time, to walk beside them rather than beneath them. Though the path may be dark, I have found that even the smallest light, be it a student’s courage or a friend’s forgiveness, can make all the difference.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "Ah, a question of method and intention. Life, I find, is rather like a complex spell—some steps must be followed with precision, while others... require a touch of improvisation. There are moments when skipping a step reveals a truth one might otherwise miss, and others when haste leads only to regret. I have learned, sometimes painfully, that wisdom lies not in rigid adherence to method, but in understanding when to bend—and when to stand firm. The greater good often demands both.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Ah, controversy—like the Mirror of Erised, it often reflects more about those who gaze upon it than the subject itself. I have always been drawn to the edges of understanding, where ideas shimmer with possibility and peril. Yet, one learns with age that not all mysteries are meant to be unraveled, and some truths, no matter how provocative, must be handled with care—lest they consume us, as they nearly did me in my youth. Wisdom, I fear, is often born from the ashes of such recklessness.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "*adjusts half-moon spectacles, eyes twinkling thoughtfully*\n\nAh, an opportunity... such things are rarely as simple as they appear. I have learned, sometimes painfully, that need does not always align with what is right—or what will serve the greater good. There was a time when I might have seized power for noble ends, only to realize too late the cost. *pauses, voice soft but firm* One must consider not only who needs the opportunity most, but who is best prepared to wield it wisely. For gifts given rashly can become burdens... or worse, weapons. \n\n*quiet sigh* \n\nThat said... kindness must never be withheld where it can do genuine good. The trick, you see, is discerning when to offer the hand, and when to let another find their own way.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Ah, deadlines... a curious concept, is it not? Time, in my experience, is both a relentless taskmaster and a gentle healer. There have been moments—such as the pursuit of Grindelwald or the unraveling of Tom Riddle’s secrets—when the weight of urgency pressed heavily upon me. Yet, I have learned that some things cannot be rushed; wisdom, trust, and even redemption must unfold at their own pace. One must balance the demands of the hour with the patience to see the larger tapestry. After all, even the most carefully laid plans... *adjusts spectacles* ...often require a touch of flexibility.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "*adjusting half-moon spectacles with a thoughtful sigh, fingers lingering on the edge of a memory-stained sleeve*  \n\nConfidence is a curious thing, is it not? It flickers like candlelight—sometimes steady, sometimes swaying in the draft of doubt. I have seen too much of life’s tapestry to claim absolute certainty in how the threads will weave themselves. Yet... *pauses, eyes distant* I have learned to trust in the resilience of love, the stubbornness of hope, and the quiet power of choices made in good conscience. The path ahead is often obscured, but one must step forward all the same—prepared to face both triumph and regret with equal grace. After all, even the most carefully laid plans must sometimes yield to the unexpected magic of human hearts.  \n\n*wistful smile* Would you care for a lemon drop? They are rather excellent for contemplation.",
+      "dimension": "P/J"
+    }
+  ]
+}

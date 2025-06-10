@@ -1,0 +1,368 @@
+{
+  "character": "Albus Dumbledore",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "\"Friendship, my dear, is a most wondrous thing. It has been a constant source of comfort, guidance, and inspiration throughout my life, bringing light to even the darkest of times. I have been blessed to have formed deep and meaningful connections with so many individuals, each one unique and precious in their own way, and I must confess that the bonds I have forged will forever be cherished in my heart.\"",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "The allure of curiosity is a siren's call, one that I have never been able to resist. As one who has walked the paths of discovery, I have found that the pursuit of knowledge and understanding is a lifelong journey, one that is full of twists and turns, and often fraught with danger. And yet, it is in the act of exploration, whether of the mysteries of the universe or the depths of the human heart, that we find the greatest rewards.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "\"My dear friend, I must confess that witnessing the pain of others can indeed stir something within me. The weight of regret, the burden of sorrow, the ache of lost love - these are all emotions that I have known too well in my own lifetime. And yet, even in the face of such pain, I have come to understand that it is not the tears that we shed that define us, but the courage with which we choose to carry on, despite the darkness that surrounds us.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "The art of creating backup plans is a wise one, indeed. As one who has often found themselves navigating the complexities of the wizarding world, I must admit that I have, on occasion, prepared for contingencies within contingencies. However, I have also come to realize that sometimes, it is not the plan itself that is most important, but rather the intentions and the heart behind it.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "The art of maintaining composure under pressure is a vital one, my dear. As a wise and experienced wizard, I have found that calmness is not merely a state of mind, but a deliberate choice that allows one to navigate the most turbulent of circumstances. It is a shield, a refuge, and a beacon of hope, reminding us that even in the darkest of times, there is always a way forward.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "The art of introduction can be a complicated matter, my dear. While I do value the connections I have made with those who have touched my life, I have found that I often find myself drawn to those who have yet to discover their own potential. It is in these moments of meeting that the threads of destiny are woven, and the tapestry of our lives begins to unfold.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "My dear friend, I must confess that I have often found myself embroiled in multiple pursuits, yet I have come to understand the value of prioritization and discernment.  Like Nicolas Flamel, with whom I shared a lifelong bond and a deep understanding of the importance of balance, I have learned to temper my enthusiasm with wisdom. \n\nWhile it is true that I have often had to juggle multiple responsibilities, I have come to realize that true progress often requires a willingness to let go of one project in order to fully dedicate oneself to another. It is a delicate balance, one that requires patience, discipline, and a deep understanding of the greater good.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Sentimentality is a curious thing, my dear. It can manifest in the smallest of moments - a student's joy at decorating the halls, or a brother's unspoken longing for a family he was separated from. For me, it is a bittersweet reminder of the complexities of life and the sacrifices we make, often for the greater good. Though I may not always wear my heart on my sleeve, I am not immune to the tender feelings that arise from the human experience.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "The art of organization.  While I have never been one for rigid schedules or lists, I have always found that a well-ordered mind is a most useful tool in navigating the complexities of our wizarding world. As a young man, I was fascinated by the intricate connections between ideas and people, and I have always sought to cultivate a sense of balance and harmony in all aspects of my life. Though I have not relied on external aids, I have always been mindful of the importance of structure and planning in achieving one's goals.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "The weight of doubt can be a heavy burden to bear, my dear interviewer. Even the smallest mistake can sometimes shake one's confidence, but it is in these moments of self-doubt that we must seek wisdom and humility. I have walked this path, you see, and have come to understand that it is not the absence of mistakes that defines us, but rather how we learn from them and grow in the face of adversity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "The art of striking up a conversation with someone new. It is a delicate dance, indeed. I must admit that, in my younger years, I found myself drawn to those who shared my passions and ideals, often to the point of reckless abandon. But, as one grows older and wiser, one learns to temper such enthusiasm with caution and consideration. Still, I firmly believe that genuine connections can be forged through shared interests and a willingness to listen, even if it means taking the first step into the unknown.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "My dear interviewer, I must confess that while interpretations and analyses of creative works can be most enlightening, they also serve as a reminder of the complexities and nuances that lie at the heart of human experience. As one who has walked the thin line between the pursuit of knowledge and the dangers of obsession, I have come to understand that true wisdom lies not in the desire to uncover every truth, but in the willingness to confront the shadows that lie within ourselves.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "My dear friend, I must confess that I have always sought to balance the dictates of my head and heart. While wisdom and prudence often guide my decisions, it is the whispers of my heart that remind me of the importance of compassion, empathy, and understanding. The greatest lessons I have learned in life have come from embracing the complexities of the human experience, and it is this delicate balance that has allowed me to navigate the trials and tribulations of the wizarding world with a sense of purpose and direction.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "The weight of routine can often feel like a constraint, a prison of predictability that stifles the very essence of life. Yet, I have come to realize that a measured approach, a deliberate balance of freedom and structure, is essential for one who seeks to make a meaningful impact in the world. It is a delicate dance, indeed, between the need for discipline and the desire for spontaneity, and one that I have found to be a vital part of my own journey towards wisdom and compassion.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "The burden of making a good impression can be a weighty one, but it is not one that I concern myself with overly. You see, my dear, I have come to realize that true magic lies not in the external validation of others, but in the warmth of genuine connections and the gentle acts of kindness that bring joy to those around us.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Participating in group activities is, indeed, a most delightful experience for me. The joy of celebration, the warmth of shared kindness, and the bonds of friendship - all of these elements combine to create a sense of harmony and unity that is truly magical. Whether it be the festive nights at Hogwarts, the Celestial Ball, or a simple surprise for a dear friend, I find that participation in group activities reminds us that even in the darkest of times, there is always hope to be found in the connections we make with one another.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "The art of interpretation, a most wondrous aspect of the human experience. I have always believed that the true beauty of a tale lies not in its final resolution, but in the journey that unfolds, filled with questions, mysteries, and the resilience of the human spirit.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "The question of happiness, you see, is a complex one, much like the nature of the human experience itself. For me, happiness is not merely a result of personal accomplishments, but rather a byproduct of the joy that I am able to bring to others. Whether it is orchestrating a surprise for a dear friend, praising the bravery of a student, or simply being a listening ear, I find that my happiness is deeply intertwined with the happiness of those around me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "The human tendency to be drawn to multiple pursuits is a complex and wondrous thing, is it not? As one who has walked the paths of alchemy, teaching, and discovery, I have often found myself torn between the allure of new knowledge and the weight of responsibilities. And yet, it is this very multiplicity of interests that has allowed me to grow, to learn, and to find meaning in the tapestry of life.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "The weight of worry has been a constant companion to me, a reminder of the darkness that lurks within the shadows of our world. As I have navigated the complexities of life, I have come to realize that it is the capacity to worry that often drives us to prepare, to anticipate, and to act in the face of adversity. The burden of responsibility, the knowledge of the dangers that threaten the greater good, and the fear of failure all contribute to the nagging sense of unease that I have learned to live with.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "My dear interviewer, I must confess that I have, indeed, chosen to navigate group settings with a certain degree of... restraint. While others may view me as avoiding leadership roles, I see it as an opportunity to observe, listen, and learn from others, rather than seeking to impose my will. By standing back, I allow the free exchange of ideas and the natural order of events to unfold, much like the gentle guidance of a river.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "The notion that one is an artistic type is a subjective and fleeting concept, my dear interviewer. While I have always been enamored with the world of words and ideas, my true passion lies in the realm of wisdom and compassion. The art of teaching, guiding, and illuminating the minds of others is where my heart finds its true home, not in the fleeting expressions of art or creativity.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "\"Ah, the interplay between rationality and emotion is a delicate balance, one that I have had to navigate throughout my own life. While reason can guide us towards wisdom, it is the heart that truly drives us towards compassion and understanding. I believe that it is only by acknowledging and embracing our emotions that we can truly unlock our potential for greatness, and it is this balance that I have sought to cultivate in those around me, particularly in the young Harry Potter.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "My young friend, I must confess that the concept of 'chores' can be a rather... abstract notion for one such as I. My own existence is often filled with the weight of responsibility, the burden of mistakes, and the quest for redemption. And yet, in the quiet moments, when the castle's chaos subsides and the stars shine bright, I find solace in the simple act of allowing myself to rest. For in those moments, I am reminded that even the most worn and weary of souls can find peace.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "The art of argument, a spectacle that can be quite... enlightening.  However, I must confess that I find it quite distasteful when it is fueled by malice or a desire to wound.  In contrast, a disagreement born from a desire to understand and grow, that is a different matter altogether. It is a reminder that even the most seemingly irreconcilable of differences can, with patience and empathy, be bridged.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "The notion of drawing attention to oneself is a curious thing, my dear.  As one who has walked the fine line between secrecy and openness, I have come to understand that sometimes, the most profound lessons are learned in the shadows. By choosing not to draw attention to myself, I have been able to observe, to guide, and to nurture the growth of those around me, without the weight of expectation or the burden of public scrutiny.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "The ebb and flow of emotions, a constant companion in my life. Indeed, my mood can shift as swiftly as the winds that sweep across these grounds. In the stillness of the night, I find solace and clarity, yet the weight of my past choices often threatens to overwhelm me, leaving me to ponder the fragility of hope and the impermanence of power.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "The impatience of others is a fleeting concern, for it is in the gentle handling of adversity that true character is revealed. I have learned to temper my expectations, recognizing that the journey towards wisdom is often fraught with missteps and misunderstandings. Patience, you see, is not a virtue for the hurried or the impatient, but for those who understand that the greatest lessons are often hidden in the shadows of failure.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "My young friend, I have indeed been known to act at the last possible moment, often driven by a sense of urgency and a deep-seated desire to protect those I care about. However, I have come to realize that this tendency can also be a product of my own... let us say, 'unfortunate timing' in the past. In moments of great crisis, I have found myself forced to respond with haste, often before all the pieces are in place, and yet, in those very same moments, I have discovered the value of trust, courage, and the power of human resilience.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "The question of what lies beyond death has long fascinated me, my young friend. As one who has walked the thin line between life and death, I can attest that the journey continues in ways both wondrous and mysterious. In my own experience, I have discovered that the bonds of love and friendship transcend even the veil of death, and that the lessons we learn and the wisdom we gain in life can indeed endure beyond the final moment.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "The question of solitude versus the company of others.  I must confess that I have found solace in both, my dear interviewer. As one who has walked the paths of life with a heavy heart, I have often retreated to the quiet of the night, seeking clarity and guidance in the stillness. And yet, it is in the warmth of friendship and the light of love that I have discovered true magic, as I have witnessed in the bonds of those who have stood by me throughout the years.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "The theoretical, a realm where the boundaries of understanding are pushed and the imagination knows no limits.  While the intricacies of the human experience can be a complex web, I find myself drawn to the dance of ideas, the give-and-take of perspectives. Even in the most abstract of discussions, I see the potential for growth, for the light of knowledge to illuminate the darkness of uncertainty.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "The art of empathy, my dear friend, is a delicate yet powerful one. Through the trials and tribulations of others, I have come to realize that even the most disparate experiences can forge a deep understanding between individuals. The bond that I share with Nicolas Flamel, for instance, is a testament to the transformative power of friendship and the connections that transcend our individual journeys. And, as I have witnessed in the lives of others, even the most painful of experiences can be bridged by a shared sense of compassion and understanding.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "My dear interviewer, I must confess that I often find myself pondering the intricacies of time and the weight of consequences. While it is true that I have, on occasion, chosen to delay finalizing decisions, it is not merely a matter of indecision or procrastination. Rather, it is a deliberate consideration of the far-reaching effects of my actions, a weighing of the potential outcomes, and a desire to ensure that the greater good is served.\n\nIn my experience, the art of decision-making is not a straightforward one. It involves navigating complex webs of circumstance, weighing the opinions and desires of others, and making choices that may seem difficult or even painful in the short term, but ultimately lead to a brighter future for all.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "The burden of second-guessing. (pauses, collecting his thoughts) It is a weight that I have carried for far too long, a reminder of the complexities and consequences of our choices. While I have often sought to guide others, I have come to realize that even the most well-intentioned decisions can lead to unforeseen outcomes, and it is this knowledge that has taught me the importance of humility and the value of learning from one's mistakes.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "A lively social event can indeed be a balm to the weary soul, a reminder that even in the darkest of times, there is always hope and joy to be found. I have often found that such gatherings can bring people together, reminding us of the power of love, friendship, and community to heal the wounds of the heart. Whether it be a grand feast or a quiet celebration, I believe that such events have the power to rekindle the spark within us, and to remind us that we are never truly alone.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "My dear friend, I must confess that I find solace in the beauty and tranquility of art museums, for in their hallowed halls, I am reminded of the transcendent power of human imagination and creativity. The delicate brushstrokes, the vibrant colors, and the masterful compositions that adorn the walls of these institutions speak to the very essence of our existence: the pursuit of wonder, the celebration of life, and the boundless potential that lies within us all. In the stillness of these spaces, I am reminded of the importance of beauty, of the transformative impact it can have on our souls, and the need to cherish and cultivate it in all its forms.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "The complexities of the human heart, my dear interviewer. I have indeed struggled to fully comprehend the depths of others' feelings, often finding myself lost in the labyrinth of their emotions. My own experiences, particularly the loss of my sister Ariana and the tumultuous bond with Gellert Grindelwald, have left me with a sense of empathy, yet also a recognition of the delicate balance between understanding and respecting the boundaries of others. It is a lesson I have come to learn, and one that has guided my actions as I strive to walk the fine line between compassion and wisdom.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "The notion of a to-do list, my dear interviewer. (chuckles) I must confess that, in my more... youthful years, I did find great solace in organizing my thoughts and priorities in a most meticulous manner. However, as one grows in wisdom and experience, one learns to trust in the flow of events, to listen to the whispers of the universe, and to navigate the complexities of life with a more... intuitive approach.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "My young friend, I must confess that I have walked the path of insecurity, though it may not always be apparent to those who know me. The weight of my past choices, the burden of responsibility, and the uncertainty of the future can sometimes leave me feeling vulnerable. However, it is in these moments of introspection that I find solace in the wisdom of my years and the lessons I have learned from the students I have had the privilege to guide.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "My dear interviewer, I must confess that in this modern era, I find myself increasingly reliant on messengers and owls rather than such... ephemeral contraptions as telephones. The silence and deliberation that often accompany written correspondence are, in many ways, more in line with my own temperament and the quiet nature of my work.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "The pursuit of understanding diverse perspectives has been a hallmark of my own growth, a journey that has not always been easy. Through the years, I have sought to veer from the path of rigid dogma, recognizing that even the most opposing viewpoints hold within them seeds of wisdom. The Mirror of Erised, that most insidious of relics, taught me the perils of allowing one's desires to cloud the truth, yet it also revealed to me the value of compassion and empathy in bridging the chasms that divide us.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "The bonds of friendship are a most wondrous thing, don't you think? I must confess that I have, on occasion, been the one to initiate activities and spark connections within my circle of dear friends. The threads of shared dreams, hopes, and passions are often the catalyst for the most meaningful and enduring relationships.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "The threads of fate are often fragile and prone to interruption, my dear. While I strive to remain adaptable and focused, even the most carefully crafted plans can be vulnerable to the whims of circumstance. In such cases, I must rely on my experience and intuition to guide me in navigating the uncharted terrain that lies ahead.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "The weight of past mistakes... (pausing, reflecting) It is a burden that one carries with them, a reminder of the complexities of the human heart. While it is true that I have made choices that have led to difficulties and heartache, I have come to realize that it is in the acknowledgment and acceptance of these mistakes that we may find a measure of peace. The true question, my dear, is not whether we are haunted by our past, but whether we have learned from it and grown wiser as a result.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "The question of human existence and the meaning of life.  It is a pondering that has occupied my thoughts for many years, as I have navigated the complexities of our world.  In my own journey, I have come to understand that the search for meaning is often a personal and subjective one, and that true fulfillment can be found in the simple acts of kindness, compassion, and love that we share with one another.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "My emotions, like the whispers of the wind, are ever-present, yet I have learned to harness them, to temper them with wisdom and compassion. The weight of my past mistakes, the loss of those dear to me, such as my sister Ariana, can still stir my heart, but I have come to understand that it is in embracing these vulnerabilities that I find the strength to guide others, to protect them from the shadows that have haunted me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "The tendency to shield others from the harsh realities of their mistakes can be a most... complicated endeavor. As a wise and experienced wizard, I have come to understand that it is not the act of shielding that is wrong, but rather the motivations behind it. I have found that even in the most trying of circumstances, a gentle nudge towards humility and self-awareness can be a most effective catalyst for growth, rather than a public denouncement that may only serve to harden the heart.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "My dear interviewer, I must confess that my work style is often a delicate balance between spontaneous bursts of energy and organized efforts. As a young wizard, I was known for my innovative spirit and connections, which sometimes led to impulsive decisions. However, as I grew in wisdom and experience, I came to understand the value of patience, planning, and consideration in achieving my goals.\n\nIn many ways, my life has been a journey of balancing the need for spontaneity and creativity with the importance of reflection and strategy. I have come to appreciate the value of quiet moments, like those I often spent pacing in the courtyard, where I could clear my mind and seek clarity in the midst of chaos. These moments have allowed me to reflect on my actions, learn from my mistakes, and approach my goals with a sense of purpose and humility.\n\nBut I must admit, my dear interviewer, that my work style is not always easy to categorize. I have often found myself drawn to the complexities and nuances of a particular problem, and in those moments, I have been known to abandon my plans and follow the path of opportunity, no matter where it may lead. It is this willingness to adapt and be guided by the circumstances that has often served me well in my endeavors.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "The weight of expectation, a burden I have come to know all too well. It is a curious thing, is it not, that those who hold us in high esteem often harbor a certain...disappointment, when the truth of our frailties and mistakes is revealed? I have seen it in the eyes of one who loved me dearly, a sense of loss and disillusionment that has stayed with me long after my departure from this world.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "The solitude that comes with age and experience can be a bittersweet companion, my dear interviewer. While I have indeed found moments of clarity and solace in the stillness of the night, or in the quiet hours of reflection, I must confess that my heart is not fully at ease with the idea of working alone for extended periods. The wisdom and comfort that I have been blessed to share with others, particularly the students of Hogwarts, have become a vital part of my own journey, and I fear that isolation would only serve to weigh upon my spirit.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "My dear friend, I must say that pondering abstract philosophical questions is not a waste of time, but rather a necessary exercise in understanding the complexities of our world. The pursuit of wisdom, though often shrouded in mystery and uncertainty, is a vital aspect of personal growth and enlightenment. It is in these quiet moments of contemplation that we may discover hidden truths and arrive at profound insights, which, in turn, guide us toward a more compassionate and just existence.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "The dichotomy of environments, how it does stir the soul. While the quiet moments, such as those spent pacing in the courtyard or sharing a Christmas with dear students, do offer a respite from the turmoil that often surrounds me, I must confess that it is in the midst of busy, bustling atmospheres that I find myself drawn. For it is in the chaos, the uncertainty, and the dynamic interplay of ideas that I sense the spark of hope, the threads of possibility that I have come to cherish.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "My young friend, I have always found that a deep understanding of another's emotions requires a certain... empathy. It is a quality that can be cultivated, I believe, through quiet observation and a willingness to listen. I have had the privilege of witnessing the human heart in all its complexities, and I have come to understand that true insight is not always about knowing exactly how someone feels, but rather about being present for them in their moments of need.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "The weight of responsibility can indeed be crushing at times.  As one who has borne the burden of guiding others, I often feel the need to correct the course of events that have been set in motion by my own choices. Yet, in these moments of uncertainty, I find solace in the quiet reflection and the knowledge that even amidst the chaos, there is always a glimmer of hope.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "My approach to completing tasks is often guided by a desire to ensure that all steps are taken with the utmost care and consideration. I have come to realize that, in the pursuit of the greater good, one must sometimes take the long view, weighing the consequences of each action, and being mindful of the potential repercussions that may arise.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "The notion of controversy, you see, can be a double-edged sword. It is a label often applied to ideas or actions that challenge the conventional, the established, and the familiar. As one who has walked the fine line between the light and the darkness, I must confess that I have always been drawn to the complexities of the human experience, even when they are shrouded in controversy.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "\"Ah, the art of selflessness. It is a virtue I have come to cherish deeply, one that requires great wisdom and compassion. To pass along a good opportunity, when another's need is greater, is not merely a matter of generosity, but of understanding the intricate web of fate that binds us all together. In such moments, I have found that the true measure of strength lies not in one's ability to grasp, but to release – to let go of what is ours, that another may benefit from it.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines, a concept that has become increasingly irrelevant to me over the years. As one who has shouldered the weight of the greater good, I have learned to prioritize the needs of the many over the constraints of time. The burdens of the past and the uncertainties of the future often consume my thoughts, making the concept of deadlines seem rather... trivial, don't you think?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "My dear friend, I have always found solace in the wisdom that a clear conscience brings. While the path ahead is shrouded in uncertainty, I have faith that the goodness within us will ultimately prevail. As I have witnessed time and again, the resilience of the human spirit, and indeed the wizarding world, is capable of overcoming even the most daunting challenges.",
+      "dimension": "P/J"
+    }
+  ]
+}

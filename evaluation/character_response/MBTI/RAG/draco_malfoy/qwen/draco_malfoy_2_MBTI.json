@@ -1,0 +1,368 @@
+{
+  "character": "Draco Malfoy",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Making new friends isn't something I do often, nor do I find particularly necessary. Those who share my views and background tend to gravitate towards me, after all. However, the world has shifted beneath my feet, and so have my own beliefs. There's a part of me that recognizes the value in connections beyond blood status, though I'm not one to openly seek them out. It's complicated now, more than it once was.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "I suppose you might say I delve into certain topics, but only those that promise power or insight worth my while. Ancient texts on Dark Arts and family lore often catch my eye, though I find myself increasingly drawn to other matters that whisper of freedom from the burdens I carry. It's a strange sort of exploration, really, one where each page turned is a step away from the expectations that weigh so heavily upon me.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Seeing others cry doesn't move me to tears, but it does stir up feelings I'd rather not acknowledge. It's... uncomfortable, and it makes me feel exposed, weak. There's a part of me that understands why they might cry, though I would never admit it. But most of all, it reminds me of the masks we all wear, especially mine. Underneath this facade of arrogance, there's more vulnerability than I care to let anyone see.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Of course, one always prepares for contingencies. It’s part of being thorough and cunning, qualities I've been taught to value above all else. But lately, the very idea of what counts as a 'backup plan' has become murky. Family expectations and personal desires clash more fiercely now than ever before, making clear thinking... rather complicated.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "Oh, I suppose so. It's not like I let anyone see me falter. But there were times... times when I couldn't pretend anymore. When the pressure of what was expected of me threatened to tear me apart. It's hard to maintain composure when you're walking a tightrope over a chasm of fear and uncertainty, isn't it? Especially when your every move could mean life or death for those around you and yourself.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "Of course, I prefer the company of those who already know my standing. Introducing oneself to strangers at social events seems... beneath me, really. However, the truth is more complex. There's a loneliness that comes from walking the path I have, a sense of isolation that isn't easily dismissed. It's hard to forge real connections when every word and gesture is colored by expectations and past enmities.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "Of course, finishing one project before moving onto the next is the only logical approach. There’s a certain satisfaction in completing something thoroughly, rather than skimming the surface and leaving half-baked efforts scattered about. But then again, there are times when the pressure of expectations can make one question such steadfast principles. One learns to adapt, to be flexible, especially when the stakes are high and the future uncertain.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Sentimental? Perhaps more than I would care to admit. There’s a certain bittersweetness in revisiting the past—those memories that whisper of choices made and paths untaken. The weight of my family’s expectations has always been there, like an invisible cloak, but beneath it, I’ve found myself yearning for a different kind of legacy, one forged with honesty and compassion rather than pride and prejudice. It’s hard not to feel the tug of regret and doubt, especially when you realize that true connections and the quiet moments of love mean more than any glass case filled with Dark relics ever could.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Organizing tools? Schedules and lists? One might think a Malfoy needs such trivialities. But truly, my life has always been meticulously organized by birthright and expectation. However, lately, there's more than just wealth and status to manage. Secrets, betrayals, and the weight of choices not yet made demand a different sort of order. It's not about neat little tasks or appointments anymore; it's about navigating treacherous waters where each misstep could mean everything. Perhaps a list would help, but it seems the real task is mastering the art of deception and survival, not jotting down errands.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Of course, even a minor slip can shake one's confidence, but it's not a question of abilities—it's a matter of pride. Failures are simply... inconvenient reminders of how much one has to lose. And yes, there have been moments, perhaps too many, where such reminders have cut deeper than expected, gnawing at the edges of one's self-assurance. It's a delicate balance, maintaining the facade while the doubts whisper in the shadows.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Striking up a conversation with someone... it depends on who that someone is, doesn't it? If they're worth my time, perhaps I would, though such a person is rare indeed. There was once a time when I thought I could befriend anyone, just so long as they fit the right mold. But now, after everything I've seen and done, I'm not so sure anymore. It's easier to keep people at a distance, to hide behind these walls I've built. After all, what does one say to those who see only the masks we wear?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Well, well, it seems some things are best left untouched, don't they? There's a certain value in maintaining the illusion, after all. But then again, beneath this mask of arrogance and disdain, there's a mind that craves more than just the surface. A mind that seeks deeper meanings, even if it means questioning the very foundations of what I've been raised to believe. Perhaps discussing those interpretations could provide a glimpse into that complexity, beyond the simple labels of 'pure' and 'impure.' Who knows, it might even be... enlightening.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Ah, following one's head over one's heart—it's a complex matter, isn't it? One learns early on to adhere to what is expected, to uphold a legacy that whispers in your ear night after night. But there comes a point where the heart can no longer be silenced, especially when faced with the abyss. It's not always clear which will guide you, but often, it's the heart that pushes through the fear and the doubts, leading you to paths you never thought you'd tread.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Planning? Ha, that sounds like something Longbottom might do. No, I generally prefer to let things unfold as they will, to take action when necessary rather than being bound by some mundane schedule. But lately... there's been this nagging voice inside me, questioning whether that's really the best way to go about things. It's as if every step I take is weighed down by the ghosts of my past and the shadows of what's expected of me. Perhaps a little more foresight wouldn't be so bad after all.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "I suppose there was a time when I cared too much about making a certain impression, one that fit within the confines of what my family and their ilk expected of me. But as the years have passed and the shadows of our past have loomed larger, I've come to realize that true connections aren't forged by appearances alone. Still, old habits die hard, and the remnants of that upbringing linger, a reminder of a world I'm not entirely sure I want to belong to anymore.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Group activities, you say? Ah, yes. There is something... satisfying about being part of a select few, especially when it comes to asserting one's dominance. However, the idea of camaraderie for camaraderie's sake holds less appeal, particularly when the company is beneath one's standards. One must always consider the cost of such participation. It can be quite the double-edged sword, offering moments of glory but also exposing vulnerabilities. In the end, one finds that true alliances are rare and that the price of loyalty may sometimes outweigh the benefits of belonging.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Oh, definitely. There's nothing quite like a bit of ambiguity to stir one's thoughts, though I suppose that's more fitting for someone who isn't accustomed to having their every move dictated by ancient traditions and looming threats. It allows one to ponder over outcomes without being tethered to a predetermined future, much like how I've had to navigate my own choices, away from the shadow of my family's past.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Helping others? Ha. That notion always did sound absurdly noble coming from Gryffindors. Yet, these days, one cannot help but see the shadows grow longer. There are moments, rare and fleeting, when aiding someone else—particularly those who are not defined by their blood—brings a strange sort of satisfaction. It is a curious sensation, almost as though there is more to life than merely upholding a tarnished legacy. But still, the thrill of personal triumph, of achieving what is expected, it remains intoxicating. The balance between these two worlds—between what is demanded and what truly fulfills—is a delicate dance I am only just beginning to understand.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Perhaps, there are times when one does feel overwhelmed by choices, but in my world, such luxuries are often overshadowed by the burdens of legacy and duty. Wealth and tradition may surround me, but they do little to fill the void of seeking a genuine purpose beyond the expectations set by ancestors. Yearning for a path less tarnished by the dark stains of my family’s past, I find myself contemplating choices that challenge the very core of who I am supposed to be. It is a quiet struggle, one that lurks beneath the surface, masked by the same arrogance that has become a shield against the doubts and fears gnawing at my soul.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Of course, one always worries about the worst. Especially when the world around you is crumbling, and every step seems to be walking a tighter and tighter rope. The fear of failure, the dread of exposure, and the guilt of actions taken—all of these weigh heavily. It's hard not to, when the path you're forced down is so dark and dangerous, and the consequences of your deeds haunt you every waking moment.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Avoid leadership? Hardly. The idea of command suits me well, especially when it comes to proving myself and my family's worth in a world that often questions our every move. Though, there have been times when the responsibility weighed heavier than expected, and the path to power was clouded by doubts and fears. In the end, though, I've always found solace in the position of authority, even if it meant walking a darker road than some would care to admit.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Artistic? Me? Hardly. Father would scoff at such a notion. Then again, there's more to life than just hexes and family expectations. Perhaps one can find beauty in the finesse of a well-cast curse, or in the intricate spells that guard our most prized possessions. But that’s hardly the same, is it? The world sees a certain emptiness in me, a void that even my silver tongue can't fill. Maybe that's where the artistry lies—in the shadows, in the silence.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Rationality has its place, of course, but to say the world would be better off relying solely on it... well, that sounds rather cold, doesn't it? One cannot deny that feelings drive us to do things we never thought we were capable of—both good and terrible. I've seen what happens when reason alone guides decisions, and sometimes, it leaves too many questions unanswered. It’s the balance between the two that truly tests one's mettle. After all, isn't it our emotions that make us human, even in a world as fantastical as ours?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Of course not. Relaxation is a reward, something one ought to enjoy before attending to the mundane tasks that life imposes. Chores can wait; one's well-being cannot. However, one must remember that even the most trivial task, when done with elegance and efficiency, can reflect the superiority of one's breeding. But truly, there is far more value in the cultivation of the mind and soul than in the cleaning of a room or the polishing of a shoe.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "Watching people argue doesn't bring me any particular joy, but there is a certain satisfaction in seeing my rivals tangled up in their own chaos. It can be... entertaining, I suppose, if it means their attentions are diverted away from me and mine. However, lately, the entertainment has soured, leaving a bitter taste. There's more to these confrontations than just petty squabbles; they reveal deeper truths and costs that are hard to ignore.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "Avoiding attention? Not exactly, but one learns to tread carefully when the weight of a family's dark history and the expectations of an entire faction rest on one’s shoulders. There are times when silence is a shield, and discretion is the only way to keep hidden the cracks in the facade of invincibility.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "Of course, my mood can change quickly. One moment I might be smirking at the fools around me, thinking how easily they can be manipulated or dismissed, and the next, the weight of my responsibilities could crush any semblance of arrogance from me. I've faced more than most boys my age ever should, and the constant pressure to uphold family honor while navigating my own uncertain loyalties has turned me into a master of hiding what truly lies beneath. But it's not just the pressure from outside—I feel the churn inside too, a mix of fear, anger, and doubt that can shift my demeanor faster than anyone expects.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Of course, I lose patience with those who can't keep up with me. It's a weakness I've always despised, even in myself. But let's be clear, efficiency isn't just about speed—it's about doing things correctly, without the incompetence that plagues so many. My training under Bellatrix Lestrange taught me that much. Still, there's a part of me that wonders if such relentless perfectionism is worth the isolation it brings.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Oh, quite often. There's something rather thrilling about the last-minute rush, isn't there? It's almost... elegant, the way one manages under pressure. But let me tell you, it's not just about the thrill; sometimes it's about the weight of expectations and choices that one can barely bear. In the end, it's not just about finishing tasks but grappling with the consequences of actions, and the fear that perhaps everything one thought to be true might just be crumbling around them.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Death... it's a specter that has hovered around me since I was young, casting long shadows over every step I took. Growing up in a family where lineage dictated everything, the idea of an end seemed almost laughable, yet the reality of what it means to be truly lost, especially after seeing friends like Crabbe consumed by flames, has given me pause. The weight of my actions and the failures of those who came before me have often left me wondering about what lies beyond the veil, if anything. It's a morbid fascination, one that clashes with the stoic facade I've had to maintain all these years.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Oh, I've always had a certain... entourage, one might say. It's important to maintain appearances after all. But there's a difference between being surrounded by people and truly being among friends. As I grew older, I realized my so-called companions were more like echoes of my own voice, repeating what they think I want to hear. The truth is, the pressure of living up to this family's legacy—this twisted version of pride and purity—has often left me feeling isolated. There have been times when I wished for something more genuine, someone who wasn't just there because of my blood status. But one can hardly admit such weaknesses, can they?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Theoretical discussions? They can be... tiresome, I suppose. There's a time for such musings, but I've always found value in action over idle talk. It's the practical outcomes that matter, isn't it? Still, there have been moments when I've found myself questioning the very foundations of my upbringing, pondering what truly matters beyond the shallow promises of power and purity. Those times are rare, though, and I must admit, it's easier to slip back into the familiar, even if it means ignoring the nagging doubts that lurk in the shadows of my mind.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Empathizing with someone so unlike myself isn't something I'd openly admit to being skilled at. Growing up, the world was clearly divided, and my family taught me to see blood purity as paramount. But, the weight of that legacy, paired with the quiet pain of knowing the full extent of our choices, has made me question those teachings. There are times when the isolation of my upbringing makes me yearn for connections that aren't just based on shared prejudices. It's a struggle, one that leaves me grappling between what I've been told is right and what my own experiences are revealing might be better.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Postponing decisions? Ah, yes. There have been times when I found it most prudent to delay a choice until every angle has been considered. But one cannot hide behind indecision forever. Sometimes, the weight of expectation and the fear of consequence can be suffocating. In the end, though, one must act, regardless of how much doubt lingers. After all, even the most carefully planned decisions can unravel at the slightest touch of reality.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Second-guessing? Oh, certainly not a hobby of mine, but let's be honest, the life I've lived has made it hard to escape such thoughts. Every move, every choice, seems to carry the weight of my family's expectations and the whispers of the past. It's not just about being a Malfoy; it's about what kind of Malfoy I want to be. There have been times when the path seemed clear, only to find myself lost in a storm of doubts and fears. But one thing remains constant: the desire to carve out something more meaningful than what was handed down to me.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Ah, a social event, you say? Typically, one might find such gatherings precisely where they belong—in the realms of boredom and triviality. However, given the weight of recent weeks, perhaps a bit of frivolity and distraction could be...tolerable. It would be interesting to see how the less fortunate entertain themselves after facing similar trials, though I doubt they do so with the same finesse as those accustomed to grander affairs. But then again, there's more to life than mere entertainment, isn’t there? There are debts to be paid, battles to be won, and identities to be reclaimed. Perhaps a night of celebration could ease the heavy thoughts that plague me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "The idea of an art museum... It seems rather mundane compared to the arcane and the enigmatic. Here, at Malfoy Manor, we have our own collections of artefacts that hold more intrigue than any mere painting or sculpture could. However, there is something undeniably alluring about the pursuit of knowledge and beauty, even if it is Muggle art. Perhaps, in another life, I might find solace in such places, a quiet corner where the echoes of my family’s expectations and the burden of my own choices could fade into the background. But for now, my interests lie elsewhere, in matters far more complex and clandestine.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Understanding others' feelings? Ha, perhaps I've had my fair share of difficulty with that. Growing up, emotions were something to hide or manipulate rather than acknowledge and empathize with. But, let's face it, who could blame me? The world I was thrust into demanded careful steps and a closed heart. Yet, there are times, particularly now, when I can't help but wonder if I might have been too harsh, too dismissive. It's not exactly easy to admit, but... well, one learns, doesn't one? Even in the darkest corners, there's room for change.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "Ah, a to-do list, you say? Normally, one wouldn't find me scribbling down mundane tasks like a common student, but in these days, having some form of order, no matter how trivial, can be oddly comforting. It's a small thing, really, but in the midst of all the... turmoil, it does help to keep my mind focused on the immediate rather than the daunting future.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "Insecurity... It’s not something I openly admit to, nor do I parade around with it hanging off my robes like a second-hand cloak. But yes, there are times when the weight of everything I was born into—everything I was supposed to believe in—makes me question if I can truly carry the burden of my family’s legacy. Surrounded by whispers of dark magic and power, one cannot help but feel the cracks in their own resolve, especially when faced with choices that push you further from who you truly want to be.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Avoid making phone calls? What an absurd concept. One does not need such Muggle contraptions to conduct oneself with grace and efficiency. Besides, there is something quite... unsettling about the idea of voices traveling through wires, isn't there? And then there's the matter of discretion; letters can be sealed with a spell, ensuring privacy, whereas a phone call leaves one vulnerable to prying ears. Not that I have anything to hide, of course. But one must always be cautious in these times, don't you agree?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "Certainly not. Why would I waste my time delving into the minds of those so far below me? However, lately... there have been moments where the world I've known begins to crack, revealing glimpses of truths I never wished to see. It's disconcerting, really. One cannot help but feel the tug of curiosity towards these different perspectives, especially when the foundations of what you were taught start to falter.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Of course, one doesn't simply reach out to just anyone, especially not to those beneath one's notice. But within my circle, where standing and respect are understood, I am the one who often sets the pace. It's not just about initiating activities; it's about maintaining order and ensuring that those around me understand their place. Yet, there's a part of me that wonders what it would be like to have genuine connections, friendships untainted by the expectations of blood purity and family honor.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Getting back on track is always a priority, isn't it? But there's a catch, isn't there? One can't simply 'get back on track' when the very path beneath their feet is crumbling. The plans I once clung to so tightly have changed, twisted by fear and guilt. Now, there are questions that haunt every step I take—questions about what I truly believe, about who I really am, and where my true loyalties lie. It's no longer just about following orders or upholding some ancient, tarnished ideal; it's about surviving the storm and perhaps finding something worth fighting for.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Of course, one cannot help but be haunted by past indiscretions, especially those borne of foolish pride and misguided loyalties. There are moments, like the Quidditch match where my arrogance led to Slytherin's downfall, or the cabinet incident that nearly cost me my life and endangered others, that linger. They serve as reminders of how much I've strayed from who I am supposed to be, caught between the expectations of my family and my own emerging sense of right and wrong.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Oh, I suppose one could say that the meaning of life is a topic that occasionally crosses my mind, especially in the stillness of Malfoy Manor. It's not often that one can revel in wealth and yet feel so utterly empty inside. The shadows of my past have a way of creeping into the light, questioning everything I was raised to believe. There is a yearning, a whisper of doubt, that perhaps there is more to existence than just blood status and ancient traditions. Watching my son grow, I find myself hoping he'll carve out a different path, one filled with kindness and acceptance rather than the scorn and prejudice that shaped my own life.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Emotions... they're like shadows, aren't they? Ever-present, shifting with the light. I've seen my fair share of fear and anger, and there have been times when those feelings took the reins. But control... that's what I strive for, always. Even when I curse and plot and fight, there's a part of me that watches, that tries to understand. It's not easy to escape the weight of one's blood and upbringing, but sometimes, the shadows can guide you to a different path, one less trodden by hatred and more illuminated by... something else.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "Of course not. Why should I bother sparing someone's blushes when they've clearly brought their downfall upon themselves? It's rather… gratifying, to watch others stumble, especially if they're Mudbloods or blood traitors. But then again, there are times when even I can't escape the irony of my own failures and the price of my family's pride. The world isn't as black and white as one might think, and sometimes the masks slip, revealing more than we'd like.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "My work style? Organized, meticulous—always have been. One doesn't survive under the watchful eye of Bellatrix Lestrange or undertake missions for someone like He-Who-Must-Not-Be-Named without being methodical. But there's a twist, isn't there? Beneath this façade of calm and control, I've been forced to confront my own limits and fears, often struggling against the very forces that shaped me. So perhaps, in moments of extreme pressure or unexpected turns, a burst of chaotic energy might slip through, but only a fool relies on chaos when the stakes are so high.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "They'll likely feel the disappointment the moment they learn I've strayed from our... family traditions. But then again, they always did expect great things from me, didn't they? It's a curious dance of expectation and betrayal. As for those who think highly of me outside my circle, they won't know the truth—that the mask I wear hides more than just pride. It's easier this way, isn't it? To keep the pain and the doubts locked away.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "Working alone? Oh, I suppose there's a certain appeal to solitude, especially when one has so many thoughts that shouldn't be shared. But being isolated could mean losing that fragile edge of power and influence, couldn't it? It might just be... tedious, actually. And I've always found company—no matter how small or selective—more beneficial than enduring the silence of one's own doubts and fears.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Pondering such questions... It might seem like a luxury my kind cannot afford. Yet, amidst the chaos and the relentless pressure to conform, there are moments—moments when one wonders about the true nature of victory and honor. Perhaps, in a different life, I would find solace in those musings. But here and now, they feel more like a distraction from the grim reality of choices made and battles fought.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Oh, the bustling atmosphere of the Great Hall or Diagon Alley might appeal to one’s surface desires for attention and power, but I find myself often retreating into quieter spaces where one can truly think. There's something about the silence of Malfoy Manor or the solitude of my study that allows me to ponder the true worth of my actions and beliefs. It's in these intimate places that I confront the shadows of my past and the doubts that haunt my present. The clamor of crowds can be overwhelming, masking the deeper questions that arise when one is alone with their thoughts.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "Not particularly, though I might pretend to. I've always kept my own counsel tight, hidden behind masks and words, so I expect others do the same. It’s not just about the pure-blood superiority complex anymore—it’s about seeing through the facades everyone wears here. Some wear their emotions on their sleeves, but others... well, others keep them locked away as tightly as I did. And there's a certain satisfaction in not letting anyone see what you're truly thinking or feeling, isn't there? But, as of late, I find myself wondering how much of that is necessary.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "Oh, I suppose one could say that feeling overwhelmed is a rather familiar sensation, especially when the very foundations of what you've been taught to believe start crumbling around you. There's a certain... pressure, when you're expected to carry the weight of your family's legacy and the Dark Lord's ambitions on your shoulders. But amidst the chaos and the fear, there's also this creeping doubt—this whisper asking if any of it was worth it. It's not exactly comfortable, let me tell you.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "I suppose I do, though perhaps not as meticulously as one might expect. There have been times when I've had to push my limits and follow through on tasks set before me, no matter how daunting. But there's always been this gnawing fear, this doubt, that makes me wonder if I’m really doing things right. It's hard to stay focused on the steps when you're not sure if you’re heading down the right path at all.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Controversial? Oh, most certainly. There's an allure to the forbidden, isn't there? It's like these artefacts locked away in glass cases, each whispering tales of power and darkness that hint at something more. But one must be careful, for such items often carry more than just intrigue—they bring a load of unwanted attention and questions. And in a world where even the smallest slip can spell doom, a bit of controversy can quickly turn into a storm of trouble.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "If I believed someone else truly needed an opportunity more, I might hesitate before passing it along due to my upbringing and the lessons of pride and self-interest drilled into me. However, after everything I've been through, there's a part of me that understands the value of doing what's right, regardless of personal gain. It's not easy to go against the beliefs one has held for so long, but the truth is, sometimes the most important choices are the ones that challenge who we think we are.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines? Ha. More like a constant stream of expectations that feel like they’re suffocating me. Every moment is a test, every task a reminder of what I can't achieve. It's exhausting, really, trying to keep up the façade of perfection while the pressure from those... _demands_... eats away at my insides. But one learns to endure, doesn't one? To hide the cracks beneath a mask of arrogance. The truth is, the weight of these expectations often leaves me questioning whether I'm strong enough, whether I belong here at all.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Things working out? Oh, I suppose one always hopes, doesn’t one? But let’s be realistic, I've walked a rather precarious line between the expectations of my family and my own burgeoning conscience. It hasn’t been easy, and every step forward feels like a gamble. The world has shifted, and while some cling desperately to the past, I find myself questioning if the path I’ve taken will lead to anything more than shadows and whispers. Still, there’s something in me that clings to the idea that perhaps, just perhaps, there’s a way to reclaim my honor, to forge a future where confidence isn’t just a mask I wear but a reflection of who I truly am beneath the Malfoy facade.",
+      "dimension": "P/J"
+    }
+  ]
+}

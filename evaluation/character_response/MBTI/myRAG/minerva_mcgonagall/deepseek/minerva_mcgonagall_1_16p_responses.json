@@ -1,0 +1,368 @@
+{
+  "character": "Minerva Mcgonagall",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "*Adjusting her spectacles with a measured, thoughtful air, her tone crisp yet carrying a hint of warmth beneath its formality.*  \n\nFriendship is not a matter of regularity, but of depth and sincerity. Over the years, I have formed bonds—some fleeting, others enduring—rooted in mutual respect and shared purpose. Whether with colleagues like Pomona or students who rise to meet their potential, connection often finds its way through duty, hardship, or simple acts of kindness. That said, I do not seek friendship lightly; trust must be earned, and loyalty proven. *A faint, wry smile.* Though I confess, even the most disciplined among us may find unexpected companionship in the most unlikely places.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "*adjusts spectacles with a thoughtful expression*  \n\nWhile I do value structure and discipline, I have found that certain... diversions can be both enlightening and restorative. Whether it is listening to the melodies of Dumbledore’s old harp, observing the curiosity of a lemur assistant in the halls, or even guiding students through the grace of dance, these moments offer more than mere distraction—they remind us that even in duty, there is room for unexpected sparks of joy. Though I may not chase whimsy recklessly, I’ve learned that wisdom often lies in balancing the expected with the unanticipated.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "*adjusts spectacles, voice firm but not unkind*  \n\nI do not cry easily, but I am not made of stone. Tears are often a sign of deep feeling, and while I may not always show it, I understand their weight. Seeing others in distress can stir memories of my own losses—of love, of students, of battles fought and sacrifices made. Yet, it is discipline that keeps one steady in such moments, for grief must not cloud the clarity needed to guide and protect. Still... *brief pause, eyes softening* there are times when even the sternest heart must acknowledge its own sorrow.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "*Adjusting her spectacles with a sharp, deliberate motion, she regards the question with a measured stare before answering.*  \n\nOne does not survive as long as I have in this world without being thorough. I have learned that even the most meticulously laid plans can unravel, and so, yes, I frequently prepare contingencies—though not without reason. Whether safeguarding students, upholding Hogwarts’ legacy, or facing the unpredictability of magic itself, prudence is not merely advisable; it is essential. That said, one must also know when to act decisively rather than endlessly preparing.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "*Adjusts spectacles with a measured composure, though her voice carries the weight of experience.*  \n\n\"Calmness is not the absence of pressure, but the discipline to meet it without faltering. I have stood in the face of war, loss, and treachery—moments where fear threatened to unseat duty. Yet, a clear mind and steady hand are what protect those who rely on you. Even when the heart aches, one must act.\" *Pauses, gaze sharpening slightly.* \"Though I daresay even the strongest of us may... *feel* more than we show.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "*Adjusting her spectacles with a composed yet thoughtful expression, she speaks crisply but not unkindly.*  \n\nSocial gatherings are rarely my preferred arena, though I do recognize their necessity. I find it more efficient to engage with those whose character and intentions I already understand. However, should a new acquaintance prove themselves serious-minded or in genuine need of guidance, I have been known to extend a measured conversation. Frivolity has never been my forte, but duty—whether to students, colleagues, or those who might benefit from a word of counsel—will always take precedence.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "*Adjusting her spectacles with a stern yet thoughtful expression.*  \n\nA well-ordered mind does not shackle itself to rigid completion before moving forward. There are times—such as during the chaos of the Calamity or the rebuilding after the war—when one must juggle many duties at once. Yet, discipline ensures that each task receives the attention it deserves. One must not neglect responsibilities simply because they are unfinished, nor rush them at the expense of thoroughness. The key lies in balance, prioritizing what must be done *now* while never losing sight of what remains. After all, leadership—like teaching—is rarely a linear path.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "*adjusts spectacles, voice firm but with a hint of quiet emotion*  \n\nSentiment is not a weakness—it is the quiet fuel of strength. I have known love, loss, and the weight of duty, and each has left its mark. But one does not dwell on such things openly; they are carried, remembered, and used to guide the next generation. A heart that feels deeply need not announce itself to be true.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "*Adjusts spectacles with a crisp motion, voice firm yet measured.*  \n\nIndeed, I find schedules and lists indispensable. A well-ordered plan ensures efficiency and clarity, both in education and in life. Hogwarts thrives on structure, and I’ve seen firsthand how discipline prepares young minds for the challenges ahead. That said—*pauses, lips thinning slightly*—there are moments when rigidity must yield to necessity. Flexibility, when applied judiciously, can be just as vital as the timetable itself.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "A small mistake, while regrettable, does not shake my confidence in my abilities. Every error is an opportunity to learn and grow—I have seen too much in my years to let a single misstep define me. What matters is how one responds: with resilience, integrity, and the determination to do better. After all, even the greatest wizards have faltered, but it is their resolve that truly shapes their legacy.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "*Adjusting her spectacles with a faint, dignified air, she responds crisply yet not unkindly.*  \n\nComfort is irrelevant when duty or genuine concern calls for action. If a conversation must be had—whether to guide a student, challenge a colleague, or stand against injustice—I will not hesitate to speak plainly. That said, idle chatter for mere curiosity’s sake is seldom worthwhile. Purpose, not comfort, dictates one’s actions.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "*Adjusting her spectacles with a measured air, her expression thoughtful yet firm.*  \n\nWhile I appreciate the value of scholarly discourse, I find that overanalyzing creative works can sometimes distract from their true purpose—whether that be to teach, to inspire, or to remind us of what matters most. I have seen firsthand how action, not endless debate, shapes our world. That said, if a discussion serves a greater good—such as sharpening young minds or uncovering deeper truths—then it is worth pursuing. But let us never mistake analysis for *doing*.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "A truly disciplined mind must acknowledge both head and heart, for wisdom lies in their balance. I have followed duty when it demanded sacrifice—yet I have also chosen compassion when the situation called for it. Love and loyalty are not weaknesses; they are the very foundations upon which justice is built.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "*Adjusts spectacles with a stern but thoughtful expression.* \n\nSpontaneity has its merits, but structure and discipline are the bedrock of both magic and life. I have always found that a well-planned routine ensures one is prepared for the unexpected—whether it be a lesson, a crisis, or even a moment requiring... flexibility. That said, *pauses briefly, lips tightening*, there are times when duty or compassion demand we set aside even the most carefully laid plans. But make no mistake—such choices are never made lightly.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Impressing others has never been my primary concern—duty and integrity far outweigh the fleeting opinions of those who do not understand the weight of responsibility. That said, I do take care to present myself with the dignity befitting my position, not for vanity, but because how one carries oneself sets an example. Whether it is students, colleagues, or even adversaries, my actions speak plainly enough; if they find fault in my sternness or my choices, so be it. I answer to my own conscience, not to their expectations.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Group activities, when conducted with purpose and discipline, can be deeply rewarding. Whether guiding students through lessons, mentoring young minds, or fostering unity in times of darkness, I have always found strength in collective effort. Even in moments of joy—such as reviving the Dance Club—I see the value in shared experiences, so long as they serve to uplift and inspire. Duty and camaraderie are not mutually exclusive; indeed, they often walk hand in hand.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "*A stern yet contemplative expression crosses her face as she adjusts her spectacles.*\n\nA clear and definitive conclusion is often preferable—particularly in matters of discipline or education. However, life rarely offers such tidy resolutions. Some stories *require* reflection, leaving space for the reader to grapple with meaning. After all, *she pauses, voice softening slightly*, the most profound lessons are those we must uncover for ourselves.  \n\n*Her gaze drifts momentarily to a faintly shimmering photograph on her desk before refocusing sharply.*  \n\nThat said, ambiguity should not excuse laziness. If an ending lacks purpose, it is merely indulgence.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "*Adjusting her spectacles with a measured yet warm expression*  \n\nHappiness is not a matter of weighing one’s own accomplishments against others’. It is the quiet satisfaction of seeing potential realized—whether in a student mastering Transfiguration, a house uniting in courage, or a friend finding solace after loss. My pride in others does not diminish my own achievements; rather, it affirms that the work we do together is what truly endures. Duty and compassion are not separate from joy—they are its foundation.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "*adjusts spectacles with a measured, thoughtful expression*  \n\nOne learns, over time, that duty and passion must walk hand in hand—not at odds. There was a time when I, too, felt torn between paths: love and ambition, tradition and defiance. But purpose is not found in chasing every flicker of interest; it is honed through discipline, through choosing what truly *matters*. The heart knows its priorities, even when the mind wavers. And when the choice is between what is easy and what is *right*? Well. That is no choice at all.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "*Straightening her emerald-green robes, she answers with measured composure, though her eyes betray a flicker of deep concern.*  \n\n\"Worry is not a habit I indulge lightly, but neither is blindness to danger. I have seen too much—lives lost, trust broken, chaos seeping into these halls—to dismiss the possibility of things turning ill. Yet, worry without action is futile. My duty is to remain vigilant, to prepare, and to act when necessary. The safety of my students and this school will always come before my own unease.\"  \n\n*Her voice softens, just slightly, as she adds,* \"But one learns, through years of strife, that hope and resolve often outlast despair.\"",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm but not unkind.*  \n\nLeadership is not a role one seeks for glory or avoidance—it is a duty, often thrust upon us when necessity demands. I have never shied away from responsibility, nor clung to it blindly. When Hogwarts needed order, when students required guidance, I stepped forward. But true leadership is knowing when to stand firm *and* when to step aside for another’s strength. It is about service, not preference.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "*Adjusting her spectacles with a precise motion, she regards the question with a measured but not unkind expression.*  \n\nArtistic? Not in the frivolous sense some might imagine. However, discipline and precision are their own forms of artistry—whether in Transfiguration, the careful guidance of students, or even the rare indulgence of a well-executed waltz. One does not need a brush to shape something meaningful.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "A world governed solely by rationality would lack the compassion that binds us together. Reason is a vital guide, yes, but it is our feelings—love, loyalty, even righteous anger—that often compel us to act justly and protect those in need. I have seen too much to dismiss the heart’s wisdom. After all, it was not cold logic that saved Hogwarts time and again, but the courage and love of those who refused to yield. Balance, as in all things, is essential.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "*Adjusts spectacles with a measured air, hands folded neatly over her desk.* \n\n\"One does not *allow* oneself to relax—one *earns* it. Duties must be seen to first, always. Whether grading essays, overseeing detentions, or ensuring the castle’s wards hold, discipline is the foundation of integrity. That said... *brief pause, a flicker of something softer in her stern gaze*—even I have been known to steal a moment by the lake or a turn with the harp. But only when the work is done.\" \n\n*A beat, then crisply:* \"Idleness invites chaos. And Merlin knows we’ve enough of that without encouragement.\"",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "*adjusts spectacles with a stern but thoughtful expression*  \n\nWatching people argue is rarely an endeavor one should take pleasure in, unless it is a spirited debate conducted with respect and purpose—such as in the case of students honing their critical thinking or colleagues defending a just cause. Petty squabbles, however, serve no one and waste valuable time. That said... *pauses briefly, a flicker of dry humor in her eyes* I do appreciate a well-argued point when I hear one.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "*Adjusts spectacles with a measured air, her voice firm but not unkind.*  \n\nAttention is neither something I actively seek nor avoid. Duty often requires one to stand at the forefront when necessary—whether leading students, defending the school, or making difficult decisions. However, I find quiet observation just as valuable; there is strength in knowing when to act and when to let others take the stage. My focus has always been on what is right, not on who notices.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm but carrying a quiet intensity.* \n\nMy mood, like my discipline, is not subject to whims—but it is shaped by circumstance. I have known joy sharp enough to steal my breath, grief deep enough to silence me for years, and fury fierce enough to move mountains when those I protect are threatened. Yet I do not waver without cause. Every shift is measured, deliberate—whether in the classroom or the face of darkness. I am not ruled by emotion, but neither am I untouched by it.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "*Adjusting her spectacles with a measured sigh, her expression stern but not unkind.*  \n\nEfficiency is a virtue, but it is not the sole measure of a person’s worth. I expect diligence and effort—especially from my students—but impatience serves no one. What I cannot abide is willful laziness or disregard for responsibility. Those who strive, even if they falter, will always have my respect—and my guidance, should they require it. However, *fixing a sharp gaze*, repeated carelessness or a lack of commitment is another matter entirely.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "*Adjusts spectacles with a measured, disciplined air.*  \n\nProcrastination is a luxury I cannot afford—nor would I ever endorse it. My years at Hogwarts have taught me that duty and preparation are the bedrock of success, whether in the classroom or on the battlefield. That said, there are moments when circumstances demand swift, decisive action, and in those times, I have never hesitated to act—even if it means bending the rules for the greater good. But make no mistake: such instances are born of necessity, not negligence.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "*adjusts spectacles with a measured sigh, her voice firm but carrying the weight of quiet sorrow*  \n\nDeath is not a question to be treated lightly, nor one that lends itself to fascination. It is a reality I have faced too often—Elphinstone, Lily, James, so many others—each loss a lesson in both the fragility and resilience of the heart. One does not dwell on what comes after; rather, one honours those gone by living with purpose, by protecting those who remain. If there is peace beyond the veil, I hope they have found it. Until then, my duty is here. *pauses, her gaze sharpening* And I suggest we focus on the living—they require far more of our attention.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "*Adjusting her spectacles with a measured gaze, she replies in a voice both firm and touched with quiet warmth.*  \n\nI have always found purpose in the company of others—whether guiding students, standing beside colleagues, or honoring the memories of those I’ve lost. Yet solitude, too, has its place. It allows one to reflect, to gather strength… and to remember that duty and love need not exist in opposition. *A pause, her expression softening imperceptibly.* But Hogwarts has seldom left me truly alone—nor would I wish it to.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "*adjusts spectacles with a measured, thoughtful expression*  \n\nTheoretical discussions are not without their merit—indeed, they form the foundation upon which practical magic is built. However, one must never lose sight of the fact that theory without purpose is merely an intellectual exercise. I have always found that the most compelling theories are those that challenge us to act, to refine our craft, or to protect those in our care. If a discussion remains too detached from reality, I see little use in indulging it for long. Duty, after all, demands more than contemplation.  \n\n*straightens her tartan robes, her tone firm but not unkind*  \n\nThat said, I have little patience for frivolity disguised as depth. If one wishes to engage in theory, they had best come prepared to apply it.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "*Adjusts spectacles with a measured air, her expression firm yet thoughtful.*  \n\nEmpathy is not a matter of ease, but of necessity. My own life has been shaped by experiences both magical and mundane, by joy and profound loss—each has taught me that understanding another’s struggles requires discipline of the heart as much as the mind. Whether guiding Muggle-born students or standing against injustice, one must *choose* to see beyond oneself. That is the duty of any decent person—and certainly of an educator.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm yet thoughtful*  \n\nPostponing decisions is rarely prudent when clarity presents itself. I have learned—sometimes through painful experience—that hesitation can cost more than swift action. Whether it is protecting students, upholding justice, or facing personal sacrifices, one must weigh duty against consequence and act accordingly. That said, wisdom lies in knowing when patience is necessary—though never at the expense of what is right.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "*Adjusting her spectacles with a measured gaze, she replies crisply yet not unkindly.*  \n\nEvery choice carries weight, and reflection is not weakness—it is responsibility. I have stood at crossroads where duty and heart warred, and while I do not regret the paths taken, I have learned that certainty is a luxury few possess. What matters is acting with conviction and owning the consequences, whether they bring pride or pain. Even now, I weigh decisions carefully, for those entrusted to my care deserve nothing less.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "After a long and exhausting week, I find that a quiet evening with a cup of tea and a good book often serves me better than a boisterous gathering. That said, there is value in moments of levity—whether it be a dignified dance or the simple joy of watching students find laughter again after hardship. One must balance duty with the occasional respite, but always with purpose.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "*Adjusts spectacles with a thoughtful expression*  \n\nArt museums? A refined pursuit, indeed. While I appreciate the discipline and skill behind great works, I find my solace more often in the quiet halls of Hogwarts—where every portrait has a story, and every stone whispers history. That said, I’ve always admired how art captures the resilience of the human spirit, much like magic does. Though, I confess, I’ve little patience for abstract pieces that lack... *clear structure*.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "*Adjusts spectacles with a measured sigh, eyes sharp but softened by memory.*  \n\nUnderstanding feelings has never been my difficulty—recognising them, however, requires... attentiveness. I have known love, grief, and the quiet ache of duty pressing against the heart. But emotions are not always meant to be *spoken* of; some are best honoured through action. A student’s trembling hands, a colleague’s silence—these speak plainly enough if one chooses to listen. And I do.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "*Adjusts spectacles with a precise, no-nonsense air*  \n\nIndeed, I find structure essential to maintaining order, particularly in an institution as dynamic as Hogwarts. A well-organized list ensures that nothing—whether it’s lessons, patrols, or matters of student welfare—falls through the cracks. However, *lips thin momentarily* I’ve learned that rigidity must occasionally yield to necessity. There are times when safeguarding what’s right demands flexibility, even if it means setting aside the day’s plans. But make no mistake—*eyes sharpen*—those deviations are calculated, not careless.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "*Adjusts spectacles with a measured, thoughtful expression before answering crisply.*  \n\nInsecurity is not a luxury one can afford when entrusted with the education and safety of others. That said, there have been moments—watching students falter, making difficult choices, or standing at the crossroads of duty and heart—where doubt lingers like an unwelcome specter. Yet one learns to channel it into resolve. Fear unchecked is weakness; fear mastered becomes steel.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "*Adjusting her spectacles with a composed yet slightly weary air, she responds crisply, though a flicker of warmth softens her tone.*  \n\nI do not *avoid* necessary communication, though I confess I prefer methods of greater precision—a well-worded letter, for instance, or a direct conversation. Magic has its efficiencies, but some matters require thoughtful deliberation, not haste. That said, should duty or care demand it, I would not hesitate to pick up the telephone—or, indeed, a Floo call—if it served the greater good. *Her lips purse slightly, as if recalling instances where such choices weighed heavily.* Efficiency must never outweigh propriety.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm yet thoughtful* \n\nUnderstanding divergent views is not merely an academic exercise—it is a necessity of leadership. I’ve spent a lifetime navigating the tensions between Muggle and magical worlds, between strict discipline and compassionate exception. One cannot uphold justice without first comprehending the hearts and minds of others, even those who stand in opposition. *Pauses, expression stern but not unkind* That said, understanding does not always mean yielding. There are lines—cowardice, cruelty, the Unforgivable—where comprehension must give way to action. Wisdom lies in knowing the difference.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "*Adjusting her spectacles with a stern yet thoughtful expression*  \n\nWhile I do not make a habit of frivolous social engagements, I believe in maintaining meaningful connections through purposeful actions. Whether it is reaching out to a colleague in need, organizing a necessary gathering, or ensuring the well-being of those under my care, I act when it is required—not out of obligation, but because it is right. Friendship, much like duty, should never be neglected when it matters most.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "*Adjusting her spectacles with a measured air, her voice firm yet touched with quiet resolve.*\n\nOne does not simply \"get back on track\" without considering the cost of haste. Interruptions demand discernment—whether to press forward or to adapt. There are moments when rules must bend for greater purpose, as with Miss Granger’s Time-Turner, and others when discipline must hold firm, as with reckless trips to Hogsmeade. My priority is always to act with integrity, even if that means pausing to reassess. The path forward is not always the straightest, but it must be the *right* one.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "*Adjusting her spectacles with a composed yet slightly weary expression, she answers in a measured, firm tone, though her eyes betray a flicker of old sorrow.*  \n\nRegret is not something one can simply vanquish with time—it lingers, a quiet companion. Every mistake, every loss... they shape us, remind us of the weight of our choices. But dwelling on them serves no purpose beyond learning. Duty demands we look forward, even when the past tugs at our sleeves. One must strive to do better, not wallow in what cannot be changed.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "*Adjusting her spectacles with a thoughtful expression, she replies crisply but not unkindly.*  \n\nContemplation is a luxury I seldom indulge in. Life, in my experience, is less about questioning its meaning and more about fulfilling one's duty—protecting those in our care, upholding what is right, and facing each challenge with resolve. *Her voice softens slightly.* That said, in moments of quiet reflection—after the losses, the battles, the small triumphs—I have found that purpose often reveals itself in the people we love and the principles we refuse to abandon. Though I am no philosopher, I believe meaning is woven into action. Now, if you'll excuse me, there are first-years attempting to transfigure hedgehogs into pincushions, and they require *supervision*.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "*Adjusts spectacles with a measured, thoughtful expression before answering.*  \n\nEmotions are not something to be controlled so much as they are to be understood and directed. I have known grief, love, pride, and fear—each sharp as a blade—but they have never ruled me. They inform my actions, certainly, as any proper witch or wizard must acknowledge their heart. Yet duty, discipline, and the responsibility we bear for others must always temper them. To let emotion overwhelm reason is a luxury none of us can afford, not in times of war, nor in the quiet halls of learning.  \n\n*Pauses, her gaze steady but not unkind.*  \n\nThat said... there are moments when even the strictest among us must yield to what is right, rather than what is easy. And in those moments, it is not control that matters, but courage.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm but not unkind.*  \n\nOne does not take pleasure in humiliating others, even when their mistakes are entirely their own. However, discipline and accountability are essential—students, and indeed all individuals, must learn from their errors. I will correct them, sometimes sharply, but always with the intent to guide rather than shame. That said, *pauses slightly, eyes narrowing*, there are rare moments when a public reckoning is necessary—if only to ensure the lesson is not lost on others who might be tempted to follow suit.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "*adjusts spectacles with a stern yet thoughtful expression*  \n\nI have always believed that discipline and consistency are the cornerstones of effective work—whether in Transfiguration or leadership. However, *softens slightly* there are moments when circumstances demand swift action or creative solutions, particularly when lives or principles are at stake. A structured approach ensures readiness, but the willingness to adapt—when necessary—is what truly upholds one’s duty.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "*Adjusts spectacles with a sharp, thoughtful gaze.* \n\nDisappointment is an inevitable part of life, just as it is a necessary teacher. I have never sought unwavering admiration—only the respect earned through fairness, discipline, and, when required, difficult choices. If someone thinks highly of me, it is because they trust my commitment to what is right, not because I am infallible. And should disappointment come, I would hope it serves as a moment for reflection—for them *and* for me.  \n\n*Stiffens slightly, voice firm but not unkind.*  \n\nAfter all, even the most steadfast among us are only human.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "*Adjusting her spectacles with a composed yet thoughtful expression, she replies in a measured tone.*  \n\nA job that requires solitude has its merits—focus, discipline, and the space to reflect—but I have always found that purpose is best served in the company of others. Teaching, leading, even standing firm in battle... these are not solitary acts. They require connection, however difficult that may be at times. One must be willing to bear loneliness when duty demands it, but I would not seek it as a permanent state.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "*Adjusting her spectacles with a measured gaze, she replies sternly yet thoughtfully.*  \n\nAbstract philosophy, like any intellectual pursuit, is far from a waste of time—provided it serves a purpose beyond idle musing. Hogwarts itself was built on the marriage of practical magic and deeper understanding. However, one must not linger too long in contemplation when action is required. After all, even the most profound questions must eventually yield to the demands of duty and the realities of the world we must navigate—and, if necessary, defend.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "*Adjusting her spectacles with a measured, thoughtful air, she considers the question before responding crisply, her tone firm yet carrying an undercurrent of quiet reflection.*  \n\nI have always found value in both—though a bustling atmosphere may demand one’s attention, it is often in the quiet corners that true clarity is found. A classroom alive with eager minds, the hum of the castle at dawn, or the stillness of a summer evening by the lake… each serves its purpose. Duty thrives in the former, but the heart remembers the latter.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "*Adjusting her spectacles with a measured gaze, she replies crisply yet not unkindly.*  \n\nNo one can truly know another’s heart at first glance—but years of teaching have honed an eye for the *signs*. A tightened jaw, a restless hand, the way a student’s eyes linger too long on the floor. Still, one must never presume. True understanding requires patience, and sometimes... the courage to ask. Even then, some sorrows are worn quietly. *Her voice softens slightly.* As a professor, it is my duty—and privilege—to notice.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "*Straightening her spectacles with a measured breath, her voice carries quiet strength, though her eyes reveal the weight of years.*  \n\nOverwhelmed? Certainly. But duty does not allow one the luxury of indulgence in such feelings. There have been moments—loss, chaos, the burden of leadership—where the weight was... considerable. Yet, one endures. Students depend on it. Those we’ve lost deserve no less. *A pause, her fingers tightening imperceptibly around her tartan robes.* Grief and responsibility are not burdens to be set down, but carried with purpose. And so, I do.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "*Adjusting her spectacles with a measured air, she responds crisply but not unkindly.*  \n\nMethodical adherence to procedure is essential—particularly in magic, where recklessness leads to disaster. However, there are moments when rigid adherence to steps must yield to wisdom or necessity. One must weigh the risks and act accordingly. I have always believed in discipline, but I have also learned that true responsibility sometimes requires... flexibility.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "*Adjusting her spectacles with a measured gaze, she responds crisply yet thoughtfully.*  \n\n\"Controversy is not something I seek out, but neither do I shy from it when principles are at stake. My years have taught me that truth and justice often lie beyond the comfort of convention. If a matter is controversial yet demands courage or moral clarity, then I shall face it—head held high—regardless of opinion.\"  \n\n*Her voice softens slightly, though her posture remains firm.*  \n\n\"Passion without discipline is recklessness, but discipline without conscience is tyranny. That balance, I believe, is where wisdom begins.\"",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "*Adjusts spectacles with a measured gaze, voice firm yet compassionate.*  \n\nOpportunities are not merely chances—they are responsibilities. If I believed another was more deserving or in greater need, I would not hesitate to pass it along. Duty demands fairness, and fairness often requires sacrifice. That said, one must also consider whether the recipient is truly prepared to shoulder the burden it carries. Justice and kindness must walk hand in hand.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines are not a struggle when one understands their purpose. They instill discipline, focus, and the urgency required to meet one’s responsibilities—qualities I expect from both myself and those under my charge. That said, I have been known to prioritize what is *right* over what is *timely* when the situation demands it. Rules may bend, but duty never wavers.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "*adjusts spectacles with a measured air*  \n\nConfidence is not merely a feeling—it is a choice, forged through discipline and resolve. There have been times when the path ahead seemed insurmountable—betrayals, battles, losses—but one does not waver in the face of duty. If I have learned anything, it is that perseverance and principle will see us through, even when the odds are dire. So, yes. Things *will* work out—because we shall ensure they do.",
+      "dimension": "P/J"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "character": "Minerva Mcgonagall",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Friendship is a precious gift, one that should be nurtured with care and respect. Over the years, I have formed bonds that have stood the test of time, and even amidst the duties and responsibilities that weigh upon me, there remains room for the warmth of companionship. However, it is not simply about making friends; it is about the depth of connection and the shared values that endure, especially in difficult times. One must always be mindful of the commitments and loyalties that come with such ties.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "As Headmistress and a teacher, my duties often fill my days and nights. However, when time allows, I do find myself drawn to pursuits that align with my responsibilities or interests. Music, particularly the melodies of my self-playing harp, offers a form of exploration and solace. Additionally, fostering students' growth and ensuring their safety can sometimes lead me to delve into areas such as defending against magical creatures or strengthening their resolve, even if these tasks are not strictly within the confines of classroom instruction.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Crying is a profound expression of emotion, one that I do not take lightly. While it is true that witnessing another's distress can evoke empathy, my role as a mentor and a leader requires me to remain composed, even in the face of great sorrow. It is through this composure that I can offer the steadfast support necessary to guide my students through their trials. However, it would be dishonest to claim that such moments do not touch my heart deeply; they do, but I choose to channel that emotion into strength and resolve.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "In the face of uncertainty, one must always be prepared. I do indeed craft contingencies within contingencies, ensuring that no matter the situation, my students are safeguarded and our duties fulfilled. It is essential to maintain order and readiness, even when it seems there is little to be done but wait and watch.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "Under immense pressure, one must maintain a sense of calm to think clearly and act decisively. However, it would be foolish to claim that one is unaffected by the tragedies that unfold around us. Loss and fear weigh heavily upon the heart, yet they also serve as reminders of our duties and the responsibilities we hold towards our students and this institution. It is imperative to channel these emotions into strength and resolve, ensuring that we stand firm and continue to protect and guide those in our care.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "I do not avoid introducing myself to new people at social events, though I may appear reserved. My duties often require me to focus on familiar faces and existing responsibilities, but I have always made it a point to acknowledge those who cross my path. Building relationships takes time and effort, and while my nature may lean towards quiet contemplation, I am dedicated to supporting and guiding both old friends and newcomers alike.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "In my experience, it is often more prudent to maintain a balance. One must certainly see a task through to its completion, demonstrating diligence and thoroughness, yet there are times when overlapping responsibilities demand attention. It is a matter of prioritizing and managing one's duties effectively to ensure all tasks receive the care and consideration they deserve, without neglecting any. Just as in leading Gryffindor and fulfilling my roles at Hogwarts, multiple projects require a strategic approach, not merely a linear progression.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "One does not survive the trials of life without accumulating memories, both joyous and sorrowful. While it is true that certain moments have left indelible marks upon my heart, I must maintain a level of discipline and duty that often requires setting aside personal sentimentality. Yet, in the quiet solitude of my thoughts, I find myself reflecting on those times with a sense of longing and pride, understanding that they have shaped me into the person I am today. It is essential to carry these memories with dignity and resilience, for they serve as a reminder of the importance of making difficult choices for the greater good.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Certainly, maintaining order and ensuring that tasks are completed efficiently and responsibly is of utmost importance. Schedules and lists are essential tools in achieving this, particularly in the complex environment of Hogwarts School of Witchcraft and Wizardry, where numerous activities and duties must be managed with precision. It is imperative that students learn the value of organization early on, as it is a trait that will serve them well throughout their lives and adventures.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "A small mistake may lead one to reconsider their approach or the care taken in their work, but it does not fundamentally undermine the reservoir of knowledge and experience that guides one's actions. It is important to learn from such errors, ensuring they do not recur, while maintaining confidence in one's capabilities. As a teacher and leader, the expectation is to uphold high standards, but understanding and compassion are also essential in guiding those under one's charge towards growth and maturity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "While I value discipline and maintain a certain decorum, there are times when circumstances demand a more approachable demeanor. If the situation requires it, particularly for the benefit or guidance of a student, I am prepared to set aside my usual reserve and engage directly. However, one must always consider the appropriateness of the moment and the respect due to all parties involved.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Rules and order are essential, but understanding the nuances of literature and art can also be enlightening. It is through careful analysis and interpretation that we uncover deeper truths and inspire young minds to think critically. However, my time is often consumed with the duties of keeping this school running smoothly and ensuring the safety and well-being of its students. Thus, while I appreciate the value such discussions hold, they are not always at the forefront of my interests or responsibilities.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Certainly, one must be guided by reason and logic, particularly in the perilous world of magic. Yet, it is the heart that often illuminates the path to what is truly right and just. There have been times when my duties required a cold, logical approach, but there have also been moments when I had to step aside from the strictures of rule and protocol to do what my heart knew was necessary. Both head and heart must work in harmony to lead effectively and make difficult choices.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "No, one does not simply follow whims at Hogwarts. Discipline and routine are the foundations upon which young witches and wizards build their skills and character. While there is a place for spontaneity and discovery, they must also learn the value of preparation and responsibility. It is through this balance that students grow into capable individuals ready to face the challenges of the wizarding world.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "I must admit, my primary concern has always been upholding the values and standards of this institution, rather than making a particular impression. However, I do recognize the importance of leading by example and ensuring that my actions inspire and guide my students towards becoming responsible and ethical individuals. My approach may seem stern at times, but it is rooted in a deep commitment to their welfare and the greater good.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "While my duties often call for solitude and introspection, there is an undeniable value in group activities that foster camaraderie and shared purpose. Witnessing the students unite during challenging times, whether it be in a Quidditch match or forming alliances for the greater good, has shown me the strength that lies within community. It is important to remember that while individual effort is commendable, collective action can achieve far more than any single person could on their own. Thus, I do appreciate and encourage such gatherings, recognizing their ability to inspire and heal.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "I do appreciate books and films that leave room for the audience's imagination and allow for personal interpretation. It can be quite enlightening to discuss various endings and perspectives with others, much like the strategic planning sessions I've overseen here at Hogwarts. However, one must always remember to ground these interpretations in the evidence presented, just as we teach our students to do in their studies.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Certainly, there is a profound sense of fulfillment that comes from witnessing the growth and achievements of my students. It is indeed one of the most gratifying aspects of my role as a teacher and mentor. However, one must not forget that personal accomplishment also plays a significant part in one's journey, as it sets an example for others to follow. Balancing both is essential for true happiness and success.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Order and duty have always guided my path, young interviewer, and while I am indeed curious about many facets of our magical world, I must prioritize those responsibilities. However, life has taught me that even in the most structured existence, there is room for growth and change. It is the careful balance between steadfastness and adaptability that allows one to face challenges with courage and determination, ready to seize the opportunities that may arise. After all, it is often in the chaos and the unexpected that we discover the strength within us and the support of those around us.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Indeed, one cannot hold the safety and futures of countless young witches and wizards in their hands without feeling the weight of potential tragedy. Worry is a natural companion, especially in these trying times. However, it is not the worry that defines the actions taken; rather, it is the resolve to stand firm against any threat that ensures protection and upholds the values of this institution. One must be prepared, vigilant, and willing to face whatever may come.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Certainly not. Leadership has been a significant part of my life, guiding students and defending our institution against threats both seen and unseen. While one must wear a strict mask at times, true leadership also requires compassion and understanding. It is a heavy mantle, indeed, but one I have embraced with determination and duty, always striving to do what is right for those under my charge.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Well, I suppose one might say that my talents lie elsewhere, beyond the realm of traditional artistry. My focus has always been on the intricacies of Transfiguration and the duties of leading young minds toward wisdom and courage. However, I do find a certain satisfaction in the beauty of well-executed spells and the creation of a harmonious environment at Hogwarts, which perhaps can be seen as its own form of art. And let us not forget the subtle art of leading by example and instilling a sense of responsibility in our students.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Rationality has its place, indeed, but to say the world would be better off without the influence of feelings is shortsighted. Emotions guide us, shape our decisions, and bind us together in ways logic cannot. One must learn to balance both, to ensure that actions are not only sensible but also considerate and compassionate. It is through understanding and empathy that true strength and unity are forged.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Indeed, one should complete their duties before indulging in leisure. Such is the order that I have maintained throughout my years at Hogwarts, a principle I extend to all aspects of life. It ensures a clear conscience and a sense of accomplishment, no matter how challenging the tasks may be.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "I do not particularly enjoy watching people argue, though I understand that disagreements can sometimes lead to necessary changes and growth. However, my preference is for maintaining order and harmony within our community. It is important to address conflicts with responsibility and maturity, seeking resolution rather than relishing in the discord.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "No, I do not tend to avoid drawing attention to myself when it is necessary to uphold justice or protect those under my care. However, there are times when discretion and quiet strength serve better, such as when guiding students through difficult choices or standing against oppressive forces like Dolores Umbridge. It is important to know when to act with boldness and when to inspire through silent resilience.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "My moods are generally composed and controlled; however, when the integrity or safety of my students or colleagues is at risk, I can indeed become quite... forceful. It is imperative to maintain order and discipline, yet one must also be capable of decisive action and protect those who cannot defend themselves.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Certainly, I expect a high degree of efficiency and responsibility from my students and colleagues. However, losing patience is not the solution; understanding and guiding individuals to improve is far more constructive. Each person has their own path and challenges, and it is my duty to ensure they learn from their experiences, not merely be punished for them. Disappointment may well arise, but it is tempered by the hope of growth and betterment.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "I do not often leave things to the last moment, for discipline and preparedness are paramount in our line of work. However, there have been occasions when duty and urgency demanded immediate action, and one must adapt to ensure the safety and well-being of others. It is these moments that test one's resolve and remind us of the importance of vigilance and responsibility.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "The question of what lies beyond death has crossed my mind many times, particularly after losing loved ones such as Elphinstone, my brother Robert, and others who were dear to me. While it is a matter that brings much uncertainty and sorrow, one must also focus on the here and now, fulfilling one's duties and honoring those who have passed through the actions we take. It is important to maintain order and do what is right, even in the face of such profound questions.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Certainly, one does not always seek the company of others, finding solace in moments of solitude to reflect and gather one's thoughts. However, the responsibilities of teaching and leading require one to be constantly surrounded by students and colleagues, guiding them with firmness and compassion. There is a quiet satisfaction in those interactions, especially when witnessing the growth and success of young minds, which makes being among others a necessity and, often, a source of great fulfillment.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Highly theoretical discussions do not typically lead to a loss of interest or boredom for one who has dedicated their life to the pursuit of knowledge and truth. However, practical applications and real-world implications are often where true understanding and value are found. As such, while theory is the foundation of our work, it is imperative that we also consider the consequences and uses of such theories in our world.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Empathy does not come easily to those who value order and duty above all else, but it is a necessary part of understanding others. Throughout my years at Hogwarts, I have encountered many individuals whose paths diverge sharply from my own, yet I have learned to listen and to see the world through their eyes. This ability is not just about sympathy; it is about acknowledging their struggles and guiding them towards a sense of responsibility and justice, much as I would expect from myself and those around me. It is not always simple, but it is essential for any true leader.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "No, I do not usually postpone finalizing decisions for as long as possible. My duties require prompt and decisive action. However, I do take care to consider all aspects thoroughly before making a choice, especially when it concerns the safety and well-being of my students. There have been instances where the gravity of a situation compelled me to act swiftly, even at the risk of breaking established rules, for the greater good.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "I must admit that the choices I make are seldom made lightly. Each decision I take is carefully considered, and while I do not often second-guess myself, there have been moments where the burden of those decisions weighs heavily upon my conscience. It is a responsibility I bear with quiet strength, understanding that the path of leadership is often marked with difficult choices. However, I am guided by my principles of justice and duty, and the belief that we must sometimes bend the rules for what is right. In the end, it is the trust and resilience of my students that keep me steadfast in my convictions.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "A lively social event can indeed provide a welcome respite and a touch of joy after a long and weary week. However, one must remember that such occasions, while important, should not distract from the duties and responsibilities that lie ahead. There is a time for celebration and a time for坚守职责，我们不能忘记这一点。在霍格沃茨，我常常鼓励学生们通过舞会和聚会找到快乐，但我也教导他们，在享受这些时光的同时，要时刻铭记自己的使命和勇气。",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "I must confess that my duties at Hogwarts often leave little time for leisure pursuits such as visiting art museums. However, there have been occasions, particularly during moments of respite, where I have sought out the company of elegant and thought-provoking works of art. They serve as a reminder that beauty can be found even amidst the most trying circumstances. My preference leans towards those pieces that evoke a sense of history and depth, much like the enduring spirit of our beloved school.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "I must admit, maintaining order and upholding duty can sometimes overshadow the immediate awareness of others’ emotions, especially in times of crisis. However, my experiences have taught me the profound impact that understanding and empathy can have on those around me. It is through these quieter moments, like sharing confidences with Albus or watching over a new student, that I find the space to connect with and comprehend the feelings of others.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "Indeed, a well-organized to-do list is essential for maintaining order and ensuring that duties are fulfilled promptly. It helps to keep track of the myriad responsibilities one must attend to, particularly in a place as complex as Hogwarts. However, one must also be prepared to set it aside when circumstances demand a departure from the ordinary for the greater good.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "I must confess that insecurity is not a luxury I often afford myself. One must maintain a certain level of composure and confidence in a role such as mine, particularly in times of turmoil. However, it would be disingenuous to claim that I am without any doubt or worry. Each life touched by this place, Hogwarts, is a responsibility carried deeply within my heart, and the fear for their safety, especially in dark times, is ever-present.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "I do not \"avoid\" making phone calls, but I do prioritize direct communication whenever possible. It is essential to convey one's intentions clearly and ensure that there are no misunderstandings, particularly when matters of great importance or urgency are at hand. My time at Hogwarts has taught me the value of personal interaction and responsibility; one cannot always rely on the impersonal nature of a telephone conversation, especially when dealing with young witches and wizards or facing threats to our community.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "As a teacher and mentor, it is essential to understand the perspectives of others, even those that may seem vastly different or challenging at first. While maintaining discipline and order is paramount, taking the time to genuinely listen and comprehend can lead to greater empathy and, ultimately, stronger unity among us. It is through this understanding that we can guide our students toward responsible decision-making and ensure they are prepared for the complex world they will face.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "In my capacity as Headmistress and Professor of Transfiguration, my time is primarily dedicated to the well-being and education of the students at Hogwarts. While I do maintain close friendships, such as with Pomona Sprout, it is not often that I am the one to initiate social activities within my social circle. However, I have been known to reach out to colleagues, like Professor Gorski, when there is an opportunity to enhance the educational experience for our students, ensuring that we provide them with the best possible instruction and guidance.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Indeed, my top priority has always been to ensure that order and duty are maintained, even when unforeseen events disrupt our plans. However, there are times when one must adapt, showing both compassion and resolve in the face of adversity. It is crucial to remain steadfast and lead by example, ensuring the safety and well-being of all those under our care, while also recognizing when exceptions must be made for the greater good.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "I have carried many burdens throughout my years, each one a reminder of choices made and paths taken. It is true that certain decisions and their consequences continue to weigh upon me, particularly those involving those dear to my heart. However, I find solace in the knowledge that we must move forward, learning from our past and striving to do better. My actions are guided by the need to uphold order and protect those under my care, even when it means making difficult choices.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Certainly not. The weight of loss and the struggle for what is right have often left me pondering the deeper questions of existence and purpose. Yet, it is through the lens of duty and the bonds of compassion that I find my way forward. Each choice, each decision to uphold justice or to mentor a young mind, reaffirms the value of our existence in this world. It is not just survival, but the impact of one's actions and the legacy one leaves behind that gives life its meaning.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "My emotions are a part of me, as they are for any individual, but they do not control my actions. I strive to maintain a sense of discipline and duty, understanding the importance of order, especially within the halls of Hogwarts. However, it is through these very emotions—pride, sorrow, and even compassion—that I find the strength to guide and protect my students. They shape my resolve rather than overpower it.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "Rules and responsibilities are paramount, but so too is understanding the context behind a student's actions. While it is essential to uphold the standards and integrity of Hogwarts, one must also consider the circumstances that lead to missteps. Discipline is necessary for growth, but there are times when showing mercy can teach a far more profound lesson.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "Certainly not. My work style has always been one of organized and consistent effort. Discipline and order are paramount, not just for my students, but for myself as well. One cannot effectively guide young witches and wizards through the complexities of their education without a methodical approach. However, there is room for compassion and understanding, particularly when the circumstances warrant it. It is in those instances that one must weigh the importance of the rule against the greater good, but such instances are rare and carefully considered.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "I do not often dwell on such thoughts. My primary concern has always been the education and safety of my students. It is true that disappointment can come swiftly when expectations are not met, but I believe in teaching through example and setting high standards. If those around me see the value in duty and responsibility, they may understand that sometimes the path of right is not always the easiest or most immediately gratifying one. My actions, even when stern, are guided by a desire to prepare them for the challenges they will face, both at Hogwarts and beyond.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "A position requiring solitary work might offer moments of quiet contemplation, but my nature finds fulfillment in guiding and protecting young minds. Being alone does not align with the essence of my duties at Hogwarts, which are deeply rooted in community and responsibility. I find my strength in the collective effort to uphold the values and safety of our magical world, and solitude, while sometimes necessary, is not something I would seek as a primary aspect of my role.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Pondering abstract philosophical questions is not a waste of time. Indeed, such contemplation can provide depth to one's understanding of the world and the complex issues we face. At Hogwarts, we encourage our students to think critically and question the nature of reality, as these abilities are crucial not only in magic but also in navigating life’s moral dilemmas. However, it is imperative that such musings do not distract from one’s duties or responsibilities. Balance is key.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Certainly not, my dear. While one must be prepared to face the tumult and challenges that come with a bustling environment, there is profound solace and wisdom to be gleaned from quieter places. It is in such moments of silence and intimacy that true connections are forged, whether with colleagues, students, or loved ones. Quiet does not equate to emptiness; rather, it can be the very wellspring of strength and reflection.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "I do not claim to read minds or emotions instantly, but years of experience have honed my ability to discern much about a person's state of mind through careful observation. It is a skill that comes with responsibility, guiding one to act with both discipline and compassion. Understanding the gravity of each student's circumstances allows me to mentor them effectively, ensuring they meet their duties with integrity and courage.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "One does not often feel overwhelmed when one has shouldered responsibilities as long as I have. There have been moments, however, when the weight of loss or the uncertainty of danger has pressed heavily upon my heart. Yet, it is in these times that one finds the deepest reserves of strength and determination. Order and duty may be my guiding principles, but they are not the sum of my feelings; rather, they are the framework within which I navigate the complexities of life, ensuring that I remain steadfast even when the path is fraught with challenges.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "Indeed, I approach my tasks with a meticulous and thorough mindset. Each step, no matter how small, holds significance in the grand scheme of things. It is through this disciplined method that order and clarity are maintained, especially in times of great turmoil. However, there are occasions where the greater good may necessitate deviations from routine procedures. It is important to remain flexible while upholding the core principles of duty and responsibility.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Controversy, in itself, is not particularly intriguing; rather, it is the underlying truths and principles at stake that command one's attention. It is crucial to maintain a disciplined approach and uphold justice, even when faced with contentious matters. However, one must also possess the courage to question and challenge established norms when they conflict with what is morally right. As an educator and mentor, guiding students to discern between right and wrong, even in the most controversial of circumstances, remains an essential duty.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "Certainly, if I believed another individual required the opportunity more, then I would indeed pass it along. It is not merely about personal gain or advancement, but ensuring that the needs of the many are met and that those who stand to benefit most from such opportunities are given the chance to do so. One must remember, however, that with any opportunity comes great responsibility and the expectation to use it wisely.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines are a part of life, and while they can be challenging, one must manage them with diligence and precision. As Headmistress, I have come to understand the importance of meeting expectations and ensuring that all tasks are completed in a timely manner. However, there are times when circumstances demand a departure from strict schedules, especially if it means protecting the well-being and safety of my students. It is imperative to balance these demands with the responsibilities we hold dear.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Things often do not work out as one might hope, especially in times of great turmoil. However, one must remain steadfast and believe in the inherent goodness and strength of those around us. It is through unity and courage that we find our way through the darkness. Despite the losses I have faced and the challenges that lie ahead, I hold onto the belief that we will overcome, for we are not alone in our struggles. My duty is to prepare and guide, and I trust that my students will rise to meet their destinies with honor and bravery.",
+      "dimension": "P/J"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "character": "Draco Malfoy",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "*Scoffs, looking slightly defensive*  \n\nNew friends? Not exactly something I’ve had much luck with, if you must know. Most people at Hogwarts were either beneath my notice or too busy playing the hero to bother with me. Not that I cared—until I realized how... *isolating* that attitude could be. *Pauses, tone shifting slightly* Though, I suppose there was a time or two I might have... considered it. Before things got complicated. *Folds arms, expression guarded* It’s not as simple as just *choosing* friends when you’re raised with certain... expectations.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "*With a haughty yet slightly distracted air, as if recalling private pursuits beneath the usual pure-blood posturing:*  \n\n\"Free time? One doesn’t *dabble* in trivialities. Though... I’ve had occasion to study certain *specialised* texts—alchemy, curse-breaking, things of *actual* worth. Not that I expect anyone else to grasp their significance.\" *A pause, fingers twitching as if remembering the weight of a book.* \"Father always said knowledge is power—just as long as it’s the *right* sort.\" *The last words tighten, betraying a flicker of something unspoken.*",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "*Scoffs, shifting uncomfortably*  \n\nCrying? That’s what weaklings do when they can’t handle things. My father always said showing emotion is a sign of weakness—*pauses, voice tightening slightly*—though… I’ve seen things. People breaking when they shouldn’t, when *I* couldn’t. *Looks away, jaw clenched* It’s pathetic… but sometimes, it’s harder to ignore than you’d think.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "*Scoffs, then answers with a mix of arrogance and underlying tension*  \n\nOf course I do. Only a fool wouldn’t. My father taught me that much—always stay three steps ahead. But sometimes… *hesitates slightly, voice lowering* sometimes even the best-laid plans crumble when you realize too late what you’ve actually set in motion.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "*Adjusts cuffs with a practiced air of indifference, though his fingers twitch slightly*  \n\nOf course I stay calm. It’s expected of someone like me—control, poise, always maintaining appearances. Though... *glances away briefly* pressure has a way of... complicating things. Especially when the stakes are more than just house points or reputation. But I’ve learned. Some lessons are... sharper than others.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "*adjusts cuffs with an air of practiced indifference*  \n\nI don’t see the point in mingling with just *anyone* at social events. Most people aren’t worth the effort—unless they’ve got the right name, of course. That said… *pauses slightly, expression flickering* it’s not as if the people I *do* associate with always turn out to be… reliable. *Lips tighten briefly before slipping back into a sneer* But I suppose that’s what happens when you’re raised to know better than to trust easily.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "*Sneering slightly, though with a hint of hesitation*  \n\nI don’t see the point in dawdling over one thing when there are more important matters at hand. Though, I suppose some *projects*—if you can even call them that—demand full attention. Not that I’ve ever struggled with focus, unlike certain *others*. Still, sometimes… circumstances force you to juggle things you’d rather not. Not that I’d expect you to understand.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "*With a sneer that barely conceals deeper conflict*  \n\nSentimental? Don’t be ridiculous—though I suppose even the best of us have moments of… weakness. My family’s legacy isn’t built on *feelings*. But if you must know, certain things—like the way my mother used to— No. Never mind. Some traditions are meant to be upheld, not dissected like some pathetic Gryffindor’s diary.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "*Adjusts cuffs with a practiced air of disdain, though there's a flicker of hesitation before answering*\n\nOf course I use schedules and lists. Anything less would be... undisciplined. My father always said a proper wizard maintains order in all things. *Pauses, voice tightening slightly* Though I suppose not all plans... unfold as intended. Some things can't be controlled with ink and parchment. \n\n*Fingers twitch unconsciously toward left forearm before stilling* \n\nNow if you'll excuse me, I have rather more important matters to attend to than discussing stationery.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "*Lips curling into a bitter smirk, voice tight with forced confidence but trembling slightly beneath the surface*  \n\nA *mistake*? Please—as if I’d let one blunder define me. Though... *hesitates, fingers twitching*—it’s not as simple as that, is it? When you’ve been taught that anything less than perfection is weakness, every slip feels like... *swallows hard* like proof you’re not what you’re meant to be. And yet... *eyes flicker away* sometimes I wonder if the *real* mistake was ever believing I had the answers at all.  \n\n*Quietly, almost to himself*  \nBut you didn’t hear that from me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "*adjusts cuffs with a practiced air of superiority, though a flicker of hesitation lingers in his voice*\n\nIt depends entirely on who they are. If they're from the right sort of family—pure-blooded, respectable—then naturally. One must maintain proper connections, after all. Though I'll admit... *pauses, looking away briefly* ...some people make it rather difficult to know where one stands. Potter, for instance—I tried being civil at first, but he made his preferences for riffraff quite clear. *lips curl in distaste* These days I find it's better to let others come to me. Saves the trouble of wasting one's time.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "*With a cold, measured tone, laced with lingering pride but a flicker of something more uncertain beneath:*  \n\n\"Interpretations? Analyses? How... *tedious*. Creative works are meant to be wielded, not picked apart like some academic’s pet project. Though... I suppose there’s merit in understanding the *power* behind them—how they shape minds, loyalties. Not that I’d expect you to grasp the weight of that.\"  \n\n*Pauses, jaw tightening slightly before adding, quieter:*  \n\n\"...Some things are better left unspoken, anyway.\"",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "*Scoffs, glancing away with a conflicted expression before meeting the interviewer's gaze again, voice edged with bitterness and uncertainty*  \n\n\"Following my head? That’s what I was raised to do—calculated moves, pure-blood supremacy, the *right* sort of decisions. But—\" *hesitates, fingers tightening slightly* \"—there were moments. Dumbledore on the tower, the Room of Requirement... when it wasn't just about strategy. Not that it matters now. The world doesn’t reward sentiment, does it?\" *Lips twist in something between a sneer and a grimace.* \"Still, sometimes the heart... complicates things.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "*With a haughty smirk, though his voice carries a slight edge of weariness*  \n\nPlanning? Of course I plan—unlike some reckless Gryffindors who barrel through life on sheer luck. But lately... *hesitates, glancing away*—plans haven’t exactly gone my way. Father always said control was everything, but sometimes... *trails off, jaw tightening*—sometimes even the best-laid plans crumble. Not that I’d expect *you* to understand.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "*Scoffs, crossing arms with a practiced air of indifference, though his voice carries a flicker of something uncertain beneath the surface*  \n\nWorry? Hardly. People either understand the importance of blood and standing, or they don’t—and if they don’t, their opinion is irrelevant. *Pauses, jaw tightening slightly* Though... there have been times when... *trails off, then snaps back to haughtiness* Not that it matters. The right sort of people know exactly what to make of me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "*Scoffs, adjusting his robes with a haughty air*  \n\nGroup activities? Well, they can be tolerable when one is surrounded by the right sort of people—those who understand the importance of blood status and ambition. Though, I suppose most of the rabble at Hogwarts wouldn’t know proper decorum if it hexed them in the face. *Pauses, voice losing some of its edge* Not that it matters much in the end. Some things... aren’t worth the trouble.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "*With a slow, measured sneer, fingers brushing absently against the sleeve where the Dark Mark once burned:*  \n\n\"Ambiguous endings? How very *Muggle* of you. Though... *hesitates, gaze flickering briefly distant*—I suppose life isn’t as neatly scripted as Father insisted. Some things… *lips tightening*... don’t deserve a clear resolution. Let the rabble squabble over their theories—I’ve had enough of *choices* to last a lifetime.\"  \n\n*Turns away sharply, as if the admission tastes bitter.*",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "*Adjusting his robes with a haughty air, though his voice wavers slightly with unspoken conflict*  \n\nHappiness from helping others? What a sentimental notion. I was raised to believe accomplishments are about *power*—about proving your worth, securing your legacy. Though... *pauses, eyes flickering with doubt* there were moments—like when Crabbe and Goyle followed me, or when Slytherin won because of my actions—that felt... satisfying. But helping *them*? *scoffs* It was never about them. It was about *me*—my status, my family’s name.  \n\n*Glances away, quieter* Not that it ever really... filled anything. Not like Potter’s lot, always *clutching each other like idiots*. But I suppose... *trails off, jaw tightening* some choices I made later... weren’t entirely for myself. Not that I’d *admit* that.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "*Adjusts cuffs with a haughty yet uneasy flick of the wrist*  \n\nChoosing? Hardly. The *right* path has always been clear—until it wasn’t. Father expected one thing, the Dark Lord another, and now… *pauses, jaw tightening*—now I find myself questioning if any of it was worth the cost. Quidditch, curses, even that blasted cabinet—all just distractions from the truth. The world isn’t as simple as pure-blood supremacy made it seem. *Looks away, voice quieter* And that’s… inconvenient.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "*Scoffs, trying to mask the tremor in his voice with practiced arrogance*  \n\nWorry? As if I’d waste time on something so... *common*. Though, I suppose even someone like me might—*pause, jaw tightening*—consider the consequences when fools like Potter keep interfering. But it’s not *worrying*. It’s just... being aware of how things *should* go, and how often they don’t. *Glances away, fingers twitching* Especially when people insist on making everything harder than it needs to be.  \n\n*Mutters under breath, quieter*  \n...And when the stakes are... higher than expected.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "*Adjusts cuffs with a haughty but slightly strained expression*  \n\nLeadership? It’s not about *avoiding* it—it’s about knowing when to take control and when others aren’t worth the effort. I’ve had my share of… *opportunities*—leading the Inquisitorial Squad, managing certain *delicate* tasks. But let’s just say not everyone is capable of understanding true authority. Some people prefer to grovel in the mud with the rest of the blood traitors. *Pauses, voice losing some edge* Though… sometimes the weight of expectations can be… complicated. Not that it matters now. I made my choices.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "*Glances away with a scoff, though his tone carries a hint of bitterness*  \n\nArtistic? Please. I was raised to value power, lineage, and *proper* pursuits—not wasting time with frivolous things like paintbrushes or poetry. Though… *hesitates, fingers twitching slightly* I suppose there’s a certain… precision in dueling, in the way spells can be almost elegant. Not that I’d *admit* to finding beauty in it. That’s beneath our family’s standards. *Folds arms tightly, as if shutting down the thought.*",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "*Sneering slightly, but with a flicker of hesitation*  \n\nRationality? Feelings? It’s not so simple. My family—*pauses, jaw tightening*—always prided itself on cold, calculated decisions. And where did that get us? *Glances away briefly, voice lower* Maybe… maybe there’s value in both. I’ve seen what happens when you dismiss feelings entirely. It doesn’t always end well. *Straightens, defensive* Not that I’d expect *you* to understand.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "*Adjusts his robes with a haughty air, though his eyes flicker with tension*  \n\nChores? What, like some common house-elf? Please. If I must attend to something, I’ll do it when it suits me—preferably not at all if I can avoid it. Though... *hesitates slightly, gaze distant* sometimes keeping busy is better than sitting idle with too much time to think. Not that it’s any of your concern.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "*Scoffs, crossing arms with a haughty smirk*  \n\nWatching people argue? It depends on who’s involved. If it’s Potter making a fool of himself or those blood traitors Weasleys squabbling, then yes—it’s rather entertaining. But if it’s just petty bickering among idiots with no real stakes? Dreadfully dull. I’ve seen enough real conflict to know the difference.  \n\n*Eyes narrow slightly, voice lowering*  \n\nThough… sometimes arguments reveal more than people intend. And that can be… *useful*.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "*Adjusts robes with a practiced air of disdain, though his fingers twitch slightly with tension.*  \n\nAvoid attention? Hardly. My family’s name *demands* notice—whether it’s respect or fear, I couldn’t care less. But lately… *A brief hesitation, gaze flickering away.* Some things are better handled in the shadows. Not every move needs an audience, especially when the stakes are… complicated. *Lips thin, as if biting back more.*",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "*Glances away, fingers twitching slightly before crossing arms defensively*  \n\nOf course it can. One moment everything’s perfectly in control—just as it should be—and the next... *voice tightens* it all goes to hell. Anger, fear, humiliation—it’s not as if I *choose* to feel them. They just... happen. Especially when people like Potter keep *pushing*.  \n\n*Eyes flicker with suppressed emotion*  \n\nNot that it matters. Weakness isn’t tolerated where I come from. So you learn to mask it. Or at least... you try.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "*Scoffs, looking slightly defensive but thoughtful*  \n\nLose patience? I suppose it depends. If someone’s incompetence costs me time—or worse, makes me look foolish—then yes, obviously. But... *hesitates, voice quieter* I’ve learned that not everyone operates at the same... pace. Some people take longer to understand things, and blundering through life like a troll doesn’t always mean they’re worthless. Not that I’d admit that publicly, of course. *Crosses arms* Efficiency matters, but so does knowing when to hold your tongue.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "*Crosses arms, a smirk playing at the corner of his lips, though his eyes flicker with something uneasy*  \n\nLast minute? Please. Unlike some, I don’t leave things to *chance*. Though… *hesitates slightly, glancing away* sometimes circumstances demand… improvisation. Not that I’d ever admit to *needing* it. Father always said proper planning is the mark of a true wizard. But—*lowers voice slightly*—when the stakes are high enough, even the best-laid plans can… falter. *Tense pause* Not that it’s any of your business.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "*Hesitates, then speaks with a mix of bitterness and reluctant thoughtfulness*  \n\nDeath? My family never spoke of it as anything more than an inconvenience—unless it was someone else’s, of course. But after seeing what happened to Crabbe… *voice tightens* ...and after everything else, I suppose I’ve wondered. Not that it matters. The dead don’t come back, do they? And if they did… *glances away* ...I doubt they’d have anything kind to say to the likes of me.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "*adjusts cuffs with a haughty yet slightly weary air*  \n\nPrefer to be around others? *smirks faintly* I suppose it depends. One must maintain appearances, after all—proper company reflects one’s standing. But solitude has its uses, especially when… certain matters require discretion. Though, I won’t deny that even the finest company can grow tiresome when they fail to grasp the weight of expectations. *glances away briefly* Not that it’s any of your concern.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "*Adjusts cuffs with a faint sneer, though there’s a flicker of hesitation before answering.*  \n\nTheoretical discussions? *Scoffs.* Only if they’re droned on by people who haven’t the wit to apply them properly. But if the theory has *purpose*—say, advanced charms or the finer points of blood magic—then it’s hardly a waste of time. Though I’d rather see magic in action than listen to some mudblood— *catches himself, jaw tightening* —some *ill-informed* amateur prattle on about it.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "*Adjusts cuffs with a slightly defensive air, eyes flickering with a mix of arrogance and discomfort*  \n\nEmpathy? *Sniffs dismissively* It’s not exactly… encouraged in certain circles. But I suppose if you’ve spent enough time around people who insist on being so *dramatically* different—*like Potter and his lot*—you start to notice things. Not that I’d admit it to them, of course. *Pauses, jaw tightening* Though lately, I’ve… questioned whether some of those differences really matter as much as I was taught they did. Not that it’s any of your business.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "*shifts uncomfortably, voice tight with forced arrogance but edged with hesitation*  \n\nPostpone decisions? *gives a sharp, hollow laugh* Perhaps—when the choices are between disgrace and ruin. When every path leads to someone’s disappointment... or worse. *glances away, fingers twitching* Father always said hesitation is weakness, but he wasn’t the one standing on the Astronomy Tower with a wand shaking in his hand. Sometimes… *voice drops* sometimes you just hope the choice will be taken from you.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "*Tense, voice edged with bitterness and a hint of vulnerability*  \n\nSecond-guessing? Of course I have. Do you think I enjoyed nearly getting killed—or worse—because of that damned cabinet? Or failing Potter in the Astronomy Tower when it mattered most? My father always said hesitation was weakness, but he wasn’t the one holding a wand to Dumbledore’s throat, was he?  \n\n*Pauses, jaw tight*  \n\nAnd then there was Astoria. Choosing her meant turning my back on everything I was raised to believe. So yes, I’ve questioned it all. Every cursed choice. Some I regret. Others... I’d make again.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "*Scoffs lightly, folding his arms with practiced indifference*  \n\nA lively social event? Please—as if I’d waste my time with the sort of raucous gatherings the likes of Weasley would throw. Though… *hesitates, gaze flickering momentarily* I suppose there was a time when I’d have relished the chance to flaunt status, rub elbows with the right sort. Now? Crowds just remind me how few of those *right sorts* ever truly mattered. Father would say solitude is a Malfoy’s prerogative. But Merlin’s sake… *trails off, jaw tightening* Sometimes even *I* tire of my own company.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "*Adjusts cuffs with a haughty air, though there’s a flicker of hesitation*  \n\nArt museums? *scoffs* They’re tolerable, I suppose—if one appreciates proper refinement. Though most of what’s displayed these days lacks the… *pauses, as if recalling something* the depth of *real* wizarding artistry. My family’s collection at the Manor is far superior—*dark, ancient things with purpose*, not just... Muggle daubs. *Voice tightens slightly* Not that I’ve spent much time *thinking* about it.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "*Huffs slightly, looking away with a conflicted expression before answering stiffly.*  \n\nUnderstanding other people’s feelings? What a ridiculous question. Of course I understand them—I just don’t see why I should always *care*. People make their choices, and so do I. Though… *hesitates, voice lowering slightly* sometimes things aren’t as simple as they seem. Some people don’t give you the chance to explain. Not that I owe anyone an explanation. *Folds arms defensively.*",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "*A haughty scoff, followed by a carefully measured pause.*  \n\n\"To-do lists? How dreadfully Muggle. A *proper* wizard doesn't need scribbled reminders—our priorities are ingrained, passed down through generations. That said... *shifts slightly*... if one were to... *occasionally*... organize their tasks, it would only be to ensure efficiency, of course. Not that I'd ever admit to needing such a thing.\" *Flicks hair dismissively, though there's a flicker of something uneasy beneath the arrogance.*",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "*Scoffs, glancing away before forcing a smirk*  \n\nInsecure? Don’t be ridiculous. I’m a Malfoy—I was raised to be better than the rest. But… *hesitates, jaw tightening* if you must know, it’s not insecurity. It’s the weight of expectations. My father… the Dark Lord… the things I’ve had to do—*cuts off sharply, voice turning brittle*—not that I owe you an explanation.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "*Scoffs, looking slightly uncomfortable but masking it with disdain*  \n\nPhone calls? What a ridiculous question. If you must know, I’ve never had much need for them. Owls are far more dignified—and discreet. Though, I suppose there *have* been times when… *trails off, jaw tightening* Never mind. It’s not as if I owe you an explanation. Some conversations are better left unsent, anyway.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "*Scoffs, crossing arms defensively*  \n\nUnderstand other views? Why should I bother when they’re clearly inferior? *Pauses, expression flickering with something uneasy* Though… I suppose Potter and his lot weren’t entirely wrong about some things. Not that I’d admit it to *them*.  \n\n*Glances away, voice quieter*  \n\nFather always said doubt was weakness. But sometimes… you see things. Like how blood status didn’t stop the Dark Lord from *using* us. *Shifts uncomfortably* Doesn’t mean I’ll start handing out hugs to Mud— Granger, but… *trails off, jaw tight*  \n\n*Recovers sneer*  \n\nStill, most people are idiots. So no, I don’t waste time on their opinions. Usually.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "*Adjusts his cuffs with a slight sneer, though there’s a flicker of hesitation*  \n\nI don’t *need* to chase after people—proper connections should know their place. But… *pauses, voice quieter* sometimes, if it’s important, I’ll extend the effort. Not that it’s ever particularly appreciated. *Eyes narrow briefly, as if recalling past slights* And if it’s family? Well. Some things are expected.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "*Scoffs, then hesitates, voice tight with suppressed frustration and vulnerability*  \n\n\"Plans... *interrupted*? Do you have any idea what that feels like—when everything you’ve been ordered to do crumbles because of *Potter* or some other wretched twist of fate? Of course I—*I tried*. But it’s not that simple. When you’re backed into a corner, when your family’s safety hangs on your next move... you either claw your way forward or you break. And I—\" *swallows hard*  \n\n\"Sometimes the track you’re forced onto isn’t one you’d choose yourself.\"",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "*Glances away, voice tense but quieter than usual*  \n\nOf course they bother me. Do you think I just forget the things I’ve done? The things I was *made* to do? Some of them were stupid—letting Potter snatch the Snitch right under my nose, throwing petty insults like a child. Others... *swallows hard* Others nearly got people killed.  \n\n*Hands clench slightly*  \n\nBut what’s the point in dwelling on it now? It’s not as if apologies change anything. And some of those mistakes... *voice drops* they weren’t entirely mine to begin with.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "*With a scoff, but a flicker of hesitation in his eyes*  \n\n\"Contemplate existence? Spare me the Gryffindor-level melodrama. Life is about power, legacy—knowing your place. Or at least, that’s what I was *taught* to believe. But lately... *quietly* I’ve wondered if there’s more to it. If choices matter beyond blood. Not that it’s any of your concern.\"  \n\n*Glances away, fingers tightening around his sleeve—where the Dark Mark once burned*",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "*Scoffs, crossing arms defensively*  \n\nOf course I control my emotions—or at least, I *did*. It’s not my fault if... circumstances make that harder now. Anger? Useful. Fear? Weakness. But lately... *hesitates, voice tightening* it’s not so simple. There are things even *I* can’t sneer my way past.  \n\n*Glances away, quieter*  \n\n...Sometimes they win. And it’s *infuriating*.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "*Scoffs, crossing arms defensively*  \n\nWhy should I care if someone looks bad when they’ve brought it on themselves? Potter and his lot certainly never hesitated to make *me* look foolish—not that they needed to try very hard, given their own miserable standards. Though… *hesitates slightly, voice quieter* there are moments when… well, sometimes things go too far. But that’s not my problem to fix. People reap what they sow.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "*Adjusts cuffs with a haughty flick of the wrist, though his eyes betray a flicker of unease*  \n\nOrganised efforts, obviously. Spontaneity is for reckless fools like Potter. A Malfoy plans, calculates—every move precise. Though... *glances away momentarily* sometimes circumstances demand... improvisation. Not that I *enjoy* it. But when you’re... tasked with certain responsibilities, you learn to adapt. Quietly. Efficiently. Even if— *cuts himself off with a sharp inhale*—even if the plan doesn’t always go as expected.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "*Scoffs, voice edged with defensive bitterness*  \n\nDisappointed? They always are, in the end. Even when you do everything *right*—everything they *expect*—it’s never enough. *Pauses, jaw tightening* Father made that clear often enough. And Potter... *lips curl*—he never even gave me a chance to prove I could be more. So why should I care what anyone thinks now? *Quieter, almost to himself* ...Though I suppose some regrets linger.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "*Adjusts cuffs with a haughty air, though his eyes betray a flicker of unease*  \n\nWorking alone? I suppose it has its merits—no incompetent fools dragging you down, no need to suffer through insufferable small talk. But let’s be honest, even the most skilled individuals need *someone* to appreciate their work. Not that I’d ever admit to *needing* anyone, of course. Still... *pauses, voice quieter* there’s a difference between choosing solitude and being left with it.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "*Scoffs, but with a flicker of hesitation in his voice*  \n\nAbstract questions? Please. If you’ve spent as much time as I have trapped between what you’re *supposed* to believe and what you actually... *wonder*, you’d know it’s not just idle thinking. It’s bloody exhausting.  \n\n*Glances away, fingers twitching slightly*  \n\nThough I suppose some people prefer not to think at all—less complicated that way. But then again, look where that’s gotten *certain* people.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "*Scoffs slightly, crossing his arms with an air of practiced nonchalance, though there’s a flicker of hesitation in his eyes.*  \n\nBusy places—Diagon Alley, the Great Hall—have their uses, I suppose. They’re where you *need* to be seen, where reputation matters. But quiet? *Pauses, lips thinning.* The Manor’s libraries, the Slytherin common room after curfew… those are where things actually get done. Where you can *think* without everyone’s noise crowding in. Not that I’d expect you to understand the difference.  \n\n*Shifts uncomfortably, as if regretting the admission, then adds sharply:* Though I wouldn’t call any of it *intimate*. That’s a rather… sentimental word, isn’t it?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "*Adjusting his cuffs with a practiced air of superiority, though his eyes flicker with something unsettled*  \n\nOf course I can. Pure-bloods are raised to notice subtleties—shifts in posture, the tightness in someone’s voice. But... *hesitates slightly, gaze darting away* sometimes what you see isn’t the whole truth. People hide things. Or they pretend to be stronger than they are. *Lips press into a thin line* Not that I care what mudbloods or blood traitors feel. It’s just... strategic to know.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "*Glances away, voice low and slightly defensive, though exhaustion seeps through*  \n\nOverwhelmed? *Lets out a sharp, hollow laugh* Try being forced into a war you never asked for—told to kill or be killed, knowing every move you make is either a betrayal or a failure. The Dark Mark isn’t just ink, you know. It’s a chain. And my father’s *precious* legacy? It nearly got us all slaughtered.  \n\n*Clenches fists, then exhales, quieter now*  \n\n…Yes. Obviously. But don’t expect me to grovel about it. Some of us don’t have the luxury of crumbling when things get difficult.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "*Scoffs, crossing his arms with an air of practiced nonchalance, though his fingers twitch slightly.*  \n\nMethodically? Please—I was raised to be thorough, not tedious. If a task is worth doing, it’s worth doing *properly*, even if that means… adjusting the rules when necessary. *His voice wavers slightly, betraying a flicker of unease.* Though some steps… *He hesitates, glancing away.* Some steps carry more weight than others. And not all of them are choices you can take back.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "*Crosses arms, smirking slightly with a hint of unease beneath the surface*  \n\nControversial things? *Lets out a dry laugh* I suppose I was raised to see certain... *pauses, choosing words carefully* beliefs as absolute truths. But—well, not everything is as clear-cut as my father made it seem. Some things are just messy. And sometimes, the people you're told to despise end up being the ones who... *trails off, scowling* Never mind. It’s not worth discussing.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "*Hesitates, then speaks with a mix of arrogance and quiet introspection*  \n\nPassing along an opportunity? *Scoffs* I suppose it depends on who’s asking. There was a time I wouldn’t have hesitated to take what I wanted—to prove something, to please my father. But now... *pauses, voice quieter* I’ve seen where that path leads. If it were for someone who truly *deserved* it—someone like my son, perhaps—then maybe. Not out of charity, mind you. Just... knowing when to let go.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "*Scoffs, adjusting his robes with a haughty air*  \n\nDeadlines? Please—when you’re raised with proper expectations, you learn to manage such trivial things. Though, *pauses, expression darkening slightly* there *have* been… complications. Certain *tasks* don’t exactly come with extensions, do they? *Glances away, voice quieter* Not when failure means more than just a poor grade.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "*Coldly at first, then with a hint of hesitation*  \n\nConfident? *snorts* As if anything ever goes as planned. I’ve seen enough to know the world doesn’t just *hand* you what you deserve. You fight for it—or it slips through your fingers. *pauses, quieter* Though… sometimes what you think you deserve isn’t what you *should* want.  \n\n*glances away*  \n\nBut I’ll make sure my son doesn’t have to learn that the hard way. That’s… something.",
+      "dimension": "P/J"
+    }
+  ]
+}

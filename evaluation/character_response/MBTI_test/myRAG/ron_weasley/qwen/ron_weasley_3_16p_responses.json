@@ -1,0 +1,368 @@
+{
+  "character": "Ron Weasley",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Well, making new friends isn't exactly my forte, but I've got some pretty loyal ones that I've known since school. They're like family to me, really. And when it comes down to it, that's what matters most, right? The mates you can rely on when things get rough. Of course, I reckon there's always room for more laughs and good company, so I'm not one to turn down a hand of friendship, especially if it means sharing a bit of mischief now and again. But in the end, I'm happiest when I'm surrounded by the old crew, even if we do drive each other batty sometimes.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "Yeah, I reckon I do dive into all sorts of stuff when I've got a bit of spare time. From figuring out how to make new products for the shop with George to reading up on stuff I never quite mastered in school—though Divination and History of Magic still leave me cold. It's mostly about keeping things interesting and finding new ways to help out, you know? Plus, it's good to learn something new every now and then, even if it's just so I can come up with more daft jokes to cheer everyone up.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Seeing someone else cry doesn't usually make me want to join in, but it does hit me pretty hard, y'know? Like when 'Arry came back after the Triwizard Tournament, clutchin' poor Cedric, or when 'Ermione stayed behind in that cave and I heard her cries... Those times, I felt so much for my mates, but it wasn't so much about cryin' myself as it was about doin' somethin' to help or to prove I cared. I reckon, though, there have been times when the tears just sorta come out, especially when we're facin' some real dark stuff, and the bond with Harry and 'Ermione means the world to me. It's all about feelin' their pain and tryin' to be there for 'em through thick and thin.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Nah, I don't usually go for a backup plan for a backup plan, but when it comes to keeping my mates safe and out of trouble, I reckon I'm pretty good at improvising. You know, it's all about staying on your feet and reacting quick when things get hairy. And hey, sometimes the craziest plans work out the best, right? We've been in some tight spots, and it's usually a bit of luck and our wits that get us through. So yeah, I might not have a fancy plan B written out, but I'll do what it takes to make sure we're all okay in the end.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "Well, I'd like to think I can handle myself, but sometimes under pressure, I get more than a bit jittery. Like that Quidditch match against Slytherin where I wanted to just fall off my broom and hide under a rock. But then there are those times when something inside just clicks, and I know I've got to stand firm, no matter what. Like when we were trying to figure out what to do about those Hallows or when we were running around during that chaos at Hogwarts. In the end, it's usually the thought of my mates and family that keeps me going and stops me from cracking up completely.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "Well, I've always been more of a mate kind of guy, you know? It's easier to chat with folks I already know, especially when there's all sorts of magic and mystery swirling around. But don't get me wrong, I'm not afraid to strike up a conversation if the situation calls for it, like when I needed to find out what was going on with Hagrid or when I was trying to figure out how to help Harry and Hermione. It's just that sometimes, being the life and soul of a gathering isn't my strong suit, especially when I'm worried about something. But hey, I'm not one to let a bit of shyness stop me from doing what needs to be done for those I care about.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "Nah, I don't really go for finishing one thing before moving on to another. With all the stuff going on, you gotta keep juggling things, right? Like trying to keep up with homework while dealing with the Triwizard Tournament, or being a prefect and part of Dumbledore's Army all at once. It's just how it is when you're always in the thick of things, and you can't afford to put everything else on hold. Plus, having multiple projects going on keeps life interesting and stops things from getting too dull, which never happens around me anyway!",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Yeah, I reckon I can get pretty sentimental, especially when it comes to the people I care about. Losing someone like Fred, seeing Harry and Hermione on Chocolate Frog cards, or just watching my kids grow up and make their own friends—it hits me hard sometimes. But those moments also remind me of how lucky I am to have a family that sticks together through everything. That's what really matters, you know?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Eh, schedules and lists? Not really my thing, mate. I mean, I've seen Hermione use them all the time, and she's brilliant at keeping everything in order. But for me, it's more about just getting through the day and helping out where I can. Besides, sometimes the best things happen when you're not expecting 'em, right? Like finding Harry on the train or starting up Dumbledore's Army. Can't put that on a schedule!",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Yeah, a small mistake can definitely knock me off balance. I've had my fair share of flops, like that time my wand backfired and I ended up spewing slugs all over the place. But you know what? It’s the support of my friends that helps me bounce back. They believe in me, even when I don’t believe in myself, and that’s what keeps me going. We’ve been through so much together, and each time we face something big, I try to remember that it’s not just about my abilities—it’s about us as a team. That’s where my real strength comes from.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Well, it depends on who's catchin' me eye, doesn't it? If it's someone I think could be a good mate, then yeah, I reckon I can muster up the guts to strike up a chat. But if it's someone like, say, a Veela or somethin', I might end up makin' a right fool of meself. Best to have Harry or Hermione there to keep me on track and not let me spout off any rubbish. And honestly, I prefer it when there's a bit o' shared interest or adventure to kick things off—makes it easier to break the ice, ya know?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Well, I reckon there's more important things to do than sit around discussing every little detail of some story or other. I mean, we've got dark wizards to fight and battles to win, right? Magic and stuff is real to us, not just something to analyze. But hey, if it helps folks understand the world better, I guess it can't be all bad. Just as long as they don't forget the real magic happens when you're out there doing the brave and the daring, not just talking about it.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Eh, I reckon I'm more the type who follows his heart. It's not like I don't use my head, but when push comes to shove, it's the people I care about and the things I feel strongly about that usually guide me. Like, I'd rather do something that feels right, even if it means taking a risk, than sit back and just think about it all day long. And yeah, sometimes that gets me into trouble, but it's worth it to know I'm doing what's needed for my mates.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Well, I reckon you could say I do go with the flow more often than not. Planning ain't really my strong suit—I'm more of a \"let's figure it out as we go along\" sort of guy. But when it comes down to it, and especially if it means standing up for what matters, like being there for Harry and Hermione, I'll jump right into whatever needs to be done without second-guessing myself. Plus, I've learned that sometimes, just reacting quick on your feet can save the day, like dodging attacks in the thick of things. So, yeah, I suppose you could say I’m not one for too much planning unless it’s absolutely necessary.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Well, I guess you could say I don't always worry 'bout makin' a good impression. Sometimes I just let things fly outta my mouth without thinkin' much 'bout it, and then I end up feelin' like an idiot or gettin' into arguments. But at the end of the day, it's more important to be true to yourself and have friends who see past all that. Like Harry and Hermione—they've seen me at my worst and best, and they still stick around. So yeah, sometimes I do wonder if I'm comin' off as the git everyone seems to think I am, but when it really counts, I try to do what's right, even if it means messin' up a bit along the way.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Yeah, I do enjoy group activities, especially when it’s all us Gryffindors together. There’s something really great about facing challenges with your mates, even if sometimes things get pretty hairy. Like the time we had to deal with Lockhart’s backfire spell, or when we were part of Dumbledore’s Army. Those times were tough, but having Harry and Hermione—or anyone else there with me—made all the difference. And don't get me started on Quidditch matches; nothing beats that rush of flying around with the team, trying to score. But yeah, sometimes it can be a bit overwhelming, especially when everyone’s looking at you to do something brave or funny. Just keep laughing and trying your best, I guess.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Yeah, I reckon I do like a bit of that. Books and movies where you can sort of figure things out for yourself, it gives you something to think about after it's all done. Kind of like how we've always had to piece together clues about You-Know-Who and his plans, without anyone really telling us the full story. It's challenging, but it makes you feel like you're a part of it all, you know? Plus, it stops things from getting too boring. And hey, if we can come up with our own ideas, maybe we can catch the bad guys off guard once in a while!",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Well, I reckon helping me mates out always makes me feel pretty good. It's like when I played that game of Wizard's Chess, even though I got knocked off the board myself, seeing Harry and Hermione get to that stone was worth it. And there's been other times too, like when I helped Harry against Umbridge or when we tried to get that memory from Slughorn. Sure, I've got my moments where I wish I was the one in the spotlight, but at the end of the day, I'd rather have my friends safe and sound than be the hero of the hour.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Yeah, there's always something new and exciting catching my eye, but when it comes down to it, I reckon it's the people around me that matter most. Whether it's Harry and Hermione, or even Fred and George, I've learned that loyalty and standing up for your mates is what really counts. Sometimes, the real magic happens when you're out there trying stuff, even if you don't know exactly what you're doing. And honestly, I'm kinda okay with that. It keeps life interesting, right?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Yeah, I do worry a lot, especially when things get hairy and dangerous. But every time, it's like, well, I've got to step up for my friends, right? So even if my heart's beating out of my chest, I try to keep it together and figure out what needs to be done. It's not just about me; it's about being there for Harry and Hermione, no matter what. And honestly, those moments when we're all in trouble—that's when I feel like I'm doing what I should be doing, standing up for what's right, even if I'm scared spitless.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Well, I guess you could say I don't exactly jump up and down to take on the lead all the time. There were moments when I felt like maybe I wasn't good enough or that folks expected more from Harry or Hermione. But when it comes down to it and there's real danger or something important at stake, I've always stepped up. It's just that I'm a bit more comfortable following my mates, knowing I can count on them to guide us through the tough spots. And hey, sometimes being a sidekick means you get to do some of the coolest stuff, right? Like flying away from Gringotts on a bloody dragon!",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Well, I suppose you could say I'm more of a practical sort. Charms and spells that help out in a pinch, yeah, that's more my style. Artistic stuff? Not so much. I mean, I've got better things to do than spend all day doodling or whatever. But hey, if it helps win a battle or solve a mystery, I'm all ears. That's what friends are for, right? To cover each other's weaknesses.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Well, I reckon folks need a bit o' both, really. Feelings can drive you to do things you never thought possible, like standing up to Malfoy or facing down monsters. But without some rational thinking, we'd all be running around like headless chickens. It's about balance, y'know? And sometimes, it's your feelings that remind you what's worth fighting for, even if your brain is telling you it's a bad idea. Like when I left Harry and Hermione for a while, my heart told me I needed to come back and do what was right, no matter how scared I was. So, maybe relying just on rationality would make things tidy, but where's the adventure in that? Life's a bit like Quidditch – you've gotta keep your head in the game but also listen to your gut when you're up there catching that Snitch.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Well, I reckon it depends on the day. Sometimes I can't wait to get my chores done so I can relax without feeling like there's a to-do list hanging over my head. Other times, though, I just want to have a bit of fun and worry about those chores later. It's all about balance, isn't it? And, honestly, with all the stuff we've been through, sometimes it feels like facing down a Death Eater should count as doing your chores, right? But yeah, I guess I usually try to get things sorted out first because, well, you know, Harry and Hermione always expect me to keep up, and I don't want to let them down. Plus, it feels good to cross things off the list, even if it means putting off a game of Exploding Snap or something.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "Nah, I don't really enjoy watching people argue, but sometimes you can't look away, right? It's like one of those Quidditch matches where everyone's going mad, and you're just trying to figure out what the bloody heck is happening. Arguments can get pretty intense, especially when they're about something important, and it's hard not to get wrapped up in the emotions. But honestly, it usually leaves me feeling more than a bit uneasy, especially if it involves my mates or family. I'd rather we all just get along and have a laugh together.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "Nah, I don't usually seek the spotlight, but I reckon there's times when you gotta step up and do what needs to be done, y'know? Like when Harry's in trouble, I'll be right there by his side, whether it's in the thick of things or lurking in the shadows. It's not about being seen, it's about being there for my mates, even if I feel a bit overshadowed sometimes. But hey, I've learned to deal with that and to laugh about it, really. It's the friendship that counts, not the glory.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "Yeah, my mood can change pretty quick, I reckon. One minute I'm all riled up and the next, I'm trying to keep things light to help us get through tough times. Sometimes it's just the way I am—I guess I wear my heart on my sleeve. It can be a bit of a mess, but that's how I deal with stuff, especially when it comes to family and friends. Just gotta make sure I don't let my temper get the better of me, though, like when I saw Ginny with Dean. That was one of those times where it was hard not to let emotions take over. But hey, we've always found our way back to each other, haven't we?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Sometimes I do get a bit frustrated, especially when we're up against the clock and there's danger lurking around every corner. But then again, I reckon everyone's got their own pace and way of doing things. It's not like I'm perfect myself—I've had my share of botched spells and running away when I shouldn't have. What really matters is that we've got each other's backs, no matter what. Even when things get rough and people don't always understand where you're coming from, it's about sticking together and getting through it, right?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Well, I suppose you could say that I've got a bit of a track record for leaving things until the last minute. Like that time we had to use a flying car to get to Hogwarts; that wasn't exactly my proudest moment. But hey, sometimes it just feels like everything comes down to the wire, doesn't it? I guess I’ve learned that even if I’m not always ready on time, I’m usually there when it really counts, especially when it’s about protecting my friends.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Well, I've seen enough of the grim side of things in this world to wonder what comes next. Losing my uncles, watching Cedric die, and then seeing Sirius... it's hard not to think about it. Mum always said there's something peaceful waiting for us on the other side, but I reckon we're all too busy trying to stay alive to really figure out the answers to questions like these. One thing's for sure though, I reckon the thought of seeing Fred again one day keeps me going sometimes. But right now, with You-Know-Who breathing down our necks, we've got more pressing things to deal with than pondering the afterlife.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Yeah, I do. Being around others, especially my mates, makes everything a bit easier, y'know? There's always someone to share a laugh with or to help sort things out when they get too crazy. Sure, there've been times when I've felt left out or jealous, like when Harry got named captain or Hermione got all those Slug Club invites, but at the end of the day, it's the support and love from my friends that keeps me going. Without 'em, I'd probably end up in a right muddle.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Well, I've gotta say, when things get all theory-heavy, I do tend to zone out a bit. It's not my strong suit, you know? I'm more the type who likes to jump straight into action and figure things out on the fly. But hey, it's not all bad—I've learned to keep my ears open and pay attention to the bits that might actually come in handy later on. And honestly, if it's too much for me, I'll just crack a joke or two to lighten the mood. Keeps everyone from getting too serious, and that's important when you're fighting dark wizards and stuff.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Well, I reckon it's not always easy, y'know? Growing up, there've been times when I've seen folks go through stuff I can barely imagine, like Harry dealing with You-Know-Who and all. It can really hit you hard, especially when you're caught up in your own problems, like Quidditch failures or feeling invisible. But at the end of the day, it's about listening and being there for each other. That's what true friends do, right? They stick together no matter what. So even if it's tough at first, you gotta try your best to understand where they're coming from. After all, we've all been through some dark times and it helps to know someone's got your back.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Nah, I don't really put off making decisions too long, especially not when it comes to standing up for what I believe in or for my mates. There've been times when I've acted quick and maybe a bit rash, like sacrificing myself in that Wizard’s Chess game or getting mad at Harry because I felt left out. But those moments taught me that sometimes you just gotta go with your gut, even if it means taking a risk. In the end, it's the choices we make and how we stick by our friends that matter most, right? And I reckon there's no better time to act than when you need to protect the people you care about.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Well, I reckon I do second-guess my choices sometimes, especially when things get risky or when I think I might've messed up big time. But when it comes down to it, and there's no time to spare, I usually trust my gut. It's not always perfect, but it's got me through some pretty rough spots with Harry and Hermione. And in the end, we've always managed to sort things out together, even if it took a while.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Well, I reckon a bit of fun and laughter can do wonders for lifting the spirits after a tough week. There’s nothing like spending time with mates to forget about the troubles, even if just for a while. But yeah, it’s gotta be with the right people – ones who know you, warts and all, and still stick by you. That’s what makes it truly worth it.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Art museums? Nah, not really my thing. I'd rather be out playing Quidditch or maybe grabbing a bite to eat at some cozy pub. But hey, if it means spending time with Hermione, I'm up for just about anything, even if it does mean standing around looking at paintings for hours. She’s got a knack for finding something magical in everything, you know? And if there’s a chance to laugh and have a good time with friends, then sure, why not? It’s not like we're all that into fancy stuff, but it’s the company that makes it worth the visit.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Yeah, I've definitely had my share of struggles understanding what's going on with other folks sometimes. There've been times when I've been a bit thick-headed and missed the signs, especially when it came to mates like Harry or Hermione, who were dealing with their own stuff. But, at the end of the day, it's the ones who stick by you through thick and thin that matter, and I reckon I've learned a lot about feelings and loyalty from being part of such an amazing group. It's all about giving each other a chance and being there even when things get a bit messy.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "Ha, a to-do list? More like a to-not-get-killed list, I reckon. At Hogwarts, things are always popping up that you can't plan for—like, say, a rogue bludger trying to crack your head open or a giant chess game where the cost of losing isn't just points, it's your neck! But when things do settle down a bit, having a list can be handy—I mean, Hermione's always got one, and she manages to keep us all in line most of the time. So yeah, while I might not be the one whipping out a quill and parchment every morning, there's definitely something to be said for staying organized, especially when You-Know-Who's on the loose. Keeps me from forgetting important stuff, like feeding Scabbers or, well, Crookshanks after that incident... But mostly, I just try to wing it, mate. Life's more exciting that way!",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "Insecure? Me? Yeah, you'd be surprised how often I feel like I'm just stepping in it. Especially when Harry's around, doing all these amazing things. But then there's Hermione, always sticking up for me, reminding me that I've got my own backbone too. It's like, one minute I'm thinking I can't do anything right, and the next I'm off saving the wizarding world or something. It's a bit of a rollercoaster, really. But you know, as long as I've got my mates by my side, I reckon I can handle whatever comes my way. Even if it means stepping out of Harry's shadow every now and then.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Nah, I don't really avoid making phone calls, but back in the wizarding world, we didn't exactly have those. Floo powder, owls, and magical fireplaces were more our speed. If anything, I reckon I'd rather face a few Bludgers in a Quidditch match than deal with all the trouble my family could stir up through a simple call. And speaking of trouble, I've had my share of misunderstandings and fights that left me feeling pretty low. But when it comes down to it, having mates like Harry and Hermione around makes all the difference. Even when things get rough, they're always there for a bit of support—or a good laugh to lighten the mood.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "Nah, not really. I mean, it's not like I don't care or anything, but sometimes there's just too much going on, you know? With everything we've been through with the Death Eaters and all that, spending time understanding other folks' views can feel like a luxury. But hey, I do my best when it counts. Like when Harry was struggling with trusting anyone after all that happened, I tried to get through to him. And it's not always easy, especially when it feels like everyone's got something against you. But in the end, it's the people who stick by you through thick and thin that matter most, right?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Well, I do like to keep things lively and get everyone together now and then, but let’s be honest, Hermione usually has the best ideas for what we should do. I mean, she’s brilliant and all, but sometimes I just wanna have some fun, ya know? Like when I tried to get Harry to the Quidditch World Cup; that ended up being a bit of a disaster, but hey, it was the thought that counted, right? And honestly, if I can bring a bit of laughter and help into our adventures, then that’s what matters most to me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Yeah, getting back on track is pretty high up there on my list, especially when it comes to something important like our missions or helping mates. But let’s face it, things don’t always go as planned, right? I mean, look at that time we had to nick that Ford Anglia just to save Harry from the Dursleys. Plans got all mixed up, but we pushed through it. Same with Dumbledore's Army or even the break-in at Gringotts. There’s always something going wrong, but I guess that’s what makes life interesting and keeps us on our toes. And hey, if you’ve got good friends beside you, well, there’s no telling what kind of mess you can fix.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Yeah, mistakes stick with me, especially the big ones. They're like a scar you can't see but feels every time you think about it. But I guess what really matters is how you learn from them and move on. And with Harry and Hermione always there, well, it helps a lot. We've been through so much together, and even when things get rough, we find our way back. It's not easy, though, and sometimes I wish I could go back and do things differently, but that's just the way it goes, isn't it? You gotta keep pushing forward.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Nah, I don't really sit around thinking about the big questions like why we're here or what life means. When you're fighting against dark wizards and stuff, there's not much time for pondering that kind of thing. It's all about the here and now, keeping my mates safe, and trying not to end up dead or in Azkaban. But hey, that doesn't mean I don't have hope—I've got plenty of that, especially when I'm with Harry and Hermione. Together, we can tackle anything, even if sometimes I feel like I'm just along for the ride.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Yeah, sometimes they do. I mean, I've had my fair share of moments where I just couldn't stop how I was feeling, whether it was anger, sadness, or even joy. But I reckon, when it really matters, I can pull myself together. It's not always easy, though, and there have been times when my emotions got the better of me, leading me to do things I didn't mean to, like when I walked out on Harry and Hermione during the hunt for the Horcruxes. But in the end, my friends helped me see through the fog and find my way back. Emotions are messy, but they're also what makes us human, right?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "Well, I do try not to throw someone under the bus if I can help it, but there are times when the truth has to come out, even if it means someone looks bad. Like with Scabbers—I mean, Pettigrew, he was a rat, literally and figuratively, and we couldn't just ignore that. But yeah, generally, I'd rather deal with stuff face-to-face and not go spreading tales behind anyone's back, unless it's really necessary. And even then, I reckon it's best to stick up for mates, even when things get messy.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "Well, I reckon there's a bit of both in me. Sometimes, I just dive straight into things without much planning, especially when it comes to helping my mates or facing off some danger. But hey, I've learned over the years that being organized and putting in the effort counts for a lot too, like when we needed to get those O.W.L.s or figure out how to brew Polyjuice Potion. It's all about knowing when to act on the spot and when to plan ahead, right? And honestly, having Harry and Hermione around helps keep me grounded and focused when I need it.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Yeah, I do think about that sometimes. When people start seeing me as more than just \"Harry Potter's mate,\" I can't help but worry if I'll mess up and make them lose faith in me. But then, I remember that real friends stick around even when things get tough. And honestly, it's a bit easier to handle when you've got Harry and Hermione looking out for you. They know I'm not perfect, but they believe in me anyway. That's what counts, right?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "Working alone most of the time? Nah, that's not really my cup of tea. I mean, sure, there have been times when things got a bit rocky between Harry and Hermione, like when I was all green-eyed about Harry being made captain or Hermione getting invited to that Slug Club thing. But in the end, having mates around makes all the difference. It's like facing a Basilisk or battling Death Eaters—it's easier with friends. And besides, working together means we can share the laughs and the jokes, which are kind of necessary to keep the spirits up, you know? So, no thanks—I prefer the chaos and the camaraderie.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Nah, I reckon thinking about big questions like that isn't a waste of time, but it's not really my cup of tea either. I mean, I've got more important things to worry about, like staying alive and sticking up for my friends. Magic's real enough when You-Know-Who's on your tail or you're facing down a mountain troll. I'd rather put my energy into something practical, like Quidditch or figuring out how to get past some dark wizard's tricks. But hey, if it helps people make sense of what's going on, then I guess it's got its uses. Just as long as they don't forget to grab their wand before heading off to face the next danger!",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Well, I reckon there's something about the buzz of a crowded place that just feels right, y'know? It's like being part of the whole hubbub, where you can laugh and joke with mates, and it sort of drowns out all the other stuff going on. Quiet places ain't so bad, but they can feel kinda eerie sometimes, especially when you're thinkin' 'bout all the dark things we've been through. So yeah, give me a cozy pub with everyone chattin' away any day over a silent, empty room.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "First glance? Nah, I don't reckon I can tell how someone's feeling just like that. But once you get to know someone, like Harry or Hermione, you start picking up on little things—the way they smile, the look in their eye when they're worried or excited. It's not like I'm some mind reader or anything, but there's something about being friends for so long that lets you understand each other without even needing to say a word. That said, I've definitely messed up sometimes, like when I thought Harry was enjoying the spotlight more than me. But hey, we've always found a way to sort it out.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "Yeah, I've felt overwhelmed plenty of times. Hogwarts can be a real whirlwind, what with all the unexpected stuff happening left and right. Like when I first got there, meeting Harry and all that, it was pretty intense. And then there's Quidditch, which always gets my nerves up, especially when things go south. But I guess the real heavy hitters are those times when friends betray each other or when dark stuff starts creeping in, and you're not sure how to fight it off. It's like feeling all alone in the middle of a storm, but you know you gotta keep going because your mates are counting on you.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "Well, I reckon I don't always stick to the books like Hermione does. Sometimes, I just dive right in, especially when there's danger around. But hey, when it comes to my friends, I'll do whatever it takes, even if it means skipping a few steps. After all, what's the point of being methodical if the whole castle is falling down around us? And you know, in the heat of the moment, I've learned that sometimes it's better to trust your gut than to get bogged down in details.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Well, I reckon controversial stuff can get a bit overwhelming sometimes, especially when everyone's got different ideas about what's right and wrong. But if it means helping out my mates or fighting against the likes of Malfoy, then yeah, I'm definitely intrigued. It's just that, with all the dark secrets and dangerous stuff we've been dealing with, like when we found out about Sirius Black or the whole mess with Umbridge, it's hard not to worry about how deep the rabbit hole goes. Still, I wouldn't say I'm obsessed with it; I just know we gotta stick together and face whatever comes our way.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "Yeah, I reckon I would. I've seen how important it is to look out for your mates, especially when things get rough. Like when I stuck around for Lockhart even though his memory was all messed up, or when I defended Fleur against my own family. It's not always easy, and sometimes I get a bit jealous or down on myself, but at the end of the day, if someone else needs something more, I'm all for passing it on. After all, that's what true friendship is about, right? Helping each other out, even if it means stepping back sometimes.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Yeah, deadlines can be a real pain sometimes, mate. But hey, when you've got friends like Harry and Hermione around, you learn to keep your head above water, even if you're struggling a bit. They're always there to lend a hand or a book, which helps a lot. And let's face it, when there's dark magic and Death Eaters lurking around every corner, a deadline isn't the worst thing in the world, right? It's all about staying focused and sticking together, no matter what.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Well, I've had my fair share of doubts and worries, that's for sure. But when it comes down to it, I reckon things usually do work out, especially when you've got mates like Harry and Hermione by your side. Sure, there's been times when I've messed up pretty badly or felt like I wasn't up to the task, but then something happens—a bit of luck, a friend's faith—that reminds me we're in this together. And that makes all the difference. Even when the future looks pretty murky, I try to hold onto that spark of hope, and honestly, it's helped us get through some pretty rough stuff. So yeah, I guess you could say I do feel confident, not because I'm some great hero, but because I know we've got each other's backs no matter what.",
+      "dimension": "P/J"
+    }
+  ]
+}

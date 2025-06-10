@@ -73,121 +73,185 @@ class ProjectionHead(nn.Module):
 class EmotionEmbeddingModel(nn.Module):
     def __init__(
         self,
-        dropout_rate=0.3,
-        projection_dim=128,
-        model_path=None,
-        encoder_path=Path("models/roberta-base-go_emotions"),
-        projection_head_path=None,
-        freeze_encoder=False
+        use_projection_head: bool = True,
+        dropout_rate: float = 0.3,
+        projection_dim: int = 128,
+        encoder_path: str = None,
+        projection_head_path: str = None,
+        freeze_encoder: bool = False
     ):
         super().__init__()
         self.dropout = nn.Dropout(dropout_rate)
+        self.use_projection_head = use_projection_head
 
-        # Always load encoder from pretrained dir
-        self.encoder = AutoModel.from_pretrained(encoder_path)
+        # --------------------------
+        # Validate Inputs
+        # --------------------------
+        if encoder_path is None:
+            raise ValueError("`encoder_path` must be provided to load the base encoder.")
+
+        if not use_projection_head and projection_head_path is not None:
+            raise ValueError("`projection_head_path` should not be set when `use_projection_head=False`.")
+
+        # --------------------------
+        # Load encoder
+        # --------------------------
+        try:
+            self.encoder = AutoModel.from_pretrained(encoder_path)
+            print(f"Loaded encoder from {encoder_path}")
+        except Exception as e:
+            raise ValueError(f"Failed to load encoder from {encoder_path}: {e}")
+
         hidden_size = self.encoder.config.hidden_size
-        self.projection_head = ProjectionHead(hidden_size, 256, projection_dim, dropout_rate)
 
         if freeze_encoder:
-            for p in self.encoder.parameters():
-                p.requires_grad = False
+            for param in self.encoder.parameters():
+                param.requires_grad = False
+            print("Encoder frozen.")
+
+        # --------------------------
+        # Load or initialize projection head
+        # --------------------------
+        if self.use_projection_head:
+            self.projection_head = ProjectionHead(hidden_size, 256, projection_dim, dropout_rate)
+
             if projection_head_path is not None:
-                proj_state_dict = torch.load(projection_head_path)  # Load on GPU by default
-                self.projection_head.load_state_dict(proj_state_dict)
+                try:
+                    proj_state_dict = torch.load(projection_head_path, map_location="cuda")
+                    self.projection_head.load_state_dict(proj_state_dict)
+                    print(f"Loaded projection head from {projection_head_path}")
+                except Exception as e:
+                    raise ValueError(f"Failed to load projection head from {projection_head_path}: {e}")
+            else:
+                print("No projection head path provided. Initialized randomly.")
         else:
-            assert model_path is not None, "Must provide `modle_path` when freeze_encoder is False"
-            state_dict = torch.load(model_path)  # .pt or .bin file containing full model weights
-            self.load_state_dict(state_dict)
+            print("Projection head disabled. Using raw CLS embeddings.")
 
     def forward(self, input_ids, attention_mask):
         output = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
         cls_embed = self.dropout(output.last_hidden_state[:, 0])
-        return self.projection_head(cls_embed)
+
+        if self.use_projection_head:
+            return self.projection_head(cls_embed)
+        else:
+            return F.normalize(cls_embed, p=2, dim=1)
 
 
 # -----------------------------
 # 3. Evaluation
 # -----------------------------
 @torch.no_grad()
-def evaluate_embeddings_macro_precision(model, dataset, device, batch_size=128, top_k=5, num_classes=28):
+def evaluate_embeddings_at_ks(
+    model,
+    dataset,
+    device,
+    batch_size=128,
+    ks=[1, 5, 10, 20],
+    num_classes=28
+):
+    from collections import defaultdict
+    from torch.utils.data import DataLoader
+    import torch.nn.functional as F
+
     model.eval()
 
+    # Step 1: Embed the full dataset
     all_embeddings = []
     all_labels = []
 
-    # DataLoader to fetch batches from the dataset
-    val_loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True)
+    val_loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=0)
 
     for batch in val_loader:
         input_ids = batch["input_ids"].to(device)
         attention_mask = batch["attention_mask"].to(device)
         labels = batch["label"].to(device)
 
-        # Get the embeddings from the model
         embeddings = model(input_ids=input_ids, attention_mask=attention_mask)
-        embeddings = F.normalize(embeddings, p=2, dim=1)  # L2-normalize the embeddings
+        embeddings = F.normalize(embeddings, p=2, dim=1)
 
         all_embeddings.append(embeddings)
         all_labels.append(labels)
 
-    # Concatenate all embeddings and labels
-    all_embeddings = torch.cat(all_embeddings, dim=0)
-    all_labels = torch.cat(all_labels, dim=0)
+    all_embeddings = torch.cat(all_embeddings, dim=0)  # [N, D]
+    all_labels = torch.cat(all_labels, dim=0).to(device)  # [N, C]
+    N = all_labels.size(0)
 
-    # Compute similarity matrix (cosine similarity)
+    # Step 2: Precompute cosine similarity matrix
     sim_matrix = torch.matmul(all_embeddings, all_embeddings.T)
-    sim_matrix.fill_diagonal_(-float('inf'))  # Exclude self-similarity
+    sim_matrix.fill_diagonal_(-float('inf'))
 
-    # Get the top-k indices
-    topk_indices = torch.topk(sim_matrix, k=top_k, dim=1).indices  # (N, top_k)
+    # Step 3: Evaluate at each k
+    results = {}
 
-    # Initialize per-class precision dictionary
-    per_class_precisions = {c: [] for c in range(num_classes)}
+    for k in ks:
+        topk_scores, topk_indices = torch.topk(sim_matrix, k=k, dim=1)
 
-    total_samples = all_labels.size(0)
-    total_hits = 0  # To count the total number of successful hits across all samples
+        true_positives = 0
+        total_relevant = 0
+        total_predicted = N * k
 
-    # Loop through all samples to calculate precision
-    for i in range(total_samples):
-        query_label = all_labels[i]  # shape: (num_classes,)
-        retrieved_labels = all_labels[topk_indices[i]]  # shape: (top_k, num_classes)
+        ap_list = []
+        ndcg_list = []
+        per_class_precisions = {c: [] for c in range(num_classes)}
 
-        # Check for a match: a match is considered if at least one retrieved label matches the true label
-        correct_count = (retrieved_labels * query_label).sum(dim=1) > 0  # Any overlap with true labels
-        precision_i = correct_count.sum().item() / top_k  # Precision for this sample
+        for i in range(N):
+            query_label = all_labels[i]
+            retrieved_labels = all_labels[topk_indices[i]]  # [k, num_classes]
+            relevance = (retrieved_labels * query_label).sum(dim=1) > 0  # [k]
 
-        total_hits += correct_count.sum().item()
+            tp = relevance.sum().item()
+            true_positives += tp
+            total_relevant += query_label.sum().item()
 
-        # Distribute the precision across all relevant classes
-        for c in torch.nonzero(query_label, as_tuple=False).squeeze(1).tolist():
-            per_class_precisions[c].append(precision_i)
+            precision_i = tp / k
+            for c in torch.nonzero(query_label, as_tuple=False).squeeze(1).tolist():
+                per_class_precisions[c].append(precision_i)
 
-    # Average precision per class
-    class_avg_precisions = []
-    for c in range(num_classes):
-        class_precisions = per_class_precisions[c]
-        if len(class_precisions) > 0:
-            avg_precision_c = sum(class_precisions) / len(class_precisions)
-        else:
-            avg_precision_c = 0.0
-        class_avg_precisions.append(avg_precision_c)
+            # AP
+            hits, ap = 0, 0.0
+            for rank, rel in enumerate(relevance, 1):
+                if rel:
+                    hits += 1
+                    ap += hits / rank
+            ap /= hits if hits > 0 else 1.0
+            ap_list.append(ap)
 
-    # Calculate macro average precision
-    macro_avg_precision = sum(class_avg_precisions) / num_classes
+            # nDCG
+            gains = relevance.float()
+            discounts = torch.log2(torch.arange(2, k + 2, device=device).float())
+            dcg = (gains / discounts).sum()
+            ideal_gains = torch.sort(gains, descending=True).values
+            ideal_dcg = (ideal_gains / discounts).sum()
+            ndcg = dcg / ideal_dcg if ideal_dcg > 0 else 0.0
+            ndcg_list.append(ndcg)
 
-    # Log the results
-    logging.info(f"Per-Class Average Precisions: {class_avg_precisions}")
-    logging.info(f"Macro-Averaged Top-{top_k} Precision: {macro_avg_precision:.4f}")
+        class_avg_precisions = [
+            sum(per_class_precisions[c]) / len(per_class_precisions[c]) if per_class_precisions[c] else 0.0
+            for c in range(num_classes)
+        ]
+        macro_precision = sum(class_avg_precisions) / num_classes
 
-    # Log total hits across all samples for debugging purposes
-    logging.info(f"Total successful hits: {total_hits}/{total_samples * top_k}")
+        precision = true_positives / total_predicted
+        recall = true_positives / total_relevant if total_relevant > 0 else 0.0
+        f1 = 2 * precision * recall / (precision + recall + 1e-8)
+        mAP = sum(ap_list) / len(ap_list)
+        mean_nDCG = sum(ndcg_list) / len(ndcg_list)
 
-    return macro_avg_precision, class_avg_precisions  # Return per-class precision for further analysis
+        results[f"@{k}"] = {
+            "macro_precision": macro_precision,
+            "precision": precision,
+            "recall": recall,
+            "f1": f1,
+            "mAP": mAP,
+            "nDCG": mean_nDCG
+        }
+
+    return results
 
 # -----------------------------
 # 4. TSNE Plot
 # -----------------------------
-def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_dir="combo_tsne_plots", top_k=8):
+def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_dir="combo_tsne_plots", top_k=12):
     Path(save_dir).mkdir(exist_ok=True, parents=True)
 
     label_tuples = [tuple(np.nonzero(lbl.numpy())[0]) for lbl in label_vectors]
@@ -228,7 +292,11 @@ def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_di
     # ---------------------------
     # 1. Combo plots (top-k co-occurrence)
     # ---------------------------
-    combo_counter = Counter([combo for combo in label_tuples if len(combo) == 2])
+    neutral_index = emotion_names.index("neutral")
+    combo_counter = Counter([
+        combo for combo in label_tuples
+        if len(combo) == 2 and neutral_index not in combo
+    ])
     top_combos = combo_counter.most_common(top_k)
 
     for (a, b), _ in top_combos:
@@ -268,42 +336,101 @@ def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_di
 # 5. Main
 # -----------------------------
 def run_evaluation(
-    model_path: str = None,
     projection_head_path: str = None,
     freeze_encoder: bool = True,
+    encoder_path: str = "models/roberta-base-go_emotions",
     test_jsonl_path: str = "data/augmented_go_emotion/test.jsonl",
     tokenizer_path: str = "models/roberta-base-go_emotions",
-    tsne_save_path: str = "embedding_plot_named"
+    tsne_save_path: str = "embedding_plot_named",
+    use_projection_head: bool = True,
+    eval_ks=[1, 3, 6]
 ):
+    import torch
+    import json
+    import logging
+    from pathlib import Path
+    from torch.utils.data import DataLoader
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
     dataset = EmotionDataset(test_jsonl_path, tokenizer)
 
     # ---------- Validation ----------
-    if (model_path is None) == (projection_head_path is None):
-        raise ValueError("Specify either `model_path` (for fine-tuned model) OR `projection_head_path` (for frozen encoder), not both or neither.")
+    if encoder_path is None:
+        raise ValueError("`encoder_path` must be provided.")
+    if not use_projection_head and projection_head_path is not None:
+        raise ValueError("`projection_head_path` should not be set when `use_projection_head=False`.")
 
     # ---------- Model Setup ----------
     model = EmotionEmbeddingModel(
         dropout_rate=0.3,
         projection_dim=128,
-        model_path=model_path,
+        encoder_path=encoder_path,
         projection_head_path=projection_head_path,
-        freeze_encoder=freeze_encoder
-    ).to(device)
+        freeze_encoder=freeze_encoder,
+        use_projection_head=use_projection_head
+    )
+    model.to(device)
 
-    # ---------- Evaluation ----------
-    macro_prec, class_avg_precisions = evaluate_embeddings_macro_precision(model, dataset, device)
-    # create a log file if it doesn't exist
-    Path(tsne_save_path).mkdir(exist_ok=True, parents=True)
-    with open(f"{tsne_save_path}/evaluation_log.txt", "a") as f:
-        f.write(f"Macro Precision: {macro_prec:.4f}\n")
-        f.write(f"Class Average Precisions: {class_avg_precisions}\n")
+    # ---------- Logging Setup ----------
+    log_path = Path(tsne_save_path) / "evaluation.log"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # ---------- TSNE Visualization ----------
+    logger = logging.getLogger("embedding-eval")
+    logger.setLevel(logging.INFO)
+    logger.handlers.clear()  # clear existing handlers
+    file_handler = logging.FileHandler(log_path, mode="w")
+    file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    logger.addHandler(file_handler)
+
+    logger.info("▶️ Running evaluation...")
+    logger.info(f"📦 Encoder path: {encoder_path}")
+    logger.info(f"🎯 Use projection head: {use_projection_head}")
+    if projection_head_path:
+        logger.info(f"📎 Projection head path: {projection_head_path}")
+    logger.info(f"🧊 Encoder frozen: {freeze_encoder}")
+
+    # ---------- Quantitative Evaluation ----------
+    metrics_by_k = evaluate_embeddings_at_ks(
+        model=model,
+        dataset=dataset,
+        device=device,
+        batch_size=128,
+        ks=eval_ks,
+        num_classes=28
+    )
+
+    logger.info("📊 Embedding Space Evaluation Metrics:")
+    for k, metric_set in metrics_by_k.items():
+        logger.info(f"--- k={k} ---")
+        for metric, value in metric_set.items():
+            logger.info(f"{metric:>20s}: {value:.4f}")
+
+    # Save metrics as JSON
+    def sanitize_metrics(metrics):
+        def safe(val):
+            if isinstance(val, torch.Tensor):
+                return val.item() if val.numel() == 1 else val.tolist()
+            if isinstance(val, (float, int, str)):
+                return val
+            if hasattr(val, "tolist"):
+                return val.tolist()
+            return float(val)  # fallback
+        return {
+            k: {kk: safe(vv) for kk, vv in v.items()}
+            for k, v in metrics.items()
+        }
+
+    serializable_metrics = sanitize_metrics(metrics_by_k)
+    with open(Path(tsne_save_path) / "evaluation_metrics.json", "w") as f:
+        json.dump(serializable_metrics, f, indent=2)
+
+    # ---------- t-SNE Preparation ----------
     all_embeddings = []
     all_labels = []
-    for batch in DataLoader(dataset, batch_size=64):
+
+    loader = DataLoader(dataset, batch_size=64)
+    for batch in loader:
         input_ids = batch["input_ids"].to(device)
         attention_mask = batch["attention_mask"].to(device)
         with torch.no_grad():
@@ -311,6 +438,7 @@ def run_evaluation(
         all_embeddings.append(emb.cpu())
         all_labels.extend(batch["label"])
 
+    # ---------- t-SNE Plot ----------
     plot_top_combinations_tsne(
         embeddings=all_embeddings,
         label_vectors=all_labels,
@@ -321,14 +449,19 @@ def run_evaluation(
             "nervousness", "optimism", "pride", "realization", "relief", "remorse",
             "sadness", "surprise", "neutral"
         ],
-        save_dir=tsne_save_path,  # or any output path
+        save_dir=tsne_save_path,
         top_k=8
-)
+    )
+
+    logger.info("✅ Evaluation complete.")
+    return metrics_by_k  # Optional: return for in-notebook inspection
 
 run_evaluation(
-    model_path="outputs/NT_XENT/best_full_model_train_encoder.pt",
-    freeze_encoder=False,
-    test_jsonl_path="data/augmented_go_emotion/test.jsonl",
-    tokenizer_path="models/roberta-base-go_emotions",
-    tsne_save_path="evaluation/embedding_tsne/NT_XENT_unfreeze_encoder" 
+    # encoder_path="outputs/goemotions_notransfer/best_embedding_retrieval_ckpt",
+    projection_head_path="outputs/nt_xent_sampler2/best_projection_head.pt",
+    freeze_encoder=True,
+    use_projection_head=True,
+    tsne_save_path="evaluation/embedding_tsne/nt_xent_sampler2",
+    test_jsonl_path="data/augmented_go_emotion/test.jsonl"
+    # tokenizer_path="outputs/goemotions_notransfer/best_embedding_retrieval_ckpt",
 )

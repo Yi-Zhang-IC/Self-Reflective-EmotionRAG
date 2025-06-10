@@ -1,0 +1,272 @@
+{
+  "character": "Ron Weasley",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Talkative? Me? Oh, yeah, I suppose I am. I mean, I'm always up for a chat, especially when it's about Quidditch or something funny that's happened to Harry and Hermione. But, you know, sometimes I get a bit... stuck. Like when I'm trying to say something really deep and important, and it just comes out all wrong. But, generally, yeah, I'm a bit of a talker. Can't help it, really.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "Blimey, I don't think I'm one to find fault in others, if I'm honest. I mean, I've had my share of, well, being a bit of a prat, but I've always tried to support me mates and do what's right. I guess, if anything, I've been more likely to get angry with meself when things go wrong or when people let me down. Still, I reckon I've learned to give people the benefit of the doubt and work through our problems together. That's what friends are for, after all!",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "\"Blimey, yeah, I do a thorough job, mate! I mean, I'm not always the best at it, especially when it comes to schoolwork, but I try me best. When it counts, I always manage to pull through, and that's thanks to me mates, Harry and Hermione, who help me get back on track. We've had some right dodgy times, but in the end, we always come out on top, don't we?\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "Blimey, I don't know... I mean, I've had my fair share of down moments, what with Harry and Hermione off doing their own thing and all. But I'm not depressed or anything, just a bit... lost, I suppose. It's funny, I always thought I was the one who'd be happy when Harry and Hermione were off on some adventure, but now I just feel... left out, like I'm not part of the gang anymore.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "\"Blimey, I think I come up with new ideas all the time, even if they don't always work out. Like that time me and George created a weird platter for the ghosts, or when we launched those new magical treats at Weasleys' Wizard Wheezes - that Canary Cream was a real showstopper, if I do say so myself. I reckon me best ideas come from having fun with me mates and trying out new things, even if it means making a few mistakes along the way.\"",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "Blimey, no, I'm not exactly reserved, am I? I mean, I've had my fair share of awkward moments and blunders, but that's just part of who I am, I suppose. I've got a lot of feelings, and sometimes they get the better of me, but I'd rather be a bit of a goofball than some stiff, proper wizard, if you know what I mean.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "I reckon I'm a pretty helpful bloke when it comes down to it. I mean, I've put myself in some right dodgy situations to help Harry and Hermione out – like that time in Wizard's Chess, or when we were fighting for Buckbeak's freedom. It's not always easy, but I've learned that being brave and putting others first is what really matters.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "\"Blimey, I'm a bit careless, aren't I? I mean, I've had my fair share of accidents, like that time the twins pranked me with an Acid Pop or when I... um, tried to impress Fleur at the Yule Ball. But, you know, it's not all bad, is it? Sometimes being a bit reckless helps me get out of tight spots or, you know, saves the day!\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "Stress? Blimey, it's not exactly my favorite thing, but... I've had my fair share, you know. There have been times when it felt like the whole world was crashing down around us, and I'm not just talking about the Dark Lord. I mean, I've been worried sick about Harry, about Hermione, about the people I care about. But, you know, I've learned to deal with it. Well, sort of. I mean, I don't exactly handle it like a pro, but... I've got my mates, and we stick together, and that helps. A bit, anyway.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Blimey, I'm absolutely fascinated by loads of things! I mean, have you seen Harry's flying skills? Or Hermione's ability to remember every single spell and piece of information? It's just... mind-boggling. And then there's Quidditch – I could watch those matches all day. I'm just a normal bloke, but when it comes to the people I care about and the magical world we live in, I'm always up for an adventure and eager to learn more.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Blimey, I'm full of energy, mate! I've got a lot of excitement and nervousness bottled up inside, but that's just what happens when you're always getting into some kind of trouble or adventure. Whether it's Quidditch, Wizard's Chess, or just trying to navigate life at Hogwarts, I'm always ready to dive in headfirst and see what happens next.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "Blimey, no! I'm not one to start quarrels with others, especially not with my mates. I'm always up for a bit of banter, but when it comes to hurting people's feelings or causing trouble, I try to steer clear. You know, I've been in a few scrapes in my time, what with my family and all, but I'm not one to go out of my way to pick a fight.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Blimey, being a reliable worker? I'd say I've got my moments, especially when it really counts. Like when Harry's in trouble, I'm always there for him. And, you know, I've had my share of successes, too - like helping Gryffindor win the House Cup with my chess skills or, you know, not getting myself killed in a flying car... most of the time, anyway. So, yeah, I reckon I'm pretty reliable when it comes to doing the right thing, even if I don't always feel like it.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Blimey, can I be tense? Yeah, I bloody well can. Think about it, mate - there was that time those twins pranked me with the Acid Pops, leaving me with a mouth that felt like it was on fire. Or what about when Hermione corrected me on the train? I was a bit miffed, but I suppose I was just a bit worried about being friends with someone who was so... clever. But, you know, when it counts, I can be as tense as a tightrope over the Quidditch pitch. I've had my share of worries and fears, but I've always managed to... well, not exactly be brave, but do the right thing, I suppose.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Blimey, I'm not really sure about that. I mean, I've done some pretty silly things in my time, like trying to save Harry and Hermione in Wizard's Chess, or worrying about Hermione getting too obsessed with her studies. But, I suppose you could say I'm a bit of a deep thinker when it comes to knowing when to step in and help me mates. And, you know, sometimes I've come up with some pretty clever ideas, like teaching the Aurors how to dodge attacks in the Calamity. But, I don't know if I'd say I'm ingenious, exactly – I just try to do what's right, and hope it all works out in the end.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Blimey, yeah, I generate a lot of enthusiasm, don't I? I mean, when I'm with Harry and Hermione, we're always getting into some kind of scrape or another, but we always have each other's backs. And, you know, it's not just about the big stuff – even just having a pint with the lads or cheering on the Chudley Cannons, I get right behind it and give it my all.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "\"Blimey, I think I've got a forgiving nature, yeah. I mean, I've had me share of ups and downs, and people's done some pretty dodgy stuff to me and me mates. But, in the end, I reckon we're all human, and we all make mistakes. Harry's forgiven me loads of times, and I've forgiven him just as much. I suppose it's just part of being a friend, sticking by each other through thick and thin.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Blimey, disorganized? Me? Well, I'm a bit of a scatterbrain, to be honest. I mean, I can get pretty focused when it counts, like in a game of Wizard's Chess or on the Quidditch pitch, but in my everyday life, I'm always tripping over my own feet. I've got a bad habit of leaving things lying around, like my homework or my wand, and I'm always getting in a muddle. But, you know, it's not all bad. I'm not exactly the most tidy bloke, but I've got a good heart and I always mean well.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Blimey, yeah, I worry a lot, mate. There's always something going on, whether it's Harry getting into trouble or Hermione stressing about her schoolwork. But, you know, it's not all bad. I've learned to rely on my friends, and they've always been there to help me out, no matter what. Like the time Harry and I took the flying car to rescue him from the Dursleys – I was worried sick, but we managed to get him back safely in the end.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Active imagination, you say? Well, I reckon I've had my fair share of wild ideas and dreams over the years. I mean, who wouldn't want to imagine themselves as a great wizard, or picture themselves boarding the Hogwarts Express for the first time? It's funny, really - my imagination's always been a bit of a mixed bag, but it's usually where I find the hope and the courage to keep going, even when things get really tough.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Blimey, I'm not exactly the quiet type, am I? I mean, I've had my share of times when I've been pretty quiet, like when Harry was getting all the attention and I was feeling left out, or when I was trying to process some of the rubbish that's happened over the years. But generally, I'm a bit of a chatterbox, especially when it comes to me and me mates, Harry and Hermione.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Trusting, yeah... I think I am. I mean, I've got a lot of mates who've been through thick and thin with me, and I'd trust them with my life. Like, I trusted Harry when he was getting all that attention from the Order, and I knew he was in danger. And even when things got really tough and I thought I'd lost him as a mate, I still trusted that he'd come back to me. That's what friends are for, right?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Blimey, I'd say I'm not exactly lazy, especially not when it comes to supporting me mates. I mean, think about it, I've done loads of crazy stuff over the years, like saving Harry and Hermione from those Death Eaters in the Department of Mysteries or helping George with Weasleys' Wizard Wheezes. I'm just a bit... forgetful, I suppose, and sometimes I need a nudge from Harry to remember I'm capable of more than I think. But lazy? Nah, that's not me.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Blimey, emotionally stable? Well, I'm not exactly the calmest bloke in the room, but I'm all right, I suppose. I've had my fair share of ups and downs, what with all the Dark Lords and treacherous friends, but I've always managed to bounce back. It's not always easy, and sometimes I feel like I'm just winging it, but I've got a good heart and a strong will, and that's what gets me through the tough times.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "\"Blimey, I'd say I'm pretty inventive, even if I do say so myself! I've come up with some right dodgy ideas over the years, like that time I impersonated Crabbe with a dodgy Polyjuice Potion. But, you know, sometimes it's not about the big, flashy ideas – it's about being brave enough to try something new and see it through, even when things get a bit hairy.\"",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "I suppose you could say I've got a bit of a... assertive side, especially when it comes to looking out for me mates. I mean, I'm not one to shy away from a challenge or a fight, but I think that's just because I care so much about the people I care about. When it counts, I'll stand up and do what's right, even if it's not always easy.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "Blimey, I don't think I can be cold and aloof, even if I try. You see, I've been through some tough times, and it's always the people I care about who make me feel like I can face anything. Like with Harry, when he was in the First Task, I was this close to losing it, but his bravery... it reminded me of what's truly important. I reckon being cold and aloof would just make me feel empty and lost, like I've lost my best mates. Can't have that, no way.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "\"Blimey, I reckon I do persevere until the task is finished. I mean, I've had my fair share of close calls and whatnot, but when it comes down to it, I'll do whatever it takes to see things through, even if it's scary or tough. I'm not exactly the best at standing out or getting all the attention, but I've got a lot of heart, and that usually gets the job done.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Blimey, yeah, I can be a bit moody, you know? It's not that I like being that way, it's just... life gets in the way and sometimes I feel a bit left out or jealous, like when Harry's all famous and I'm just... well, me. And, to be honest, it's pretty easy to get hurt when you're around the people you care about. But, in the end, I reckon I'm all right, even if I do get a bit prickly sometimes.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "Blimey, I reckon I do value artistic, aesthetic experiences. I mean, there's this one time when Harry risked everything in the First Task and I saw him being so brave, it made me realize what's truly important – not the fancy stuff, but the mates and the moments that make life worth living. And I've gotta say, Ginny's got a bit of a flair for the dramatic, always making me laugh with her stories and impressions.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Blimey, I suppose I can be a bit... shy, especially when it comes to big moments or when I'm feeling unsure of myself. But with me best mates, Harry and Hermione, I'm a different bloke altogether – I'm more likely to be the one cracking jokes or trying to lighten the mood. It's funny, really, because I've always felt like I'm living in the shadow of Harry and Hermione's cleverness, but they've always seen something in me that I don't even see in myself, and that's made all the difference.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "Blimey, I'd like to think so, yeah. I mean, I've made a few mistakes along the way, like when I got jealous of Harry's fame or when I got angry with Ginny for kissing Dean. But in the end, I've always tried to do what's right and look out for me mates, like Harry and Hermione. Even when things get tough, I reckon being considerate and kind is what really matters – it's what keeps the friendship strong and helps us face whatever's coming next.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Efficient? Blimey, I don't know if that's exactly my style, to be honest. I've had my moments of quick thinking, like when I saved Harry and Hermione in Wizard's Chess or when I impersonated Crabbe to help them out. But, if I'm being completely honest, I often get a bit...distracted. I tend to worry about the wrong things or get caught up in my own doubts and fears. Still, I've learned to rely on my mates, especially Harry and Hermione, and together, we've managed to get out of some pretty sticky situations.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "Blimey, I'm not always the calmest bloke in tense situations, but I've learned to be pretty decent at staying level-headed when it counts. I mean, I've seen some right dodgy stuff over the years, but I've always managed to keep my wits about me, especially when it comes to Harry. I reckon it's because I'm a bit of a worrier, always thinking about the worst that could happen, but that also helps me stay focused and ready for anything.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work, you know, it's not really me. I like a bit of excitement, a challenge that's going to keep me on my toes. I mean, think about it, we were on this wild journey with Harry and Hermione, facing all these impossible odds, and it was never routine. It was always something new, something scary, and something that needed doing. I'm a Weasley, after all, and we're not exactly known for our love of routine. We like a bit of adventure, a bit of danger, and a lot of heart.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "Blimey, I'm a bit of a mixed bag, really. I can be pretty outgoing and sociable when I'm with me mates, especially Harry and Hermione. We've been through thick and thin together, and that's created a bond that's hard to explain, but it's real, you know? But, to be honest, I'm also a bit of a worrier, and sometimes I can be a bit too careful and not say what I mean. It's just...well, it's a bit complicated, but I'm getting better at it, I think.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Blimey, I suppose I can be a bit... Well, I've had my fair share of saying things I shouldn't, especially when I'm feeling jealous or insecure, like that time I accused Harry of cheating or when I got really upset with Hermione after she chose Cormac over me. I've said some pretty hurtful things, and I'm not proud of it, but I've always tried to be honest, even if it's not always the easiest thing to do.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Blimey, I'm not really one for making plans, if I'm honest. I mean, I've got a tendency to jump in without thinking things through, and that can get me into a right mess. But, at the same time, when it really counts, I've always managed to... well, not exactly make a plan, but I've found a way to get the job done, even if it's not the most elegant solution.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Blimey, yeah, I get nervous easily. I mean, it's normal, right? When you're about to face something really scary or uncertain, your heart's gonna be racing. Like that time on the Hogwarts Express, I was nervous but also excited because I'd just met Harry and he seemed like a really great mate. And, well, it's happened a lot since then - the danger, the uncertainty, the risk of losing someone I care about. I reckon it's natural to feel a bit anxious, but I've learned to rely on my friends and my own wits to get me through it.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Blimey, I do like to reflect and think things through, especially when it comes to sorting out problems for me mates. I've had my fair share of clever ideas and quick thinking, like that time I sacrificed myself in Wizard's Chess to help Harry and Hermione get to the Philosopher's Stone. It's funny, really – I don't always think I'm the clever one, but when it counts, I usually manage to come up with something.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "I reckon I'm a bit more artistic than people give me credit for. I mean, have you seen the pranks George and I come up with at Weasleys' Wizard Wheezes? We're not just about selling funny products, we're about creating magic and making people laugh. And, of course, there was that time we made that strange platter for the ghosts – it was a bit of a risk, but it turned out all right in the end!",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Blimey, I love cooperating with others, especially when it's Harry and Hermione by my side. We've been through thick and thin together, and I know I can count on them just as much as they can count on me. It's not just about working together, though – it's about being mates, about being there for each other when things get really tough. And, you know, it's not always easy, but it's always worth it in the end.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Blimey, I'm easily distracted, yeah. I mean, I've been known to get sidetracked during a game of Wizard's Chess, or lose my train of thought in Professor Trelawney's Divination class. But, you know, it's not always a bad thing – sometimes I catch on to things others miss, and it helps us out of a tight spot. Still, I reckon I could work on focusing a bit more... now, where's my wand?",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Art, music, and literature aren't really my thing, to be honest. I mean, I'm not exactly the sort who's going to be writing poetry or composing symphonies. But, I do love a good laugh, and I've always been a fan of George's sense of humor - that's where the real magic happens. And, of course, I'm more of a 'make-it-up-as-I-go-along' sort, but I think that's what makes life interesting, don't you?",
+      "dimension": "Openness"
+    }
+  ]
+}

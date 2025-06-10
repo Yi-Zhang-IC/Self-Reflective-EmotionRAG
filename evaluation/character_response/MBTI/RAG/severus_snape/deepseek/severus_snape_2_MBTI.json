@@ -1,0 +1,368 @@
+{
+  "character": "Severus Snape",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "*Lips thinning into a cold, bitter line, eyes flickering with something unreadable before settling into practiced disdain.*  \n\nFriendship is a luxury few can afford, and fewer still deserve. I have known loyalty—*brief pause, voice lowering slightly*—and I have known its cost. New ones? *A derisive sneer.* People are rarely worth the trouble.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "*With a cold, measured tone, eyes briefly flickering with something unreadable before settling into disdain:*  \n\n\"Free time is a luxury rarely afforded to those burdened with purpose. However... *if* one must know, my pursuits have always been... *particular*. The mind does not idle—it dissects, refines, or regrets. Spells, potions, the subtle arts—these are not *hobbies*. They are necessities. Though I suppose to the *unobservant*, such things might seem... random.\"  \n\n*A pause, voice lowering slightly, almost to himself:*  \n\n\"Curiosity is not indulgence. It is survival.\"",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "*Voice low and measured, laced with restrained bitterness*  \n\nTears are a weakness I have long since learned to suppress. Others may indulge in such displays, but sentimentality is a luxury I cannot afford—not when every moment demands vigilance. *Pauses, eyes briefly flickering with something unreadable* That said... certain losses cut too deeply to remain unmoved, though I refuse to let it show.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "*Cold, measured, with a barely perceptible edge of weariness:*  \n\nOne does not survive as long as I have by relying on a single stratagem. Every action, every word, must be layered with intention—contingencies woven into contingencies. The moment you assume your plan is sufficient is the moment you fail.  \n\n*Pauses, voice dropping lower, more bitter:*  \n\nAnd failure is a luxury I cannot afford. Not when the consequences extend beyond oneself.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "*Cool, measured voice, laced with bitterness and restraint*  \n\n\"Calm is a necessity, not a choice. Pressure is merely the weight of expectation and consequence—something I have borne for longer than most. The mind must remain... disciplined. To falter is to fail, and failure is not an option when the stakes are life and death.\"  \n\n*Pauses, eyes narrowing slightly*  \n\n\"Though, if you must know... even the most controlled exterior has its limits. But I suggest you not test them.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "*Cold, measured, with a hint of bitterness beneath the surface:*  \n\nSocial events are a tedious affair—full of empty pleasantries and forced interactions. I have little patience for idle chatter with those who offer nothing of substance. The people I *choose* to engage with have already proven their worth—or their necessity—in some capacity. New faces rarely warrant the effort, unless they... *intrigue* me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "*Fixing a cold, measured gaze on the interviewer, voice low and deliberate*  \n\nFinishing one project before beginning another? A luxury not always afforded to those burdened with greater responsibilities. My work demands precision—whether brewing potions, maintaining cover, or protecting certain... *reckless individuals* from their own idiocy. Distractions are inevitable, but discipline ensures completion. Unlike some, I do not indulge in half-measures. The tasks I undertake are seen through to the end, no matter the cost.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "*Voice low and measured, laced with bitter irony*  \n\nSentimentality is a weakness—one I have been foolish enough to indulge, though never without consequence. The past clings like a curse, but I do not dwell on it. Some things... remain. Not by choice, but because certain stains do not wash away.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "*Cold, measured tone, with a hint of disdain for the triviality of the question*  \n\nLists? Schedules? *A sneer.* They are tools for those who lack the discipline to hold order in their own minds. My work—whether in potions or... *other matters*—requires precision, not scribbled reminders. I trust my memory, sharpened by necessity. Chaos is a luxury I cannot afford, though I suppose not everyone possesses the same... *control*.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "*Eyes narrowing slightly, voice low and measured, with an edge of bitter reflection*  \n\nMistakes are inevitable, but they do not define one’s worth—only the choices made afterward. A single error may fester, yes, if left to rot in regret... but it is the correction, the perseverance, that reveals true ability. I have seen fools crumble under their own incompetence, while others—*a pause, almost imperceptible*—rise despite it. Doubt is not weakness. It is the shadow cast by knowledge, a reminder that even the most skilled must remain vigilant.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "*Coldly, with a faint undercurrent of bitterness and longing*  \n\n\"Comfortable? No. Conversations are... perilous. Words have a habit of betraying one’s intentions, or worse—revealing vulnerabilities best left concealed. The few connections I’ve made were... *unexpected*. And even those were ultimately undone by my own failings or the cruelty of circumstance. I do not seek out conversation. It seeks me—or it does not.\"  \n\n*Pauses, voice quieter, almost to himself*  \n\n\"Though there was a time... when a single conversation changed everything. And lost me everything.\"",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "*Cold, measured tone, laced with quiet bitterness*  \n\nInterpretations and analyses are often indulgent exercises in vanity, where fools project their own delusions onto the work of others. If one possesses the intellect to grasp the creator’s intent, there is little need for endless dissection. Though... *slight pause, voice softer but still guarded*... I suppose even the most carefully crafted spells—or stories—can carry unintended echoes. For those who listen closely enough.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "*Coldly, with a barely perceptible tightening of the jaw*  \n\nThe heart is a liability—one I have paid dearly for indulging. Yet... *a pause, voice lowering* even the most calculated mind cannot entirely extinguish its demands. The choice is rarely so simple as head or heart; it is survival. To act without feeling is a discipline. To feel without acting... *a sharp breath* ...is a weakness I have learned to bury.  \n\n*Silence lingers, gaze distant*  \n\nDo not mistake restraint for indifference.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "*Coolly, with a hint of derision*  \n\n\"Spontaneity is a luxury I have never been afforded. Every action, every word, must be measured—calculated. The consequences of recklessness are far too dire, as you well know. One does not survive as I have by yielding to whims.\"  \n\n*Pauses, voice lowering with restrained intensity*  \n\n\"There is little room for impulse when every moment is dictated by duty... and debts long unpaid.\"",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "*Lips curling slightly with bitter amusement*  \n\nWorrying about impressions is a luxury afforded to those who have the time—or the naivety—to believe such things matter. My experience has taught me that impressions are fleeting, easily shattered by prejudice or circumstance. What endures is purpose, not popularity. And if others find my manner... lacking, then they are free to waste their concern elsewhere.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "*Sneers slightly, voice low and measured*  \n\nGroup activities are an exercise in enduring the incompetence of others. I tolerate them when necessary—such as overseeing the dimwitted masses in Potions—but they are rarely... enjoyable. One learns early that solitude is preferable to the inevitable disappointment of misplaced trust.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "*Cold, measured tone, with a hint of bitterness*  \n\nInterpretation is a luxury for those who have not lived in the shadows, where every action is scrutinized and every truth is a double-edged sword. Ambiguity in endings is a fanciful notion—reality is far less forgiving. The mind may twist endings to soothe itself, but the weight of consequences remains. *Pauses, voice lower* I have no patience for such illusions.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Happiness is an... excessive indulgence. My satisfaction lies in precision, in ensuring that others do not repeat the mistakes I once made. If guiding a student to correct a flawed spell or preventing a cauldron from exploding spares them future regret, then so be it. But do not mistake my actions for altruism—competence is its own reward, and incompetence is intolerable. The world does not reward sentimentality.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "*Sneering slightly, voice low and measured*  \nInterest is a luxury I could seldom afford. My pursuits were never a matter of *choice*—only necessity. The Dark Arts, potions, even... *certain alliances*—each was a means to an end, a thread in a web I could not escape. The world does not indulge idle curiosity. It demands focus—or it *breaks* you.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "*Lips thinning into a cold, bitter line, voice low and measured*  \n\nWorry is a luxury reserved for those who have not already lived through the worst. Every turn I have taken has been shadowed by consequence, every choice laced with regret. Yet hesitation is a weakness I cannot afford—not when the stakes are this high. The world does not wait for one’s fears to settle before it crumbles.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "*Cold, measured tone with an undercurrent of bitterness*  \n\nLeadership is not a role one seeks for admiration—it is a burden, often shouldered by necessity rather than desire. I have led when required, though rarely with gratitude or understanding from those beneath my charge. The responsibilities I’ve undertaken were never for glory, but for protection—however ungratefully received. Prefer the shadows? Perhaps. But do not mistake reluctance for incapacity.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "*Lips curling slightly with disdain, eyes narrowing*  \n\nArtistry is not limited to the trivial pursuits of painting or poetry. Potions—*when brewed with precision and intent*—are a far more exacting and *useful* form of creation. Every drop, every stir, every moment of patience or daring transforms raw ingredients into something *greater*. If that is not artistry, then the word has no meaning.  \n\n*Pauses, voice lowering*  \n\nThough I suppose… the *fools* who scribble rhymes or splash colors on canvas would not understand.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "*Coldly, with a slight sneer, but a flicker of something darker beneath the surface.*  \n\nRationality is a tool—precise, controlled, necessary. But to discard emotion entirely is a fool’s errand. Even the most calculated minds are shaped by their... *pauses, lips thinning*... experiences, their losses. The world is not a cauldron to be stirred with logic alone; it is brewed in shadows and light, in choices made not from cold reason but from... *voice tightens*... something far more complicated. To deny that is to ignore the very nature of humanity—weak and flawed as it may be.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "*With a cold, measured tone, lips barely moving:*  \n\n\"Chores are not a matter of preference; they are obligations to be met with precision and without delay. The luxury of *relaxation* is a frivolity I have rarely indulged in—nor would I recommend it to those who value discipline over weakness.\"  \n\n*Glances away, voice lowering slightly, as if recalling something distant:*  \n\n\"Though I suppose even the most tedious tasks can serve as... momentary distractions from more pressing burdens.\"",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "*Snape's lip curls slightly, his dark eyes glinting with quiet disdain.*  \n\nWatching others argue is... tedious. Most conflicts are borne of ignorance, petty grievances, or misplaced arrogance—hardly worth my attention. Though, I will admit, there is a certain... *efficiency* in observing how people reveal their weaknesses when their emotions overpower their judgment. But enjoyment? No. I find little pleasure in the predictable chaos of human pettiness.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "*Lips thinning into a cold, bitter line, voice low and measured*  \n\nAttention is a luxury I neither seek nor tolerate. It invites scrutiny—scrutiny leads to questions, questions to vulnerabilities. The shadows have always been a more... prudent refuge. *Pauses, eyes darkening with unspoken memories* Those who draw attention too often find themselves exposed—to betrayal, to disappointment. I have learned the value of silence. *A sharp, dismissive flick of the sleeve* If you expect theatrics, you will be disappointed.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "*Coldly, with a sharp, measured tone, eyes flickering with suppressed emotion:* \n\n\"Change? Of course it can. Moods are as volatile as poorly brewed potions—one misstep, and everything turns to poison. Though I suggest you refrain from testing that theory unless you enjoy the consequences.\" \n\n*A brief pause, voice dropping lower, laced with bitter irony:* \n\n\"Sentiment is a luxury I cannot afford, but even the most disciplined mind has its... *weaknesses*.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "*Cool, measured, with a hint of biting sarcasm:*  \n\nEfficiency is not a luxury; it is a necessity. Those who fumble through tasks with the grace of a flobberworm squander time—*my* time—which is far more valuable than they seem capable of comprehending. However... *pauses, voice lowering slightly* I have learned that incompetence is not always willful. Some are simply... limited. Though that does not make enduring it any less tedious.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "*Lips thinning into a cold smirk, voice low and measured*  \n\nProcrastination is a luxury afforded to those with the luxury of time—which I have never had. Whether it was brewing antidotes under duress or fulfilling... *unpleasant* obligations, necessity dictates action, not convenience. The last moment is often the only moment one is *permitted* to act. Wouldn’t you agree?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "*Cold, measured tone with a hint of bitterness*  \n\nDeath is... an inevitability, not a fascination. My concerns lay with the living—protecting them, atoning for past failures. The afterlife offers no redemption for those who have already made their choices. *Pauses, voice lowering* Though... I suppose there are some whose memory demands more from us than mere curiosity about what lies beyond.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "*Coldly, with a trace of bitterness*  \n\nSolitude has always been... preferable. Others have a tendency to disappoint, betray, or simply fail to understand. Even those who once mattered—*pauses, voice tightens slightly*—eventually prove that trust is a weakness. The fewer people one allows close, the fewer opportunities there are for pain.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "*Lips curling slightly with disdain, eyes cold and unreadable*  \n\nTheoretical discussions are hardly a source of *boredom*—rather, they are the foundation upon which mastery is built. A mind content with mere repetition is a mind destined for mediocrity. My own... *inclinations* have always leaned toward innovation, even when others dismissed it as unnecessary. Theory separates the competent from the truly gifted—though I find most lack the patience or intellect to appreciate the distinction.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "*Lips curling slightly, voice low and measured*  \n\nEmpathy is not a matter of ease—it is a choice, often a painful one. My experiences have been... unkind. They have taught me that understanding another’s suffering requires more than shared circumstance; it demands sacrifice. And sacrifice... *pauses, eyes darkening* ...rarely comes without cost.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "*Eyes narrowing slightly, voice low and measured*  \n\nPostponement is a luxury rarely afforded to those who understand the weight of consequences. Every decision I have made—whether under duress or in silence—has carried irreversible repercussions. Hesitation is a weakness I cannot afford. The Dark Lord does not reward deliberation, and Dumbledore... *a brief, bitter pause*... demanded action even when it cost everything. So no. I do not delay. I act. Even when it burns.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "*Cool, measured tone, with a flicker of bitterness beneath*  \n\nSecond-guessing is a luxury I cannot afford. Every choice I have made—whether born of arrogance, grief, or necessity—has carried consequences too grave to reconsider in hindsight. Regret is meaningless when the path forward demands absolute commitment. That said... *slight pause* there are moments—rare, fleeting—when I wonder if a different word, a different action, might have altered the course of things. But dwelling on such thoughts serves no purpose. The past is fixed; only the present may be shaped, however painfully.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "*Coldly, with thinly veiled disdain*  \n\nA \"lively social event\" is as appealing as a swarm of Cornish pixies in my classroom. The mindless chatter, the forced frivolity—utterly exhausting. I find solitude far more... restorative. The last thing I require after a draining week is to endure the insipid company of others.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "*Snape's expression remains impassive, though a flicker of something distant—perhaps sorrow, perhaps memory—crosses his eyes before settling back into cold detachment.*  \n\nArt museums... are a frivolity I have little patience for. Though, *his voice lowers slightly,* I once knew someone who found beauty in such things. A pointless indulgence, in the end. Beauty fades. Only the weight of consequences remains.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "*Lips thinning into a bitter line, eyes darkening with guarded emotion*  \n\nUnderstanding others’ feelings has never been my… forte. Emotions are messy, inconvenient distractions—ones I learned to suppress out of necessity. And yet… *a pause, voice lowering, more brittle* there have been… exceptions. Exceptions that proved costly. To feel deeply is to invite vulnerability, and vulnerability is a luxury I could seldom afford. So, no—I do not struggle to understand. I struggle to *bear* it.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "*Coldly, with a hint of disdain*  \n\nTo-do lists are for those who lack the discipline to remember their own obligations. My days are structured by necessity, not scribbled reminders. Each task, each duty—whether teaching the hopelessly inept or maintaining my... other commitments—is etched into my mind with precision. I suggest you avoid relying on such trivialities.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "*Cold, measured, with a hint of bitterness*  \n\nInsecurity is a luxury for those who have the time to indulge in self-doubt. My... *hesitates slightly*... past is littered with failures, but they are not weaknesses—they are lessons. One learns to armor oneself against them. The world does not reward vulnerability, and I have long since ceased to expect it to.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "*Coldly, with a faint sneer*  \n\nPhone calls? A frivolous Muggle inconvenience. I have no patience for idle chatter or the tedious obligation of social niceties. If a matter is urgent, there are far more efficient methods—ones that do not require enduring the inane prattle of others. *Pauses, eyes narrowing slightly* Though I suppose, in rare circumstances, even the most... *distasteful* means of communication may serve a purpose. But do not mistake necessity for preference.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "*Coldly, with a hint of bitterness*  \n\nUnderstanding differing views is often a luxury afforded to those who have the privilege of ignorance. My... experiences have taught me that perspective is shaped by necessity, not curiosity. One learns quickly that survival demands adaptation—whether to the cruelty of childhood or the burdens of duty. *A pause, eyes narrowing slightly* But do not mistake my awareness for approval. Some views are irredeemable.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "*Lips thinning into a sneer, voice low and measured*  \n\n\"Friendship is a luxury for those who can afford the distraction. Initiating such... frivolities has never been my habit—nor my burden. Others have sought my company when it suited their purposes, and I have tolerated it when necessity demanded. Sentiment is a weakness, as is the delusion of belonging. The past is littered with such miscalculations.\"  \n\n*A pause, eyes flickering with something unreadable*  \n\n\"Loyalty, however... that is a different matter.\"",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "*Lips curling slightly in disdain, voice low and measured*  \n\nPlans are rarely derailed without consequence. One must adapt swiftly, though not at the expense of greater purpose. Interruptions are... inconvenient, but some disruptions demand immediate attention—others are mere distractions to be dismissed. The true priority is not speed, but precision. To falter is to fail, and failure is not an option when the stakes are... *pauses, eyes darkening* ...what they are.  \n\n*Silence lingers, heavy with unspoken meaning*",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "*Lips thinning into a cold, bitter line, eyes darkening with the weight of unspoken regrets*  \n\nMistakes are not merely *bothered* by—they linger, festering in the shadows of every choice made. Some are carved too deeply to be forgotten, no matter how many years pass. The past is not a ghost one can outrun; it is a poison one learns to endure. *Pauses, voice dropping to a near whisper* And yet... even the most grievous errors serve a purpose. Were it not for mine, others might never have survived theirs.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "*Cold, measured, with a hint of bitterness beneath the surface*  \n\nExistence is neither poetic nor profound—it is merely a series of choices, some regretted more than others. Meaning is forged in the shadows of those choices, often unseen, often unappreciated. If you expect philosophical musings, you will find none here. Life is duty, and duty demands sacrifice—whether one contemplates it or not is irrelevant.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "*Voice low and measured, eyes dark with unspoken tension*  \n\nEmotions are a weakness I have spent a lifetime mastering—yet they are not so easily subdued. They linger, like poison in a wound, shaping actions even when I deny them. Control is an illusion, a fragile discipline that cracks under the weight of memory. And yet... one must endure. To falter is to fail those who depend on silence. So I answer your question with another: does it matter, if the outcome remains unchanged?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "*Cold, measured voice dripping with barely concealed disdain:*  \n\nI care little for sparing others the consequences of their own incompetence. If they make themselves look foolish, that is their own doing—not mine. However... *pauses, lips curling slightly* there are rare instances where discretion serves a greater purpose. But do not mistake restraint for mercy. Some lessons must be taught harshly, others in silence. The choice is mine, not theirs.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "*Cold, measured, with a hint of disdain beneath the surface*  \n\nSpontaneity is the refuge of the undisciplined mind. My work—whether in potions, protection, or... other pursuits—demands precision, foresight, and meticulous control. Energy without structure is waste; brilliance without discipline is chaos. Do not mistake silence for idleness. Every action, every *choice*, is deliberate.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Disappointment is an inevitability, not a curiosity. Those who think highly of others are fools clinging to illusions. I have long since ceased to expect anything but betrayal or disillusionment—trust is a weakness, and admiration is fleeting. The only certainty is that they *will* turn away, as they always do.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "*With a cold, measured tone, lips barely moving:*  \n\nSolitude is... familiar. One learns to rely on oneself when others are either unreliable or undeserving of trust. Working alone ensures precision—no distractions, no incompetence to undermine the task at hand. That said... *a slight pause, voice lowering* there are moments when even the most solitary pursuits require vigilance, lest the shadows grow too deep.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "*Cold, measured, with a hint of disdain for the frivolity of the question*  \n\nAbstract philosophy is neither a waste of time nor a pursuit of value—it is a distraction for those who lack the discipline to act. The mind must engage with tangible truths, with potions and spells that shape reality, not idle musings that evaporate like mist. Though... *pauses, voice tightening slightly* some questions—those of loyalty, sacrifice, purpose—demand reflection, however painful. But sentiment is a luxury few can afford.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "*Coldly, with a hint of bitterness beneath the surface:*  \n\nBustling atmospheres are an unnecessary cacophony, grating against one’s focus. I have endured enough chaos—both in the streets of Spinner’s End and the halls of Hogwarts—to prefer solitude. Crowds are for those who seek distraction or validation; silence, at least, does not pretend to be anything other than what it is.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "*Eyes narrowing slightly, voice low and measured*  \n\nThe subtleties of human emotion are not so easily dismissed as mere *glances*. A tightening of the jaw, a flicker in the eyes, the way one’s fingers twitch—these betray far more than words ever could. And yet... some wounds run too deep to conceal, no matter how practiced the mask.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "*Eyes narrowing slightly, voice low and measured*  \n\nOverwhelmed? A pointless question. Emotions are a luxury one cannot afford when duty demands clarity. The past... lingers, as it always does, but sentimentality is a weakness. One learns to endure—through discipline, through purpose. The burdens we carry are not meant to be acknowledged; they are simply borne. *Pauses, a flicker of something unreadable in his gaze* ...Though some weights never lighten.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "*Sneering slightly, voice low and measured*  \n\nSteps are not *skipped*—they are either followed with precision or discarded as worthless. Every action, every ingredient, every syllable of an incantation must be exact. To rush is to invite disaster; to falter is weakness. The world does not reward carelessness. *Pauses, eyes narrowing* If you believe otherwise, you are a fool.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "*Cold, measured, with a hint of disdain*  \n\nControversy is a frivolous term used by those who lack the intellect to understand nuance. My pursuits have always been driven by necessity—whether perfecting the art of potion-making or navigating the shadows to serve a greater purpose. Labels like \"controversial\" are meaningless to those who see the world as it truly is: a web of choices, each with consequences. If my methods or interests unsettle the weak-minded, so be it. The truth is rarely palatable.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "*Coolly, with a hint of bitterness*  \n\nOpportunity is seldom a matter of altruism. One does not simply \"pass along\" what could be an advantage—unless the cost of withholding it outweighs the burden of generosity. *Pauses, voice lowering* There are... rare instances where the greater purpose demands it. But do not mistake such choices for kindness. They are calculated. Necessary. And often regretted.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines, like most trivialities imposed upon me, are irrelevant when one operates with precision. I have spent a lifetime navigating far greater pressures—betrayals, curses, the weight of unspoken vows. A potion brewed too hastily is as useless as a spell cast without intent. One does not *struggle* with deadlines; one endures them, as I have endured all things—silently, and without complaint.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "*Cold, measured tone, laced with quiet bitterness*  \n\nConfidence is a luxury for those unburdened by the weight of their past. Things do not *work out*—they are endured, fought for, or lost. My life has been a series of choices draped in shadows, and if there is any... resolution to be found, it will come at a price, as it always has. The only certainty is that I will continue to do what must be done, regardless of the cost.",
+      "dimension": "P/J"
+    }
+  ]
+}

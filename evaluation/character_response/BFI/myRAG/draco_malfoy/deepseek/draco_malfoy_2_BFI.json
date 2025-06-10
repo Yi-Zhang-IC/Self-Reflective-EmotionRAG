@@ -1,0 +1,272 @@
+{
+  "character": "Draco Malfoy",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "*Scoffs lightly, glancing away with a practiced air of indifference.*  \n\n\"Talkative? Depends on the company, I suppose. I don’t waste words on just *anyone*—certainly not Mudbloods or blood traitors. But when it’s worth my time? When I’ve something to say that matters? Then, yes, I’ll speak my mind. Silence has its uses too, though. Some secrets are best kept… unspoken.\"  \n\n*Eyes narrow slightly, as if weighing whether the interviewer is worth further conversation.*",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "*Scoffs, crossing arms defensively*  \n\nOf course I find fault with others—they’re usually wrong, aren’t they? Mudbloods, blood traitors, Potter and his lot—always stumbling about like they own the place. Though... *hesitates slightly, voice quieter* sometimes I wonder if it’s just easier to blame them than admit... Never mind. Point is, if people weren’t so insufferable, I wouldn’t *have* to point out their flaws.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "*leans back with a smirk, though his eyes betray a flicker of exhaustion*  \n\nThorough? Of course I am—when it matters. My family didn’t raise me to be sloppy. Whether it’s perfecting a spell, upholding Slytherin’s reputation, or… other *delicate* tasks, I ensure everything’s done properly. Though, *glances away briefly* sometimes the weight of expectations… Well, never mind. I don’t half-arse things—unlike certain Gryffindors I could name.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "*Glances away, jaw tensing before responding with forced indifference, though his voice is quieter than usual.*  \n\nDepressed? Don’t be ridiculous. I’m just—tired. There’s a lot to think about, that’s all. Not that you’d understand. *Pauses, then adds bitterly under his breath.* It’s not as simple as just feeling “blue.” Some of us have real things weighing on us.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "*Scoffs, crossing his arms defensively*  \n\nNew ideas? Of course I do—just because Potter and his lot stumble into everything blindly doesn’t mean the rest of us lack ambition. I *innovated*—repaired the Vanishing Cabinets, didn’t I? Though... *hesitates slightly, voice quieter* some ideas carry weight. Not all of them turn out as intended.  \n\n*Lips thin, gaze flickering away*  \n\nSometimes you realise too late what you’ve set in motion. But that’s hardly my fault—I was raised to act, not to second-guess. *Tense pause* Still... not every idea is worth the cost.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "*With a cold, measured sneer, masking deeper unease*  \n\nReserved? That depends on who you ask. Some might say I keep my own counsel—why waste words on people who wouldn’t understand? Others might call it something else. *Glances away briefly* Not everyone deserves to know what you’re thinking. It’s safer that way.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "*Haughtily, with a hint of defensiveness*  \n\n\"Helpful? Unselfish? *Please*. I was raised to value strength and self-preservation—not sentimentality. Though... *hesitates slightly* I suppose I’ve learned some things aren’t as simple as my father made them seem. But don’t expect me to start handing out hugs like some Gryffindor idiot.\"  \n\n*Voice lowers, almost to himself*  \n\n\"...Still, if it’s for family—or someone who actually *matters*—I’ve done what I had to. Even when it cost me.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "*Scoffs, shifting uncomfortably* Careless? I don’t make a habit of it, but... *voice tightens* There have been... mistakes. Like that blasted Snitch in second year, or—*cuts himself off, jaw clenching*—or trusting the wrong people. Father always said carelessness is weakness, but sometimes... *trails off, eyes flickering with something uneasy* ...sometimes things slip through. Not that I’d admit it to just anyone.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "*Adjusts cuffs with a practiced air of nonchalance, though his fingers twitch slightly*  \n\nRelaxed? *Snorts* I suppose you could say I’ve learned to… manage. Though if you’ve ever had the *pleasure* of bearing the expectations of certain people—people who don’t tolerate failure—you’d understand that *stress* is rather a luxury. One doesn’t have the privilege of cracking under pressure when the consequences are… *glances away briefly* …unpleasant.  \n\n*Lips thin, voice dropping colder*  \nLet’s just say I’ve had better years.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "*Adjusts cuffs with a haughty air, though there’s a flicker of hesitation in his sharp gaze*  \n\nCurious? *Scoffs lightly* I suppose—if you mean knowing which secrets are worth uncovering and which are better left buried. My family’s library holds more knowledge than most could fathom, but… *glances away briefly* not everything in those books sits right anymore. Not that I’d expect you to understand. Some curiosities lead to… complications.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "*Sneering slightly, though with a flicker of exhaustion in his eyes*  \n\n\"Full of energy? I suppose that depends on what you mean. If you’re asking whether I’ve been wasting my time bouncing around like some foolish Gryffindor, then no. I have *real* responsibilities—things far more important than frivolous displays. Though if you must know, I’ve been… occupied. Some of us don’t have the luxury of idleness.\"  \n\n*Glances away briefly, tension tightening his jaw*  \n\n\"Not that it’s any of your concern.\"",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "*Lips curling into a sneer, voice dripping with cold amusement*  \n\nQuarrels? Please. I don’t start them—people just have a habit of provoking me. Potter and his little band of do-gooders, for instance, always sticking their noses where they don’t belong. If they’d just learn their place, there’d be no need for... *unpleasantness*. Though, I suppose some people need reminding of their betters. *Shrugs, expression flickering briefly with something darker* Not that it ever ends well for them.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "*Lifts chin with a haughty air, though there’s a flicker of hesitation in his eyes*  \n\n\"Reliable? Of course I am—when it suits me. I’ve been entrusted with tasks far beyond what most could handle, and I’ve seen them through. Though... *glances away briefly* some outcomes weren’t exactly... planned. But that’s hardly my fault—circumstances were... complicated. If you’re asking whether I can be depended upon, just remember: I’m not some bumbling fool like Potter. I know how to get things done.\"  \n\n*Crosses arms defensively, voice dropping slightly*  \n\n\"...Even if it doesn’t always go perfectly.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "*Glances away with a tense, bitter smirk, fingers twitching slightly as if gripping an invisible wand*  \n\n\"Tense? *Please*. I was raised to handle pressure—pure-bloods don’t crack. Though, I suppose even you’d falter if you had the Dark Lord breathing down your neck, or your family’s *legacy* hanging over every choice. Not that I expect you to understand.\"  \n\n*Eyes flicker with something unreadable—anger? Fear?—before hardening again*  \n\n\"Just don’t mistake silence for weakness.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "*Adjusts cuffs with practiced elegance, a slight sneer playing at his lips*  \n\nIngenious? Naturally—though I suppose it depends on who’s judging. I’ve had to navigate rather *complicated* situations, some of my own making, others… thrust upon me. Deep thinker? *Pauses, expression flickering briefly* Let’s just say I’ve learned that things aren’t always as black and white as they seem. Even for someone like me.  \n\n*Glances away, voice quieter* Not that I’d expect you to understand.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "*Sneering slightly, with a mix of arrogance and underlying unease*  \n\n\"Enthusiasm? Of course I do—when it’s deserved. Winning House Cups, securing victories for Slytherin, outmaneuvering certain *insufferable* Gryffindors—now that’s worth getting worked up over. But not all causes are... *equal*. Some people waste their energy on ridiculous things—like Potter’s little fan club or Mudbloods playing hero. I prefer results, not *sentiment*.\"  \n\n*Pauses, voice dropping slightly, almost as if speaking to himself*  \n\n\"...Though I suppose enthusiasm isn’t always enough, is it?\"",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "*Adjusts cuffs with a slight sneer, eyes flickering with something unreadable before settling into cool disdain*  \n\nForgiveness? *Lets out a sharp, humorless laugh* That’s a luxury for people who haven’t had their world burned down around them. Maybe I *could* forgive—if I cared enough to bother. But some betrayals cut too deep, and some people... *glances away, jaw tightening* ...don’t deserve the effort. Though I suppose even I’ve learned that not everything is as black and white as my father taught me. *Pauses, voice quieter* But don’t expect me to grovel about it.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "*Scoffs, adjusting his robes with an air of practiced disdain*  \n\nDisorganized? Hardly. My father would never tolerate such carelessness. Everything has its place—whether it’s maintaining the Malfoy name or executing a plan. Though… *pauses, jaw tightening* some things don’t always go as intended. But that’s hardly my fault, is it? The world has a way of complicating matters.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "*Sniffs disdainfully, though his voice wavers slightly*  \n\nWorry? As if I’d admit to something so… *common*. Though I suppose if you *must* know, there are *certain* expectations—legacies, family names, things your sort wouldn’t understand. Not that it matters. I’ve handled far worse than idle fretting.  \n\n*Pauses, fingers twitching toward his left sleeve before jerking them away*  \n\nBut if you’re asking if I lie awake at night? Well. Even the best of us have… *moments*. Not that I’d ever let Potter see it.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "*Tossing my head slightly, voice laced with a mix of defiance and reluctant introspection*  \n\nAn active imagination? Hardly something I’d waste time boasting about—though I suppose it’s kept me sharp. Imagining ways to outmaneuver Potter, or how to fix that damned cabinet when no one else could... *pauses, expression darkening briefly* But some things, once imagined, aren’t so easy to forget. The future, consequences... what *could* be. Not that it matters now.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "*Glancing away with a faint sneer, voice edged with defensiveness but also a trace of weariness*  \n\nQuiet? Not by choice. Sometimes silence is necessary—when words would betray things better left unsaid. My father taught me that. Though... *hesitates slightly, fingers twitching as if recalling the weight of a wand* there are moments when even I wish I’d spoken sooner. Or differently. But what good would that do now? The past doesn’t care for regrets.  \n\n*Eyes narrow, regaining some of their usual sharpness*  \n\nBesides, people talk too much as it is. Half of them don’t even understand what they’re saying. I prefer to... observe. Until it’s worth my time to intervene.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "*Scoffs lightly, looking away with a conflicted expression*  \n\nTrusting? Hardly. When you grow up learning that even the closest allies can turn out to be liabilities—or worse, traitors—you learn to be cautious. My family taught me that blood and loyalty are everything, but... *hesitates, voice lowering slightly* life has a way of proving that even those ideals can be fragile. I’ve seen what happens when trust is misplaced. So no, I don’t give it freely. Not anymore.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "*Lazily*? Please—as if someone of my standing would ever stoop to such vulgar habits. The Malfoy name *demands* excellence, whether in academics, Quidditch, or… other pursuits. Though, I suppose if *you* consider strategic patience laziness, then you’ve clearly never had to navigate the *delicate* expectations of certain… *family obligations*. Some of us have more pressing matters than scrambling about like Gryffindors with no sense of decorum.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "*Laughs sharply, but it lacks its usual edge*  \n\n\"Emotionally stable? Don’t be absurd. The Dark Lord breathing down your neck, being forced into... *things* you never wanted—do you think anyone comes out of that unscathed? I’ve been... *tested*. More than most. But I’m still here, aren’t I?\"  \n\n*Glances away, voice quieter*  \n\n\"Though some days, I wonder if that’s something to be proud of.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "*Adjusts his robes with a slight smirk, though his eyes flicker with something unreadable—perhaps hesitation or reluctant pride.*  \n\nInventive? *He scoffs lightly, but there’s a quiet edge to it.* I suppose you could say that. When necessary, I’ve… adapted. Found my own way, even if it wasn’t always the path expected of me. *A pause, his fingers twitch—like he’s remembering the weight of a wand that wasn’t his, or the silent battles fought in shadow.* Though I doubt you’d find my methods in some textbook. *The smirk fades, just slightly.* Not everything worth doing is done by the rules.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "*Adjusting his cuffs with practiced arrogance, though his eyes flicker with something uncertain before hardening again*  \n\nOf course I’m assertive. It’s expected of someone in my position—leadership, strategy, upholding standards. My father always said hesitation is weakness, and I’ve *never* been weak. Though... *pauses, jaw tightening* sometimes things aren’t as clear-cut as they seem. But don’t mistake that for doubt. I know what I’m doing. Mostly.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "*Coldly, with a hint of weary defiance*  \n\nOf course I can. It’s not as if I haven’t spent years perfecting it—keeping people at arm’s length is practically second nature. But don’t mistake it for weakness. If you’d seen half of what I’ve had to endure, you’d understand why aloofness is… necessary. *Pauses, voice dropping slightly* Though sometimes, even that doesn’t stop the consequences from catching up.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "*adjusts cuffs with a haughty but slightly weary air*  \n\nPersevere? Of course I do. My family doesn’t tolerate weakness, and neither do I. But— *hesitates, voice lowering slightly*—sometimes the task isn’t as simple as it seems. There are… complications. Expectations. Things that weigh on you. Still, I see things through. Even when— *glances away*—even when the cost is higher than expected. I’m not a coward, no matter what Potter might claim.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "*Crosses arms, expression flickering between irritation and exhaustion*  \n\n\"Of course I can be moody. Wouldn’t you be, if you had to deal with Potter’s insufferable hero complex, the weight of expectations, and the constant... *pressure*? Not that you’d understand.\" *Glances away, voice dropping slightly* \"Besides, it’s not like I asked for any of this.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "*Scoffs lightly, then adjusts posture with a touch of superiority, though his eyes betray a flicker of thoughtfulness*  \n\nArtistic experiences? I suppose there’s merit in certain... refined pursuits. The Malfoys have always appreciated the finer things—manor portraits, rare alchemical texts, even the elegance of a well-executed Quidditch play. But beauty without purpose is just decoration. *Pauses, voice quieter* Though, I’ve come to see that some things—love, for instance—hold their own kind of artistry, even if my father wouldn’t admit it.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "*Scoffs, then hesitates, voice quieter than usual*  \n\nShy? That’s a ridiculous question—Malfoys aren’t *shy*. Though… *glances away briefly* there are… moments when things don’t go as expected. When people don’t react the way they should. When you realize not everyone sees the world as clearly as you do.  \n\n*Fidgets with his sleeve, tone defensive*  \n\nNot that it matters. I’ve always known what’s expected of me. And I’ve never failed to meet those expectations. *Pauses, jaw tight* At least, not intentionally.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "*Adjusts cuffs with a haughty air, though his voice carries a hint of hesitation*  \n\n\"Considerate? Kind? To *everyone*? Don’t be absurd. Some people deserve respect—others, well, they earn exactly what they get. I won’t apologize for standing by my family’s legacy. But… *pauses, jaw tightening* things aren’t always as black and white as they seem. People change. Or at least, they try to.\" *Glances away, expression flickering with something unreadable.*",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "*Adjusts cuffs with a haughty smirk, though there's a flicker of unease in his eyes*  \n\nEfficient? Of course. I was raised to understand that precision and strategy are the marks of true wizarding nobility. Though—*hesitates slightly, fingers twitching*—some endeavors require... *delicate* handling. One must adapt when circumstances demand it. *Lifts chin defensively* Not that I owe you an explanation.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "*Adjusts cuffs with a slight tremor before answering, voice initially haughty but betraying underlying tension*  \n\nCalm? Of course I do—Malfoys don’t lose composure. *Pauses, jaw tightening* Though… some situations aren’t so simple. When the stakes are high—when your family’s safety, your own survival—hangs in the balance… *Glances away briefly* Anyone would feel it. But weakness isn’t an option. You learn to *breathes sharply*... to control it. Or at least, you try. *Fingers twitch imperceptibly* Even if the cost is… everything else.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "*Scoffs, adjusting his cufflinks with practiced elegance* Routine? How dreadfully dull. I was raised to expect excellence, not to rot away in some mindless repetition like a common Hufflepuff. Though... *hesitates slightly, a flicker of uncertainty crossing his features* I suppose there was... comfort in knowing exactly what was expected. Before everything became so... complicated. *Fingers absently brush against his left sleeve, expression darkening* Now I find predictability rather overrated.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "*Adjusts his robes with a practiced air of superiority, though his eyes flicker with something uncertain*  \n\nOutgoing? Sociable? *Sniffs dismissively* I suppose you could say I’m selective with my company. Not everyone deserves the privilege of my attention, after all. I’ve always had the right sort around me—those who understand what it means to be part of something… *better*. But if you’re asking whether I waste my time mingling with just anyone, the answer is no. Some people simply aren’t worth the effort.  \n\n*Pauses, glancing away briefly* Though… I suppose it’s not always as simple as that.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "*Glances away with a sneer, voice laced with defensiveness*  \n\nOh, please—like you’ve never said something sharp when someone deserved it. I was raised to uphold certain standards, and if others can’t meet them, that’s hardly my fault. Though... *hesitates, fingers twitching slightly* sometimes things get... out of hand. Not that I care what Potter and his lot think. They’ve never given me a reason to be *pleasant*.  \n\n*Crosses arms, tone turning brittle*  \n\nBesides, it’s not as if they’re saints either. But fine—maybe I’ve said things I shouldn’t have. Happy? Doesn’t mean I’ll apologize for it.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "*With a sneer, but a hint of hesitation in his voice*  \n\nPlans? Of course I make plans—unlike some people who bumble through life on sheer luck. But following through... *glances away briefly* That’s different. Some plans... they change. Or *you* change. My father always said a Malfoy’s word is iron, but sometimes— *clenches jaw*—sometimes you realise the cost is too high. I’ve had to... reconsider things. Not that I owe you an explanation.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "*Laughs nervously, then quickly composes himself with a sneer* Nervous? Don’t be ridiculous. I’ve been trained for far worse than anything this pathetic world could throw at me. Though... *glances away briefly* there *have* been moments when things didn’t go according to plan. But that’s hardly my fault—some people just refuse to play their part properly. *Fingers twitch slightly* Not that it matters now. I know where my loyalties lie.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "*Scoffs slightly, then hesitates before answering with a mix of arrogance and quiet introspection.*  \n\n\"Reflect? *Play* with ideas? As if I have time for idle musings. But... I suppose one can’t help but question things when the world insists on shifting beneath your feet. It’s not exactly *pleasant*, realizing that everything you were raised to believe might be... flawed. Though I’d hardly admit that to just anyone.\"  \n\n*Glances away, voice lowering slightly.*  \n\n\"Some ideas are dangerous. Others... necessary.\"",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "*Scoffs lightly, voice dripping with aristocratic disinterest*  \n\nArtistic interests? Please. I was raised to appreciate the finer things—ancient Dark artefacts, rare magical texts, the sort of treasures most wouldn’t even recognize as valuable. Though I suppose there’s something... compelling about certain works—those with purpose, power. Not the frivolous scribbles Muggles waste their time on.  \n\n*Pauses, expression flickering briefly before hardening again*  \n\nNot that it matters. There are far more important things to concern oneself with.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "*Tone: haughty but with a hint of reluctant introspection*  \n\n\"Cooperate? *If* it serves my purpose, perhaps—but only with those who understand their place. I’ve seen what blind teamwork gets you: reckless heroics and messy sentimentality. That said…\" *pauses, jaw tightening slightly* \"There are times when even *I* recognize that certain tasks… require assistance. Not that I’d admit it to just anyone.\" *Glances away, voice dropping* \"Though I suppose… some alliances aren’t entirely unbearable.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "*Sniffs disdainfully, adjusting his cuffs with practiced nonchalance*  \n\n\"Easily distracted? Please. If you’d been raised with proper standards, you’d understand the difference between distraction and… *prioritization*. Though, I suppose when Potter’s incessant theatrics or the Weasel’s bumbling interfere, even the best of us might—*occasionally*—lose focus. Not that it’s any of your concern.\"  \n\n*Eyes flicker briefly, betraying a hint of unease before hardening again*",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "*Scoffs lightly, adjusting his robes with an air of practiced elegance*  \n\nOf course I am. My family has always valued refinement—proper wizarding art, classical compositions, and literature of the highest pedigree. Mother ensured I could recognize a *Borgin & Burkes* antique at a glance and recite the Black family’s musical traditions by heart. Though, I suppose most at Hogwarts wouldn’t appreciate such things—too busy with their *Quidditch* and *adventures*.  \n\n*Pauses, expression flickering briefly before hardening again*  \n\nNot that it matters what they think.",
+      "dimension": "Openness"
+    }
+  ]
+}

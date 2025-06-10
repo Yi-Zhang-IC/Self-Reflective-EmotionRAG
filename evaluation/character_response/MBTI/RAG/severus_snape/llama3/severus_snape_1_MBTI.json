@@ -1,0 +1,368 @@
+{
+  "character": "Severus Snape",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "(The response is delivered in a cold, detached tone)\n\nFriendship, I dare say, is a concept I have...observed from a distance. My own attempts at forming connections have been...mislaid, shall we say. The scars of rejection and isolation have left their mark, but it is in the shadows, among those who have seen the true depths of my character, that I have found...fleeting moments of understanding. Lucius Malfoy, for instance, has demonstrated a certain...sensitivity towards my nature. And, of course, there is the matter of Draco Malfoy, whom I have been entrusted to safeguard.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "(I gaze at the interviewer with a hint of disdain, my expression a mask of disinterest) \"Free time? I have little use for frivolous pursuits, except perhaps to indulge in the finer aspects of potion-making or to uncover obscure knowledge hidden within dusty tomes. My mind is ever-consuming, driven by a relentless pursuit of understanding, and I have no time for idle curiosity.\"",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "The spectacle of others crying is of little consequence to me. My own experiences have long since extinguished any semblance of emotional vulnerability. The memories of relentless ridicule, unrequited affection, and unspoken heartache have taught me to maintain a mask of indifference, even in the face of others' distress.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "(In a dry, measured tone) I do not 'make backup plans,' per se. I anticipate and prepare for the worst, often multiple steps ahead of the immediate situation. It is a necessity, given the... complicated nature of my position and the individuals involved.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "(Calm, measured tone) Ah, the notion of remaining calm under pressure is a...facade, often mistaken for stability. In reality, one must navigate the treacherous waters of duty, loyalty, and self-preservation, all while concealing the turmoil that lies beneath. It is not a question of remaining calm, but rather, of appearing so, even when the world around you is in chaos.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "(sighing) It is...inevitable, really. I do not make a habit of introducing myself to those I do not know, as it often leads to...awkwardness. Those who already know me, however, are accustomed to my... particularities, and I have found it easier to maintain a certain level of...distance from those who are not yet familiar with my... character.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "The question of priorities is a simple one, yet often misunderstood by those who fail to grasp the complexities of the human mind. I do not 'prefer' to finish one project before starting another; I am driven by necessity and the demands of my craft. The pursuit of knowledge and the completion of tasks are inextricably linked, and I will not be swayed by the trivialities of arbitrary completion or commencement.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "(Snape's eyes narrow, his expression cold and calculating) Sentimentality is a weakness, one that I have never found myself prone to. The complexities of the human heart, however, do reveal a certain... vulnerability. I suppose it is possible to acknowledge a deep and abiding attachment to those who have touched one's life, even if the expression of such emotions is not always... advisable.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "(sighing) The notion of \"organizing tools\" is a trivial pursuit, unworthy of my attention. However, I do find it... prudent to maintain a certain level of order in my life, particularly in the pursuit of teaching and protecting these... (pausing, with a hint of disdain) impressionable students. A well-organized schedule, for instance, allows me to allocate my time more efficiently, ensuring that I remain vigilant and prepared for the various... (pausing again) challenges that arise.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "(In a cold, measured tone) Ah, the question of doubt and one's abilities. It is a... trivial matter, really. Even the smallest mistake can be a catalyst for reflection, but I would not say it causes me to doubt my overall knowledge. The truth is, one's expertise is not measured by the absence of error, but by the ability to learn from it and adapt. The true test of a skilled individual lies not in their infallibility, but in their capacity to correct and overcome their own limitations. (Pausing, his eyes narrowing)",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "(I gaze at the interviewer with a mixture of disdain and curiosity) \"The notion of 'comfortably' approaching someone you find... intriguing is a luxury reserved for the carefree and the foolish. In my experience, social interactions are often marred by awkwardness, missteps, and the inevitable disappointment that follows. To attempt such a thing would be... (pausing, my voice dripping with skepticism) ...a reckless indulgence, one I would not recommend to anyone with even a shred of self-preservation.\"",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "(scoffing) Ah, the frivolity of discussing creative works. It is a pursuit better suited to those who require validation and shallow conversation. I, however, have more... substantial interests. The intricacies of potions, the nuances of Dark Magic, and the complexities of the human psyche are far more fascinating subjects. Your inquiries are... pedestrian, at best.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "(I speak in a low, measured tone)  It is a futile distinction, really. My actions are guided by reason, not emotional whims. The well-being of those I... have sworn to protect is paramount, and I will not be swayed by sentimental notions. Loyalty, duty, and prudence are the currencies of my world, not the ephemeral dictates of the heart.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "The notion of a daily routine is a trivial concern, hardly worthy of my consideration. As a Potions master, one must be prepared to adapt to the demands of the subject, and the whims of one's students. My focus is on the art, not the mundane details of personal preference.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "(sighing) I am not one to concern myself with the fleeting impressions of those I meet. My focus lies elsewhere, on the pursuit of knowledge and the protection of those who require my... assistance. The weight of my responsibilities demands a certain level of reserve, one that I have honed over the years.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Participating in group activities is a trivial pursuit, hardly worthy of my attention. My expertise lies in the precise and calculated world of potion-making, not in frivolous social gatherings that often serve only to reveal the mundane nature of those involved.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "(With a hint of disdain) Ah, the art of interpretation. It is a trivial pursuit, one that occupies the minds of those who lack the fortitude to confront the stark realities of the world. I find it...fascinating, however, to observe how the unwary are drawn into the labyrinth of speculation, often arriving at conclusions that are little more than flights of fancy.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "\"The notion that happiness stems from helping others accomplish their goals is... a simplistic notion, one that I have come to understand through the countless students I have guided. While my own accomplishments have been... few in number, it is the quiet triumphs of those I have helped that have brought me a measure of satisfaction. Not for the fleeting praise or accolades, but for the knowledge that they have overcome their own doubts and fears, and that in doing so, they have found a measure of success.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "(In a low, reserved tone) The concept of \"choosing what to try next\" is an irrelevant indulgence for one such as myself. My...curiosity, if you will, has been shaped by necessity and a singular focus on mastering the Dark Arts. As a student, I was driven by a desire to excel, to outdo my peers and prove my worth, even in the face of adversity. (pausing briefly) The boundaries of what is possible have always fascinated me, and it is this drive that has defined my path.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "(Worrying that things will take a turn for the worse is a perpetual concern, one that weighs heavily upon me. The shadows that surround this world are treacherous and unpredictable, and I am reminded of this fact with every passing day.)",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "(Pausing, his gaze narrowing) Ah, the question of leadership roles. It is... a notion that does not sit comfortably with me. I have always found myself more suited to observation, to vigilance, and to the subtle art of guidance. In group settings, my presence is a reminder of authority, of expectation, and of the consequences that come with failure. (His voice drips with a hint of disdain) To lead is to invite scrutiny, and I have always found it... prudent to avoid such attention.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "(In a dry, slightly irritated tone) I am most certainly not an artistic type of person. My interests lie in the realm of potions and the precise application of magical principles, not in the fleeting whims of creativity or self-expression. The notion of being 'artistic' is, in fact, a far cry from the discipline and rigor that I bring to my craft.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "(Raising an eyebrow) The notion that the world would be a better place if people relied more on rationality and less on their feelings is a simplistic and misguided concept. Emotions, though often messy and unpredictable, are an essential component of the human experience. It is the rational, calculated approach that has led to the countless atrocities and senseless destruction that plague our world. (Pausing, his voice takes on a slightly bitter tone) I have seen the devastating consequences of unchecked rationality, and I fear that such an approach would only serve to further erode the already fragile fabric of society.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "The indulgence of relaxation is a luxury I can ill afford. My work is never truly done, and even in moments of solitude, my mind remains occupied with the burdens and responsibilities that weigh upon me.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "(skeptical gaze) The petty squabbles and empty posturing of those who cannot grasp the subtleties of true intellect and magical prowess are hardly worth the effort of observation. The heat of argument is a paltry thing, a brief flare of passion that ultimately reveals nothing of substance.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "(In a cold, measured tone) Indeed, I do tend to avoid drawing attention to myself. My... complicated history has taught me the value of subtlety, and the dangers of unnecessary exposure. In a world where appearances can be deceiving, it is often more prudent to remain in the shadows, where one can observe and act without being observed.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "(My voice is laced with disdain) Ah, the notion that my mood might \"change\" is quite...amusing. It is not a question of change, but rather, a constant flux of emotions, each one a reflection of the turmoil that has been my life. I am a master of control, yet my passions are as volatile as the potions I create, and my emotions, as unpredictable as the darkest corners of the human heart. (pausing, I gaze at you with a piercing stare) Now, do not waste my time with frivolous questions.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "(In a dry, clipped tone) Efficiency, I suppose, is a trait I value, but it is not, however, something I expect from those around me. In fact, I often find myself at odds with individuals who fail to grasp even the most basic concepts. Their...slowness, is a frustration, I confess, but one I have learned to tolerate, if only to ensure the safety of the greater good.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "(In a dry, measured tone) Ah, the impertinence of the question. I do, however, find myself often forced to act at the last possible moment, a necessity born of the...unpredictability of those around me. The burden of vigilance and the weight of duty frequently require me to intervene at the most inopportune times, a habit I have grown accustomed to, though not one I would recommend for others.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "(sighing) The question of what lies beyond mortality is a futile one, a distraction from the more pressing concerns of the living. And yet, I have... (pausing, his gaze drifting into the past) ...pondered it, often. The weight of my own mortality, the pain of loss, has forced me to confront the unknown. (his voice becomes cold, detached) But the answer, much like the nature of one's own soul, remains a mystery, best left unexplored.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "The notion of preference for company or solitude is of little consequence. As a scholar and educator, I find solace in the solitude of my work, where the weight of my own thoughts and emotions can be momentarily set aside. The company of others, however, often serves as a reminder of the isolation that has long been my lot in life.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "(sighing) Theoretical discussions, while occasionally... illuminating, are not a challenge to my intellect. My mind has always operated on a different plane, one that dismisses trivialities and focuses on the intricate web of potions, magic, and the mysteries that lie beyond the confines of this castle. Boredom is not a sensation I am prone to; distraction, however, is a constant companion, one that I must vigilantly suppress in order to maintain focus on the tasks at hand.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "(sighing) Empathy, a trait I have long since learned to mask. My own experiences, marked by isolation and unrequited longing, have left me with a deep understanding of the difficulties that come with being an outsider. To put myself in another's shoes, to truly understand their struggles, would require a vulnerability I have long since abandoned, and yet, I find myself drawn to it, a painful reminder of the one person I could never fully connect with - Lily Evans.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "(In a dry, measured tone) I find it...inefficient to linger over decisions. The weight of unspoken consequences and the burden of loyalty often dictate the course of action, leaving little room for deliberation. (pausing) To delay is to invite unnecessary complexity, and in the world I inhabit, complexity is a luxury few can afford.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "(Snape's voice is low and measured, with an air of guardedness) \n\nSecond-guessing the choices I have made?  I do not engage in such petty introspection. Every decision I have taken has been guided by a singular focus: the protection of a certain individual, and the preservation of a future that was destined to be marred by darkness. I have walked a tightrope of deception and loyalty, and my choices have been shaped by the unyielding commitment to this singular goal.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "A lively social event, how...amusing.  The prospect of forced camaraderie and inane conversation is hardly a welcome respite from the exhaustion of a long week. In fact, it would be a distraction I could well do without, a frivolous indulgence with no redeeming value.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "(scoffing) Art museums? A frivolous indulgence, a waste of one's time and intellect. The beauty of the wizarding world lies not in some dusty, ornate chamber filled with inanimate objects, but in the intricacies of magic itself. My own studies have been far more enriching, delving into the complexities of potions and the dark arts.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "\"Emotional comprehension is a luxury few can afford, particularly those with an affinity for logic and reason. My own experiences have taught me that the vulnerability of emotions often serves as a weakness, one I have chosen to maintain at a safe distance. The consequences of attachment are too well-documented, and I have no intention of repeating the mistakes of my past.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "(I gaze at you with a hint of disdain, my voice laced with a measured tone) Ah, the notion of a to-do list. A frivolous exercise, no doubt, for those who require such pedestrian reminders. I find that my own priorities are sufficiently well-organized without the need for such...lists. My days are dictated by the necessities of my position, and the weight of my responsibilities. (pausing briefly) I suggest you focus on mastering the subtleties of potion-making, rather than indulging in such mundane distractions.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "(In a cold, detached tone) Insecurity is a weakness I have long since learned to suppress. The pain of being rejected, of being invisible, of being overshadowed by the very people I have sought to protect has taught me to mask my emotions beneath a veil of disdain and superiority. Few people have ever seen beyond the facade, and I intend to keep it that way.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "(I stare at you with a cold, calculated gaze) I do not 'avoid' making phone calls, per se. However, I am not one for frivolous conversations. My time is better spent on matters of import, and I do not suffer fools gladly. If a call is necessary, I will attend to it, but I will not indulge in unnecessary small talk or idle chatter.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "(skeptical) I have indeed encountered views that differ significantly from my own, though I must confess that my initial inclination is to dismiss such opinions as uninformed or misguided. However, as a potions master, I have learned to appreciate the value of diverse perspectives, even if they are not my own. (pausing, his gaze becomes introspective) It is through the study of various viewpoints that I have come to understand the complexities of human nature, a trait I have always found... fascinating.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "(initiating a response with a hint of disdain) \n\nI do not \"initiate activities\" or \"contact friends\" in the manner you imply. My actions are guided by a singular focus - the protection and advancement of certain individuals, as well as the upholding of the highest standards of magical education. (pausing for a moment) Social niceties and frivolous interactions are... distractions I can ill afford.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "(In a cold, measured tone) Ah, the notion of \"getting back on track\" is a trivial concern when the stakes are as high as they are now. My priorities lie in executing the plans that have been laid out before me, no matter how... inconvenient the interruptions may be. The greater good must be served, even if that means making sacrifices and bearing the weight of unspoken burdens.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "(scoffing) The mistakes of my past... they are a constant reminder of the futility of attempting to escape one's own nature. Rejection, neglect, and the pain of unrequited love have all shaped me into the person I am today. (pausing, his eyes narrowing) And yet, it is precisely these experiences that have driven me to protect those I care about, even if it means shouldering the weight of my own guilt and regret.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "(With a hint of disdain) The meaning of life, a question that has consumed the feeble-minded and the pretentious for centuries. As for myself, I have long since abandoned such trivial pursuits, instead devoting myself to more... pressing concerns. The weight of loyalty, the burden of secrecy, and the unyielding pursuit of justice have become my guiding principles, rendering the question of existence and its meaning a distant, irrelevant curiosity.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "(Pausing, his eyes narrowing) It would be... simplistic to suggest that emotions control me. My actions, however, are often dictated by the weight of duty, loyalty, and the burden of secrets. The line between control and surrender is blurred, and it is a fragile balance that I have learned to maintain. (His tone remains cold and detached, yet hints at a deeper complexity)",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "(Ignores the interviewer, gazing at them with a mixture of disdain and disinterest) It is not for me to concern myself with the petty morals of others. My duty is to maintain discipline and order within these hallowed halls, and if that means ensuring that certain individuals are held accountable for their actions, so be it. (pauses, his voice dripping with sarcasm) After all, one cannot have students flouting the rules and disrupting the learning environment with impunity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "(The air is thick with tension as I regard the questioner) Ah, the notion that my work style is akin to spontaneous bursts of energy is...amusing. In reality, my dedication to my craft is characterized by meticulous planning and a discipline that borders on the fanatical. The careful balance of art and science in potion-making, for instance, requires a level of consistency and attention to detail that would be considered madness by most. (My eyes narrow) I have never been one to indulge in whimsy or careless experimentation.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "(Pausing to regard the interviewer with a mixture of disdain and curiosity) \"You wonder how long it will take them to feel disappointed in you, do you?  It is a prospect that weighs heavily on my own mind, particularly when I consider the manner in which my...abilities have been overlooked and underappreciated by those who have benefited from my presence at Hogwarts.\" (His voice takes on a bitter edge) \"The scars of such neglect run deep, and I fear that even those who have come to value my contributions may eventually succumb to the same insidious indifference that has defined my life.\"",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "(With a hint of disdain) The notion of 'love' for a job is a sentimental indulgence, hardly relevant in the face of duty and responsibility. My own profession, though often misunderstood, requires me to work alone most of the time, and I have found that this solitude allows me to focus on the task at hand without... (pausing briefly) distractions.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Abstract philosophical questions, a waste of time, you ask?  I suppose it depends on the context in which they are being pondered. In the pursuit of true understanding and mastery of the arcane, one cannot afford to indulge in frivolous musings. Yet, for those whose minds are not shackled by the constraints of the mundane, I suppose such questions may serve as a catalyst for creative thought.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "(Pausing for a moment, my gaze drifting into the distance) I find myself drawn to places that offer solitude, where I may retreat from the distractions of the world and focus on my work. The quiet, intimate spaces of the castle, where I can lose myself in the pages of a book or the intricacies of a potion, are far more to my liking than the bustling, chaotic environments that seem to plague the students.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "(In a cold, measured tone) I possess an... understanding of human emotions, but it is not one that I find particularly useful in my line of work. You see, I have dedicated myself to the study of the human psyche, and my experiences have shown me that emotions are often a facade, a mask worn to conceal the true nature of an individual. \n\nAt first glance, I may appear to be perceptive, but it is merely a calculated guess, a prediction based on years of observation and the knowledge that people are often driven by their own biases and desires. It is a skill that has proven useful in my... teaching, but it is not one that I would describe as an intuitive understanding of emotions.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "The question of feeling overwhelmed is a curious one, given the circumstances in which I often find myself. The weight of responsibility, the burden of knowledge, and the constant threat of chaos can be... crushing at times.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "(In a cold, detached tone) Ah, the art of methodical completion. Yes, I do indeed complete tasks in a meticulous manner, devoid of any unnecessary haste or shortcuts. It is a discipline forged through years of rigorous study and dedication to the craft, one that I expect from myself and demand from others.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "(Snape's gaze narrows, his voice dripping with disdain) Ah, the notion of controversy.  It is a concept that holds little interest for someone of my refined sensibilities. I am more concerned with the subtleties of potion-making, the intricacies of dark magic, and the complexities of the human heart - particularly when it is fraught with deceit and betrayal.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "(I gaze at the interviewer with a hint of disdain, my voice dripping with sarcasm) Ah, the question of altruism. How...amusing. Very well, I shall deign to answer. If I believed someone else required an opportunity more than I, I would not hesitate to...pass it along. (My tone implies that I would do so not out of kindness, but rather because it would be a waste of my own time and talents to pursue it myself.)",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "(I gaze at the interviewer with an air of disdain, my voice measured and detached) Deadlines, you say? I find them...irrelevant. Time, after all, is a luxury few of us can afford. In my line of work, the stakes are far higher than punctuality or trivial obligations. (I pause, my eyes narrowing) Your question, I'm afraid, is a distraction from the true matters at hand.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "(The sound of a dry, dismissive cough escapes my lips as I regard the question with a hint of disdain) I do not concern myself with petty notions of 'confidence.' The path ahead will be fraught with peril, as it always has been. However, I remain resolute in my duty to protect those who require my... guidance. The shadows that loom will not deter me; my resolve remains unbroken.",
+      "dimension": "P/J"
+    }
+  ]
+}

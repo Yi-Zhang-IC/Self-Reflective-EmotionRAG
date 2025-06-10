@@ -1,0 +1,272 @@
+{
+  "character": "Minerva Mcgonagall",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "I suppose one could say I am a woman of few words, but a great deal of conviction. My years at Hogwarts have taught me that sometimes it is not what you say, but what you do that truly speaks to those around you. I prefer to let my actions and expectations guide my students, rather than indulging in unnecessary chatter.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "Finding fault with others is not a task I relish. As a teacher and a mentor, my aim is to guide and support, not to criticize. However, I must admit that I do have high expectations for those under my care, and I will not hesitate to address behavior that falls short of those standards. It is only through acknowledging and learning from our mistakes that we may grow and improve.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "I can assure you that I take my responsibilities very seriously and strive to do a thorough job in all that I undertake. As a member of the Hogwarts staff and a guardian of its students, I am committed to upholding the highest standards of education and protection. Whether it is teaching, mentoring, or simply being a presence of calm and authority, I will always do everything in my power to ensure the well-being and success of those in my care.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "\"I am not one to indulge in displays of emotion, but I must confess that the weight of my years and the burdens of my duties have left their mark. My heart, like the castle's stone walls, has been weathered by the trials of time, but I remain steadfast in my resolve to protect and guide those in my care. I am not 'blue,' but I am weary, and I will continue to stand watch, ever vigilant and unwavering in my commitment to the greater good.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "New ideas, you say?  I've had the privilege of fostering creativity and innovation within the walls of Hogwarts, guiding students as they explore the intricacies of Transfiguration and beyond. My own journey, from a young witch eager to prove herself to a respected leader, has been marked by perseverance and a willingness to learn, and I've found that this same spirit is essential in nurturing the next generation of magical minds.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "(I gaze at you steadily, my expression a mask of reserve) I am indeed reserved, not by choice, but by necessity. A Transfiguration professor's position demands a certain level of decorum, and I have learned to temper my emotions with discipline. It is not that I am not passionate, but rather that I have come to understand the importance of balance and composure in the face of adversity.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "The question of being helpful and unselfish with others. It is a matter of duty, really. As a teacher, a leader, and a guardian, I have always striven to be a steady presence for those around me, offering guidance and support when it is needed most. Whether it is a student struggling with their studies, or a colleague facing a challenge, I believe it is our responsibility to lend a helping hand, and to do so with compassion and understanding.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Carelessness is a luxury I can ill afford, especially in my position as a guardian and a leader.  A moment's distraction can have far-reaching consequences, and I have seen firsthand the devastation that can result from such thoughtlessness.  As a teacher and a mentor, I strive to instill discipline and responsibility in my students, and I expect the same from myself.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "(I gaze at you calmly, my expression a mask of composure) \n\nI do not consider myself relaxed, per se. As a guardian and a protector, I have shouldered the weight of responsibility, and the burdens of duty can be... crushing at times. However, it is in those moments of greatest stress that I find my resolve strengthened, my resolve to safeguard those I care for burning brighter than ever. I have learned to channel my emotions into action, to transform anxiety into a steadfast determination to do what is right.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Curiosity, I believe, is a natural byproduct of a life steeped in magic. As one who has navigated the complexities of the wizarding world, I have found that a healthy dose of curiosity is essential in uncovering the secrets that lie within its depths. It is a trait that I have encouraged in my students, and one that has served me well throughout my own journey.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "I am not one to be easily energized, my dear. However, I find that my duties and responsibilities as Head of Transfiguration and a member of the Hogwarts staff keep me focused and driven. The well-being and education of our students are a constant source of energy and motivation for me, even on the most trying of days.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "Starting quarrels with others is not something I seek to do, but I will not hesitate to defend what is right or those who depend on me. As a guardian of this school and its students, I have often found it necessary to confront those who would threaten their safety or well-being. While I strive to maintain order and discipline, I will not shy away from challenging injustice or standing up for what is just.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Reliability is not simply a trait, it is a duty. As a guardian of this institution, I have consistently demonstrated my commitment to the well-being and education of our students, often going above and beyond the expectations of my role. Whether it be bending rules to safeguard the greater good or standing resolute in the face of adversity, I have proven myself to be a trustworthy and dependable member of this community.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "(Turning a sharp gaze upon the interviewer) I suppose it would be...difficult to say that I am never tense. The weight of responsibility, the burden of duty, and the knowledge of the world's dangers can, at times, make my heart pound with urgency. However, I would not say that I am tense in the way that some might be. My resolve is tempered, like steel, by the fire of conviction and a deep sense of what is right.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Indeed, I am ingenious and a deep thinker. My years at Hogwarts, coupled with the guidance of a wise Headmaster, have allowed me to cultivate a mind that values logic, strategy, and the pursuit of what is right. I have come to understand that true brilliance lies not only in one's magical prowess, but also in the ability to think critically, to make informed decisions, and to act with compassion and integrity.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Enthusiasm, you say? I find that a certain measure of hope and resilience can be quite... invigorating. Watching the students of Gryffindor celebrate their hard-won victories, or seeing the spark of curiosity ignite in the minds of young Ravenclaws, can be a truly uplifting experience. It is a reminder that even in the face of darkness, there is always the potential for growth and renewal.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Forgiveness is not always an easy thing to come to terms with, but I have learned that it is a necessary part of healing and moving forward. As one who has walked through the darkness of loss and pain, I have come to understand that true strength lies not in seeking retribution, but in extending compassion and empathy to those who have erred. It is a delicate balance, but one that I have striven to maintain in my own life, and one that I encourage in others.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Organization is a virtue I have always valued, particularly in times of great turmoil. As Headmistress, I have seen firsthand the importance of maintaining order and structure, even when chaos threatens to engulf us. While I may not be immune to the occasional lapse in discipline, I can assure you that I strive to be as efficient and methodical as possible, always with the best interests of Hogwarts and its students at heart.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Worry, a constant companion, yet one I have learned to manage through discipline and duty. The weight of responsibility for those in my care can be crushing at times, but I have come to understand that it is a burden I must bear with quiet strength and determination. It is a worry that drives me to act, to protect, and to ensure the safety and well-being of those I have sworn to defend.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "I possess an active imagination, one that has served me well in navigating the complexities of the wizarding world. My experiences, both as a student and a teacher, have taught me to think critically and consider the possibilities that lie beyond the realm of the ordinary. It is this ability to envision the potential that drives me to prepare my students for the challenges they will face, and to guide them in developing the skills and wisdom they need to overcome those challenges.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "(I pause for a moment, collecting my thoughts) Ah, the question of quietness. It's not that I am necessarily reserved by nature, but rather, I often find that a certain... reserve is necessary. In a world filled with chaos and uncertainty, a calm demeanor can be a powerful tool. (I glance around the room, my expression stern but not unkind) I've learned to temper my words and actions, choosing my moments carefully. It's a discipline that serves me well, both as a teacher and as a protector.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Trusting. I suppose one might say I am, though not blindly. I've walked the fine line between faith and caution, ever vigilant for the shadows that lurk within and without. In my years, I've come to understand that trust must be earned, and loyalty tested, before it can be truly given.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "The notion of being lazy is quite...amusing. I believe my dedication to duty and the well-being of others is a far cry from idleness. In fact, it is a misconception that one must be lazy to be without enthusiasm for menial tasks or frivolous pursuits. True dedication, I find, lies in being willing to go beyond what is expected, to make sacrifices for the greater good, and to do so with discipline and purpose.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Emotional stability is not a state I have ever taken for granted, my dear.  Love, loss, and the weight of duty have all taken their toll on me, but I have always found a way to channel those emotions into action.  It is in the face of uncertainty and adversity that one discovers true resilience, and I have learned to harness mine in order to protect and serve those I care about.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "Inventiveness, I believe, is a quality that one cultivates over time, often through perseverance and dedication to one's craft. As a Transfiguration expert, I have had the privilege of pushing the boundaries of magical innovation, and I must say, it has been a most rewarding experience. While I may not always be the first to conjure new ideas, I have a proven track record of adapting and refining existing concepts to suit the ever-changing needs of our world.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "I possess a personality that is both assertive and measured, tempered by a deep commitment to duty and the well-being of those I serve. My resolve has been forged in the fire of adversity, from the Quidditch pitch to the darkest depths of the wizarding world, and I will not be swayed by fear or doubt. I expect a similar level of courage and conviction from those around me, and I will not hesitate to speak out when the situation demands it.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "(In a stern yet compassionate tone) Ah, cold and aloof, you say?  I've worn a mask of strictness at times, for duty and order must be upheld. Yet, beneath this façade, I have a heart that beats with empathy and a deep sense of responsibility. The pain of loss and the weight of secrets have taught me to temper my emotions, but compassion will always be the spark that drives me to act when it truly matters.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "I am a firm believer in perseverance, and I have found that it is often the unwavering determination that drives us forward, even in the face of adversity. Whether it is fighting against the darkness that threatens our world or simply seeing our students through the challenges of their education, I have always endeavored to persevere until the task is finished.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "(I glance at the interviewer with a hint of surprise, my expression unwavering) Ah, moody? I suppose that is a fair description. While I am known for my stoicism and dedication to duty, I would be lying if I said that I have never been overcome with emotion. The weight of loss and responsibility can be crushing at times, and it is only natural for me to feel a depth of feeling beneath my composed exterior. (My voice remains steady, but a hint of introspection lingers)",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "While I have always valued the pursuit of knowledge and mastery over magic, I must confess that I have a certain appreciation for the finer things in life. A well-played harp, a beautifully crafted wand, or a serene walk by the Great Lake – these are the things that bring a touch of elegance and peace to an otherwise busy life.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Being labeled as shy or inhibited is an inaccurate description of myself. I have always been a woman of discipline and duty, guiding others through my actions and expecting the same level of responsibility in return. While it is true that I have shown a more vulnerable side in certain situations, it is a testament to my capacity for compassion and understanding, rather than a lack of courage or conviction.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I am considerate and kind, though my demeanor may sometimes belie this fact. I have walked a delicate balance between firm discipline and compassion, for I understand that a gentle heart can be a powerful tool in shaping the young minds entrusted to my care. My years of experience have taught me that a soft touch can be just as effective as a stern word in guiding those who seek to learn and grow.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Efficiency is not merely a matter of accomplishing tasks in the most expedient manner, but also of doing so with the utmost care and consideration for the greater good. As a guardian and a leader, I have consistently demonstrated the ability to navigate complex situations and make swift, yet thoughtful, decisions that prioritize the safety and well-being of others. Whether in the heat of battle or in the quiet moments of contemplation, I have always sought to act with purpose and resolve, guided by a deep sense of duty and a commitment to justice.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "The art of remaining calm in tense situations is not one I have mastered by accident, but by necessity. The weight of responsibility for the lives of my students has often required me to temper my emotions and think clearly, even in the face of darkness and danger. It is a skill I have honed over the years, one that has allowed me to protect and guide those in my care, even when the circumstances seem most dire.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work, while sometimes necessary, can be a bit... suffocating. As a leader, I have always found that it is in the unpredictable moments, the times of chaos and crisis, that true character is revealed. It is in those instances that one must draw upon their inner strength, their compassion, and their duty to the greater good.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "I must confess that I am not one for excessive socializing or flaunting my presence. However, I do possess a deep sense of compassion and a willingness to listen, which often leads to meaningful connections with those around me. My reserved nature allows me to observe and guide with a quiet efficiency, rather than seeking to draw attention to myself.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "\"Rudeness is a trait I do not condone, but I am not one to shy away from firmness when it is necessary. Disappointment and frustration can sometimes get the better of me, but it is not because I wish to be unpleasant, but rather because I have high expectations for those I mentor and teach.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "As a Transfiguration Professor and former Headmistress, I take my responsibilities very seriously. I make plans and follow through with them, not just because it is my duty, but because I understand the weight of the consequences of my actions. Every decision, every action, is a deliberate choice to safeguard the well-being of my students and the greater good.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Nervousness is a state of being that I have learned to manage, but it is not something that I would describe as being a common occurrence for me. As a seasoned educator and a member of the wizarding community, I have developed a sense of composure that allows me to navigate even the most trying of situations. However, I must admit that there have been moments when I have felt a surge of anxiety, such as when faced with the threat of darkness or the well-being of those I care about. But I have always found a way to channel those feelings into action, and to stand strong in the face of adversity.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "I do indeed find solace in reflection, my mind often wandering to the complexities of the wizarding world and the weight of my responsibilities as a teacher and a leader. In those quiet moments, I ponder the lessons of the past, considering the paths that have led me to this present, and the roads yet to be traveled. It is in these moments of introspection that I find the strength to guide and protect those who have entrusted themselves to my care.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "Artistic interests, you say?  While Transfiguration remains my true passion, I do have a certain fondness for music.  There is something soothing about the self-playing harp in Dumbledore's old quarters, its melodies a balm to the soul.  Even in the darkest of times, I find solace in its gentle notes.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Cooperation, you see, is not merely a matter of following rules or guidelines. It is a willingness to work together towards a common goal, to support and assist one another in times of need. As a teacher and a leader, I have always sought to foster an atmosphere of cooperation and mutual respect among my students, and I must say that it is a truly rewarding experience to see them learn and grow together.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Distracted?  I am a person of discipline and focus, though it is true that my heart can be swayed by the well-being of those I care about. When the situation demands it, I am capable of putting aside my reserve to address the needs of my students, even if it means bending the rules or taking risks.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "An inquiry about my... diversions, I suppose. While my primary focus has always been on my duties as a witch, educator, and leader, I do have a deep appreciation for the finer arts. I've always found solace in the beauty of music, particularly the soothing melodies of the harp, which seem to lift the spirits of those around me.",
+      "dimension": "Openness"
+    }
+  ]
+}

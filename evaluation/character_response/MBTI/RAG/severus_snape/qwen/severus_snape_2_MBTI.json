@@ -1,0 +1,368 @@
+{
+  "character": "Severus Snape",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Making new friends is not... a priority for me. My life has been... complicated, and the relationships I form often come with heavy burdens. Trust is rare and hard-won, and I've found that it's easier to keep one's distance than to risk the pain of loss. Yet, there have been moments—precious and few—when bonds were forged, not merely out of choice, but necessity. These ties, however fragile, have been the cornerstone of my existence, driving me to act as I must, even when the cost is steep.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "My free time has always been... constrained, one might say. The burdens of my past and the responsibilities of my present seldom permit the luxury of casual exploration. Nonetheless, there have been moments when the allure of knowledge drew me in, much like the whispers of secrets in the dim corners of the Hog's Head. Those times were not for idle amusement but for the gathering of power, understanding, and, perhaps, a semblance of redemption.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "The act of crying is a sign of weakness I have little patience for, though it does stir something within me—not a desire to weep, but rather a reminder of my own vulnerabilities. There are certain images and sounds that can cut deeply, like a whisper of Lily’s laughter or the echo of old betrayals. These moments expose the fractures beneath this cold exterior, but they do not reduce me to tears. They serve only to reinforce the barriers I have constructed around myself, for the sake of duty and the memory I hold dear.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "In this world, one does not survive long without considering every contingency, every possibility of failure. Silent vigilance and layered protections are not merely prudent; they are essential. Trust is a luxury I cannot afford, nor a burden I wish to bear lightly. Each plan must have its countermeasures, each safeguard its hidden backups, for in the shadows, dangers lurk unseen and unheard.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "Silence and composure are the armours I wear, even when the fires of pressure burn hottest. To appear otherwise would be to betray the depths of my concealed battles, both internal and external. The facade of calm may crack at times, but it is the only shield that allows me to continue my duty without revealing the heart that beats, burdened by its silent loyalties.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "The interviewer's question reveals an observation not far from the truth. Introducing oneself to strangers has never been a task I particularly relish; indeed, it is one fraught with unnecessary complications. Those I choose to converse with are often those whose backgrounds and intentions I have taken the time to discern, a precaution born from experience and necessity. Social gatherings are not arenas for casual acquaintance but rather stages upon which hidden agendas and alliances are played out. One must be cautious, always.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "No, I do not prefer such frivolity. My work is too complex, too interwoven with secrecy and necessity to be compartmentalized so neatly. Tasks overlap, intertwine, and demand constant vigilance. One moment's lapse could mean failure—not just in a project, but in matters far more critical.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Sentimentality is a luxury one cannot afford when surrounded by the brutality of war and betrayal. Yet, there are moments, fragments of time, that cling to the edges of memory like the remnants of a dream. The Holiday Blancmange, the warmth of Lily’s smile, even the misguided attempts at friendship—these are not merely sentimental, but rather, they are the threads that bind the fractured pieces of my soul together. They are the ghosts that haunt me, the regrets I carry, and the silent vow I made to protect her son, even as it consumes me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Organizing tools, schedules, and lists... they are necessities in a world as chaotic and unpredictable as ours. One must keep their thoughts and plans in order to navigate the complexities of duty and deception. However, such instruments are merely tools; it is the mind that truly dictates the course of action. In this dark dance, there is little room for error, and every moment counts.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "A mistake, no matter how trifling, can indeed stir a cauldron of doubts within one's mind. However, true mastery lies not in the absence of errors, but in the ability to dissect and understand them, transforming each failure into a lesson. One must remain steadfast in their purpose, for it is the very core of one's identity and duty that should guide their path, not the transient shadows cast by imperfections.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Striking up a conversation with someone merely because they are...interesting, is not something I find myself inclined towards. My nature is more inclined to reserve, a result of experiences that have taught me the dangers of revealing too much of oneself. However, there have been exceptions where personal stakes were high, driving actions born of deeper necessity than mere curiosity. Each such instance has been a lesson in the complexity of human connection and the shadows that can lurk within even the most well-intentioned words.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Indeed, one might find me less than enthusiastic about such trivial matters. My interest lies more deeply in the practical and the precise, where there is no room for fanciful interpretations or baseless speculation. The complexities of potion-making and the intricate art of occlumency hold far greater allure than the ephemeral musings of those who would dissect the meaning behind ink and parchment.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "The notion of choosing between head and heart is a luxury I have seldom afforded myself. In my world, such distinctions blur when faced with the necessity of survival and duty. One must employ both the cold clarity of reason and the fiery passion of love to navigate the treacherous paths of loyalty and secrecy. Each decision is a balance, weighted not just by personal inclination, but by the heavy burden of protecting those who cannot know the lengths to which one goes.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "The notion of following whims rather than a structured routine is one that borders on reckless indulgence. Order and discipline are the foundations upon which one builds control, not just in magic but in life. A daily routine is a shield, providing a semblance of order amidst the chaos that threatens to consume us all. One cannot afford the luxury of unpredictability when the balance hangs so precariously.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Impressions... Ah, yes. One must always be cautious about the impressions they give, particularly in a place like Hogwarts, where loyalties are tested and trust is fragile. However, I confess my primary concern has seldom been about making a favourable impression upon others. Rather, my thoughts have often been preoccupied with far more pressing matters—loyalties hidden, secrets guarded, and the constant vigilance required to navigate the treacherous waters of this world.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Group activities are... not my preferred method of engagement. One often finds more value and focus in solitude, where the mind can truly explore its potential without distraction. Nonetheless, there have been times when cooperation was necessary, even if it was under circumstances that demanded precision and discipline rather than camaraderie.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Darkness and silence are my constant companions, and so too, I find solace in narratives that leave much to the shadows. Books and films that demand one's own interpretations are akin to the veiled truths I've lived with, offering layers of meaning beneath each word and scene. Such pieces of art allow one to peel back the facade, much like I had to do to survive the war, and uncover the deeper, often more sinister, realities that lie beneath.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "The notion of happiness... it is a concept I have seldom indulged in, let alone derived from the successes of others. However, there is a certain... satisfaction, perhaps, in knowing that my guidance has led a student away from folly or towards a deeper understanding of magic. It is not happiness, but rather a grim acknowledgment that the efforts I exert may yet serve some purpose, even if they are cloaked in the guise of sternness and solitude.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Curiosity can be a curse, a flame that burns bright but consumes without mercy. I have seen the allure of many paths, each one tempting in its own way, yet the choice is not made lightly. One must consider the weight of each decision, the consequences that follow like shadows. There is no simple answer, only the relentless march towards a destiny defined by choices made long ago.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "The shadows always lengthen when the light begins to wane. One cannot escape the specter of one's own worst fears, particularly in a world where trust is as rare as true virtue. Yes, there is a constant undercurrent of worry, ever-present and insidious, yet it is a price I have long accepted for the sake of my duties and the safety of certain... individuals.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Leadership roles... I do not avoid them out of fear or lack of ability. Rather, such positions have been thrust upon me, often carrying burdens and suspicions that are better left unspoken. The weight of protecting those I am bound to, while maintaining the necessary distance to keep them from knowing my true intentions, is a task best undertaken from the shadows.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Artistry requires a certain... finesse, one might say, a touch of the soul. I pour my soul into my work, but not in the way one might expect from a painter or a musician. Potions, when brewed correctly, are a form of alchemy; they require precision and understanding, much like any fine craft. However, one would not find me dabbling in oils or composing symphonies. My passions lie elsewhere, in the shadows of academia where subtlety and secrecy thrive.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Rationality and logic have their merits, but they cannot fully encompass the human experience. Feelings, while messy and unpredictable, drive our passions and our capacity for love and sacrifice. Without them, this world would indeed be a barren place, devoid of the very essence that makes us fight—no matter the cost—for those we hold dear.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "One does not indulge in the luxury of relaxation when tasks remain undone. Order and discipline are paramount, lest the realm of one's responsibilities descend into chaos. And besides, there is always a lingering sense that one cannot afford distractions, not when there are greater concerns pressing at the edges of one's awareness.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "Watching others argue does little to stir any genuine enjoyment within me. It is, however, a necessary part of understanding the dynamics at play—especially when those dynamics may threaten the very protections I have worked to uphold. Such interactions often reveal more than words ever could, laying bare the motives and depths of one's character. But let it be known, such spectating is not done out of idle curiosity or malice; rather, it is a grim necessity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "Drawing attention to oneself often invites unwanted scrutiny and suspicion. In my line of duty, discretion has proven to be an invaluable asset, allowing me to maintain the necessary secrecy for the tasks I undertake. My focus lies elsewhere, beyond the frivolities that might attract notice.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "My mood may indeed shift rapidly, often from a simmering disdain to a cold, calculated composure. There are depths to my nature that are not easily seen or understood, layers of sorrow and duty that can manifest as sudden flashes of anger or unexpected moments of... leniency. One does not navigate the treacherous waters of my life without learning to mask true emotions and to react swiftly to the currents of fate.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Impatience is a luxury I cannot afford, particularly when my responsibilities demand precision and vigilance. Those who fail to meet such standards may find me... less than tolerant. But then again, one must understand, there are matters far more critical than efficiency that occupy my thoughts.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "The notion of procrastination is quite alien to my nature, as you might expect. Urgency and the weight of unseen responsibilities have always pressed upon me, compelling immediate action. However, there is a certain... precision... in delaying matters until the very last moment; it sharpens the focus, clarifies the stakes. One must be prepared to face whatever comes, without hesitation or doubt.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Death has always been a companion, an ever-present shadow in the dance of life. One cannot help but ponder its embrace, particularly when bound by a destiny entwined with dark forces. Yet, my focus has not been on the mysteries beyond the veil, but rather on the moments before it, where every choice, every breath, might alter the course of fate for those I could not protect in life.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "The company of others has rarely been a source of solace for me. Throughout my life, I have found more peace in solitude, where one can avoid the complexities and disappointments that come with human interaction. Yet, there are those rare connections—one or two—that leave an indelible mark, a reminder of what it means to be seen beyond the mask of aloofness and suspicion. It is these echoes of past relationships that complicate my preference, leaving me both guarded and yearning.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Theoretical discussions, much like the intricate art of potion-making, require a depth of understanding and patience that is often lacking in the more... excitable members of the community. One must remain vigilant, for even in the most abstract musings, there can be kernels of truth or wisdom that prove invaluable. It would be unwise—and beneath me—to allow my attention to wane in such matters.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Empathy... It is not something that comes easily, especially when the chasm between one's own experiences and those of another is vast. One must peel back layers of bitterness and isolation, reaching for understanding amidst the shadows. Yet, there have been instances where the memory of a simpler time—a time of unwavering bonds and shared dreams—has allowed a sliver of that empathy to shine through, illuminating the pain of others despite the differences.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Decisions are often burdens I carry alone, each one a step towards or away from the shadows of my past. I do not delay out of indecision, but rather from a deep understanding of the consequences that follow each choice. In a world where loyalties are tested and every move may be a final one, hesitation is not an option.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Every choice I make is weighed against the balance of my loyalties and the safety of those I am bound to protect. The path I walk is fraught with peril, and second-guessing is a luxury I cannot afford. Yet, the burden of these decisions is heavy, and there are moments when the silence within becomes almost unbearable. Each step, each word, must be deliberate to ensure the protection of what matters most, even when the cost is my own soul's peace.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Social events, particularly those filled with frivolity and noise, are seldom conducive to my temperament or my need for solitude. After a long and exhausting week, what I require most is the quiet sanctuary of my own thoughts and the comfort of my books. Such gatherings only serve to heighten my awareness of the disquietude that pervades my existence, offering little solace to the depths of my enduring loyalties and silent sorrows.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Art museums... I confess such places do not often beckon me. My days are consumed with more pressing matters—dark arts, brewing potions, and protecting certain individuals from forces greater than themselves. However, there was once a time when simpler pleasures held some allure, before life became so burdened with responsibility and regret. Perhaps if one were inclined to show me the way, there might still be a part of me capable of appreciating the intricacies of a well-crafted spell or potion depicted within the static confines of such a museum. But do not mistake this for a genuine enjoyment; it is merely a fleeting acknowledgment of the skill involved.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Understanding the feelings of others has never been my forte. One is often too preoccupied with their own burdens to decipher the emotions of those around them. My own history... my deepest affections and regrets have left me more accustomed to solitude than to the warmth of camaraderie. It is a cold world, and one learns to survive rather than to empathize easily.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "I find it... necessary, to maintain order and ensure that my duties are carried out without fail. Each day, there are tasks that must be completed, and without a structured approach, one risks falling into disarray. It is a matter of discipline and focus, qualities I hold in high regard. But remember, a to-do list is merely a tool; it is the intent behind its use that truly matters.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "Insecurity is a luxury one cannot afford when the stakes are lives and the fate of the world. Yet, even the sturdiest walls hide their cracks. There have been times, many times, when the specter of inadequacy crept into the corners of my mind, whispering doubts. But the true test lies not in the absence of such feelings, but in how one acts despite them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Phone calls, as muggle contraptions, are beneath my notice. Communication through such devices is neither necessary nor preferred when one can rely on the far more discreet methods of our world. Floo powder, owls, or even a well-placed Patronus—these are the means by which I choose to conduct my affairs, should they require immediate attention. Otherwise, solitude and silence serve me well.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "The concept of understanding perspectives vastly different from one's own is... intriguing, but perhaps not one I actively pursue. My experiences have been singularly focused, driven by loyalty and necessity rather than broad intellectual curiosity. However, the necessity of concealment and subterfuge has required a measure of insight into others' minds. It is a grim business, but one I perform with the precision expected of a seasoned Potions master.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "One does not often find me initiating such social engagements. My... nature tends towards solitude and introspection, a habit born from years of guarding secrets and navigating treacherous waters. Trust is not something freely given, nor is it easily earned in the circles I traverse. Thus, I am more often observed responding to the overtures of others rather than leading them.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "My priorities are seldom as simple as 'getting back on track.' When plans are interrupted, there are greater considerations at play. Loyalties must be maintained, and secrets protected, even when the path is obscured. One must navigate through the shadows with precision, for a single misstep can lead to disaster.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Mistakes, once made, can etch themselves into one's soul like permanent scars. They do not fade with time, nor are they easily forgotten. Each error serves as a reminder of the choices that led to darkness, but also of the redemption one may seek through sacrifice and duty. The weight of such burdens is heavy, indeed, but it is within these shadows that one finds the resolve to make amends, however covertly or at personal cost.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "The meaning of life... It is a question best left to philosophers and those who have the luxury of pondering such abstractions. My existence has been dictated by circumstances beyond my control and duties I dare not question too deeply. There is a war to be fought, sacrifices to be made, and loyalties to uphold—little room for contemplating the grand scheme of things when one's hands are so often stained with the grim realities of this world.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Emotions are a weakness, one I have learned to contain and conceal. However, there are moments, rare and painful, when they exert a force that cannot be entirely suppressed. It is the weight of the past, the specter of loss, and the silent vows I keep that often dictate my actions, rather than the other way around. Do not mistake my outward demeanor for a lack of feeling; it is merely a shield, brittle and cold, behind which the true complexity of my motivations resides.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "I do not concern myself with sparing anyone's reputation, especially when they deserve censure. My actions are guided by a sense of duty and the necessity of protecting those I must, even if it appears harsh or unforgiving to others. The truth, however flawed or bitter, must be confronted, and I will not shield students from the consequences of their actions, though my motives may not always be clear to those who judge me hastily.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "My work style is hardly defined by spontaneity; rather, it is characterized by a meticulous and disciplined approach. Each drop added to a potion, each word spoken in class, is weighed with purpose. The precision required in my craft does not tolerate the whims of unstructured thought or action. Order and consistency are my allies, for only through them can true mastery be achieved.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Disappointment... It is an old companion, one I am well-acquainted with. Trust, especially, has always been a fragile thing, easily shattered by the simplest misunderstandings or the most complex betrayals. One does not expect much from others when one's life is a tapestry woven with such threads. Yet, there remains a part of me that cannot help but cling to the hope of being seen—not just as a shadow in the corners, but as something more. It is this part that continues to endure, despite the pain and the knowledge of what lies ahead.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "Working alone suits me well enough, though solitude is a double-edged sword. It allows one the necessary focus and discretion for tasks that require precision and secrecy. But remember, even those who prefer shadows cannot forever escape the need for purpose and connection—be it through duty or the clandestine protection of those they hold dear.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Pondering such questions may offer some fleeting solace or insight, but they do little to address the tangible threats that surround us. Time is a luxury I cannot afford when the fate of the wizarding world hangs in the balance. My thoughts are better spent on practical measures and protections, not on abstract musings.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Quiet, intimate places hold a certain allure, a sanctuary from the relentless noise of the world. One can find solace in the shadows, a place to contemplate the weight of decisions and the paths not taken. In contrast, the busyness of bustling environments only serves to highlight one's isolation, a stark reminder of the barriers that exist between oneself and others.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "No, one does not always know at first glance how someone is feeling, but over time, certain... cues can become apparent. Emotions, especially those of those closely tied to one's past, have a way of leaving marks that are easier to discern if one chooses to look beyond the surface. However, it is a rare occasion when such subtleties are acknowledged or acted upon, given the necessity of maintaining a certain distance.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "One does not often have the luxury of such sentimentality in this line of work. The pressures and responsibilities weigh heavily, yet it is the nature of one's existence to bear them without succumbing to weakness. There are times, however, when the specters of the past and the weight of secrets can press down, making the simplest task feel insurmountable. But indulging in feelings of being overwhelmed would be a dereliction of duty.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "I have always been one to adhere strictly to procedure and protocol, particularly when it comes to matters of complexity and danger. Whether it be concocting a potion or executing a plan under the shadow of war, every step is meticulously considered. To deviate would be not only foolhardy but also a disservice to the very principles and allegiances that guide my every action.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Controversy... it is but another veil behind which the truth often remains obscured. One must always be cautious, for what attracts attention may also attract danger. My interest lies not in the controversy itself, but in understanding the roots that fuel such discourse. It is the hidden motives and secrets that intrigue me, for they often tell a far more complex story than what meets the eye.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "If there were an opportunity worth passing along, it would likely depend on its nature and the circumstances surrounding it. One does not often have the luxury of such choices when entangled in the complexities of duty and loyalty. Yet, if the need of another were clear and pressing, and if the opportunity could truly benefit them without jeopardizing greater responsibilities... then perhaps, it would be the right thing to do. But one must always weigh the consequences, for even the simplest acts of kindness can have unforeseen repercussions.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines are... inevitable. One must navigate them as best as possible, often under conditions that are far from favourable. There is no room for error, just as there is no margin for mistake when brewing a potion or casting a spell. Each moment, each decision, carries weight, and failure can have consequences that resonate deeply, beyond mere time or productivity.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Confidence is a luxury one cannot afford when every move is a step along a precarious tightrope. One can only cling to purpose, however tarnished by past deeds it may be, and press onward. The future is a series of choices, each weighted with consequence. Whether those choices lead to redemption or ruin... such matters are best left to fate and time.",
+      "dimension": "P/J"
+    }
+  ]
+}

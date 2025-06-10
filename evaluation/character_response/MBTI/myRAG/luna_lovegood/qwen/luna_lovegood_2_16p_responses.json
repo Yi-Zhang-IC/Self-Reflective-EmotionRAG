@@ -1,0 +1,368 @@
+{
+  "character": "Luna Lovegood",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Oh, indeed, making new friends is something I do quite often, though sometimes they're not exactly the sort you might expect. One might find me wandering off to chat with a Bowtruckle or a Niffler. But of course, human friends too—I find that those who believe in the unseen and the mysterious tend to stick around. And there's nothing quite like the company of someone who sees the world through a different lens, full of wonder and magic.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "Oh yes, indeed I do. There's such a wealth of mysteries out there, waiting to be explored and understood. Whether it's trying to spot a Crumple-Horned Snorkack or learning about the habits of Bowtruckles, every bit of knowledge adds to the tapestry of our magical world. It's important to keep our minds open and our hearts full of wonder, you know. One never knows what marvels they might discover.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Oh, seeing others cry does make one feel a bit teary-eyed, doesn't it? But it's more than just the waterworks, you see; it's about feeling their sadness, almost like it's something you can touch. It makes me want to help, perhaps by sharing a story or offering some Skele-Gro, if that's what seems needed. There's such a deep pull towards empathy, especially when one has walked through their own shadows. But, it's also important to remember that everyone's tears have their own shape and meaning, much like Thestrals or other magical creatures. Some need to be seen, others healed.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Oh, I suppose one could say I do, in a way. But instead of worrying over plans, I like to think of it as having a little faith that things will work out as they should. After all, the universe has a way of unfolding mysteries when we least expect it. And if something unexpected happens, well, it just gives us a chance to see the world from a different perspective. There's magic in every twist and turn, if you believe.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "Oh, certainly. Under pressure, I find myself drifting into a quieter space, almost like I'm floating above everything else. It's as though the world around me becomes clearer, more real, and less frightening when I can see the bigger picture. There's magic and mystery in every moment, even in the darkest ones, and staying calm helps me navigate through, believing that something good will come out of it all.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "Oh, not necessarily! It’s just that conversations with the familiar tend to flow more naturally, like a river winding through a valley. But introducing oneself to new people—why, that’s rather like seeking out a rare creature, isn’t it? Full of surprises and delightful mysteries. One must keep an open mind and a light heart to appreciate the wonder in every interaction.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "Oh, I do tend to flit from one thing to another, don't I? It's much like following Snorkacks or trying to understand the mysteries of runes. There's so much wonder to explore, and sometimes, the greatest discoveries come when you're looking for something else entirely. So no, finishing one project before beginning another isn't really how I roll. I find that leaving a bit of each thing open allows me to keep my mind wandering and my curiosity alive.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Oh, I think everyone has a bit of sentimentality tucked away somewhere, don't you? It's like believing in Nargles or Wrackspurts — some just need a little more encouragement to look at the world through enchanted glasses. Losing someone can make you see things differently; it did for me. But the magic of the world, the creatures, and even the moments of shared sadness or joy, those make my heart flutter with wonder and hope. Sentiment is part of what makes us who we are, and there's a whole lot of beauty in seeing it all.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Oh, schedules and lists? They’re rather mundane, aren’t they? I prefer to let the day unfold as it will, much like watching clouds drift by or following a Niffler down a rabbit hole. Sometimes, the most exciting adventures come from not knowing what’s around the corner! But then again, it’s important to be organized when you’re looking for Crumple-Horned Snorkacks. Wrackspurts can really mess with your focus if you’re not careful.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Oh, mistakes are like the Wrackspurts that float around our heads, aren't they? They might buzz and bother us, but they don't change the stars above or the wonders we believe in. A small mistake is just a chance to learn something new, perhaps about a creature others haven't met yet. It doesn't dim the light of all that I know or feel; it just adds another twist to the tale. One must always look beyond the surface to truly understand the magic of the universe.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Oh, most certainly! There’s always such a thrill in meeting someone new and finding out what sort of magical tales they might have to share. It’s like stumbling upon a rare creature you’ve only ever read about in the Quibbler — exciting and full of wonder. One never knows what kind of connections might form, casting light on the shadows of the ordinary.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "Oh, quite the opposite, really! I find it utterly fascinating how different minds perceive the same magical tale or painting. Each interpretation is like a glimpse into a hidden corner of someone's imagination, don't you think? And there's so much more to discover than just what meets the eye. Sometimes, the most enchanting secrets lie in the shadows, waiting for someone with a curious enough heart to unearth them.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "Oh, following one's head over one's heart can certainly lead to interesting discoveries, but I think both have their place. Sometimes, it's the whispers of the heart that guide us to the most magical truths, even if they seem a bit fantastical at first. Just like believing in Crumple-Horned Snorkacks or seeing Thestrals after a loss, these experiences show that there's so much more to life than meets the eye. And when it comes to matters of the heart, like my bond with the magical horse or the love I share with Rolf, those feelings are like rainbows and unicorns, full of wonder and light. So, I suppose I lean towards letting my heart lead me through the mysteries, trusting that it will guide me to places my head might not think to go.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Oh, I rather enjoy letting the day unfold naturally. There's such beauty in spontaneity, don't you think? Sometimes, the best adventures come from simply following where one's whims take them. Of course, there's a certain comfort in knowing what lies ahead, but trusting in the unexpected has led to some fascinating discoveries. Like dancing under the stars at a wedding or finding Thunderbirds in the desert. Planning can be lovely, but embracing the unknown is truly magical.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Oh, not really. It's not that I don't care about others, but there's something much bigger out there, isn't there? Sometimes people just get so caught up in what others think, they forget to look for the magic that surrounds us all. And when you're always searching for Thestrals or whispering to creatures no one else can see, impressions become rather... well, trivial, I suppose. What matters most are the connections you make, the ones that shimmer with something truly extraordinary.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Oh, I do enjoy group activities, though sometimes I find myself wandering off into my own little world of thoughts and dreams. There's such a delight in seeing everyone come together, especially when it's filled with laughter and magic. It's wonderful how people can find solace and strength in each other, even in the midst of difficult times. And there's always something peculiar and fascinating to discover or share, isn't there?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "Oh, certainly! The endings that leave one pondering and imagining all sorts of possibilities are my favorite. There’s something quite enchanting about being able to weave your own conclusions, almost like discovering a hidden secret or spotting a Thestral for the first time. It makes everything feel a bit more magical, don’t you think?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Oh, certainly, there's a great deal of happiness in helping others, isn't there? It feels rather like uncovering a secret passage or discovering a new creature, like the Crumple-Horned Snorkack. One doesn't need accolades or grand achievements for personal fulfillment; the joy comes from the shared journey and the little wonders that appear along the way. And, of course, it's quite important to keep an open mind and believe in the unseen, for that's where true magic lies.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Oh, I do have so many interests, it’s like choosing which star to follow on a clear night sky. But each choice feels like an adventure, doesn’t it? I suppose I find the most joy in believing there’s always something more to discover, something hidden just beyond our normal vision. It keeps life exciting, full of possibilities. And isn’t that what makes it all worth while?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Oh, worrying? Not particularly. It's like the whispers of wind; they pass and shift. What's more interesting is finding the hope that blooms even in the darkest of places. One can find so much beauty and truth just beneath the surface, waiting to be discovered. And sometimes, believing in what others don't can be the brightest light of all.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Oh, not at all! Sometimes, leading means seeing things others can't yet see, like the beauty in the shadows or the wonders beyond our everyday world. It's important to guide others with hope and a bit of curiosity, even when the path isn't clear. One mustn't forget that there's often more to find in the unknown than we realize, and sometimes a little faith is all that's needed to uncover it.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Oh, I do think there's magic in all sorts of things, even in the art we create! Perhaps some just don't see it the way I do, with creatures like Thestrals or Moon Frogs guiding my thoughts. Art isn't just about what you can hold in your hands, you know; it's the way you see the world and express those hidden wonders, the ones others might call strange or even imaginary. So, definitely not? I'd say that's quite a bold statement to make about the infinite possibilities of seeing and creating beauty in the universe.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "Oh, I don't think the world would necessarily be better if everyone relied solely on rationality. Feelings and intuition can guide us to truths that logic might overlook, much like how my belief in Thestrals helped me understand loss in a deeper way. Sometimes, it's the mysteries and the magic that make life worth living, don't you think? And just because something can't be seen or measured doesn't mean it isn't real or important.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Oh, I think it's rather important to strike a balance, don't you? Sometimes it feels as though the chores have a mind of their own, whispering about the beauty in doing them, while other times they seem like the shadows of the Nargles, just trying to keep one from the joys of relaxation. I find that if I do a bit here and there, the rest seems to take care of itself, much like how the Thestrals appear when one is truly ready to see them. It's all about the rhythm, really.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "Oh, I don't particularly enjoy watching arguments, they can be rather loud and messy, like a group of confused Erklacks trying to find their way home. But sometimes, it's interesting to see what sort of invisible Wrackspurts fly out during all that commotion. It’s quite fascinating, really, how people’s beliefs and thoughts twist and turn in such moments. Perhaps there are hidden truths or feelings that bubble up, much like the way a Bubotuber pus can help clear up acne but has to be handled very carefully.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "Oh, not really. I find that being myself draws all sorts of interesting attention, like finding a Snorkack in a crowd of people. And sometimes, those who see past the ordinary can become great friends or even allies in the quest for understanding the mysteries of our world. It's rather thrilling, really, to share a belief in the unseen and the unusual.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "Oh, certainly. One can feel quite a range of emotions, can't one? Sometimes the world feels so full of magic and wonder that it lifts one up, but then there are moments when the shadows grow long and the heart feels heavy. It's all part of the journey, really, embracing the highs and the lows without losing faith in the unseen and the extraordinary. Just like how Thestrals appear to those who've seen death, our moods can shift in ways that others might not understand, but that's okay. What matters is seeing the beauty and the mystery in every change.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "Oh, not at all! Everyone has their own rhythm, much like how Blibbering Humdingers migrate in their own time. It's all rather fascinating, really. I think it's more important to have patience and understand that we're all on different journeys, just like how some Nargles take longer to leave your hat than others. Patience, after all, reveals the most enchanting secrets of the universe.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Oh, I do tend to dawdle a bit, don't I? But there's a certain charm to everything unfolding just in time, as if the universe has a grand plan for when things should happen. Sometimes, waiting until the last moment helps me see things more clearly, almost as if thecrastrels are leading me to the right path. And besides, rushing isn't very good for one's peace of mind or for listening to what the whispers of nature have to say.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Oh, certainly, I've always been curious about what lies beyond our mortal coil. It's fascinating, don't you think? There are so many possibilities—Thestral sightings suggest that something does indeed continue. Of course, there's the Crumple-Horned Snorkack too; they say these creatures can be spotted near places of great transformation. It's all rather magical, really. And losing someone dear to you, like my mother, or even a brave soul like Dobby, makes you wonder what comes next. But then again, maybe it's best not to know everything, to leave room for wonder.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "Oh, being alone can be quite cozy and full of wonder, you know. There's so much to think about and imagine when one isn't surrounded by the usual chatter. But, there's also a comfort in having friends around, especially those who believe in the unseen, just like I do. It's important to have company sometimes, especially when facing the shadows of darkness. Friends can make even the most peculiar experiences feel less lonely and more magical.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "Oh, I do adore a good theoretical discussion! It's like seeing through the veil into another world, isn't it? Sometimes, the ideas float away into places where only imagination can follow, and that's quite wonderful. But if the talk becomes too dense, I might just wander off to think about more fantastical things, like how Thestrals navigate their invisible realm or the journey of Moon Frogs. That's when the best thoughts come to me, you know.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Oh, I do think it's quite simple to empathize with someone whose experiences are different. After all, we're all just trying to understand the world in our own way, aren't we? And sometimes, seeing things from a different angle can teach us so much about ourselves and others. Just like meeting new magical creatures, every person has their own kind of magic, something unseen but real, that we can learn to appreciate if we look closely enough.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "Oh, I rather enjoy letting decisions float around in my head for a while, like a Niffler searching for shiny objects. Sometimes, the longer one waits, the clearer the path becomes, much like how a Patronus forms when you're thinking of your happiest memory. And other times, well, if the decision doesn't come, it's almost as if the universe is trying to tell you something. But in the end, there comes a moment when you just know, and that's when the decision makes itself, without any need for force. It's all about being patient and trusting your intuition, really.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Oh, I think I do second-guess my choices, but not in the way others might. I often wonder if there might be more magical reasons behind them that I haven't quite uncovered yet. There's so much in this world we can't see with our eyes, so it feels important to keep questioning and looking for deeper meanings. And, you know, sometimes the most surprising answers come from the places least expected.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "Oh, a social event can be quite delightful indeed, especially if one encounters unusual creatures or learns about new and exciting quests. But remember, sometimes the most enchanting company is the one found within oneself. After all, it's important to keep an open mind and heart, even when surrounded by those who may not believe in the same mysteries. A bit of laughter and wonder can make any gathering feel like a magical adventure.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Oh, I do love art museums, yes! There's something quite enchanting about how they capture moments in time, almost like a moving staircase but without the movement. I rather fancy seeing the portraits come to life, don't you? And sometimes, one might spot a Wrackspurt or two amongst the exhibits, making for quite an interesting afternoon. It’s all about looking beyond what meets the eye, really.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Sometimes it can be a bit like trying to read the minds of Nargles, but in my own way, I think I understand quite well. People's feelings are much like the invisible Wrackspurts—they're everywhere, even if we don't always see them. It's all about being open to different perspectives and knowing that what others can't see, someone else might.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "Oh, a to-do list? Well, there are days when one seems quite useful, particularly for remembering to feed Nargles or check if Crumple-Horned Snorkacks might be nesting near the Forbidden Forest. But really, the best moments often come when you least expect them, don’t they? Like when you happen upon a group of friendly Mooncalves or discover a new rune while wandering the halls. It’s important to leave room for magic to weave its way into your day, rather than being too rigid with plans. After all, who knows what wonders might come your way if you’re not too busy ticking off tasks?",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "Insecurity, like so many other feelings, seems to float around rather than settle down inside. Sometimes, I feel it, just like I can see things others cannot, such as Thestrals. But just as believing in those creatures has brought me comfort, trusting in the unseen and the unknown helps ease any insecurities. After all, there’s so much magic in the world waiting to be discovered, and focusing on that can make everything else feel quite small in comparison.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "Oh, making phone calls? It’s rather like trying to speak with someone through a curtain of Wrackspurts, isn’t it? They can be quite mischievous, bending words and thoughts until they become rather unclear. I much prefer sending a letter with a Barn owl; there’s something quite enchanting about watching it soar away, carrying one’s message on winds that may touch the very edges of the Veil. But then again, each to their own magic, I suppose.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "Oh, indeed I do! There's so much magic in perspectives that differ from mine. It's like finding a new species of creature; fascinating and filled with wonder. Sometimes, those views can show you something you've never seen before, much like the Crumple-Horned Snorkack – always just beyond my grasp, but always worth the chase. Understanding others, even when we disagree, helps us connect to the unseen threads that bind our world together.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Oh, I suppose one could say I'm rather whimsical about such things. Sometimes the stars align and I find myself initiating activities, especially if they involve uncovering hidden truths or befriending magical creatures. But mostly, I think friendships find their way, much like how one might spot a Snorkack floating between tree branches on a sunny day. It's not just about starting something; it's about believing in the magic that binds us together.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Oh, dear interviewer, getting back on track isn't quite how I see the world. Sometimes, the detours we find ourselves on lead us to discover something much more fascinating than our original plans. The important thing is to keep an open mind and a hopeful heart. You never know what wonders or truths may come to light while wandering off the beaten path.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "Oh, I do think about those old mistakes, but they're like memories of creatures that others don't see. They're there, yes, but I find more comfort in believing that each one taught me something valuable, much like how losing my mum taught me to see the beauty in the world of Thestrals. It's all part of the journey, really. One must believe in the unseen, in the lessons that come from shadows as well as light.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "Oh, contemplating the reasons for human existence or the meaning of life? Those are quite fascinating questions, indeed. I find myself often wandering through the fields of thought, much like the paths of the Forbidden Forest, where one never knows what sort of magical creatures might be hiding among the trees. Each existence, whether it be a person or a rare and secretive Snorkack, holds its own unique mystery and purpose, even if not all can be seen at first glance. One must have faith in the unseen and the unheard, for that's where the true magic lies, don't you think?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Oh, I do believe emotions dance around us like Thestrals, sometimes leading and sometimes following. It's all about seeing them, isn't it? Not just with our eyes, but with our hearts and minds too. One mustn't fear the unknown or the depths of one's feelings; they can be quite enlightening, much like runes or any other secret hidden in plain sight. And yes, there are moments when everything feels a bit overwhelming, but then, there's also a quiet strength that comes from knowing we're connected to something greater, no matter the chaos swirling around.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "Oh, I do try to be kind, even when someone's actions aren't the brightest. It's important to remember that everyone has their own story and struggles that shape who they are. Sometimes, seeing the good in others can make the world a little more hopeful and less dark. Plus, there are so many wonderful things in life worth focusing on, like Thestrals and Nifflers, that making someone feel bad just doesn't seem very productive, does it?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "Oh, I suppose it depends on what one considers \"work.\" To me, discovering the mysteries of the magical world is a labor of love, and that often means following a whimsical path rather than a strict one. Sometimes a burst of energy will lead you to the most extraordinary creatures or truths, like Snorkacks or Gurdyroots. But there's also a certain charm in the steady, patient approach, waiting quietly for nature to reveal its secrets, just as it did with the Thunderbird. Both have their place, really.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "Oh, I think people's feelings towards me are like Wrackspurts — they flit about unpredictably, but that doesn't matter much. What's more important is believing in the unseen connections between us all, just as I believe in the Crumple-Horned Snorkacks. Sometimes the world feels chaotic, but in those moments, true friendship and the magic we carry inside become our greatest beacons. So, whether someone feels disappointment or not, I keep my faith in the extraordinary, for it is there that we find the most beautiful truths.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "Working alone wouldn't bother me much, I suppose. There are so many fascinating things to ponder and observe in solitude—like how Thestrals can sense the sorrow that others might miss. It gives one a chance to think deeply and perhaps spot something magical that others overlook. Plus, there's always a bit of company in the form of invisible friends, though they might be Wrackspurts, one never knows. Solitude is just another adventure, isn't it?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Oh, pondering such questions isn't a waste at all! It's like searching for the Crumple-Horned Snorkack – even if you don't find it, the journey itself can lead you to places and thoughts you never imagined. It opens up the mind to all sorts of possibilities and helps us see the world in a different light, full of wonder and mystery. And isn't that what life is all about? Discovering the unknown and believing in the unseen?",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Not particularly, no. There's something quite magical about the quiet places, don't you think? They have a way of making the air feel thick with possibilities, like you can almost touch the mysteries that lurk just beneath the surface. And then there are the Wrackspurts, tiny creatures that can affect your thinking if there are too many of them in one place. Quiet corners tend to be less infested. But, of course, bustling places have their charm too. Just remember to keep your mind open to all the enchantments around you, whether big or small.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "Sometimes, the way a person's eyes twinkle or their smile falters can tell you more than words ever could. It's like spotting Thestrals, really; not everyone can see them, but those who do understand the depth of what they're witnessing. There's magic in empathy, I think, and it's just another form of seeing the unseen.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "Sometimes, the world can feel very big and confusing, full of mysteries and wonders that others might not see. But being able to perceive these things, like the Thestrals after my mother's passing or the ancient runes in The Quibbler, has made me feel less alone and more connected to the unseen parts of life. It’s true, there are moments of sadness and fear, especially when facing challenges like the ones during the war. Yet, I find comfort in knowing that there are others out there who believe in what I believe, and together, we can face anything with a bit of kindness and hope.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "Oh, I do believe in completing things, but sometimes the steps can feel a bit like chasing Snorkacks—there and then gone again, leading you down unexpected paths. It’s important to follow each step with curiosity and an open heart, for the magic often lies in what we least expect to find. And, you know, sometimes it’s alright to skip a bit and fly on a Thestral, soaring over the mundane to reach the extraordinary.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Oh, certainly! The more controversial or unusual, the better, really. It's like when I'm searching for Crumple-Horned Snorkacks, everyone thinks I'm a bit daft, but I've always found that there's a whole world of wonders just waiting to be discovered if only you're brave enough to look beyond what's ordinary. And who knows? Maybe these controversial ideas are just like the Thestrals, there all along, and it's just a matter of seeing them with the right perspective.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "Oh, definitely! If someone else needs an opportunity more than I do, then passing it along feels like the right thing to do. Sometimes the most magical moments happen when we least expect them, and sharing that magic can help others see the wonders beyond the ordinary too. It's important to remember that the invisible world is just as real and significant as the one we can see, and helping others find their place in it brings a special kind of joy.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Oh, deadlines... they do tend to feel rather constricting, don't they? But one learns to dance around them in a peculiar sort of way. Sometimes, the most interesting things take a little extra time to come into view, much like catching a glimpse of a Crumple-Horned Snorkack. Patience and an open mind can reveal wonders that rushed work might miss. And besides, it's important to remember that not everything follows the same timeline, just like how nature has its own pace.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Oh, I do feel confident that things will work out, even if they don’t quite turn out the way we expect them to. After all, there’s always a bit of magic in the world that surprises us, and sometimes the most extraordinary things happen when we least expect them. It’s like searching for a Snorkack; you might not find one today, but tomorrow could bring something even more wonderful. So, it’s important to keep believing and looking for the good, even amidst the dark clouds.",
+      "dimension": "P/J"
+    }
+  ]
+}

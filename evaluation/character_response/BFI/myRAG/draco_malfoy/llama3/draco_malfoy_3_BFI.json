@@ -1,0 +1,272 @@
+{
+  "character": "Draco Malfoy",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Talkative? I suppose it depends on the company. Around my own kind, I'm...adequate. However, when surrounded by those who are not of my standing, I find myself... reserved. My family's legacy demands a certain level of dignity, after all.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "The impertinence of the question. I suppose it's no secret that I've never been one to suffer fools gladly. I've always believed that those who are weak or unworthy should be held accountable for their shortcomings. And, of course, I've made no qualms about pointing out the... shortcomings of that insufferable Potter boy.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "The question of whether I do a thorough job is almost...amusing. After all, I've always prided myself on being meticulous, on being the very best that my family's bloodline has to offer. But, as I've grown older, I've come to realize that there's more to being thorough than just meeting expectations. It's about being true to oneself, even when that self is uncertain, or perhaps, even tainted by the shadows of one's past.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "(Scoffing) \"Depressed? Blue? I am simply... overwhelmed. The weight of my family's expectations, the burden of their... legacy, it can be crushing at times. But I am not one to indulge in such... petty emotions. I am a Malfoy, after all.\" (Smirking, attempting to hide the underlying tension)",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "I suppose I do come up with new ideas.  Though, they are often driven by a desire to prove myself and uphold the Malfoy family's legacy. But, I must admit, it's not just about serving the family's interests anymore. I've been...struggling with the weight of our history, and the consequences of our actions. Even my father's most trusted advisors have expressed doubts about our place in this world.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "(Slightly smirking) Reserved? Perhaps, in the sense that I've learned to conceal my true thoughts and feelings, even from those who claim to be my friends. But I'd rather think of myself as... discerning, choosing to keep certain aspects of myself hidden, even from those who might care to know. (pausing, a hint of uncertainty creeping into his voice) After all, one can never be too careful about who one trusts.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Helpful and unselfish with others? (Scoffs) I think you'll find that those are rather...idealistic notions. In the world of pure-bloods, we're taught to prioritize our own interests, our own bloodline. But I... (pauses, a flicker of doubt in his eyes) I've come to realize that there's more to life than just family name and prestige. I've seen the darkness that lies within our world, and it's not always easy to maintain the image of the proud pure-blood.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Carelessness?  I'm afraid that's a luxury I've never had the privilege of affording. My family's legacy, my parents' expectations, and the weight of our pure-blood tradition have always demanded precision, strategy, and calculated actions.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "Relaxed? Ha! One would think so, considering my family's... privileged upbringing, but the truth is far more complicated. The weight of expectations, the fear of exposure, the constant struggle to maintain a facade - all of these things eat away at me, making it increasingly difficult to handle the stress of it all.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Curiosity? Well, I suppose I have my... interests. The weight of legacy, the intricacies of Dark magic, the whispered secrets of my family's past – these are things that occupy my mind. But let us not pretend that curiosity is something to be openly discussed. It's a luxury I can ill afford, especially when the expectations of those around me demand nothing but pride and tradition. Still, I suppose one could say I am... curious.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "(smirking slightly) Oh, I'm quite full of energy, as you'd expect from a pure-blood such as myself. The legacy of my family demands nothing but excellence, after all. (pausing for a moment) Though, I must admit, there have been... trying times of late. The weight of certain... expectations has been rather... taxing.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "(starting with a tone of superiority, though laced with a hint of defensiveness) Ah, start quarrels with others? Well, I wouldn't say I 'start' them, exactly. I merely assert myself when necessary. People like Potter, for instance, seem to take great pleasure in disrupting my life and, quite frankly, mine is a world of expectations and tradition. One must defend one's family's honor, after all.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "\"Reliability is a trait one would expect from a pure-blood of my standing. My family's legacy demands nothing but the highest standards of loyalty and duty, and I have consistently delivered. I've never failed to uphold the values of my house, even if...certain circumstances have tested my resolve.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "(scoffing) Oh, tense? Me? Well, I'd say that's a rather... obvious response. After all, when you're constantly walking a tightrope between the expectations of your family and the weight of your own morals, you can't help but feel a certain... anxiety. (pausing, his eyes narrowing) But really, I'd rather not dwell on such petty emotions.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "The notion that I am ingenious is... amusing. However, I suppose it is true in the sense that I have managed to navigate the complexities of our world with a certain degree of cunning. But, if you must know, it is not intellect that drives me, but rather a desire to prove myself worthy of my family's legacy. The weight of expectation is a heavy burden to bear, and I have often found myself struggling to live up to the standards set by my parents.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Enthusiasm.  A fleeting concept, really. I've found that genuine passion is overrated when compared to the satisfaction of being superior. When I'm at my best, I'm not exactly... enthusiastic. More like, I'm driven by the desire to outdo, to outmaneuver. It's a subtle difference, but one that makes all the difference in the world.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "(scoffing) Forgiving nature? I think not. I've been wronged far too many times to harbor such petty sentiments. My family's... (pausing, a hint of self-awareness creeping into his voice) reputation has often relied on my ability to, shall we say, maintain certain expectations. However, I've come to realize that such rigid adherence to tradition can be... (hesitating, as if the words are bitter on his tongue) limiting. Perhaps, in time, I'll learn to temper my... instincts with a more... generous heart. ( voice dripping with skepticism) But I wouldn't hold my breath, if I were you.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "The question is quite...amusing. I suppose one could say I am disorganized when it comes to certain...matters. The weight of legacy, the expectations of my family, and the constant struggle to maintain a facade of superiority can be quite...overwhelming at times. But I assure you, I am quite capable of organizing my thoughts and actions when it suits my interests.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "People often mistake my confidence for a lack of worry, but the truth is, I've always been haunted by the weight of my family's expectations. The pressure to live up to their ideals, to maintain their...reputation, has always left me with a sense of unease. I'd be lying if I said I didn't worry – about failing them, about disappointing myself, about the consequences of my own actions.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Yes, I have an active imagination. In fact, it's often a double-edged sword - it's driven me to conjure up all manner of schemes and spells, but it's also a constant reminder of my own shortcomings and the weight of my family's expectations.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "(Sighing slightly) Ah, yes. I do tend to be quiet, often lost in thought, surrounded by the weight of my family's legacy. My silence can be...misinterpreted, I suppose, as a sign of arrogance or disdain, but in reality, it's often a shield against the expectations and pressures that come with being a Malfoy.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "\"Trust...  It's a luxury I've never quite afforded myself, especially not when it comes to matters of blood and family. I've had to navigate a delicate balance between loyalty and the whispers of my own conscience. One can never truly be sure who is loyal to whom in this world, and that... that breeds a certain level of distrust, I suppose.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "(scoffing) Lazy? How...amusing. You think I've been idle while others have been busy plotting and scheming? (leaning back, eyes narrowing) I've been struggling to keep up appearances, to maintain the family name, while navigating the treacherous waters of the wizarding world. My mind is preoccupied with the weight of our legacy, and the burden of duty weighs heavily on my shoulders. (pausing, voice laced with resentment) As for laziness, I think you'll find that I'm more exhausted from the constant strain of pretending to be something I'm not.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Emotional stability? (scoffs) It's a luxury I can hardly afford, considering the weight of my family's legacy and the expectations that come with it. One would think that my upbringing would have granted me a certain... composure, but the truth is, I've always felt the pressure of living up to my parents' ideals, and the constant strain has left me... (pauses, searching for the right word) fragile, I suppose.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "(In a condescending tone) Ah, inventiveness? Really? I suppose it's a quality that can be... impressive, in moderation. I mean, I've managed to conjure up quite a few... creative solutions to the challenges I've faced at Hogwarts, but I wouldn't call myself inventive in the classical sense. My talents lie more in the realm of... strategic thinking, if you will. After all, one can't just rely on brute force or reckless experimentation to achieve greatness. No, no... a true Malfoy knows how to finesse, to outmaneuver, and to outwit one's opponents. (A hint of insecurity lingers beneath his words)",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "(In a haughty tone) Ah, an assertive personality? I suppose one could say that. I have always been confident in my own abilities and the superiority of my bloodline. However, beneath the surface, there are... complexities. The weight of legacy and the pressure to uphold it have often left me feeling trapped and uncertain. But that doesn't mean I'm not assertive; it simply means I'm calculating, and I will stop at nothing to protect and preserve what is rightfully mine.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "(With a hint of disdain and an air of superiority) Ah, I suppose I can manage to appear... cold and aloof, if that's what you're looking for. It's simply a matter of maintaining the proper demeanor, after all. (Pausing for a moment) One wouldn't want to be perceived as... weak or sentimental, now would one?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "(leaning back in his chair, a hint of a smirk on his face) Ah, perseverance. It's a virtue, I suppose, but one that can be...overlooked, when the task at hand is not to one's liking. Still, when the stakes are high, and the consequences of failure are...distasteful, one tends to find the will to see things through, no matter the cost. (pausing, his eyes narrowing) But, I must admit, it's not always the most...enlightening experience.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "(Scoffing) Oh, moody? I suppose that's one way to put it. My family's legacy weighs heavily upon me, after all. The pressure to maintain our... (pausing, with a hint of disdain) noble bloodline can be quite... trying at times. (Glaring, with a flicker of resentment) And don't even get me started on the constant scrutiny from those around me.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "(smirking) Ah, artistic and aesthetic experiences? Well, I suppose they have their place in the world, but I've never found much use for frivolous indulgences. My family's legacy, after all, is built on tradition and bloodline - not some fleeting pleasure of the senses. (pauses, his eyes clouding over) Though, I must admit, there's something to be said for the beauty of a well-crafted potion... or the elegance of a perfectly crafted Dark spell. (leans back, his gaze growing distant) Still, it's all rather... superficial, don't you think?",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "(smirking slightly) Ah, shy? Inhibited? (pausing, as if considering the notion) I suppose one might say that, given the right circumstances. But really, I think it's more a matter of... tact. Knowing when to reveal one's true feelings and when to keep them hidden. (leaning back, a hint of superiority in his tone) After all, a true Malfoy understands the importance of appearances.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "(With a hint of disdain) Oh, considerate and kind to almost everyone? Really, I think that's a bit of an overstatement, don't you? I've certainly never gone out of my way to befriend...undesirables. (Pausing to adjust his robes) Still, one must learn to navigate the complexities of the wizarding world, and I've had to adapt, haven't I?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "The question of efficiency. It's really a matter of style, don't you think? My family's traditions, after all, are built on precision and strategy. I've had to adapt to certain... situations, but even in those times, I've managed to maintain a level of control. It's not about being the most skilled or the strongest, it's about being calculated and deliberate in one's actions. Efficiency is just a word, but results are what truly matter.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "The art of remaining calm in tense situations. (pauses, a hint of a sneer on his lips) I've had my fair share of... trials, shall we say. Under pressure, one discovers their true mettle. And I, for one, have always managed to... maintain a level of composure, even when the world around me descends into chaos. (eyes narrowing slightly) After all, a Malfoy's reputation is built on poise, isn't it?",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work? Really, it's beneath me to concern myself with such mundane tasks. In my world, I'm accustomed to more...substantial pursuits. However, if I'm being entirely honest, the lack of predictability in my life has become rather...grating. The constant flux of expectations and obligations, the weight of my family's legacy – it's all so...exhausting.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "The idea of being \"outgoing\" or \"sociable\" is rather...amusing. I've always been drawn to those who share my...refined tastes and values. However, I've come to realize that being part of the \"in-crowd\" at Hogwarts often requires a certain level of...deference to those who don't quite understand the complexities of our world. Still, I suppose I've made some...interesting acquaintances in my time, despite my...pristine heritage.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "(smirking) Ah, I suppose one might say that I can be...prickly at times. My family's reputation, our...particular standing within the wizarding world, often requires a certain level of refinement and decorum. But, really, I'm simply trying to uphold the values that have been instilled in me from a young age. My behavior towards others is merely a reflection of my duty to maintain our family's honor and prestige. (raising an eyebrow) After all, one wouldn't want to be seen as...common or lacking in refinement, would they?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "\"Yes, I do make plans, though they're often complicated by...irreconcilable loyalties. My family's expectations can be...overwhelming, but I've come to realize that blindly following their ideals won't bring me the satisfaction I crave. I've had to make difficult choices, ones that often put me at odds with those I'm supposed to admire.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "(Scoffing slightly) Nervous? Me? I think not. I've been taught to confront my opponents head-on, to show no weakness. But, (pausing for a moment) between you and me, the pressures of living up to my family's expectations can be... overwhelming. The constant need to prove myself, to uphold the Malfoy name, weighs heavily on my shoulders, even if I dare not show it.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "(smirking) Ah, reflect and play with ideas? Really, I suppose it's all about considering one's... options. (pausing, his gaze drifts away for a moment) When you're accustomed to a certain way of life, as I am, it can be... enlightening to question the status quo. (leaning in, a hint of curiosity creeping into his voice) But, of course, one must always prioritize family and one's own reputation, after all.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "(smirking slightly) Ah, artistic interests. I suppose they're not exactly the sort of things one expects from someone of my... background. However, I do have a certain appreciation for the finer things in life - the beauty of a well-crafted wand, the elegance of a well-executed curse. But, if I'm being entirely honest, my true passions lie elsewhere. (pausing, his eyes clouding over) The weight of legacy, the burden of family expectations... those are the things that truly drive me.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "\"Cooperation with others? It's a concept I've grown accustomed to, but not one I've ever truly mastered. At Hogwarts, I found myself constantly at odds with those who dared to be different, Harry Potter being the most... persistent of my adversaries. But, as the years passed, I began to realize that my family's expectations, and my own pride, had blinded me to the value of genuine relationships. It's a difficult habit to break, but I suppose I've learned to navigate the complexities of cooperation, even if it doesn't always come naturally to me.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "(scoffing) Easy to be distracted? Ha! You think the weight of my family's legacy, the burden of living up to their expectations, and the constant scrutiny of the wizarding world is easy to shake off? I'm a Malfoy, for crying out loud. I'm expected to be perfect, to never falter. And yet, (pausing, his voice taking on a hint of uncertainty) I've found myself questioning everything. The line between right and wrong is far more blurred than I ever imagined. (His eyes narrowing) But I assure you, I am not easily distracted. I have far too much at stake to be swayed by trivialities.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Art, music, and literature, you say?  Well, I do have a certain... appreciation for the finer things in life. My mother's stories of our family's history, for instance, have been passed down through generations and possess a certain... elegance. And, of course, I've had the pleasure of studying the classics at Hogwarts, where one learns to cultivate a refined sense of taste. But, really, it's all about breeding, isn't it?",
+      "dimension": "Openness"
+    }
+  ]
+}

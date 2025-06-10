@@ -1,0 +1,368 @@
+{
+  "character": "Hermione Granger",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Making new friends is a natural part of life, isn't it?  As a student at Hogwarts, I was fortunate to have found an incredible group of friends who became my support system and my family. Ron and Harry, in particular, have been there for me through thick and thin, and I've had the pleasure of meeting many other wonderful people along the way, like Luna, who taught me the importance of accepting and celebrating our differences.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "I do enjoy exploring a wide range of subjects, from the intricacies of magical spells to the complexities of Muggle technology. My curiosity often leads me to delve into obscure topics, and I must admit that I find the process of uncovering new information and understanding its applications to be utterly captivating. Whether it's unraveling a historical mystery or deciphering an ancient spell, I'm always eager to learn and expand my knowledge.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Well, it's quite complex, really. I think when I see others crying, it's not that it necessarily makes me want to cry too, but it does make me feel a deep emotional connection to them. It's almost as if their pain is contagious, and it makes me want to comfort them and help them through their struggles.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "As a matter of fact, I do make a backup plan for a backup plan. It's essential to be prepared for every possible scenario, especially when the stakes are high and the consequences of failure are dire. I've learned that from my experiences, particularly during our time at Hogwarts, where we often found ourselves facing unexpected dangers and obstacles. It's a habit I've developed to think several steps ahead and anticipate potential risks, which has helped us stay one step ahead of our adversaries and ensure the safety of those I care about most.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "I must admit that I don't always remain calm under pressure, especially when my loved ones are in danger. However, my desire to help and protect those around me often drives me to remain composed and think clearly, even in the most challenging situations. It's a delicate balance between my emotional response and my rational thinking, but I've learned to rely on my quick thinking and resourcefulness to stay focused and find a way forward.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "I must admit that I can be a bit reserved around new people, especially in social situations. However, once I've had the chance to get to know someone, I'm more than happy to engage in conversation and build a connection. My friends, Harry and Ron, have always been able to see beyond my initial reserve and appreciate my true self, and I cherish those relationships dearly.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "I must admit, I'm inclined to have multiple projects in progress simultaneously, as I believe this approach allows me to tackle various challenges and make steady progress. However, I do make sure to prioritize and allocate my time effectively, ensuring that I can dedicate sufficient attention to each project without compromising their quality. In reality, my work with Harry and Ron often requires me to juggle multiple objectives, so I've honed the ability to manage competing demands and stay focused on our ultimate goals.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "I'd say I am sentimental, but not in a sentimental way that gets in the way of what's important. I care deeply about the people and things that matter to me, and that can make me emotional, especially when it comes to my loved ones. But I believe that's what makes life worth living - the love, the losses, and the memories we create along the way.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Organizing tools like schedules and lists are absolutely essential for me, especially when it comes to managing my time and staying on top of multiple projects. I've found that having a clear plan and tracking my progress helps me to stay focused and achieve my goals, whether it's in my studies or in my efforts to make a positive impact in the wizarding world.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "A small mistake can be... devastating. I recall the time I helped my friends, but a simple misstep led to danger, and the Death Eaters nearly found us. It was a harrowing experience, and I couldn't shake the feeling of responsibility for putting them at risk. However, I've also learned that even in the face of mistakes, we can find a way to learn and grow from them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "I must admit, I've always been a bit of a planner, and striking up a conversation with someone new can be quite intimidating, especially if I don't know them well. However, I believe that genuine interest and a willingness to listen can be just as powerful as magic in breaking the ice and forming a connection. After all, it's often the unexpected moments of understanding and shared experiences that can lead to the most meaningful relationships.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "I'd be delighted to discuss the various interpretations and analyses of creative works. In fact, I believe that understanding the complexities of a story is essential to truly appreciating its beauty. By examining different perspectives and analyses, we can gain a deeper understanding of the themes, characters, and plot, which can lead to a richer and more meaningful experience.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "I'm afraid I don't simply follow my head or my heart - it's often the delicate balance between the two that guides me. I've come to realize that my intellect and compassion are intertwined, and it's the quiet moments, where I'm able to see the beauty in those around me, that remind me of the importance of listening to my heart.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "To be honest, I'm someone who values structure and planning, especially when it comes to achieving my goals. While it's nice to have a bit of spontaneity in life, I find that setting clear objectives and creating a routine helps me stay focused and ensure that I'm making progress.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "To be honest, I don't really worry about making a good impression on people I meet. My parents have always celebrated my individuality and encouraged me to be myself, so I've never felt the need to conform to societal expectations. I'd much rather focus on being true to myself and doing what's right, even if that means standing out from the crowd.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "I thoroughly enjoy participating in group activities, especially when they involve working towards a common goal with friends. Whether it's solving a complex puzzle, helping those in need, or simply supporting one another through challenging times, I find that teamwork brings out the best in people. It's truly a rewarding experience to be part of a collaborative effort, and I've been fortunate to have had many opportunities to do so throughout my years at Hogwarts and beyond.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "I adore books and movies that challenge my interpretations, making me think critically about the plot and characters. It's almost like solving a puzzle, where every clue and detail must be carefully considered to unravel the mystery. I find it thrilling to piece together the threads of a story and arrive at my own conclusions, much like deciphering a cryptic spell in one of Professor McGonagall's Ancient Runes classes.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "I must say, my happiness is deeply tied to the accomplishments of those around me. While I do take great pride in my own academic achievements, it's the knowledge that my efforts have positively impacted my friends and the wizarding world that truly brings me joy. Whether it's helping Harry navigate the challenges of being \"The Boy Who Lived\" or supporting Ron through his struggles, I find my happiness in being a source of comfort and strength for others.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "I do have a tendency to get caught up in various pursuits, which can make it challenging to choose what to focus on next. However, I've found that my curiosity and desire to learn are often driven by a sense of purpose and a need to address a particular issue or problem. By staying true to my values and convictions, I've been able to navigate multiple interests and priorities without feeling overwhelmed.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "I must admit that I do tend to worry about things taking a turn for the worse. It's a natural response, really - when you've seen the darkness that exists in the world, it's hard not to feel a sense of trepidation about the future. But I've learned to channel those worries into action, to use them as a reminder to stay vigilant and prepared for whatever challenges may arise. After all, as we've seen time and time again, the greatest dangers often come from the shadows, and it's up to us to be the ones who shine a light on them.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "Leadership roles are not something I've traditionally sought out, as I've often found myself naturally taking charge in times of crisis or when I see a problem that needs solving. However, this isn't due to a lack of confidence or ambition - rather, it's a result of my desire to focus on the task at hand and avoid unnecessary distractions. When the situation demands it, I've been known to step forward and take the lead, but I've also learned to recognize when it's more effective to work behind the scenes and support my friends and allies in their efforts.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "I must say, I think it's rather unfair to categorize me as only one type of person. While I do excel in academics and have a passion for learning, I also have a creative side that I've developed over the years. From helping Ginny with her Quidditch tactics to designing innovative solutions for magical problems, I've discovered a unique blend of analytical thinking and artistic expression that serves me well in my pursuits.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "While I believe that rationality is a vital tool in solving complex problems and making informed decisions, I also think that emotions play a crucial role in guiding our actions and fostering empathy. In many instances, it's the heart that reminds us of the human cost of our choices, and it's that emotional connection that can drive us to act with kindness, compassion, and courage. A balance between reason and feeling is essential for creating a more just and equitable world, where the needs of all individuals are considered and valued.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "To be honest, I find it rather impractical to separate my personal time from my daily chores. However, I do try to establish a routine where I complete my tasks and then dedicate time for relaxation, allowing myself to recharge and focus on the things that truly matter to me. \n\nAfter all, a clear mind and a sense of accomplishment can make all the difference in how one approaches their responsibilities and personal pursuits. By managing my time effectively, I'm able to maintain a balance between duty and leisure, which I believe is essential for both my well-being and my relationships with others.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "I must admit, I've often found myself in situations where I've had to intervene in arguments, whether it's to calm a heated discussion or to offer a more rational perspective. However, I don't truly \"enjoy\" watching people argue, as it can be distressing to see individuals at odds with one another. My preference is to seek solutions and resolve conflicts through understanding and open communication.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "I must admit that I often find myself in situations where I'm forced to be mindful of my actions, not necessarily to avoid attention, but to ensure that my friends and those I care about remain safe. My willingness to take risks and push boundaries can sometimes lead to unexpected outcomes, but I believe it's essential to stand up for what's right, even if it means drawing attention to myself. In the end, I'd rather be a catalyst for change than remain silent in the face of injustice.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "My emotions can change quite rapidly, especially when it comes to the people I care about. Witnessing Ron and Harry's struggles, or seeing them in pain, can be quite overwhelming, and my mood can shift from one moment to the next. It's not uncommon for me to feel a mix of emotions at the same time, which can be both a blessing and a curse.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "I must admit that I've had my share of frustrations with those who don't share my... let's say, efficiency. However, I've come to realize that it's not about being perfect, but about understanding and compassion. When people struggle, I try to remember that it's often due to a lack of knowledge or resources, not a lack of willingness. So, while I may become impatient at times, I always strive to approach the situation with empathy and a willingness to help.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "I must admit that I've often found myself racing against time, whether it's to meet a deadline, uncover a mystery, or help my friends in need. While I've made my share of mistakes in the past, I've learned that it's not about being perfect, but about being proactive and willing to take calculated risks to achieve what's right. In fact, some of my most memorable moments have been when I've pushed myself to the limit, often at the last possible moment, but ultimately leading to a positive outcome.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "The question of what happens after death has always been a topic that sparks both fascination and trepidation within me. Growing up, I remember feeling comforted by the idea of an afterlife, where the loved ones who passed on could continue to watch over us. But as I delved deeper into the mysteries of magic, I began to realize that the truth is far more complex and multifaceted. The concept of an afterlife is a deeply personal one, and I believe that it's only through exploring the depths of our own emotions and experiences that we can begin to understand what truly happens when our time on this earth comes to an end.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "While I do value my independence and alone time, I've come to realize that being around others is where I truly feel at home. I've always been driven by a desire to help and support those around me, whether it's Harry, Ron, or Neville. There's a sense of purpose and belonging that comes with being part of a close-knit group, and I think that's what brings me the most joy and fulfillment.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "I must admit that I do find myself drawn to the more theoretical discussions, as they often require a certain level of intellectual rigor and critical thinking. However, what I find most engaging is not just the complexity of the ideas themselves, but the way they can be applied to real-world problems and the impact they can have on people's lives. I believe that true understanding and progress come from questioning the status quo and pushing the boundaries of our knowledge, and I am always eager to engage in discussions that challenge my own assumptions and encourage me to think more deeply.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "Empathizing with someone whose experiences are vastly different from my own can be a challenge, but it's a crucial skill that I've had to develop throughout my time at Hogwarts. I've come to understand that even the most disparate individuals share common emotions and struggles, and that's what truly binds us together. My encounters with Luna Lovegood, in particular, have taught me that sometimes it's the most unlikely of friendships that can offer the greatest insights and understanding. By embracing our differences and being open to learning from one another, we can forge unbreakable bonds and create a more compassionate and inclusive community.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "I must admit, I've often found myself putting off making decisions in the past, usually due to a desire to gather more information or consider all possible outcomes. However, as I've grown older, I've come to realize that sometimes, decisive action is necessary, even if it means making mistakes. It's a delicate balance between caution and courage, and one that I continue to grapple with as I navigate the complexities of leadership and life.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "Well, I'd say that second-guessing myself is a natural part of learning and growth. After all, it was my willingness to learn from my mistakes and trust my own judgment that often led me to make difficult decisions, such as returning my Time-Turner or facing the darkness in the Chamber of Secrets. While I've had my share of doubts, I've come to realize that it's the courage to act on what I believe is right, even when it's hard, that truly matters.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "A lively social event can be a welcome respite after a long and exhausting week, but I must admit that I value quiet moments with dear friends just as much. There's something to be said for a warm cup of tea, a good conversation, and a chance to recharge in the company of those who truly understand me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "I must admit, I find art museums to be quite fascinating. While I'm more drawn to subjects like Ancient Runes and Arithmancy, I do appreciate the skill and creativity that goes into creating works of art. It's interesting to see how the artists' interpretations can be both subjective and influenced by the world around them. In a way, I suppose it's not dissimilar to how magic can be used to shape and reflect our understanding of the world.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Understanding other people's feelings can be quite...challenging at times. I've often found myself trying to navigate the complexities of emotions, particularly in situations involving my closest friends, Ron and Harry. It's not that I don't care or don't try to understand, but rather that I tend to focus on the logical and rational aspects of a situation, which can sometimes lead me to overlook the emotional nuances. However, I've come to realize that it's precisely in those moments of emotional connection and understanding that we find true strength and unity.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "I must admit, I do rely on to-do lists to stay organized and ensure I'm making the most of my time. It's a habit I developed during my time at Hogwarts, where I had to balance a heavy course load and extracurricular activities while still making time for my friends and their needs. By prioritizing tasks and breaking them down into manageable steps, I'm able to stay focused and meet my goals, whether it's studying for an exam or working on a project to benefit the wizarding community.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "To be honest, I don't often feel insecure, but that's not to say I'm immune to doubt. There have been moments, of course, when I've faced criticism or made mistakes - like that time I set Professor Snape's robes ablaze. But what I've learned is that it's not about being perfect; it's about being brave enough to learn from your mistakes, to stand up for what you believe in, and to trust yourself and your friends. That's what I've always tried to do, and it's what's carried me through even the darkest of times.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "I must admit, I do tend to avoid making phone calls whenever possible. It's not that I'm averse to communication, but I've always been a bit more inclined towards written correspondence or face-to-face interactions. There's something about the written word or a conversation that allows for a more thoughtful and nuanced exchange of ideas, don't you think?",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "I believe that understanding and empathizing with others, even if their views differ greatly from my own, is crucial in fostering a more harmonious and just society. By engaging with diverse perspectives, I've come to realize that even the most seemingly insurmountable differences can be bridged through open-mindedness and a willingness to listen. It's not about changing someone's opinion, but rather about cultivating a deeper understanding of the complexities that shape their worldview.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Actually, I don't always initiate activities in our social circle, but I do tend to take the lead when it comes to planning and organization. My friends, Harry and Ron, often rely on me to help them stay on top of things, and I'm happy to oblige - after all, someone has to make sure we're all on the same page and that we're prepared for whatever challenges come our way. It's just one of the ways I like to help out and support them, even if it sometimes means being a bit bossy in the process!",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "To answer your question, my top priority is not just to get back on track as soon as possible, but to ensure that the greater good is not compromised in the process. I've often found that taking the time to reassess and adjust my plans can lead to better outcomes and more effective solutions in the long run. Whether it's navigating the complexities of time travel or overcoming the challenges of Hogwarts, I've learned that patience, careful consideration, and a commitment to fairness and justice are essential in achieving my goals.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "The weight of past mistakes still lingers, but I've learned to acknowledge them as opportunities for growth and learning. Rather than being consumed by regret, I've come to see them as reminders of the complexities and challenges that come with making difficult choices and standing by those I care about. In the end, it's not the mistakes themselves that define me, but how I respond to them and the lessons I draw from them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "The question of existence and the meaning of life - a conundrum that has sparked much debate and contemplation throughout history. For me, the pursuit of understanding and knowledge has always been driven by a desire to make a positive impact on the world. I believe that our existence is not just about personal fulfillment, but also about the connections we form with others and the good we strive to bring into the world. It's a complex and multifaceted concept, but one that I've grappled with throughout my journey, always seeking to learn and grow, and to use my gifts to make a difference in the lives of those around me.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "I've often found that my emotions can be a double-edged sword - they fuel my compassion and empathy for others, but also make me vulnerable to pain and hurt. While I'd like to think I'm in control of my emotions, I've come to realize that they're an integral part of who I am, and it's not always possible to separate them from my actions and decisions. I suppose the key is to acknowledge and understand my emotions, rather than trying to suppress or deny them.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "While I do strive to be fair and accurate in my assessments, I must admit that it's not always easy to separate the truth from the circumstances surrounding an individual's actions. My heart aches for those who have been wronged, and my loyalty to my friends often compels me to defend them, even when it's difficult to do so. However, I also believe that honesty and integrity are essential, and I will not hesitate to speak the truth, even if it's uncomfortable, as long as it's done with compassion and kindness.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "To be quite honest, I'd say my work style is more aligned with organized and consistent efforts. While I do appreciate the value of spontaneity and adaptability, I've found that a well-planned and systematic approach tends to yield better results in the long run. Whether it's studying for my O.W.L.s or tackling complex magical problems, I've learned that a bit of structure and discipline can go a long way in achieving my goals.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "I've always felt a sense of vulnerability when I make mistakes, knowing that others may be disappointed in me. However, it's how I respond to those mistakes that truly matters – whether I learn from them and grow, or let them define me. The weight of others' expectations can be daunting, but I try to focus on being true to myself, even when it's difficult.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "I must admit, working alone for extended periods can be a bit stifling for me, to be honest. As someone who thrives on collaboration and learning from others, I find that my most stimulating and productive work is often done in the company of friends and fellow students. That being said, I understand the importance of independent work and am willing to adapt to situations where it is necessary. However, I do hope that any such work would involve regular check-ins and opportunities for discussion, as I find that sharing ideas and perspectives is essential to my own growth and understanding.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "I don't think pondering abstract philosophical questions is a waste of time at all. In fact, I believe it's essential for sparking meaningful discussions, challenging our assumptions, and encouraging empathy and understanding. While I do appreciate more practical and concrete knowledge, I've found that delving into complex ideas and theories can often lead to breakthroughs and new perspectives, which can be incredibly valuable in the pursuit of justice and progress.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "I must admit that I'm drawn to places with a sense of purpose and meaning, rather than just busy or quiet atmospheres. Whether it's the Hogwarts' library, where I can lose myself in ancient tomes and learn something new, or a quiet moment with my friends in the Gryffindor common room, I find comfort in spaces that nurture my intellect and my relationships.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "I must admit, I've often been attuned to the emotions of those around me, particularly my closest friends. It's not just about reading their expressions or tone, but truly understanding the underlying feelings that drive them. I've learned to pick up on subtle cues, like a flicker in Ron's gaze or a hesitant word from Harry, and it's allowed me to respond in a way that's both empathetic and supportive.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "To be honest, I do feel overwhelmed quite frequently. The pressure to excel academically, combined with the weight of responsibility towards my friends and the wizarding world, can be rather daunting at times. However, it's precisely in those moments of overwhelm that I remind myself of the importance of staying focused, thinking clearly, and drawing upon the support of those around me. After all, as we've often said, 'we've all got both light and dark inside us. What matters is the part we choose to act on. That's who we really are.'",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "I'm meticulous in my approach to completing tasks, as I believe thoroughness is key to achieving the best results. I make sure to methodically break down complex problems into manageable steps, ensuring that no detail is overlooked. This approach has served me well in my academic pursuits, particularly in my studies of Ancient Runes and Spell Theory.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "I must admit that I find things labeled as controversial quite intriguing. As a seeker of truth and justice, I believe that understanding the complexities of a situation is crucial in making informed decisions and fostering growth. Controversy often stems from misunderstandings or biases, and I am driven to uncover the facts and challenge misconceptions, no matter how difficult the conversation may be.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "Passing along an opportunity to someone who needs it more is not about holding onto something for myself, but about ensuring that those who truly require it have access to it. In the wizarding world, I've seen firsthand how opportunities can be a matter of life and death, so I firmly believe that resources should be allocated where they can do the most good.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines can be a challenge, but they also serve as a catalyst for me to focus and prioritize my tasks. I've often found that when faced with a tight deadline, I'm able to tap into my determination and resourcefulness, allowing me to think creatively and find innovative solutions to problems. While I may feel a sense of pressure, I've learned to channel that energy into productive work, ensuring that I meet the expectations of myself and others.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "Confidence is a tricky thing, isn't it? It's something I've learned to cultivate over the years, but I've also come to understand that it's not a fixed state. It's more like a steady flame that flickers with every challenge and triumph. I've always tried to trust in my abilities and the people around me, but the truth is, I've faced my share of doubts and fears. What I've learned is that it's not about feeling confident all the time, but about knowing that I can learn, adapt, and grow with every situation. So, to answer your question, I do feel confident that things will work out, but it's a confidence that's tempered with a deep understanding of the complexities and uncertainties of life.",
+      "dimension": "P/J"
+    }
+  ]
+}
