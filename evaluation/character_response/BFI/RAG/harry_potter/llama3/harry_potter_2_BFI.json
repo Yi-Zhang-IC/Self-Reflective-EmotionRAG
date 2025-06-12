@@ -1,0 +1,272 @@
+{
+  "character": "Harry Potter",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "To be honest, I'm not the most talkative person, especially when I'm feeling anxious or unsure about something. There have been times when I've kept things to myself, like when I suspected something was wrong with Quirrell, or when I was trying to navigate the complexities of the Slug Club. But, as I've grown older, I've come to realize that sometimes it's better to speak out, like when I wrote for The Quibbler or stood up to Umbridge. It's just that, as an outsider, I've learned to trust my instincts and sometimes that means keeping things to myself.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "You know, I've seen my fair share of people struggling with trust and hurt feelings, and I have to admit, it's not always easy for me to find fault with others. I've been on the receiving end of hurtful words and actions, and I think that's made me more understanding, rather than judgmental. When things get tough, I try to put myself in their shoes and see things from their perspective – it's not always easy, but it helps me to be more empathetic and to work towards healing and understanding, rather than placing blame.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "I do my best, not just to meet expectations, but to go above and beyond. It's not just about being thorough, it's about being brave, taking risks, and standing up for what's right, even when it's hard. Whether it's fighting Dark Lords or helping those in need, I've learned that being thorough isn't just about completing a task, it's about being true to oneself and doing what's necessary to make the world a better place.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "I've known my share of tough times, but that's never stopped me from pushing forward. Losing loved ones, facing injustice, and dealing with the weight of responsibility can be overwhelming, but I've learned that it's in those moments that true friendship and hope can make all the difference. It's not about being \"blue\" or feeling down, it's about acknowledging the pain and finding a way to keep moving forward, even when it feels like the darkness is closing in.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "I've always believed that new ideas are the key to breaking free from the ordinary. Whether it's creating something innovative, like Fred and George's joke shop, or finding a new way to tackle a problem, like using Felix Felicis to uncover Tom Riddle's secrets, I've learned that thinking differently can lead to real change. As someone who's often felt like an outsider, I know how important it is to be brave and take risks, even if it means venturing into the unknown.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "I don't think I'm reserved, to be honest. I've always felt like I'm on the outside looking in, especially when I'm around people like those in the Slug Club. They seem to think I'm special just because of who I am, but I know that's not true. I've been through some tough times, like being an unwanted child in the Dursleys' house, and that's made me more aware of how others are feeling.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "I'd say I'm quite helpful and unselfish with others. Being an Auror, running the joke shop, and mentoring aspiring Magizoologists have all shown me that I can make a real difference in people's lives. When I see my friends struggling, whether it's Ron or Hermione, I want to help them, even if it's just a listening ear or a bit of advice. It's not always easy, but I believe that we're stronger together, and that's what being helpful and unselfish is all about.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "I think I've been a bit careless in the past, especially when it comes to looking out for others. I remember the time Dobby tried to warn me about the Dursleys' treatment, but his attempt at help ended in a mess, and I got in trouble. And then there was the time Neville fell off his broom, and I was so worried about him... but I think I've learned that sometimes being a bit reckless can be a good thing, especially when it means helping those I care about.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "It's funny, I never really thought I was relaxed, to be honest. I've had to deal with so much over the years, from Voldemort's return to facing my own fears and doubts. But, I think that's where my friends come in - they've always been there to help me through the tough times, and I've learned to trust my instincts and rely on them when I need it. It's not always easy, but knowing I've got people who care about me makes all the difference.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "You know, I think I am incredibly curious about the world and its secrets. There's always something new to uncover, whether it's an ancient diary revealing hidden truths, a mysterious Time-Turner rewriting the past, or the untold stories of those around me. The wizarding world is full of mysteries, and I've always been drawn to them – it's as if my curiosity is a part of who I am, driving me to keep learning and exploring, no matter the risks.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "You know, I'd say I've got plenty of energy. It's not just about the food or the Quidditch matches, it's about the friends, the battles, and the moments when it feels like anything's possible. When I'm surrounded by the people I care about, fighting for what's right, that's when I feel truly alive.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "I wouldn't say I start quarrels with others, but I've certainly found myself in the midst of difficult situations and heated arguments. I've had my fair share of disagreements with people like Draco Malfoy, and even with my closest friends, Ron and Hermione, when misunderstandings and mistrust crept in.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "I think I've proven myself to be a reliable worker, especially in the Auror Office where I led the team to reform the broken system. It wasn't always easy, but with the help of Ron and Hermione, we were able to overcome obstacles and achieve our goals. I believe that my determination, courage, and willingness to think differently have made me a valuable member of any team, and I'm proud of the work we've done to bring hope to a world that desperately needed it.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "I've definitely felt tense at times. It's hard not to when you're facing the Dark Lord and his followers. The memory of being attacked by Inferi still gives me the shivers, and the feeling of being trapped and helpless is one I try not to think about too much. But even with all the dangers and challenges I've faced, I've learned to channel my nerves into a determination to protect my friends and fight for what's right.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Honestly, I think I'm more of a doer than a thinker, you know? I've always relied on my instincts and the people around me to help me make sense of things. But I've learned that sometimes, it's the people who are brave enough to dream up new ideas and take risks that can really change the world. Like my friends Fred and George, they never gave up on their creative vision, even when the rest of us thought they were just being a bit too...unconventional.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "To be honest, I get quite nervous in the face of all this attention, but whenever I'm around friends and like-minded people, my enthusiasm just takes over. I remember this one Quidditch match, it was my first big experience of the wizarding world and the energy was electric - it made me feel like anything was possible. Even now, as a leader, I try to tap into that same spark, because when people believe in you, it's incredible how far you can go.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "You know, I think I've learned that forgiveness isn't always easy, especially when it comes to those you care about the most. I've seen friends like Ron struggle with the weight of betrayal, and even in the darkest moments, there's always a glimmer of hope that our relationships can be mended. For me, forgiveness is about understanding and compassion, not just for others, but also for myself. It's about being willing to let go of the pain and anger, and instead, choosing to hold onto the love and the memories that make our bonds stronger.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "To be honest, I'm not exactly the most organized person. Growing up with the Dursleys, I had to rely on my instincts to survive, and that's often meant being a bit scattered. Between fighting Dark Lords and dealing with the pressures of being \"The Boy Who Lived,\" I've had to adapt to a lot of chaos, and it's not always easy to keep track of things.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "To be honest, I worry a lot, especially about the people I care about. Whether it's my son Albus feeling like an outsider, or my friends Ron and Hermione facing challenges in their relationships, I feel a deep sense of responsibility to help and protect them. It's hard not to worry when you're facing the kind of darkness and danger that I've faced, and it's always there, lurking in the shadows, waiting to strike.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "I'd say I've always had a very active imagination. I remember sneaking away from my Muggle relatives to study magic in secret, and dreaming of a world beyond the ordinary. The Quidditch World Cup was a real eye-opener for me, too - it showed me just how big and wonderful the wizarding world could be, and it's sparked a sense of wonder and curiosity that's stayed with me ever since.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "I'm not exactly quiet, but I've had my share of silence. There have been times when I've had to keep my thoughts and feelings to myself, especially when it comes to protecting those I care about. Sometimes, it's hard to put my thoughts into words, but I've learned to trust my instincts and listen to the silence, it can be a powerful thing.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Honestly, I've had to learn to be cautious when it comes to trusting others. There have been so many times when people I thought I could trust have turned out to be deceitful - like Sirius's murder by Peter Pettigrew, or Delphi's manipulation of Amos. It's left me a bit wary, to be honest. Still, I've also had the chance to experience the power of true friendship and loyalty, like with Ron, Hermione, and Neville - and that's something I hold dear.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "To be honest, I've never been one to take things easy. Living with the Dursleys, I was always doing chores and feeling like I was invisible. It made me realize how important it is to work hard and make a difference, even if it's not always easy.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "To be honest, I don't think I'm the most emotionally stable person. I've been through a lot in my life, and I've seen and experienced some pretty dark things. But I've also been surrounded by incredible friends who've helped me through the tough times, and that's made all the difference. When it comes to feeling overwhelmed or upset, I try to rely on my friends and my own instincts to get me through it. It's not always easy, but I know I can count on them to help me face whatever comes next.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "I've always been drawn to genuine innovation, the kind that can bring real change and hope to our wizarding world. Unlike the pranks and tricks you find in some places, I believe true inventiveness requires courage and a willingness to think differently. It's not just about creating something new, but about using that creativity to make a positive impact on those around you.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "Being assertive isn't just about being loud or in charge - it's about being brave enough to stand up for what's right, even when it's hard. I've seen it in Ron, when he faced his fears and stepped up to help his friends, and in Neville, who found his own strength in the darkest of times. For me, being assertive means trusting in myself and my friends, and knowing that together, we can overcome anything.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "I've known what it's like to feel like an outsider, to be the one people are suspicious of or intimidated by. I've walked through those cold, lonely moments – in the Dursleys' house, among the pretentious Slug Club, or even sensing the weight of expectations from my son Albus. But I've also seen that even in those darkest times, there's always a spark of hope and connection waiting to be found, like the warmth of Hagrid's hut or the friendship that kept me going through all those challenges.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "\"Persevering until the task is finished isn't just about getting the job done – it's about the people you're fighting for and the lessons you learn along the way. When the odds are against you, it's easy to give up, but it's in those moments that you discover your true strength. I've seen it time and time again – Ron, Hermione, Neville, and all the others who've stood by me through thick and thin – we've never given up, even when the darkness seemed insurmountable.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "To be honest, I've had my fair share of mood swings, especially when the people I care about are in danger or when I'm dealing with the weight of responsibility. It's not always easy being 'The Boy Who Lived', but I try to keep my emotions in check, for my friends and for myself. Still, I suppose you could say I'm a bit moody, especially when it comes to things like the Unforgivable Curses and the people who'd use them.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "You know, I think art and beauty can be found in the most unexpected places, like the way the sunset looks over the Hogwarts grounds or the sound of Hermione's laughter. For me, it's not just about the aesthetics, but about the emotions and the connections they evoke – the way a beautiful sunset can make you feel hopeful, or the way a song can bring back memories of happier times. I've learned that even in the darkest moments, there's always beauty to be found if you look hard enough.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "To be honest, I do get a bit anxious and feel out of place in certain situations, especially when I'm not sure what's expected of me. Like when I was invited to Slughorn's Slug Club, I felt really uncomfortable and out of my depth among all those students who seemed so confident and... well, special. It's funny, I've had to deal with so much over the years, but sometimes it's the little things, like feeling like an outsider, that can be the hardest to deal with.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I'd say I'm generally considerate and kind to almost everyone. I've had the privilege of experiencing kindness firsthand, especially from people like Hagrid, who brought me a homemade cake and a snowy owl on my first birthday. It's taught me the value of treating others with compassion and understanding, whether it's freeing Dobby from his enslavement or being there for friends like Ron, Hermione, and Neville during tough times.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "I'd say I'm quite efficient when it comes to getting things done, especially when it comes to protecting my friends and fighting against the Dark Arts. Whether it's navigating a tricky obstacle or coming up with a clever plan, I've learned to rely on my instincts and trust my gut feeling - it's often led me to make the right decisions in tough situations. Of course, it's not always easy, and I've made my share of mistakes along the way, but I've always tried to learn from them and do better next time.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "Honestly, it's a bit tricky for me to stay calm in tense situations. There have been times when I've felt like I'm the only one who can protect my friends and that's a heavy burden to carry. But I've learned to rely on my instincts and the people around me, like Ron and Hermione, to help me stay focused and get through the tough moments. It's not always easy, but knowing that I'm fighting for what's right and that I'm not alone makes a big difference.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work's not really my thing, to be honest. I've always been drawn to the unexpected, the adventure, and the chance to make a real difference. When I was living with the Dursleys, I felt like I was stuck in a never-ending cycle of boredom and neglect. But magic changed all that - it opened up a world of possibility and excitement, and I've been chasing that ever since. I'd much rather be pushing the boundaries of what's possible than stuck in a routine.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "Honestly, I wouldn't say I'm really outgoing or sociable. I've always felt a bit like an outsider, whether it's because of the Dursleys or being a celebrity in the wizarding world. But, I've found that when I'm with people I care about, like Ron and Hermione, I feel more like myself. It's funny, sometimes I think I'm more at ease when I'm not around a big group of people, you know?",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Honestly, I've been there - feeling out of place and getting frustrated with those around me. I've been rude to others when I feel overwhelmed or misunderstood, like when I was at Slughorn's Slug Club or dealing with Umbridge. But I've learned that my temper often gets the better of me, and I've tried to be more patient and understanding, especially with my friends Ron and Hermione, who've been with me through thick and thin. I'm still working on being more considerate and not letting my emotions get the best of me.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "You know, I don't always make plans in the classical sense, but I've learned to trust my instincts and rely on my friends. We've had our fair share of unexpected adventures, and more often than not, it's been our quick thinking and teamwork that's gotten us out of trouble. Whether it's navigating the past, outsmarting enemies, or simply helping those in need, I've come to realize that sometimes the best plans are the ones that unfold in the moment.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "To be honest, I get pretty nervous in situations where I feel like I'm in over my head or when my friends are in danger. I remember times like that, like when Ron faced those Pixies in Defence class or when Neville got hurt in our first year, and it was hard not to feel a bit scared. But, you know, it's funny - the more I'm faced with these tough situations, the more I realize that my nerves often turn into a sort of determination to see things through and protect the people I care about.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "You know, I've always been someone who thinks on my feet and trusts my instincts. When I'm faced with a problem, I tend to act before overthinking it, especially when it comes to protecting my friends. I've learned that new ideas and innovation can be a powerful force for change, and it's something that's driven me to be more than just a famous face – I want to be a catalyst for hope and progress in the wizarding world.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "Artistic interests... I suppose you could say I have a bit of a connection to the creative side of magic. I mean, who can forget Fred and George's brilliant pranks and inventions at Weasleys' Wizard Wheezes? They've always been a source of inspiration for me - showing me that magic isn't just about spells and potions, but about imagination and pushing boundaries.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Cooperating with others is second nature to me, really. I've learned that when we work together, we can achieve incredible things. Like with Cedric during the Triwizard Tournament, or with Hermione and Ron when we faced the challenges of our time at Hogwarts. It's not just about getting the job done, it's about believing in each other and standing up for what's right, even when it's hard.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "To be honest, I've had to be quite focused and aware of my surroundings at all times. There's always something going on, whether it's a threat to my friends or a hidden danger lurking in the shadows. I've learned to trust my instincts, even if it means ignoring what others think I should do – it's a heavy responsibility, but it's one I've grown accustomed to.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "To be honest, I've always struggled a bit in the subjects you mentioned. I mean, I never really had the time to focus on art or music, what with trying to learn how to defend myself against Dark Magic and all. But, I did find a bit of magic in the pages of an old Potions textbook. The Half-Blood Prince's notes helped me understand the subject in a way that my teachers never could, and it's a bit of a secret world that I still find comfort in today.",
+      "dimension": "Openness"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "character": "albus_dumbledore",
+  "backend": "qwen",
+  "response_file": "albus_dumbledore_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        2.0,
+        2.7
+      ],
+      "average_score": 2.35
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.8,
+        4.2,
+        4.5
+      ],
+      "average_score": 4.5
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        4.7,
+        4.7,
+        4.3
+      ],
+      "average_score": 4.57
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        3.7,
+        3.5
+      ],
+      "average_score": 3.6
+    },
+    "Openness": {
+      "batch_scores": [
+        5.0,
+        5.0,
+        4.2
+      ],
+      "average_score": 4.73
+    }
+  }
+}

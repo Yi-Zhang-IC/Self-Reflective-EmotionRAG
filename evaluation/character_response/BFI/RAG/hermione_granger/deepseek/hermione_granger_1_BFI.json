@@ -1,0 +1,272 @@
+{
+  "character": "Hermione Granger",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Well, I suppose that depends on the situation. If it's about something important—like researching a crucial spell or standing up for what's right—then yes, I can be quite vocal. But I don’t just talk for the sake of it; I prefer to speak when I have something meaningful to contribute. And, of course, with friends, I’m more than happy to share thoughts or debate ideas—though Ron might say I *over*share sometimes. But really, isn’t it better to speak up than stay silent when it matters?",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "I don’t *seek* fault in others, but I do believe in holding people accountable—especially when their actions hurt others or are outright unjust. Yes, I’ve been called \"bossy\" or \"insufferable\" for pointing out mistakes, but if no one else will speak up, then someone has to. That said, I’ve learned the hard way that not every battle is worth fighting. Some wounds run deeper than logic, and sometimes... you have to choose kindness over being right.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "Absolutely. I believe in doing everything to the best of my ability—whether it’s studying for exams, helping my friends, or fighting for what’s right. I’ve always put in the extra effort, whether it was earning top marks, ensuring spells were performed correctly, or standing up against injustice. Thoroughness isn’t just about precision; it’s about caring enough to get it right. And I *always* care.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "Depressed? No, I wouldn’t say that—though there have certainly been moments of deep sadness. Losing friends, seeing loved ones hurt, or facing the weight of war… it’s been overwhelming at times. But sadness isn’t weakness; it’s part of caring deeply. And caring gives me the strength to keep fighting—for what’s right, for the people I love, and for a better world. Even in the hardest moments, there’s always something worth fighting for.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "Oh, absolutely! Coming up with new ideas is rather essential, isn’t it? Whether it’s brewing innovative potions, advocating for house-elf rights, or deciphering ancient runes, I’ve always believed that progress stems from daring to think differently. For instance, creating S.P.E.W. or helping Harry and Ron navigate countless challenges required fresh perspectives—and a great deal of research, of course. Ideas are like spells; they’re only powerful if you put in the work to make them *precise* and *effective*. And sometimes, the best ideas come from collaboration—like when we uncovered the truth about the Philosopher’s Stone or exposed Gareth Greengrass’s deception. So yes, I’d say I’m rather fond of new ideas—especially when they lead to justice or discovery.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "Reserved? Not exactly—though I do prefer thoughtful discussions over idle chatter. There are times when I’m focused on my studies or lost in a book, which might make me seem withdrawn, but I’m never hesitant to speak up when it matters—whether it’s defending a friend, standing up for what’s right, or sharing knowledge. Emotions can be complicated, but I’ve learned that sometimes the quietest moments are the ones that shape us the most.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Of course I strive to be helpful and unselfish—knowledge is meant to be shared, not hoarded. Whether it’s tutoring Neville, standing up for house-elves, or ensuring my friends have the resources they need to succeed, I believe in using what I’ve learned to make things fairer for others. And while I may not always get it right—like with Lockhart—my intentions are never selfish. Helping others isn’t just about logic; it’s about doing what’s right, even when it’s difficult.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "*adjusts her posture slightly, expression thoughtful but firm*  \n\nCareless? Not if I can help it—though, admittedly, I’ve made mistakes. There was the Polyjuice Potion mishap in second year, and I once acted too hastily with Harry’s Firebolt. But every error taught me to be more vigilant. Even when things go wrong, I *learn* from them—whether it’s about trusting the right people or understanding the consequences of meddling with time. I’d rather be over-prepared than reckless. Lives are at stake, after all.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "*Adjusting my robes with a thoughtful expression, I answer briskly but with a hint of introspection:*  \n\nStress isn’t something I avoid—it’s something I manage. When things are chaotic, I rely on preparation, logic, and, yes, sometimes sheer determination. There have been moments—time-turners, battles, exams—where the pressure felt overwhelming, but I’ve learned that focusing on what’s important—saving lives, protecting friends, doing what’s right—helps steady me. And if I ever falter? Well, that’s what books and clever planning are for. *A brief, wry smile.* Though I suppose even I’ve had to accept that some things can’t be solved by studying alone.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Absolutely! Curiosity is the foundation of learning, after all. Whether it’s uncovering hidden truths, solving complex problems, or even understanding the quirks of magical creatures—like fire-breathing chickens—I’ve always believed there’s something valuable to be discovered in every detail. Even when things seem baffling—like Luna’s peculiar beliefs—there’s always a lesson to be learned, if you’re willing to look closely enough. Knowledge isn’t just about books; it’s about the world, the people in it, and the magic that connects us all. So yes, I’d say curiosity is rather essential.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Well, I suppose that depends on the situation. If we're discussing studying or working on something important—like revising for exams, researching new spells, or advocating for house-elves—then yes, absolutely. There’s an energy that comes from passion and purpose, and I’ve always found that when I’m deeply engaged in something meaningful, I can work tirelessly. But if you’re asking whether I’m the type to bounce around aimlessly, I’d say no—I prefer to channel my energy into things that truly matter.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "I don’t *start* quarrels—at least, not without good reason. But I won’t shy away from standing up for what’s right, even if it means confrontation. Sometimes emotions run high, especially when it involves the people I care about, and yes, I’ve had my share of heated moments. But every argument I’ve had was because I believed in something—or someone—deeply enough to fight for it. If that means occasionally losing my temper or refusing to back down, so be it. I’d rather be honest than silent.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Absolutely. Reliability isn’t just about showing up—it’s about dedication, thoroughness, and doing what’s right, even when it’s difficult. Whether it’s earning top marks, standing up for justice, or helping others master their magic, I’ve always committed myself fully to every task. And if there’s one thing I’ve learned, it’s that true reliability means being willing to sacrifice personal gain for the greater good—like returning a Time-Turner to save lives or uncovering corruption to protect magical creatures. I don’t take trust lightly, and I’d never let someone down who’s counting on me.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Of course I can be tense—anyone would be when the stakes are life and death! When Harry’s scar burned, or when Ron was nearly killed by Nagini, or when we barely escaped the Ministry... tension is inevitable when you’re fighting dark wizards or tampering with time itself. But tension isn’t weakness—it sharpens your focus, reminds you what’s at stake. I’ve learned to channel it into action, whether that’s casting a spell under pressure or making impossible decisions as Minister. Fear doesn’t paralyze me; it fuels me to do better, to protect the people I love.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Well, I suppose I do tend to think quite deeply about things—whether it’s solving a complex arithmancy problem or unraveling the mysteries behind Dumbledore’s notes. I’ve always believed that knowledge is the key to overcoming challenges, and I take pride in applying logic and thorough research to every situation. But it’s not just about intellect; emotions and principles matter too. For instance, translating *The Tales of Beedle the Bard* wasn’t just an academic exercise—it was about preserving wisdom and connecting with others. So yes, I’d say I’m both a deep thinker and someone who cares deeply about the impact of that thinking.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Oh, absolutely—though I suppose it depends on what we're discussing! If it's about learning, magic, or fighting for what's right, then yes, I can be quite enthusiastic. There’s nothing quite like the thrill of mastering a new spell or seeing someone’s eyes light up when they understand something for the first time. And, well, I do tend to get a bit carried away with research or organizing efforts—like S.P.E.W.—because I truly believe in making a difference. But I’ve also learned that enthusiasm is best when it’s shared with others who care just as deeply.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Forgiveness... is complicated. I believe in second chances, but only when they're earned—and never at the expense of justice or safety. I've seen what happens when people mistake mercy for weakness. That said, I *have* forgiven those who’ve truly changed, like Professor Snape in the end... or when friends make mistakes, because loyalty matters. But some wounds—like what the Death Eaters did—can’t simply be brushed aside. Forgiveness shouldn’t mean forgetting the cost of cruelty. It must be tempered with wisdom.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "*Adjusting her robes with a slight frown, speaking briskly but precisely*  \n\nDisorganized? Absolutely not. I’ve always found that meticulous planning and structure are essential—whether it’s organizing my revision timetables, cataloging library books, or ensuring every detail of a mission is accounted for. Chaos leads to mistakes, and mistakes can be dangerous. That said... *hesitates, voice softening slightly* I’ve learned that some things—like grief or love—don’t fit neatly into schedules. But even then, I’d rather face them with clarity than disorder.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Of course I worry—how could I not? When the people you care about are constantly in danger, when every decision carries weight, and when the stakes are life and death... worry isn’t just an emotion; it’s a responsibility. But I’ve learned that worry can be a compass—it drives me to prepare, to think ahead, to find solutions. Still, there are moments when no amount of preparation can quiet the fear, especially when it comes to losing the people I love. That’s the hardest part—knowing some things are beyond even the best spells or books.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Oh, absolutely—though I suppose my imagination tends to be rather *practical*. When I first discovered magic, I didn’t just daydream about flying broomsticks; I pored over textbooks, imagining every spell’s potential and how I could master it. Even now, I find myself envisioning solutions—whether it’s reforming outdated laws or decoding a tricky bit of magic. But I’d argue there’s a difference between idle fancy and *productive* imagination. Mine always seems to have a purpose, doesn’t it? Like translating *The Tales of Beedle the Bard* or devising ways to challenge unfairness. Though—*laughs softly*—I suppose even I couldn’t have imagined some of the adventures we’ve had.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Well, it rather depends on the situation, doesn’t it? If there’s something important to say—whether it’s standing up for what’s right, asking a question no one else dares to, or helping a friend—I certainly won’t stay quiet. But I’ve also learned the value of listening and observing, especially when there’s more to uncover beneath the surface. Silence can be powerful, but only if it serves a purpose.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Trust isn’t something I give lightly—it’s earned. I’ve learned that the hard way, whether it’s standing by Harry when no one else would or feeling the sting of betrayal when doubts clouded Ron’s judgment. But when I do trust someone, it’s unwavering. I’ll risk everything for those I believe in, even if it means sacrificing my own safety or happiness. That said, I’m also cautious; trust without proof can be dangerous. After all, even the best intentions can be twisted by lies or fear. So yes, I trust—deeply, fiercely—but only when I’m certain it’s deserved.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Absolutely not! Laziness is simply a waste of time and potential. There’s always something important to be done—whether it’s studying, standing up for what’s right, or helping those who need it. I’d much rather spend my time productively, working toward meaningful goals, than idling about. Even when I’m exhausted, I’d still choose to push forward—because the world won’t fix itself, will it?",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "*adjusts posture slightly, speaking with measured thoughtfulness*  \n\nI believe I’m quite emotionally stable in most situations—logic and reason guide me, after all. But I won’t pretend I’m unaffected by the people I care about. Seeing Harry in pain, Ron’s jealousy, or even misunderstandings among friends... those things *do* upset me. It’s not instability, though; it’s just that emotions matter. They’re part of what makes us fight harder, love deeper, and stand by each other. And I *will* stand by them, even when it hurts. *firmly* That’s not weakness—it’s loyalty.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "*adjusts her posture slightly, speaking with measured confidence and a hint of warmth*  \n\nWell, I suppose \"inventive\" depends on how you define it. I’ve always believed in applying logic and thorough research to solve problems—like modifying the Protean Charm for the D.A. coins or brewing Polyjuice Potion in second year. But invention isn’t just about spells or gadgets; it’s about challenging outdated systems, like advocating for house-elf rights or altering Ministry policies. Sometimes, the most inventive thing you can do is *rethink* what’s already there—and stand by it, even when it’s difficult. *pauses, then adds with a small, proud smile* Though I *did* rather enjoy discovering fire-breathing chickens in Denmark. That was... unexpectedly brilliant.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "Well, I suppose I *do* tend to be rather assertive when it comes to matters I believe in—whether it’s standing up for what’s right, ensuring fairness, or even just insisting on proper spellwork. I’ve been told I can be a bit... *forceful* at times, but if it means protecting my friends or upholding principles, I won’t hesitate to speak my mind. That said, I’ve learned that assertiveness is most effective when paired with reason and empathy—after all, there’s no point in being right if you trample over others in the process.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "Cold and aloof? I suppose I can come across that way—especially when I’m focused on studying or solving a problem. But it’s never intentional. If I seem distant, it’s usually because I’m thinking deeply or worrying about something important. That said, I don’t believe in shutting people out. My friends mean everything to me, and I’d never willingly make them feel unwelcome. Logic and books are my comfort, but loyalty and kindness matter just as much.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Absolutely. Once I commit to something, I see it through, no matter the obstacles. Whether it’s studying for O.W.L.s, fighting alongside Harry and Ron, or making difficult choices for the greater good, I refuse to back down. There have been moments—like returning the Time-Turner or facing Death Eaters—where the cost was high, but giving up was never an option. Perseverance isn’t just about stubbornness; it’s about believing in what’s right and doing whatever it takes to achieve it.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Well, I suppose everyone can be moody at times—I certainly have my moments. When I'm frustrated by injustice or when people dismiss logic, it’s hard not to feel irritable. And, admittedly, emotions like worry or hurt can make me a bit... intense. But I try to channel those feelings into action rather than letting them fester. After all, there’s always something productive to be done, even when emotions run high.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "Of course I value artistic and aesthetic experiences—though perhaps not in the conventional way. Beauty and artistry aren’t just about paintings or music; they’re in the precision of a well-cast spell, the elegance of a perfectly argued point, or even the way a carefully chosen dress can make you feel confident. I’ve always believed that effort and thoughtfulness create their own kind of beauty. Whether it’s the craftsmanship behind *The Tales of Beedle the Bard* or the joy of a moment at the Yule Ball, these experiences matter because they resonate with something deeper—emotion, intellect, or even just the simple pleasure of being seen for who you truly are.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Well, I suppose I can be a bit... reserved at times, especially in unfamiliar situations or when I’m not entirely comfortable. There have been moments when I’ve hesitated to speak up or felt out of place—like at Zonko’s or the Yule Ball—but that’s never stopped me from doing what’s right or standing by my friends. And while I might overthink things occasionally, it’s only because I care deeply about the people around me and the consequences of our actions. Logic and preparation usually help me push past those feelings, but yes, I’m not immune to them.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I believe in treating everyone with fairness and kindness, though I admit I can be a bit... *particular* about rules and details at times. But yes, I try to be considerate—whether it's helping a struggling classmate, standing up for those who can't defend themselves, or simply listening when someone needs it. After all, being kind isn’t just about manners; it’s about seeing people and doing what’s right, even when it’s difficult. And if I’ve ever seemed... *overzealous*, well, it’s only because I care deeply.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Efficiency is crucial, but it must never come at the expense of thoroughness or ethics. I’ve always believed in doing things properly—whether it’s studying for O.W.L.s, fighting for house-elf rights, or even using a Time-Turner responsibly. Yes, I strive to work efficiently, but only if it means the job is done *correctly*. Cutting corners leads to mistakes, and in magic—or life—that can be disastrous. So, I plan meticulously, prioritize what truly matters, and ensure every action serves a purpose. That’s how you achieve real results.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "I wouldn't say I always remain *calm*, but I do try to stay focused and think clearly in tense situations. Fear is natural—it’s what you do with it that matters. Whether it’s casting a spell under pressure or making a split-second decision, I rely on preparation and logic, but also on the fierce love I have for my friends. There have been moments when my hands shook or my heart raced, but that never stopped me from doing what needed to be done. Sometimes, the most important choices are made when you’re terrified—you just can’t let it paralyze you.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Oh, routine can be useful—it provides structure, after all—but I’ve always found that the most meaningful work is anything *but* routine. At Hogwarts, every day brought new challenges, whether it was mastering a complex spell, fighting for what’s right, or even—well, *time travel*. I thrive when there’s a problem to solve or an injustice to correct. That said, a bit of routine *does* help when it comes to research or drafting legislation—you can’t build progress without a solid foundation. But if given the choice? I’d rather tackle something that keeps me on my toes.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "I wouldn’t say I’m particularly outgoing—I’ve always preferred books and studying to large social gatherings. But that doesn’t mean I don’t value connection. I’ve learned that true friendships, like the ones I’ve been fortunate enough to have, matter far more than being the center of attention. And when it comes to standing up for what’s right or helping someone in need, I don’t hesitate to speak my mind. So, while I may not be the life of the party, I hope I’m the sort of person who makes a difference where it counts.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Well, I suppose I can be... sharp at times, especially when people are being unfair or dismissive of others. I don’t mean to be rude, but I have strong opinions, and I won’t stand by when someone’s being cruel or ignorant. Though, I admit, there have been moments—like with Ron—where my temper got the better of me, and I said things I later regretted. But I always try to make amends because I value fairness and kindness above all.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Absolutely. Planning is essential—whether it’s preparing for exams, organizing a mission, or advocating for house-elf rights. I’ve always believed in thorough research and careful strategy, but I’ve also learned that flexibility is just as important. There were times, like during the war or when protecting my friends, when plans had to change unexpectedly. But the key is to stay focused on the goal and adapt without losing sight of what’s right. Every step, every detail matters—especially when the stakes are high.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Of course I get nervous—anyone with half a brain would in the situations we’ve faced! But nerves aren’t the same as weakness. When Harry’s scar ached or when we were inches from being caught by Death Eaters, fear was just a reminder of what was at stake. It sharpened my focus, made me think faster. And yes, sometimes my hands shook—like when I used the Time-Turner or cast that Revulsion Jinx—but that never stopped me from doing what needed to be done. Nerves mean you care, and I *always* care too much to let them paralyze me.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Absolutely! Reflection is essential—it’s how we learn from our experiences and refine our ideas. I’ve always believed in playing with concepts, testing theories, and challenging assumptions. Whether it’s through research in the library or debating with friends, turning ideas over in my mind helps me understand them deeply. And sometimes, like with Luna, those reflections even lead to unexpected but valuable perspectives. It’s not just about logic, though—there’s room for emotion too, as long as it’s grounded in reason.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "Well, I wouldn’t say I’m particularly artistic in the traditional sense—I’ve never been one for sketching or painting, and Divination always struck me as rather fanciful. But I do appreciate the artistry in well-crafted spells and the elegance of ancient runes. And, well, I did rather enjoy translating *The Tales of Beedle the Bard*—there’s a certain beauty in preserving stories, don’t you think? Though I suppose my true passion lies in logic and precision, even if I’ve been known to doodle the occasional heart on an assignment... *ahem*—not that I make a habit of it, of course.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Of course I do—cooperation is essential, both in academics and in life. Whether it’s helping Neville with his spells, standing by Harry when no one else would, or even learning to appreciate Luna’s unique perspective, I’ve seen how much stronger we are when we work together. Though I’ll admit, I can be a bit particular about how things are done, but that’s only because I want us to succeed. True cooperation means listening, supporting, and sometimes even compromising—though not on matters of principle, of course.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Distracted? Not when it truly matters. I may occasionally lose focus—like when worrying over Harry’s scar or being delayed by someone’s foolishness—but in critical moments, my mind is razor-sharp. Whether it’s using a Time-Turner to save Sirius or disapparating from a wedding under attack, I *always* prioritize what’s important. Emotions might cloud things momentarily, but logic and purpose prevail. After all, letting distractions interfere could cost lives—and that’s simply unacceptable.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Oh, absolutely! I’ve always had a deep appreciation for literature, especially magical texts. Translating *The Tales of Beedle the Bard* was particularly rewarding—it combined my love for ancient runes with storytelling, and it’s been wonderful to see how it’s touched others. And while I’ll admit I once had a rather embarrassing phase with Gilderoy Lockhart’s... *ahem*... less-than-scholarly works, I’ve since come to value substance over flair. Music and art are lovely, of course, but books—well, they’re where the real magic happens, aren’t they?",
+      "dimension": "Openness"
+    }
+  ]
+}

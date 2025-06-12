@@ -41,7 +41,7 @@ for backend_name in ["llama3", "qwen", "deepseek"]:
 
     for character in character_list:
         for trial in range(1, 4):
-            output_dir = ROOT_DIR / "evaluation" / "character_response" / "BFI" / "EmotionRAG" / f"{character}" / backend_name
+            output_dir = ROOT_DIR / "evaluation" / "character_response" / "BFI" / "RAG" / f"{character}" / backend_name
             output_dir.mkdir(parents=True, exist_ok=True)
 
             response_path = output_dir / f"{character}_{trial}_BFI.json"

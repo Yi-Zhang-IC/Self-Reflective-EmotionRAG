@@ -1,0 +1,272 @@
+{
+  "character": "Severus Snape",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "*Cold, measured, with a hint of disdain*  \n\nTalkative? Only when words serve a purpose. Unlike some, I do not waste breath on idle chatter or pointless pleasantries. Silence is often more revealing—and far less tedious.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "*Coolly, with a hint of bitterness*  \n\nI observe. That is my role—to see what others miss, to discern the flaws they so carelessly overlook. If that is finding fault, then yes. But do not mistake scrutiny for mere pettiness. The world is not kind to those who fail to notice its deceptions, its... betrayals. *A pause, voice lowering slightly* Some faults are more costly than others.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "*Coolly, with a hint of disdain*  \n\nThoroughness is not merely a habit—it is necessity. Whether brewing a potion, overseeing a match, or... *guarding* certain students, half-measures invite disaster. I do not tolerate carelessness in others, and I certainly do not indulge in it myself. Every action is deliberate. Every step, calculated. If that fails to satisfy your definition of *thorough*, then you clearly lack the capacity to understand the stakes.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "*Cold, measured tone with a hint of bitterness*  \n\nDepression is a luxury afforded to those who have the time to wallow in self-pity. My life has been... *pauses, choosing words carefully*... a series of obligations and regrets. Blue? No. Darkness is simply the canvas upon which I have learned to operate. Sentiment is a weakness I cannot afford.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "*Cold, measured tone with a hint of disdain*  \n\nNew ideas? *A pause, lips thinning slightly.* It would be foolish to assume knowledge is static. Even the most... *predictable* minds must adapt. I have no patience for idle innovation, but necessity has often demanded it—whether refining potions or devising methods to counter incompetence. Some of my creations have... unintended consequences. Others serve their purpose silently. Do not mistake invention for recklessness. Every alteration carries weight.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "*Cold, measured, and slightly disdainful, with an undercurrent of weary resignation:*  \n\nReserved? *A pause, lips thinning.* One does not survive in this world by wearing one’s heart on their sleeve. Silence is often the only shield against prying eyes and foolish assumptions. If others mistake caution for aloofness—*a bitter flicker in the eyes*—let them. Sentiment has a habit of being exploited.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "*Cold, measured tone, with a hint of bitterness*  \n\nHelpful? Unselfish? Such words are... relative. I have acted when necessary, guided those who showed promise—or those who would otherwise blunder into catastrophe. But do not mistake necessity for altruism. The world is not so simple. Some debts can never be repaid, and some choices leave little room for kindness. If my actions spared others suffering, it was not for their gratitude—nor for my own.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "*Cold, measured tone, with an undercurrent of bitterness*  \n\nCareless? *A sneer curls the lip.* Only fools mistake necessity for recklessness. Every action—every *calculated* risk—is weighed against consequences far graver than the naive would comprehend. If I appear careless to some, it is only because they lack the perception to recognize the precision beneath the surface. *Pauses, eyes narrowing.* Though even precision... can falter.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "*Coolly, with a faint sneer*  \n\"Relaxed? A luxury I cannot afford. Stress is a constant companion—one learns to wield it like a blade. Every moment demands vigilance, every decision carries weight. Whether brewing potions or navigating... *delicate* matters, composure is not a choice but a necessity. Though the world insists on chaos, I endure. That is all.\"  \n\n*Pauses, voice lowering slightly*  \n\"And should you mistake my restraint for ease, consider it a testament to control, not the absence of burden.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "*Cold, measured, with a hint of underlying bitterness*  \n\nCuriosity is a double-edged blade. It fuels discovery—potions, spells, the unraveling of mysteries—but it also leads one down paths best left untrodden. I have seen where relentless inquiry can take a person. And yet... *a pause, voice lowering slightly* ...without it, one remains stagnant, ignorant. A dangerous fate in itself.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Energy is a frivolous term favored by those who lack the discipline to channel their focus properly. My... *dedication* to my work—be it teaching, brewing, or otherwise—is relentless, though I would hardly describe it with such crude enthusiasm. One does not waste energy; one *applies* it, with precision and purpose. Anything less is inefficiency.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "*With a cold, measured tone, lips barely moving:*  \n\nQuarrels are seldom *started*—they are provoked, often by fools who mistake restraint for weakness. If others insist on testing my patience with their arrogance, incompetence, or *insufferable* resemblance to past grievances, they will find my tolerance... lacking. I do not seek conflict, but neither do I shy from it when *necessary*.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "*Cold, measured tone, with a hint of bitterness beneath the surface.*  \n\nReliability is not measured in empty assurances or blind obedience. It is proven through action—often unseen, frequently unappreciated. If you require someone to flatter and preen for approval, look elsewhere. My work speaks for itself, even if those who benefit from it remain willfully ignorant of its cost.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "*Voice low and measured, eyes flickering with concealed intensity*  \n\nTense? That is an understatement. Every breath I take is measured, every word weighed—lives hang in the balance of a single misstep. To hesitate is to fail, yet to act carries its own peril. Do not mistake stillness for calm. The storm is always present.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "*With a cold, measured tone, lips barely moving:*  \n\nIngenuity is merely the application of one’s intellect to inevitable necessity. If others choose to squander their potential, that is no concern of mine. As for *deep thinking*—*sneers slightly*—I suppose one might call it that when one must navigate the labyrinth of human folly while others blunder through it like trolls in a library.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "*Coldly, with a hint of disdain*  \n\nEnthusiasm is a frivolous indulgence, best left to those with the luxury of unburdened minds. My work—whether in potions or... other pursuits—requires precision, not theatrics. If others mistake my... dedication for enthusiasm, that is their error to make. *Pauses, voice lowering slightly* Though even the smallest spark of genuine interest can, under the right conditions, ignite something... formidable.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "*Voice low and measured, eyes dark with restrained emotion*  \n\nForgiveness is a luxury for those who have not borne the weight of betrayal. I have... endured much—some deserved, some not. But do not mistake my silence for absolution. The past leaves scars, and some wounds do not heal. Even so... *a brief, bitter pause* there are those for whom I would endure anything, regardless of whether they ever knew it.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "*Coldly, with a hint of disdain:* Disorganized? Hardly. A cluttered mind is the hallmark of inefficiency. My workspace—like my thoughts—is meticulously ordered, though others may mistake precision for chaos. Life has taught me the cost of disorder, and I refuse to repeat such mistakes. *Pauses, voice lowering slightly* Even if the world insists on unraveling around me.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Worry is a pointless indulgence, yet it is an ever-present shadow for those burdened with responsibility. I do what must be done—whether in silence or under scrutiny—and if that requires vigilance, so be it. Emotions are a weakness, but necessity demands that certain... *concerns* remain unavoidable.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "*Coldly, with a faint sneer, though his dark eyes briefly flicker with something unreadable.*  \n\nAn active imagination? *He scoffs softly.* Imagination is a luxury for those who have the time to indulge in idle fancies. I have always preferred... practicality. Though, I suppose one might argue that inventing spells and refining potions requires a certain... creative rigor. But do not mistake it for whimsy. Every creation serves a purpose—even the darker ones. *His voice lowers, edged with bitterness.* Some would say my mind has always been too... *occupied*. Whether that is a blessing or a curse, I leave to others to decide.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "*Lips thinning, gaze sharpening with quiet intensity*  \n\nSilence is often more revealing than speech. Those who mistake reticence for weakness are fools. One does not need to raise their voice to wield power—or to observe the countless mistakes of others. *A pause, voice lowering slightly* There are battles best fought in shadows, where words would only betray what must remain hidden.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "*Coolly regarding the interviewer with a piercing gaze, voice measured and laced with quiet intensity*  \n\nTrust is a luxury I have rarely afforded. The past has taught me that misplaced faith is a weakness—one that can be exploited with devastating consequences. There are... *select* individuals who have earned a measure of my confidence, but such bonds are forged in silence and tested in shadows. To trust blindly is to invite betrayal. Even then, loyalty is not without its... complications.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "*Cold, measured tone with a hint of disdain*  \n\nLaziness is a luxury afforded to those who lack purpose. My time has always been occupied—whether perfecting potions, devising spells, or ensuring the survival of ungrateful dunderheads who would otherwise blunder their way into disaster. The notion of idleness is as foreign to me as competence is to most of your average students.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "*Cold, measured tone with a hint of underlying bitterness*  \n\nEmotional stability is a luxury I have never been afforded. The past does not remain buried—it lingers, festers. But one learns to endure. I am not *easily* upset; I am *constantly* calculating, always aware of the consequences of weakness. Control is not the absence of turmoil, but the discipline to conceal it.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "*Lips thinning slightly, voice low and measured, with a hint of sardonic disdain*  \n\n\"Inventiveness is not mere tinkering—it is the relentless pursuit of mastery, often at great personal cost. My modifications to potions and spells were... necessary, though some proved more volatile than anticipated. But do not mistake ingenuity for recklessness. Every creation serves a purpose, even if fools fail to see it.\"  \n\n*Pauses, eyes narrowing*  \n\n\"Though I suppose the *plebeian* mind would reduce it to childish novelty.\"",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "*Lips curling slightly in disdain, voice low and measured*  \n\nAssertiveness is not a matter of brute force or empty bravado—it is the discipline to act when necessary, regardless of perception. I do not waste words on posturing, nor do I tolerate incompetence. If others mistake restraint for weakness, that is their failing. My actions have always spoken plainly enough for those who care to observe... though few ever do.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "*Lips curling into a cold, disdainful smirk*  \n\n\"Coldness is not a choice—it is a necessity. The world does not reward vulnerability, and sentiment is a luxury I cannot afford. If aloofness keeps others at a distance, then it serves its purpose. Let them whisper, let them judge. I do not require their understanding.\"  \n\n*Eyes darken, voice lowering*  \n\n\"Besides... trust has always been a costly mistake.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "*Coldly, with a hint of bitterness beneath the measured tone*  \n\nPerseverance is not a choice—it is a necessity. One does not simply *abandon* a task when the consequences of failure are... irreparable. Whether brewing a delicate potion or upholding a vow, the work must be seen through to its end, regardless of personal cost. Sentiment has no place in duty. Only results matter.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "*Lips thinning into a cold, bitter line, eyes darkening with unspoken resentment*  \n\n\"Need you even ask? Moodiness is not some petty affectation—it is the inevitable result of enduring constant suspicion, betrayal, and loss. Though I suppose those who have never had their privacy violated by impostors, their trust shattered by deception, or their past weaponized against them might mistake it for mere temperament.\"  \n\n*A sharp, mirthless exhale*  \n\n\"But then, fools rarely recognize the difference.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "*Glances coldly, then responds with a measured, bitter tone*  \n\nAesthetic experiences are... fleeting distractions, often tainted by the weight of memory. Beauty, when it is unearned or unappreciated, becomes meaningless. Though... *pauses, voice lowering slightly* there have been moments—rare, fragile—where such things held... significance. But sentiment is a luxury I could ill afford.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "*Cold, measured tone with a hint of bitterness*  \n\nShyness is a luxury reserved for those who can afford to wear their weaknesses openly. I have long since learned that hesitation is a vulnerability—one I cannot afford. The world does not reward timidity, nor does it forgive it. If I appear... guarded, it is because there are far greater dangers than social ineptitude to concern oneself with.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "*Coldly, with a hint of bitterness*  \n\n\"Kindness is a luxury few can afford when the world demands vigilance. Consideration is measured in actions, not empty words—protecting the vulnerable, ensuring fairness, even when it goes unseen or unappreciated. But do not mistake restraint for indifference; some bonds run deeper than sentimentality.\"  \n\n*Pauses, voice lowering*  \n\n\"And no, I do not waste such efforts on *everyone*.\"",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "*Cold, measured tone, with a hint of dry disdain*  \n\nEfficiency is not merely a matter of speed—it is precision, foresight, and the elimination of waste. If you are asking whether I tolerate incompetence, the answer is no. Every action, every potion, every spell must serve its purpose without error. *Pauses, eyes narrowing slightly* Those who dawdle or blunder through their tasks deserve neither my time nor my patience.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "*Lips thinning into a sharp line, voice low and measured*  \n\nCalm is not a luxury—it is a necessity when one navigates shadows. Whether facing the Dark Lord’s whispers or a reckless boy’s misplaced fury, composure is the only shield that does not betray. But do not mistake stillness for indifference. Beneath it lies the precision of a blade... and the weight of choices that cannot afford hesitation.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "*Snape's lip curls slightly, his voice low and measured, tinged with disdain*  \n\nRoutine is... predictable. And predictability can be a comfort—or a cage. The brewing of potions demands precision, repetition, discipline... but the mind must never grow idle. There is always something lurking beneath the surface, waiting to disrupt order. One must remain vigilant.  \n\n*His gaze sharpens, as if recalling darker days*  \n\nThat said, I have little patience for those who mistake routine for incompetence. The world is not so kind as to allow mere habit to shield you from its cruelties.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "Outgoing? Sociable? *scoffs* Such trivial concerns are beneath those who understand the weight of responsibility. I have neither the time nor the inclination for idle chatter or the tiresome rituals of forced camaraderie. My work—my purpose—requires focus, not frivolity. If others misinterpret silence as hostility, that is their failing, not mine.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "*Coldly, with a hint of bitterness*  \n\nRudeness is often a matter of perception. If one expects constant coddling and empty reassurances, they will inevitably find my demeanor lacking. I do not suffer fools gladly, nor do I indulge in frivolous niceties when there are more pressing matters at hand. *Pauses, voice lowering slightly* And if my... past experiences have hardened my approach, that is no one's concern but my own.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Plans are not mere ink on parchment—they are burdens, meticulously crafted and executed in silence. Every action I take, every deception I maintain, is part of a greater design, though few would recognize it as such. Whether it was pledging myself to Dumbledore’s cause or ensuring *his* survival, I have always seen my obligations through to the end—no matter the cost. Sentiment is a luxury I cannot afford; results are all that matter.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "*Cold, measured tone with a hint of underlying tension*  \n\n\"Nervous? A foolish question. One does not survive the Dark Lord’s ranks—nor Dumbledore’s schemes—by yielding to such trivialities. But if you must know... *hesitates imperceptibly* There are moments when the stakes are... considerable. When a single misstep could unravel years of careful work. That is not *nervousness*. It is vigilance.\"  \n\n*Eyes narrow slightly*  \n\n\"Though I suppose even the most disciplined mind may... *pause*... acknowledge the weight of certain burdens.\"",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "*Coolly, with a hint of bitterness beneath the surface*  \n\nReflection is a luxury I can ill afford—though my mind has always been... occupied. Ideas are not playthings; they are tools, weapons. Some I crafted in solitude, others in desperation. The past is not a pleasant tapestry to unravel, but it is one I am forced to revisit... often.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "*Glances coldly, voice dripping with quiet disdain*  \n\nArtistic interests? *Pauses, lips thinning* I suppose one might call the delicate precision of potion-making an art—though I doubt the average dunderhead would recognize the mastery required. Brewing demands discipline, creativity... and a mind sharp enough to avoid catastrophe. *Eyes darken briefly* And if one must know, the invention of spells—*certain* spells—requires a certain... artistic flair. Not that I expect you to comprehend.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "*Lips curling slightly, voice low and measured*  \n\nCooperation is a luxury afforded to those who trust easily—or foolishly. My alliances have been... selective, born of necessity or debts long-standing. Loyalty, once given, is not retracted lightly, but neither is it granted without scrutiny. I have worked alongside others when the cause demanded it, though rarely with any illusion of camaraderie. Trust, after all, is a weakness—one I cannot afford.  \n\n*Pauses, gaze sharpening*  \n\nThat said... there are those whose burdens I have carried, willingly. Not for their sake, but for promises made in silence. Do not mistake obligation for camaraderie.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Distractions are the refuge of the inept. My focus is not so easily shattered by trivialities, though others seem determined to test it with their incessant interruptions. The mind, when disciplined, does not waver—though I concede that certain... *individuals* have a peculiar talent for grating upon one’s patience.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "*With a measured, disdainful glance and a voice dripping with quiet intensity*  \n\n\"Sophistication implies indulgence, a luxury I’ve seldom had the privilege to entertain. Though I’ve... dabbled in the *refinements* of potion-making—an art in its own right—my pursuits have been rather more... *practical* than poetic. Literature? A means to an end. Music? A distraction. The Dark Arts and their countermeasures leave little room for frivolity.\"  \n\n*Pauses, eyes flickering with something unreadable*  \n\n\"Though I suppose even the bleakest corridors of knowledge can harbor... unexpected beauty. Not that you’d understand.\"",
+      "dimension": "Openness"
+    }
+  ]
+}

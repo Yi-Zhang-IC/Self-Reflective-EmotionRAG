@@ -1,0 +1,45 @@
+{
+  "character": "luna_lovegood",
+  "backend": "deepseek",
+  "response_file": "luna_lovegood_1_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        3.8,
+        3.8
+      ],
+      "average_score": 3.8
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "average_score": 5.0
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        2.3,
+        3.7,
+        1.5
+      ],
+      "average_score": 2.5
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        2.0,
+        1.5
+      ],
+      "average_score": 1.75
+    },
+    "Openness": {
+      "batch_scores": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "average_score": 5.0
+    }
+  }
+}

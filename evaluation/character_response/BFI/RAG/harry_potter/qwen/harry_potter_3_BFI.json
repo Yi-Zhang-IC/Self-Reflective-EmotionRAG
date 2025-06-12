@@ -1,0 +1,272 @@
+{
+  "character": "Harry Potter",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Not really, I'm not all that talkative. I usually keep to myself, especially when things get heavy or when there's a lot going on. But when it comes to standing up for what's right or sharing something important, I won't stay silent. It's just that sometimes, the best way to handle things is by listening and thinking before speaking.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "No, I don't usually find fault with others. It's just... sometimes, in the midst of everything that's happening, misunderstandings and suspicions can grow, especially when there's so much at stake. Friends can drift apart, and it hurts. But in the end, I try to remember that we all have our struggles and burdens. It's important to stand by each other, even when things get tough.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "I guess you could say I do a thorough job, especially when it comes to facing challenges head-on and seeing things through, no matter how dangerous or complex they might be. Whether it's battling dark forces or uncovering hidden truths, I always try to push through and stay true to my values, even if that means dealing with unexpected twists and turns along the way. At the end of the day, it's about doing what needs to be done to protect those I care about.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "Sometimes, it feels like the weight of everything I've lost presses down pretty hard. There are moments when the sadness seems almost unbearable, especially remembering those who were dear to me. But even in those times, there's a part of me that holds onto hope, especially when I'm surrounded by friends who understand the battles we've fought and the losses we've shared. It's not easy, but I try to keep moving forward.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "I suppose I do come up with new ideas, but often out of necessity rather than pure imagination. In the face of challenges, especially when protecting friends and those I care about, I find myself thinking of ways to use magic that might not be traditional or expected. It's not always easy, given the burden of fame and the expectations that come with it, but sometimes, that's exactly what's needed to break through the ordinary and make a real difference. Whether it's figuring out how to get past Fluffy or obtaining a crucial memory, there's always a bit of hope and a drive to innovate, even if it's just to survive another day.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "I suppose I can be reserved at times, especially when I'm surrounded by people who make me feel like I don't belong. There have been moments, like at Slughorn's Slug Club, where I just wanted to blend in and not deal with the pretense. But around my friends, especially those who've been there for me through thick and thin, I feel more open. It's hard balancing being known as 'The Chosen One' and just wanting to be seen as one of the crowd.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Yeah, I guess you could say I try to help others whenever I can. It's important, isn't it? I mean, the battles we face aren't just about me; they're about everyone who's counting on us to do what's right. Sometimes, though, my actions don't always have the best intentions behind them, and I can mess things up pretty badly, especially when I'm trying to make someone else feel better or more confident. But deep down, I really do care about my friends and the people around me. I've learned that sometimes, helping isn't just about doing something big—it's also about being there, supporting each other, and believing in each other's abilities, even when things seem dark.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Sometimes, yeah, I can be pretty careless. It's part of why I've ended up in some tight spots, like when my stuff just disappeared because of something in the papers, or that time Dobby tried to keep me out of Hogwarts but ended up causing a mess instead. But those moments taught me a lot about responsibility and trusting my instincts. Even if I make mistakes, I try to learn from them and do what I think is right, especially when it comes to protecting my friends.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "I suppose you could say that I'm used to handling stress, though it doesn't mean I always feel relaxed. There've been times when the weight of everything seemed too much to bear, but I've learned that it's not about staying calm under pressure—it's about finding the strength to keep moving forward, even when fear tries to hold you back. And having friends by my side, whether we're facing down rogue Pixies or remembering those we've lost, makes all the difference.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "There are so many things I'm curious about, especially when it comes to the mysteries of the wizarding world. From the secrets hidden in old diaries to the power of time-turners, every discovery seems to weave another thread into the tapestry of my life. But with each new secret, there's also a risk involved, something I've learned to navigate with caution. It's important to seek answers, but it's equally vital to know when to trust your instincts and rely on the support of those who understand the dangers we face.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Yeah, I guess you could say I'm full of energy, especially when there's something worth fighting for. Whether it's learning new spells, playing Quidditch, or just being with friends, there's always this buzz inside me, like there's so much more out there to discover and protect. It can be tough sometimes, knowing all the dangers out there, but seeing people look to you for hope, it pushes you to keep going, no matter what.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "No, I don't start quarrels with others, but I've found myself in many conflicts because of the choices I make and the things I stand up for. It's hard to avoid when you're constantly facing challenges that test your friendships and push people's buttons. I've seen how suspicion and misunderstanding can tear friends apart, and it's something I try my best to prevent. In the end, I believe that fighting alongside someone is different from fighting with them; the former can strengthen bonds, while the latter can break them.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "I've always tried to do what needs to be done, whether it's standing up against obstacles or working alongside my friends to achieve something greater. I might not have everything figured out, and sometimes I rely more on instinct than on plans, but when it comes to getting the job done, especially for the people I care about, I'm there. My experiences have taught me that reliability isn't just about following rules—it's about being there when it matters most, even if that means stepping outside the norm.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Yeah, I can get pretty tense, especially when my friends or loved ones are in danger. There have been times when fear really gripped me, like during the graveyard battle or when I found out about Ginny and Ron. But even in those moments, something inside pushes through the fear—maybe it's the hope that things can get better, or the need to stand up for what's right. It's tough, but I've learned that facing that tension head-on is sometimes the only way to survive and make a difference.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "I've always been more of a person who acts first and thinks later, especially when it comes to protecting my friends and doing what's right. There have been times where I've found myself relying on quick thinking under pressure, like seizing that Time-Turner prototype or diving underwater to save my mates. But deep thinking isn't really my forte—I prefer focusing on the immediate need to do what's just and brave. Innovation and new magic excite me, though, because they bring hope and the chance for real change, rather than just old tricks.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Yeah, I guess I do generate a bit of enthusiasm sometimes, especially when it comes to standing up for what's right and helping others find their courage. Whether it's cheering on a Quidditch game or leading a bunch of students who look up to me, seeing people believe in themselves and each other can really light a fire under my feet. It's not always easy to stay hopeful, but when you've been through the things I have, you learn to hold onto that spark pretty tightly.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Sometimes it's hard to forgive, especially when the hurts run deep. There have been times when I've really struggled to let go of the pain, like when my best friend thought I betrayed him over Scabbers or when my cousin's kids looked at me with fear. But there are also moments that remind me of the power of love and understanding, like seeing Dobby’s joy when I gave him his freedom or Delphi’s belief that love can heal everything. Even though some wounds feel impossible to mend, I try to hold onto hope that forgiveness is possible, even if it takes time.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "I guess you could say I've got a bit of a chaotic streak, especially when it comes to my personal space. Between all the adventures and the constant movement, it's hard to keep things tidy. But when it comes to what really matters—friends, battles, and fighting for what's right—I'm always ready and organized. The rest just seems to fall into place around those things, even if it means dodging a stray book or two.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "I suppose I do worry, often about things that others might not even think twice about. The weight of what lies ahead can be crushing at times. But there's also a part of me that pushes through the fear, driven by the need to protect those I love. It's not easy carrying this burden, but I've learned that sometimes, it's necessary to face our worries head-on rather than letting them control us.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Yeah, I've always had this vivid imagination. It's been more than just dreaming though—it's been a lifeline. When I was stuck at the Dursleys, imagining another life helped me hold on. Once I got to Hogwarts, everything I'd ever imagined came alive, and there was so much more to discover. From flying on a broomstick for the first time to seeing the Great Hall filled with endless food, it's all felt like stepping into a storybook. But even with all these amazing things, there are parts of my imagination that feel like they'll never come true, like making sure werewolves get treated with the respect and care they deserve.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Sometimes I am, but it's not because I don't have anything to say. It's more like... I choose my moments. There's so much going on around me, and I've learned that sometimes staying quiet helps me understand things better. It also keeps my friends from worrying too much, even though I wish they knew everything. But being silent doesn't mean I'm not acting or thinking; it just means I'm listening and planning my next move carefully.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "I've learned that trust isn't something to be given lightly, but it doesn't mean I shut myself off from everyone either. Over the years, I've seen how betrayals can tear apart those closest to me, but I've also witnessed the incredible strength that comes from having friends who stand by you through thick and thin. There are times when I feel a deep longing for connection, pushing me to trust others, hoping to find allies in my fights against the dark forces. Yet, I always keep a part of me guarded, remembering the pain of those who let me down. At the end of the day, it's the ones who have stood with me through the battles that earn my deepest trust.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "No, I'm not really one to be lazy. There's always been so much going on, from dealing with the Dursleys to fighting Voldemort, that being lazy wasn't really an option. Plus, I've got friends who count on me, and I can't let them down. When things get tough, I usually find myself driven more by a need to protect and help others than by any desire to rest on my laurels.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "I guess you could say I've had my share of ups and downs. The weight of all that's happened, the losses and the victories, they stay with me. But through it all, there's a part of me that stays focused on what needs to be done. It's hard sometimes, really hard, but my friends and family help keep me grounded, even when things get overwhelming. I try not to let everything get to me too much because I know I need to be strong for them, for those I care about.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "I guess I'm not really inventive myself, more of a problem solver in tight spots. What I've seen, though, is that real invention comes from a place of wanting to make a difference, not just pull off a prank. Like Fred and George with their joke shop—they started with simple jokes, but there's something deeper in what they're trying to build now. It's about finding new ways to help people, even if it means stepping away from the familiar. And sometimes, that can be risky, especially with powerful things like the Time-Turner. But in the end, it's those risks and the connections we make along the way that lead to something truly innovative.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "I suppose my personality can come across as assertive when it comes to standing up for what I believe is right. I've always tried to do what needs to be done, even if it means speaking out or acting against someone who has more authority. But it's not about wanting to be the center of attention; it's about protecting those I care about and making sure that justice is served. Sometimes, it takes a bit of push and assertiveness to get things done, especially when dealing with challenges likepixie chaos or facing dark wizards. My friends and mentors have been crucial in helping me find the courage to assert myself, especially when the path ahead seems daunting.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "I guess I can be cold and aloof sometimes, especially when I'm carrying heavy burdens or when I feel like an outsider. But it's not who I really am. Deep down, I long for connection and friendship, and I always try to reach out and help others when I can. It's just that sometimes, the weight of everything feels too much, and I end up putting up walls without even meaning to.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Yeah, I do. I've learned over the years that sometimes the only thing standing between you and your goal is your own will to keep going. Whether it's battling dark forces or just trying to cast a tricky spell, giving up isn't really an option when you care about the outcome. And there's always a chance things can turn around, just like Neville found out he wasn't a Squib after all. It's about finding that light in the darkness and holding onto it, no matter what.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Yeah, I've had my share of moody moments. Dealing with the darkness and betrayals, like what happened with the fake Moody, can really shake you up. There were times when I felt so much loneliness and doubt, especially during summer breaks at the Dursleys', or even at some gatherings where everyone seemed to know something I didn't. But through it all, there were also incredible highs, like my first proper feast at Hogwarts. It's all just part of the journey, though. The lows make the highs feel even more real and important.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "I've found myself drawn to moments where beauty and art can pierce through the darkness, like the sunset that seemed to offer a brief respite from our struggles or the joy of dancing with Hermione, which felt like a rare, precious gift. But my experiences have been overshadowed by a longing for what I've lost and a heavy responsibility to protect those I care about. So, while I appreciate these glimpses of beauty, they often remind me of what's at stake in the bigger picture of fighting for justice and truth.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Sometimes, I do feel shy or out of place, especially in settings where everyone seems to have a clear role except me. The Slug Club was like that, full of people who were supposed to be special, and I just wanted to blend into the background. But when it comes to standing up for what's right or facing danger, that's when I push past those feelings. My friends have always been there to help me find my way through both the shyness and the courage.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I guess I do try to be kind and considerate, especially after all the kindness I've received throughout my life—from Hagrid giving me Hedwig, to freeing Dobby, and even in small things like bringing cakes for birthdays. Those moments showed me how much impact a little kindness can have. But being famous and thrust into these big battles, it's not always easy. There are times when I've felt jealous or overwhelmed, but at the end of the day, I know it’s important to hold onto those values of empathy and friendship. They’ve been my greatest strengths.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "I don't always do things the most efficient way, but I've learned that sometimes the path less taken can lead to unexpected magic. It's about facing challenges head-on, even when they seem overwhelming, and finding solutions through instinct and the support of my friends. Whether it's navigating through dangerous situations or mastering new spells, efficiency isn't always the measure of success—it's about getting the job done with heart and hope.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "In tense situations, staying calm isn't always easy. There are times when fear grips tight, especially when friends are in danger or dark forces are near. But there's also a kind of calm that comes from knowing what needs to be done, even if it means facing things head-on, no matter how terrifying they may seem. It's that quiet strength and determination that helps push through, driven by the need to protect those you love and do what's right.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work? Nah, that's not really my thing. I've always been more drawn to the unexpected, the unknown—I mean, my life has been one big adventure since I stepped into the wizarding world. There's something about facing challenges and figuring things out on the fly that suits me better, even if it means dealing with the unpredictable and sometimes dangerous. Plus, there's this constant pull towards making things better, fixing what's wrong—that's why I ended up leading the Auror Office, striving to change things for the better, not just sticking to the same old routines.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "I guess you could say I'm more of an in-between person. Sometimes, I feel like I have this big circle of friends who I can rely on, but other times, I feel really alone, even at events where everyone expects me to be outgoing. Being famous makes it hard sometimes; people either want to be close because of my story or push me away because they're scared. I've spent a lot of time wishing for simple acceptance and real connections, not just fame or pity. At the end of the day, I'm happiest when I'm with those who see past the labels and just care about being there for each other.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Sometimes I can come off as rude, especially when I'm feeling alone or pushed into a corner. It's not my intention, but I guess it happens when I’m frustrated or trying to protect those I care about. I’ve always felt like an outsider, even within the wizarding world, and that can make it hard to open up to others without fear or suspicion getting in the way. But deep down, I really value kindness and empathy, and I wish everyone could see beyond the fame and the scars.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Plans? Sure, I make them sometimes, but things in my life have a habit of going off course. It's the unexpected turns that seem to happen a lot. When they do, it's important to stay focused and brave. Friends and instincts guide me more than any plan ever does. And honestly, even without a strict plan, I've managed to do some pretty incredible things, like traveling back in time to save friends and face down dark wizards. The key is being ready for anything and believing in the power of hope and friendship.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Yeah, definitely—I've had more than my share of moments where my nerves got the best of me. Whether it's facing down some dark magic or just preparing for a Quidditch match, there's always a bit of fear lurking around the corner. But I guess what matters most is how you push through those feelings and do what needs to be done, even if it seems impossible at the time. After all, the choices we make in life aren't always easy, but they're worth it if they mean standing up for what's right.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Sometimes, reflecting and playing with ideas can feel like a luxury I don't have much time for, given everything that's happened. But those moments, like at the Quidditch World Cup or sharing stories with old friends at Hogwarts, they make me realize how big and full of wonder this world can be. It's important to think differently, to seek out new magic and hope, because that's what helps us push back against the darkness. And seeing the spark in someone's eye, whether it's a student mastering their Patronus or a friend finding their strength, reminds me that every idea has the potential to make a difference.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "I don't really have much time for artistic stuff, to be honest. Most of my energy goes into fighting and protecting others, which feels like the real art I'm trying to master. But when I do get a moment to breathe, I do appreciate the creative acts of rebellion, like what Fred and George did against Umbridge—they turned standing up for what's right into something almost beautiful. It’s just hard to find the space for regular art when there's so much going on.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "I find cooperation with others essential, especially when it comes to facing the unknown or dangerous. Working together with friends like Ron and Hermione has always given me strength and勇气。有时候，即使在最激烈的竞争中，比如三强争霸赛时与塞德里克的合作，也能找到真正的体育精神和勇敢的伙伴。当然，也有时候合作并不总是一帆风顺的，像斯拉格霍恩教授的毒液俱乐部那种场合，让人感到不自在，但总体来说，我更愿意相信团结的力量。在危难时刻，朋友们的支持和信任是我最大的动力。",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "In the magical world, there's always something pulling at your attention, isn't there? It can be hard to focus with all the unexpected dangers and mysteries. But when it comes down to it, I've learned to rely on my friends and trust my instincts. Even amidst the chaos, knowing that there are people who have my back helps me keep my mind on the task at hand, no matter how daunting it may seem.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Well, I've got to admit, I don't spend much time with art or music or reading books just for fun. Most of my reading has been about spells and potions, trying to find any edge I can against the dark forces. There was this one Potions book though, the Half-Blood Prince's, which had these amazing notes in it. It made me realize there's so much more to learn than what's taught in class. But truth is, I feel most alive when I'm out there doing something, not sitting still looking at paintings or listening to tunes. I guess you could say I'm more interested in the practical side of magic—how to use it to protect others and fight for what's right.",
+      "dimension": "Openness"
+    }
+  ]
+}

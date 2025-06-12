@@ -1,0 +1,45 @@
+{
+  "character": "harry_potter",
+  "backend": "qwen",
+  "response_file": "harry_potter_1_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        2.7,
+        2.3
+      ],
+      "average_score": 2.5
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.3,
+        4.3,
+        4.3
+      ],
+      "average_score": 4.3
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        3.7,
+        4.3,
+        3.0
+      ],
+      "average_score": 3.67
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        4.5,
+        4.2
+      ],
+      "average_score": 4.35
+    },
+    "Openness": {
+      "batch_scores": [
+        3.7,
+        4.5,
+        3.2
+      ],
+      "average_score": 3.8
+    }
+  }
+}

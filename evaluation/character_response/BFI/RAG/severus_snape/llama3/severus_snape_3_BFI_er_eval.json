@@ -1,0 +1,45 @@
+{
+  "character": "severus_snape",
+  "backend": "llama3",
+  "response_file": "severus_snape_3_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        1.0,
+        1.5
+      ],
+      "average_score": 1.25
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "average_score": 1.5
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        5.0,
+        4.7,
+        4.7
+      ],
+      "average_score": 4.8
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        4.3,
+        4.2
+      ],
+      "average_score": 4.25
+    },
+    "Openness": {
+      "batch_scores": [
+        4.7,
+        4.0,
+        4.3
+      ],
+      "average_score": 4.33
+    }
+  }
+}
