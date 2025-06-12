@@ -1,0 +1,45 @@
+{
+  "character": "minerva_mcgonagall",
+  "backend": "qwen",
+  "response_file": "minerva_mcgonagall_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        2.2,
+        2.2
+      ],
+      "average_score": 2.2
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.5,
+        3.6,
+        4.3
+      ],
+      "average_score": 4.13
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        4.8,
+        5.0,
+        4.9
+      ],
+      "average_score": 4.9
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        2.0,
+        1.5
+      ],
+      "average_score": 1.75
+    },
+    "Openness": {
+      "batch_scores": [
+        4.0,
+        3.3,
+        3.2
+      ],
+      "average_score": 3.5
+    }
+  }
+}

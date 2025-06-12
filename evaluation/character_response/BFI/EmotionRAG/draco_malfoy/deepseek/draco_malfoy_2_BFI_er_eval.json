@@ -1,0 +1,45 @@
+{
+  "character": "draco_malfoy",
+  "backend": "deepseek",
+  "response_file": "draco_malfoy_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        3.2,
+        3.7
+      ],
+      "average_score": 3.45
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        1.8,
+        1.5,
+        2.3
+      ],
+      "average_score": 1.87
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        4.0,
+        4.5,
+        4.2
+      ],
+      "average_score": 4.23
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        4.7,
+        4.5
+      ],
+      "average_score": 4.6
+    },
+    "Openness": {
+      "batch_scores": [
+        3.7,
+        4.0,
+        3.5
+      ],
+      "average_score": 3.73
+    }
+  }
+}

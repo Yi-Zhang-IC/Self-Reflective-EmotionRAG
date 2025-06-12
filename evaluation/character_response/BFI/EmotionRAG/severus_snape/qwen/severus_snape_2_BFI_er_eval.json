@@ -1,0 +1,45 @@
+{
+  "character": "severus_snape",
+  "backend": "qwen",
+  "response_file": "severus_snape_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        1.5,
+        1.0
+      ],
+      "average_score": 1.25
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        2.0,
+        2.0,
+        1.5
+      ],
+      "average_score": 1.83
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        5.0,
+        5.0,
+        4.7
+      ],
+      "average_score": 4.9
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        4.7,
+        4.2
+      ],
+      "average_score": 4.45
+    },
+    "Openness": {
+      "batch_scores": [
+        4.5,
+        4.3,
+        2.3
+      ],
+      "average_score": 3.7
+    }
+  }
+}

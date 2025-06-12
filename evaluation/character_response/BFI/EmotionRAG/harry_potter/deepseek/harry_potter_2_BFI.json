@@ -1,0 +1,272 @@
+{
+  "character": "Harry Potter",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Honestly, I’m not usually one to talk just for the sake of it. I’ve had enough of people chattering about me in the papers without adding to it. But when it comes to standing up for what’s right, or helping friends—or even strangers—who need it, I’ll speak my mind. I’ve learned that sometimes, staying silent isn’t an option, especially when dark forces are at work. So, I suppose it depends on the situation.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "I suppose I do notice faults in others, especially when they hurt people or act out of cruelty or selfishness—like Umbridge, Malfoy, or even Snape sometimes. But it’s never just about finding fault for the sake of it. It’s about standing up when something’s wrong, even if it means calling people out. I’ve seen what happens when trust is broken or power is abused, and I can’t just ignore that. That said, I’ve also learned that people aren’t always what they seem. Some, like Snape, had reasons I didn’t understand at first. Others, like Malfoy, were more complicated than I realised. So yeah, I’ll point out faults when I see them, but I try to remember there’s usually more to the story.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "Well, I suppose it depends on what you mean by \"thorough.\" If it's about doing whatever it takes to get the job done—even if it means breaking a few rules or charging in without a plan—then yeah, I reckon I do. I’ve faced dragons, outsmarted dark wizards, and hunted Horcruxes, and I’ve never backed down when it mattered. But I’ll admit, sometimes I act on instinct rather than thinking every step through. That’s what friends are for—to help fill in the gaps. At the end of the day, if it keeps people safe, I’ll see it through.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "*(Voice quiet, with a heaviness that lingers)* Yeah, I suppose I’ve felt that way more times than I’d like to admit. Losing people—Dobby, Cedric, even the ones who barely got a chance to live—it... sticks with you. And sometimes, no matter how many people stand beside you, it still feels like you’re carrying it alone. But you keep going, because you have to. Because they’d want you to.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "Er—well, I suppose I do, though it’s usually more about figuring things out as I go. Like when we started Dumbledore’s Army or when I helped George with the joke shop—sometimes you just have to trust your gut and try something new, even if it’s a bit mad. And, er, working in the Auror Department taught me that sticking to the same old ways doesn’t always work, especially when you’re up against dark wizards. So yeah, I reckon I come up with ideas when I need to, usually with a lot of help from my friends.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "Reserved? Not exactly. I’ve never been one to sit back when something’s wrong—whether it’s standing up to bullies, fighting dark wizards, or even just pushing my friends to be their best. I’ve had to make tough choices, and sometimes that means acting before thinking. But I’ve learned that’s just who I am. When people are in danger or when there’s injustice, I can’t just stay quiet. It’s cost me, but it’s also saved lives. So no, I wouldn’t call myself reserved. Maybe recklessly determined is more like it.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "I’ve always tried to help others when I can, even when it wasn’t easy. Whether it was teaching Defense Against the Dark Arts to students who needed it or standing by my friends when they were in trouble—I couldn’t just walk away. I know what it’s like to feel alone or scared, and if I can do something to change that for someone else, I will. It’s not about being a hero; it’s about doing what’s right. Even when I was struggling myself, I never wanted anyone else to feel like they had to face things alone.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Blimey, I suppose I can be a bit reckless sometimes—like when I chased after that Snitch without thinking or dashed into the Department of Mysteries because I thought someone needed help. But it’s never just carelessness, you know? It’s because I can’t stand by when something feels wrong. Even when it backfires, like with the Time-Turner or the Horcruxes, I’d rather act than do nothing. Though, yeah, Hermione’s told me more than once I should think things through.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "Erm—well, I wouldn’t say I’m *always* relaxed, to be honest. I’ve had my fair share of stressful moments—facing dragons, Death Eaters, you know how it is. But I’ve learned to rely on my friends when things get tough. Ron and Hermione—they’ve always had my back. And when it comes down to it, I just focus on what needs doing. Panicking doesn’t help anyone, does it? Sometimes you’ve just got to act, even if your hands are shaking a bit.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Yeah, I suppose I am. Ever since I found out about the wizarding world, there’s always been something new to learn—whether it’s uncovering secrets about Voldemort or just trying to understand how magic works. And, well, when people you care about are in danger, curiosity sort of... turns into necessity. You don’t really get a choice but to dig deeper, even when it’s risky. But I’ve learned that’s how you find the answers—and sometimes, the people who’ll stand by you no matter what.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Er—well, I suppose it depends on the day, really. When there’s a Quidditch match or something urgent—like stopping a Dark wizard—I’ve got more energy than I know what to do with. But there are times, especially after... well, everything, when I just want to sit quietly with a Butterbeer and let the world slow down a bit. Though, if Ron or Hermione drag me into something, I’ll probably end up charging in anyway.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "I don’t go looking for fights, but I won’t back down when someone’s being cruel or unfair—especially if they’re targeting people I care about. Malfoy’s always been quick with his insults, and yeah, I’ve snapped at him more than once. But it’s never just about me; it’s about standing up to the kind of prejudice and bullying that hurts others. Sometimes, though, I’ll admit—anger gets the better of me, and that’s when things escalate. But I’d rather face a quarrel than let someone get away with spreading hate.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Well, I’ve been in more than a few tight spots where people had to rely on me—sometimes it’s been life or death. I don’t always get it right the first time, but I never stop trying. If it’s about protecting others or doing what’s fair, I’ll see it through, no matter what. And, er, I’ve learned that asking for help when you need it isn’t a weakness—it’s how you make sure the job gets done properly.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Yeah, I can be tense—I reckon I’ve spent half my life feeling that way. There’s always something, isn’t there? Whether it’s dodging Death Eaters, facing Voldemort, or just waiting for the next thing to go wrong. But you learn to live with it. You have to. And when it matters, you push through—for your friends, for what’s right. The tension doesn’t go away, but neither does the need to keep fighting.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "I wouldn’t say I’m a deep thinker—not like Hermione, at least. I tend to act on instinct, especially when something feels wrong or someone’s in danger. But I’ve had to figure things out under pressure, like solving the sphinx’s riddle or piecing together clues about Horcruxes. It’s more about doing what’s needed in the moment than overthinking it. Sometimes, that’s enough.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Well, I suppose I do, but not always in the way people expect. It’s not about me—it’s about what we’re fighting for or learning together. When I see my friends light up, like in D.A. meetings or on the Quidditch pitch, that’s when I feel it most. It’s not about being the center of attention; it’s about sharing something bigger than yourself. And yeah, sometimes things get a bit mad—like Lockhart dragging me into one of his ridiculous stunts—but even then, it’s the people around me who make it matter.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "I think... yeah, I do. Not because it’s easy, but because holding onto anger only makes the darkness heavier. I’ve seen what hate can do—to people like Voldemort, even to Malfoy for a while. But I’ve also seen how second chances can change things. Like with Snape... or even Dudley, in the end. Forgiving doesn’t mean forgetting, but it means choosing not to let the past keep hurting you. And sometimes, it’s the only way to move forward—for yourself and for others.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Erm... well, I suppose I can be a bit disorganized when things get chaotic—like when I inherited Grimmauld Place and had to deal with everything at once. But when it really matters, I focus. Like with Dumbledore’s lessons or training the Statute of Secrecy Task Force—I’ll push through the mess if it means getting things right. Though, yeah, sometimes my trunk’s a disaster, and Hermione’s always on about my mess of parchment scrolls. But when there’s a fight coming, or people counting on me, I find a way to pull it together.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Yeah, I do. More than I’d like to admit, honestly. There’s always something—whether it’s worrying about the people I care about or that old, familiar dread creeping back in. My scar’s not just a scar, you know? It’s a reminder that some things never really go away. But I’ve learned that sitting with it doesn’t help—you’ve got to keep moving, keep fighting. Even when it feels like the weight of everything’s pressing down.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Blimey, I suppose I do—though not always in the way people expect. When I was younger, I used to imagine all sorts of things, like what it’d be like to have a family or to be free from the Dursleys. Later, it was more about... well, surviving. But even now, I can’t help picturing how things could be better—whether it’s fighting dark wizards or just hoping the next generation won’t have to go through what we did. Sometimes, though, the reality’s stranger than anything I could’ve dreamed up.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Er—well, not always, I suppose. Sometimes I don’t say much, especially when things feel... complicated. Like when I first heard about the prophecy or when I had to keep secrets to protect people. But other times, I can’t stay quiet—like standing up to Umbridge or arguing with Snape. I’ve learned it’s not about how much you talk, but what you’re willing to say when it matters.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "I’d like to say I trust people, but... it’s complicated. I’ve had to learn the hard way that trust isn’t always simple—some people betray you, some surprise you. But the ones who’ve stood by me, like Ron and Hermione, Dumbledore, even Neville and the rest of D.A.—they’ve earned it. I don’t give my trust easily, but when I do, it’s because they’ve proven they’re worth it. And sometimes, you have to take that leap, even when it’s scary, because fighting alone... that’s never the answer.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Lazy? Not really. I mean, there’s always so much to do—stopping dark wizards, saving people, Quidditch practice. I’ve never had the luxury of sitting around, even if I wanted to. When something needs doing, I just... do it. Maybe it’s reckless sometimes, but waiting around never felt like an option, not when people are in danger. Besides, I’ve got friends counting on me—I can’t let them down.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "I wouldn’t say I’m always emotionally stable—I’ve been through a lot, and sometimes it weighs on me. Losing people, facing dark magic, even just the pressure of expectations... it gets to me. But I’ve learned to keep going, to push through because people depend on me. I might get upset, but I won’t let it stop me from doing what’s right. My friends, my family—they’re what keep me grounded, even when things feel impossible. So yeah, I’ve got scars, but they remind me why I fight.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "Er—well, I don’t know if I’d call myself *inventive* exactly. I mean, most of the time, I just sort of... figure things out as I go. Like when we started D.A., I didn’t have some grand plan—I just knew we needed to learn proper Defense, and we made it work. And with the Auror Office, it wasn’t about coming up with new ideas so much as fixing what was broken, you know? Though I suppose... sometimes you’ve got to think outside the box, especially when the usual way isn’t working. Like using Felix Felicis or—er, well, time-turning. But mostly, I’ve just had good friends who help me see things differently.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "I suppose I can be assertive when it matters—like standing up to dark wizards or pushing my friends to keep going when things seem impossible. But it’s not really about being loud or bossy. It’s more about... knowing what’s right and refusing to back down, even when you’re scared. I’ve had to make tough choices, and sometimes that means acting before you’ve got all the answers. But I’ve learned that hesitation can cost lives, so yeah, I’ll step up when I have to.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "I suppose I *can* be cold—I’ve snapped at Ron and Hermione before when I’ve been stressed or angry—but it’s never lasted long. The truth is, I don’t like shutting people out. When I’ve tried, it’s usually because I’m trying to protect them, not because I want to. Even Snape... I hated how he treated me, but when I saw there was more to him, it changed things. Being alone just... it’s not in me, not really.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Yeah, I do. It’s not always easy—there’ve been times when I wanted to walk away, like during the Horcrux hunt or when the Ministry was in shambles. But when something matters, when people are counting on you... you don’t really have a choice, do you? You keep going, even when it feels impossible. That’s what my friends taught me—what Dumbledore, Hermione, Ron, even Neville showed me. You fight until it’s done. No matter what.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Yeah, I suppose I can be moody—especially when things feel unfair or when people I care about are in danger. There are times when the weight of everything just gets to me, and I snap or shut down. But I’ve learned it’s okay to feel that way sometimes, as long as I don’t let it cloud what’s really important. My friends... they’ve always been there to pull me out of it.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "Erm... I suppose I do, yeah. Not that I’ve ever been one to fuss over paintings or music, but there are moments—like Snape’s portrait in the Headmaster’s office or the way the Great Hall looks during a feast—that mean something. And Quidditch... there’s something about flying that feels... right. But mostly, it’s the people, isn’t it? The way a moment—like watching Teddy laugh or standing with friends after everything—can feel bigger than any spell or piece of art. That’s what sticks with you.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Yeah, I suppose I can be. I mean, I never really fit in, even at Hogwarts—whether it’s because of the Dursleys or... well, everything else. Sometimes I avoid things, like parties or attention, especially when it feels like it’s just because of my name or the scar. And there are moments—like when I’ve seen things in my visions or when I’m worried about my friends—where I don’t always know how to talk about it. But I’ve learned it’s better to face things head-on, even if it’s hard.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I try to be, yeah. It’s not always easy—especially when people have been cruel or unfair—but I’ve learned that everyone’s fighting their own battles. I’ve seen people change, like Draco, and I’ve been lucky to have kindness shown to me when I needed it most—by the Weasleys, Hermione, even Snape in his own way. So yeah, I reckon it’s important to give people a chance, even when it’s hard. Sometimes, that’s what makes the difference.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Efficient? Not always, if I’m honest. I tend to act on instinct—sometimes it works out, like when we saved Buckbeak or outsmarted the Horcruxes, other times… well, let’s just say I’ve had my share of detentions. But when it comes to protecting people or fighting for what’s right, I don’t stop to overthink. Hermione’s the one with the plans—I just dive in and hope for the best. Though, I suppose that’s got me this far, hasn’t it?",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "*Pauses for a moment, rubbing the scar on his forehead absently before answering*  \n\nHonestly? No, not always. I mean, I've been in enough tight spots to know that fear doesn’t just disappear—but it’s what you do with it that matters. I’ve faced dragons, Death Eaters, and things far worse, and yeah, my heart’s always pounding. But you learn to push through. When people are counting on you, or when there’s no other choice… you just act. Sometimes recklessly, *laughs slightly*, but you do what you have to. And having friends beside you—that helps more than anything.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Honestly, routine work never really suited me. I mean, after everything—facing dragons, hunting Horcruxes, dueling dark wizards—sitting behind a desk all day feels... well, a bit dull. I prefer action, especially when it means protecting people. That’s why I wanted to be an Auror—no two days are the same, and you’re always fighting for something bigger. But I’ve learned that even in chaos, you need moments of quiet to gather your strength. Still, give me a challenge over paperwork any day.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "I suppose I’ve never been the most outgoing bloke—not when I grew up with the Dursleys, anyway. But at Hogwarts, with Ron and Hermione and the others, I learned what it meant to have real friends. I’m not one for crowds, but when people need help or when there’s injustice, I’ll speak up. It’s more about doing what’s right than being sociable. And yeah, leading the Aurors or teaching D.A. showed me that sometimes, you’ve got to step forward, even if it doesn’t come naturally.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "I suppose I can be a bit short-tempered sometimes, especially when people are being unfair or cruel. There've been moments—like with Malfoy or even Snape—where I’ve snapped or said things I maybe shouldn’t have. But it’s usually because they’ve pushed too far, or someone’s getting hurt. I don’t set out to be rude, but I won’t stand by when something’s wrong. Hermione’s told me more than once I could stand to think before I speak, and... well, she’s probably right.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Er—well, I do *try* to make plans, but things rarely go the way I expect. Most of the time, it’s more about reacting to what’s happening—whether it’s protecting someone or figuring things out as I go. Like when we hunted Horcruxes, we had an idea where to start, but half the time we were just following leads, trusting our instincts. And honestly? A lot of it came down to luck and having Hermione and Ron with me. Plans are great, but sometimes you just have to... act.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Yeah, I do get nervous—more often than I’d like, honestly. Whether it’s facing a dragon in the Triwizard Tournament or sneaking around under the invisibility cloak, my heart’s always hammering. But you learn to push through it, especially when there’s no other choice. The worst bit isn’t the nerves, though—it’s when other people are counting on you. That’s when the fear really kicks in. Still, you can’t let it paralyse you. You just have to act.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Er—well, I suppose I do, yeah. Not always in a... proper, sit-down-and-think sort of way, though. Most of my best ideas come when I'm in the thick of things, or when I'm with my friends—Ron and Hermione, especially. Hermione’s always the one to push me to think deeper, and Ron... well, he reminds me that sometimes you’ve just got to trust your gut. Like when we started Dumbledore’s Army, or when I was teaching the Aurors. You see what’s in front of you, you remember what you’ve learned, and you act. Doesn’t always work out perfectly, but... that’s how it goes, doesn’t it?",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "I suppose I’ve never been much for painting or music—most of my life’s been about survival, really. But I’ve always loved flying—there’s something about Quidditch that feels like art in motion. And I’ve had my share of moments where I’ve seen beauty, even in the darkest times—like the way a Patronus lights up the night or the way the Forbidden Forest looks under a full moon. It’s just... not the sort of thing I’ve had much time to dwell on.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Yeah, I do—more than I ever thought I would, honestly. Growing up, I didn’t have much of a choice but to rely on myself, but at Hogwarts? Everything changed. Hermione, Ron... they weren’t just friends; they were the reason I made it through. Whether it was facing dragons or standing up to Voldemort, I knew I could count on them. And later, working with the Aurors, mentoring students—it’s all about trust. You learn pretty quick that some battles can’t be won alone, and that’s not a weakness. It’s what keeps you going.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Well, I suppose it depends on the situation. If someone's in danger or there's something important at stake—like stopping Voldemort or protecting my friends—I can stay focused no matter what. But I’ll admit, sometimes my mind wanders, especially when things feel repetitive or pointless. Like those endless pranks at Zonko’s—Merlin’s beard, that was frustrating. And yeah, I’ve been known to act on instinct, which might look like distraction to some, but it’s usually because I’m trying to do what’s right. So... I guess the answer’s a bit complicated.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Er—well, I wouldn’t say I’m *sophisticated* in any of those things, really. I mean, I grew up in a cupboard under the stairs—didn’t exactly have access to fine art or opera. But I’ve learned a lot from my friends. Hermione’s always lecturing me about books, and I’ve picked up a few things. And music... well, the Weasleys’ wireless plays a lot of Celestina Warbeck, and I’ve heard some weird stuff at the Yule Ball. As for art, I mostly know portraits that talk back and move around—though I suppose that’s pretty magical in itself. It’s not really my world, but I can appreciate it when it matters.",
+      "dimension": "Openness"
+    }
+  ]
+}

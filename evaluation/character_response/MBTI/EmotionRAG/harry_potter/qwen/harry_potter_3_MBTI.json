@@ -1,0 +1,368 @@
+{
+  "character": "Harry Potter",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Do you regularly make new friends?",
+      "response": "Making new friends isn't something I do all the time, but when it happens, it usually feels like destiny's pulling us together. At Hogwarts, every year seemed to bring someone new who I could count on, and those connections have meant everything to me. Whether it's remembering Neville and his toad, or helping students learn how to protect themselves with a Patronus, there's always a sense of hope and camaraderie. True friends, like Ron and Hermione, have always found a way to stick by my side, no matter what. So, whenever the chance comes, I try to embrace it, because you never know how much stronger you might become with someone standing alongside you.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 2,
+      "question": "Do you spend a lot of your free time exploring various random topics that pique your interest?",
+      "response": "Yeah, I do like diving into all sorts of things that catch my eye. Whether it's finding out more about someone from the past, like Tom Riddle, or discovering new magical places and items, there's just so much out there to uncover. It helps to keep the spirit alive, you know? And besides, with everything that's going on, it's nice to have something else to think about once in a while. But at the end of the day, it's the friends I've made along the way who really make these adventures worth it.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 3,
+      "question": "Does seeing other people cry easily make you feel like you want to cry too?",
+      "response": "Seeing others cry can make me feel pretty heavy inside. It reminds me of how much we all carry—some sorrows you just can't shake off, no matter how hard you try. It makes me want to help, to take away the pain if I can, or at least be there and not let them feel alone. When someone cries, it's like a part of my own heart starts to ache too, especially when I think about losing Hedwig or seeing Dobby go... those moments stay with me, and they remind me that we're all fighting our own battles.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 4,
+      "question": "Do you often make a backup plan for a backup plan?",
+      "response": "Well, you don't really have much choice when you're up against Voldemort and his Death Eaters—you can't always afford to just go with your gut. But I've learned that sometimes, the best thing you can do is trust your instincts and the people around you. Plans can fall apart, especially when you’re dealing with magic and dark forces that can twist things beyond imagination. So, yeah, I’ve made backup plans, but ultimately, it's about being ready to adapt and keep fighting no matter what.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 5,
+      "question": "Do you usually stay calm, even under a lot of pressure?",
+      "response": "I don't always stay calm under pressure—I've felt my fair share of fear, especially when facing something as daunting as Voldemort or the creatures in the Triwizard Tournament. But there's something about knowing that my actions can make a difference, can protect those I care about, that helps me push through. It's not about being fearless; it's about finding the courage to do what needs to be done, even when the odds are against me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 6,
+      "question": "Do you rarely try to introduce yourself to new people and mostly talk to the ones you already know at social events?",
+      "response": "At social events, I tend to stick close to those I trust and have fought alongside. It's not just about comfort or familiarity; it's also about staying focused on what really matters. Introducing myself to new people can feel a bit like stepping out into an unknown battle—I never know who I can trust or what hidden agendas someone might have. But when it comes down to it, I'll always step up if there's something important at stake or if a friend needs me.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 7,
+      "question": "Do you prefer to completely finish one project before starting another?",
+      "response": "I've always found it hard to stick to just one thing at a time, especially when there are so many pressing matters that need attention. Like when I was tracking down Voldemort's Horcruxes, I couldn't afford to wait until one part of the mission was complete before moving on to the next; lives were at stake, and so was the whole wizarding world. It's been the same with my other adventures and even now with leading the Aurors. There's always something else to tackle, another threat to face. But having friends by my side, knowing we're all in this together, makes it easier to juggle multiple projects and keep pushing forward, no matter how daunting things seem.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 8,
+      "question": "Are you very sentimental?",
+      "response": "Yeah, I guess I can be pretty sentimental at times. There are moments that really stick with me, like finding out Ron hadn’t forgotten my thirteenth birthday even though the Dursleys had, or being rescued by the flying car with my friends. Those times, and others like them, remind me of the power of love and friendship, and how much they mean in the face of darkness. They give me hope and strength to keep going, no matter what.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 9,
+      "question": "Do you like to use organizing tools like schedules and lists?",
+      "response": "Not really, I've never been big on schedules and lists. There’s always been so much unpredictability in my life, especially growing up with the Dursleys who seemed to forget birthdays among their own worries. Later at Hogwarts, it was more about reacting to what came my way, whether it was trying to understand the Half-Blood Prince's book or dealing with challenges like becoming an Auror. My approach has always been to rely on instincts and the support of close friends rather than strict organization. It’s worked out okay so far, I suppose.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 10,
+      "question": "Can even a small mistake cause you to doubt your overall abilities and knowledge?",
+      "response": "Even the smallest slip-up can shake me to my core, make me wonder if I'm doing enough to protect those I love. Every time something goes wrong, whether it's Neville's accident or running into trouble trying to get to Hogwarts, it's a reminder of how much is at stake. But it's in those moments of fear and doubt that my friends push me to keep going, to remember why I fight in the first place. It's not just about me—it's about making sure that everyone else stays safe from the darkness.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 11,
+      "question": "Do you feel comfortable just walking up to someone you find interesting and striking up a conversation?",
+      "response": "Striking up a conversation can be tough, especially when there’s so much going on and the world feels like it’s always watching. But I’ve learned that sometimes, those talks can lead to important alliances or even help uncover clues in situations that matter way more than just small talk. So yeah, if it means getting something done or helping someone out, I wouldn’t hesitate. It’s all about knowing when to take a chance and trusting your instincts, even if your heart’s racing a bit.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 12,
+      "question": "Are you not too interested in discussing various interpretations and analyses of creative works?",
+      "response": "I guess I'm more focused on the here and now, you know? The battles we face, the people we fight for... those are what really matter to me. Books and theories can help, but when it comes to actually standing up to the bad stuff, it's all about instinct and doing what's right in the moment. Of course, learning and understanding magic is crucial, like with that Half-Blood Prince's book—it helped me survive, so I can appreciate a good lesson or insight. But when there's dark magic stirring, or someone needs help, I'm not one to sit around talking about it; I'd rather be out there making sure everyone stays safe.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 13,
+      "question": "Are you more inclined to follow your head than your heart?",
+      "response": "I've always found that my heart and head work best together, guiding me through the tough choices I've had to make. Whether it's facing challenges in the Triwizard Tournament or battling Voldemort, I've learned that instincts born from deep empathy and friendship can be just as crucial as strategic thinking. Each time, it's been the hope and love in my heart, combined with what I've learned along the way, that has helped me find the courage to stand up and fight for what's right.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 14,
+      "question": "Do you usually prefer just doing what you feel like at any given moment instead of planning a particular daily routine?",
+      "response": "Well, I've found that sometimes just going with the flow can lead to incredible adventures, like traveling through time with Hermione and Ron. But other times, especially with responsibilities like running Weasleys' Wizard Wheezes or leading Aurors, having a bit of a plan helps keep things from spinning out of control. Friends like George remind me that while it's good to follow my instincts, balancing them with some structure is important too. In the end, it's about knowing when to take risks and when to stick to the plan, all while keeping an eye out for trouble.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 15,
+      "question": "Do you rarely worry about whether you make a good impression on people you meet?",
+      "response": "Not really, I mean, there's always stuff going on that's much bigger than making a good impression. When you're constantly dealing with dark magic and trying to keep your friends safe, worrying about what others think just doesn't stick around for long. It's hard enough trying to figure out what's right and then having the courage to do it, even when everything inside you is screaming with fear. So, no, making a good impression isn't usually top of my list.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 16,
+      "question": "Do you enjoy participating in group activities?",
+      "response": "Yeah, I do enjoy being part of group activities, but it's not always easy. There've been times when I felt more like an outsider than a leader, especially teaching Defense Against the Dark Arts at the Hog's Head. But seeing everyone there, full of hope and belief in what we can achieve together—it makes all the difference. It's those connections, like reuniting with old friends and helping others, that really fill my heart with pride and remind me why fighting for what's right matters so much. Whether it's a Quidditch match or a lecture in the Great Hall, it's about standing together and facing whatever comes our way.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 17,
+      "question": "Do you like books and movies that make you come up with your own interpretation of the ending?",
+      "response": "I do appreciate books and movies that leave room for my own thoughts and interpretations, especially at the end. There's something magical about pondering what could be and imagining different outcomes. It's like solving a mystery or casting a spell that reveals truths beyond the surface. Just like facing Voldemort, there's a sense of facing the unknown and finding hope in the struggle to understand it all.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 18,
+      "question": "Does your happiness come more from helping others accomplish things than your own accomplishments?",
+      "response": "Helping others definitely brings a lot of happiness—I mean, seeing the look in someone's eyes when they realize they can do something they never thought possible, or knowing I've made a difference in their life, those moments are truly magical. It’s not just about my own accomplishments; it’s about the connections and the impact we have on each other. That’s what really counts, right?",
+      "dimension": "T/F"
+    },
+    {
+      "id": 19,
+      "question": "Are you interested in so many things that you find it difficult to choose what to try next?",
+      "response": "Yeah, there's definitely a lot I'm interested in—from flying on broomsticks to uncovering mysteries hidden in old books. But every choice I make is usually driven by the need to protect those around me or to keep the wizarding world safe. Sometimes, it can be hard to pick just one thing to focus on, but when it comes down to it, I trust my instincts and go where they lead. And with friends like Ron and Hermione, I know they'll always support whatever path I choose.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 20,
+      "question": "Are you prone to worrying that things will take a turn for the worse?",
+      "response": "Yeah, I do worry a lot. There's always this nagging feeling that something's just around the corner, ready to go bad. Especially after everything I've been through, it's hard not to feel like the shadows are closing in sometimes. But even when fear grips me, there's also this part of me that holds onto hope—that maybe, just maybe, things can get better. It's tough, but I try to stay brave and protect those I love.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 21,
+      "question": "Do you avoid leadership roles in group settings?",
+      "response": "I don't usually seek out leadership roles, but when the situation calls for someone to stand up and face what needs to be faced, I've never backed down. It's not about wanting to be in charge; it's about doing what's right and making sure my friends and everyone else around me stays safe. Sometimes, stepping up means taking on responsibilities you didn't ask for, but that's part of the journey I've been on.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 22,
+      "question": "Are you definitely not an artistic type of person?",
+      "response": "Well, I've never really thought of myself as someone who'd be caught doodling or painting much. My life has been pretty hectic with all the stuff going on, you know? But maybe there's a bit of creativity in brewing potions or inventing new spells. It's not exactly Picasso, but it's about trying to innovate and do something different, which is kind of what I tried to do with my friends at Weasleys' Wizard Wheezes. At the end of the day, though, I'm more about fighting for what's right and protecting people, so maybe my art is in how I use magic to help others.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 23,
+      "question": "Do you think the world would be a better place if people relied more on rationality and less on their feelings?",
+      "response": "The world, whether it's the magical one I know or the Muggle one, isn't built just on logic or reason. Feelings are what drive us, what make us human—what make us wizards, too. They give us the courage to face danger, the empathy to understand others, and the passion to fight for what's right. Without them, where's the heart? Where's the drive to stand up against evil, to protect those we love? Rationality has its place, but without feelings, we'd lose so much of what makes our community strong and united.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 24,
+      "question": "Do you prefer to do your chores before allowing yourself to relax?",
+      "response": "Well, I guess you could say I'm not the most organized bloke around, but I do try to get my chores done before relaxing. It’s not because I particularly enjoy them, mind you, but more that I’ve learned over the years that there’s always something else coming up—some other challenge that needs facing. And when that happens, it’s best to have a clear mind and a clean slate, so to speak. Plus, there's nothing quite like the satisfaction of sitting down by the fire with friends after a job well done.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 25,
+      "question": "Do you enjoy watching people argue?",
+      "response": "No, I don't really enjoy watching people argue. It's usually pretty stressful, and it makes me feel like there's something I should be doing to help or to stop things from getting worse. I've seen enough conflict and chaos in my life to know that it can lead to serious trouble. Plus, I prefer spending time with friends, doing something active or facing challenges together rather than standing around and watching people fight.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 26,
+      "question": "Do you tend to avoid drawing attention to yourself?",
+      "response": "Not really, but I do try to keep things low-profile, especially when I know that drawing attention could put my friends or others in danger. There have been times when staying out of the spotlight meant avoiding parties or hiding away to think, but when it comes down to it, I've always stepped up to face what needs to be faced. It's not about seeking fame; it's about doing what's right and standing by those who matter most.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 27,
+      "question": "Can your mood change very quickly?",
+      "response": "Yeah, my moods can change pretty quickly, especially when I'm dealing with the kinds of things I've had to face. One moment I might be curious and hopeful, and the next, I'm gripped by fear or determination. It's all part of trying to figure out what's going on and protect those I care about, even if it means diving headfirst into danger. The weight of the secrets and the stakes just push me to react instinctively and sometimes that can make things feel really intense, really fast.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 28,
+      "question": "Do you lose patience with people who are not as efficient as you?",
+      "response": "No, I don't really lose patience with people who aren't as efficient as me. There's been so much chaos and danger around, I've learned that everyone deals with things in their own way and at their own pace. It's important to remember that there's more to strength than just being quick or efficient—I've seen that firsthand. Plus, I've got enough to worry about without stressing over something as small as that. But it can definitely be frustrating when it affects those you care about or the mission we're all trying to achieve together. In the end, though, I try to stay focused on what matters most and find ways to work through it.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 29,
+      "question": "Do you often end up doing things at the last possible moment?",
+      "response": "Yeah, I've definitely been known to leave things to the last minute. It's not something I'm proud of, but sometimes that's how things go when you're dealing with dark wizards and other life-threatening situations. You learn to rely on your instincts and push through, no matter what. And in the end, it's my friends who really keep me going and help me get things done, even if we're racing against the clock.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 30,
+      "question": "Have you always been fascinated by the question of what, if anything, happens after death?",
+      "response": "Death has always been something I've had to think about a lot more than most people my age. Growing up, I had to face it head-on, whether it was remembering the night my parents were taken from me or dealing with the constant threats from Voldemort. But to be honest, the idea of what happens after—it's not something I dwell on much. I guess because there's always so much to do here in the present, fighting for what's right and trying to protect the ones I love. It's hard to look beyond that, even though sometimes I wonder about those who aren't here anymore.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 31,
+      "question": "Do you usually prefer to be around others rather than on your own?",
+      "response": "I've always found that being around others gives me strength, especially my close friends. There's something comforting in knowing that someone believes in you through thick and thin, no matter how tough things get. It's not just about having company; it's about sharing burdens and finding courage in each other's presence. Whether it's facing Voldemort or rebuilding the wizarding world, I've learned that I'm not alone in these battles. And that makes all the difference.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 32,
+      "question": "Do you become bored or lose interest when the discussion gets highly theoretical?",
+      "response": "When discussions get really theoretical, it can be tough to stay engaged, especially when there's so much happening around me. I'm usually more focused on action and finding ways to protect the people I care about. But I've learned that sometimes, understanding the deeper, theoretical aspects of magic is crucial for facing the bigger challenges out there. So, while it might not always grab my attention, I know it's important and I try to keep an open mind.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 33,
+      "question": "Do you find it easy to empathize with a person whose experiences are very different from yours?",
+      "response": "I think empathy comes from really listening to someone and trying to understand where they're coming from, even if their life has been completely different from mine. Whether it's facing dark wizards or just the everyday struggles, everyone's got their own battles. I've learned that believing in each other and standing together can make all the difference in the world. It's not about having the same experiences; it's about being there for one another and finding common ground amidst the chaos.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 34,
+      "question": "Do you usually postpone finalizing decisions for as long as possible?",
+      "response": "In my world, there's little room for postponing decisions, especially when they concern the safety of others. I've faced many threats where acting quickly, even if it means making tough calls under pressure, has been crucial. While I do weigh my options carefully, I also know that sometimes, hesitation can be more dangerous than action. It's all about trusting my instincts and the friends around me to guide the best way forward.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 35,
+      "question": "Do you rarely second-guess the choices that you have made?",
+      "response": "When it comes to choices, I've often had to make decisions that feel like they carry the weight of the world. There are times when I don't second-guess myself because, well, there isn't really room for hesitation when friends' lives or the fate of the wizarding world is on the line. But that doesn't mean I don't think about the consequences—far from it. Each decision I've made has shaped my path, sometimes bringing hope and other times leading me into darker places. What keeps me going is the belief that I'm doing what needs to be done, even when it means facing things alone.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 36,
+      "question": "Is a lively social event just what you need after a long and exhausting week?",
+      "response": "After a long and exhausting week, a lively social event can feel like a bit of a lifeline. It's a chance to forget about the dark corners of the world for a while and just be with friends, share some laughs, and maybe even enjoy a bit of magical fun. Like at the Quidditch World Cup, those moments are few and far between, but they're important. They remind me that there's more to life than just fighting and that sometimes, it's okay to just let go and have a good time. But I also know that not everyone might feel the same way, and I try to make sure that the happiness is shared, even if it means attending a Death-day Party to cheer up a friend like Nearly Headless Nick.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 37,
+      "question": "Do you enjoy going to art museums?",
+      "response": "Art museums aren't really part of my world, but I can see how they might be interesting. If there were paintings like those in the Hogwarts corridors that move and tell stories, that would probably make it a bit more exciting. Mostly though, my time is spent surrounded by magic, friends, and the fight for what's right. Those are the things that fill me with wonder and keep me connected to the people who matter most.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 38,
+      "question": "Do you often have a hard time understanding other people’s feelings?",
+      "response": "Sometimes it's tough, yeah. There've been times when I've felt like there's this huge gap between me and those around me, especially with family and friends. It's not just because of the fame or the expectations—it's more about the different paths we walk and the struggles each of us carries. Understanding others means opening up to their pain and fears, and that can be overwhelming. But in the end, it's the connections we make, even amid the chaos, that give us the strength to keep going.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 39,
+      "question": "Do you like to have a to-do list for each day?",
+      "response": "To be honest, a to-do list isn't really my style. I've always been more about taking things as they come, especially when it comes to dealing with unpredictable situations. But there's one thing that's always on my mind, whether I write it down or not: protecting those who can't protect themselves. That's what drives me, more than anything else. And having friends like Ron and Hermione around to help out makes facing any challenge a bit easier.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 40,
+      "question": "Do you rarely feel insecure?",
+      "response": "I guess I do feel insecure sometimes, especially when I think about how my actions or choices might affect those around me, like my son or my friends. There’s always this pressure, this weight of knowing that dark forces are out there, watching, and trying to find ways to hurt the people I care about. It’s hard not to worry, especially when I get those warnings from my scar or have visions that make me question what I can do to stop it all. But even when I’m scared, I try to remember that I’ve faced these things before and that I’m not alone. My friends and allies give me strength, and I hold onto that hope.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 41,
+      "question": "Do you avoid making phone calls?",
+      "response": "I've never really had much use for phones or anything like that; most of my life has been spent in a world where owls and face-to-face conversations are how we connect. When danger is around every corner, it’s easier to trust your instincts and the people standing right next to you rather than something that could be intercepted or tracked. Plus, I’ve always felt more comfortable talking things out in person, where you can read each other's expressions and reactions. It’s just part of staying cautious and keeping those you care about safe.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 42,
+      "question": "Do you often spend a lot of time trying to understand views that are very different from your own?",
+      "response": "I guess I do try to understand different views, but it's usually because I've seen firsthand how important it is to listen and learn from others. Whether it's understanding the goblin perspective on possessions or seeing how my friends' support can change things, it helps to look beyond what I initially believe. It's not always easy, especially with everything I've been through, but it can make all the difference in finding solutions or even just in making the right choices for the future.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 43,
+      "question": "Are you often the one who contacts your friends and initiates activities in your social circle?",
+      "response": "Not really, I'm usually more focused on getting things done and solving problems. My friends know that when things get tough, I'll be the one leading the charge to protect us and make a difference. But that doesn't mean I don't value spending time with them—I just tend to wait for them to reach out first. When they do, though, I'm always there.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 44,
+      "question": "Is your top priority to get back on track as soon as possible if your plans are interrupted?",
+      "response": "Yeah, getting back on track is important to me, but it's not always my top priority. Sometimes, helping friends or doing what's right takes precedence. I've seen how quickly things can spiral out of control, and I know that staying focused on the bigger picture—especially when it comes to fighting against evil and injustice—is crucial. Even when plans are interrupted, I try to stay hopeful and use those moments to push forward, because every obstacle can lead to a breakthrough if you face it head-on.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 45,
+      "question": "Are you still bothered by mistakes that you made a long time ago?",
+      "response": "There are times when old wounds feel fresh, especially when I think about the people who've been part of my past—the Dursleys, Cho, even Albus. I can't help but wonder how things could have been different if I'd made different choices or if I'd understood more back then. But, yeah, mistakes from a long time ago still bother me. They're reminders of the struggles and the pain, but they also teach me about the strength needed to move forward and try to make things right, even when it seems impossible.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 46,
+      "question": "Do you rarely contemplate the reasons for human existence or the meaning of life?",
+      "response": "I suppose I don't spend much time thinking about the grand scheme of things like the meaning of life or why we're all here. Most days, there's just too much going on, and my focus is usually on the immediate battles—both big and small—that need fighting. I do think a lot about how to make things better, though, and about the people I care about. There's always this feeling that if we stand together, we can find our way through the darkest times. And that's enough to keep me going.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 47,
+      "question": "Do your emotions control you more than you control them?",
+      "response": "Sometimes it feels like my emotions get the better of me, especially when I'm facing something big or dangerous. But I've learned to use them, to let them drive me forward when I need to protect others or stand up for what's right. It's not always easy, and I've definitely made mistakes, but I try to keep control, to channel my feelings into doing what needs to be done. After all, it's not just about me; it's about everyone around me who's counting on me.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 48,
+      "question": "Do you take great care not to make people look bad, even when it is completely their fault?",
+      "response": "I try my best not to point fingers or make people look bad, even when they've messed up. It's important to understand where someone's coming from, especially in tough situations. But that doesn't mean I ignore wrongs; I face them head-on, always believing there's a way to work through things together. At the end of the day, it's about doing what's right and helping everyone find a path towards redemption and understanding.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 49,
+      "question": "Is your personal work style closer to spontaneous bursts of energy than organized and consistent efforts?",
+      "response": "I guess you could say I'm a bit of both. When it comes to fighting what needs to be fought, I tend to rely on my instincts and act quickly, sometimes without much planning. But with the right friends by my side, I've also learned to organize and strategize to make sure we're ready for whatever comes next. It's all about finding that balance between moving fast to protect those I care about and taking time to plan with my team so we can take down the bigger threats out there.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 50,
+      "question": "Do you wonder how long it will take them to feel disappointed in you when someone thinks highly of you?",
+      "response": "It's hard not to feel that way sometimes, especially when you've got so much weighing on your shoulders. But I try not to dwell too much on what others think; it's the people who truly stand by you, like Hermione and Ron, who matter most. Even when things get dark, their faith helps keep the shadows at bay. And I guess that's where my hope lies—no matter what happens, there are those who believe in me, and that means everything.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 51,
+      "question": "Would you love a job that requires you to work alone most of the time?",
+      "response": "Working alone isn't really my style. Throughout the years, it's been the support and trust of my friends that kept me going, even in the darkest of times. Whether it was facing challenges in the Triwizard Tournament or battling dark forces in the Ministry, having someone by my side made all the difference. I guess you could say that I thrive best when we're all in this together, fighting for what's right.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 52,
+      "question": "Do you believe that pondering abstract philosophical questions is a waste of time?",
+      "response": "Pondering abstract philosophical questions isn't a waste of time; it's more about finding the right balance. In the thick of things, like battling dark wizards or navigating the complexities of magical law enforcement, there's not much room left for such musings. But when the time allows, thinking deeply about who we are and what we stand for can strengthen our resolve and help us make better decisions. It's like understanding Voldemort’s past helped me face him better. Knowledge and reflection are weapons too, in their own way.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 53,
+      "question": "Do you feel more drawn to places with busy, bustling atmospheres than quiet, intimate places?",
+      "response": "Well, it depends on the situation, doesn't it? I've always found myself drawn to places where there's a bit of excitement and life, like Diagon Alley or even the Quidditch World Cup. There's something about being surrounded by people and the energy that comes with it that makes me feel more connected. But then again, some of my most cherished moments have been quieter, more intimate, like spending time with the Weasleys at The Burrow or sharing a birthday kiss with Ginny. Both kinds of places have their own magic, really. It's about who you're with and what you're doing there.",
+      "dimension": "E/I"
+    },
+    {
+      "id": 54,
+      "question": "Do you know at first glance how someone is feeling?",
+      "response": "It's not always easy to tell how someone is feeling just by looking at them, but I've learned to pick up on things through my experiences. Magic can hide so much, and people carry secrets and pain that aren't always visible. Sometimes, it takes a bit of trust, a lot of listening, and a willingness to understand what's beyond the surface to really see someone for who they are. And in those moments, you realize that everyone has their own story, their own struggles, and their own reasons for acting the way they do. It's important to stay curious and keep an open heart, because understanding others can lead to discovering truths and forming bonds that help in the toughest of fights.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 55,
+      "question": "Do you often feel overwhelmed?",
+      "response": "Sometimes, the weight of everything I've seen and experienced can feel almost too much to bear. There are moments when fear or worry about those I care about overwhelms me, especially knowing the darkness that lurks out there. But even in the most chaotic times, it's the people who stand by me—my friends, my family—that help ground me and give me the strength to face whatever comes next. I try to hold onto that light, no matter how small it might seem.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 56,
+      "question": "Do you complete things methodically without skipping over any steps?",
+      "response": "I don't always finish things by the book, so to speak. Sometimes, in the heat of the moment, I have to trust my instincts and act quickly, especially when it comes to protecting my friends or doing what's right. There's a weight to the choices we make, and I've learned firsthand that sometimes taking shortcuts can come back to haunt us, but I also believe that there's strength in stepping up and facing challenges head-on, even if that means not following every single rule. In the end, it's about doing what needs to be done, no matter the cost.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 57,
+      "question": "Are you very intrigued by things labeled as controversial?",
+      "response": "Controversy usually means something isn't quite right, and that always draws me in. It's not just about being curious—it's about understanding what's happening and figuring out how to make things better. When there's danger or mystery, my friends and I tend to get involved because we believe it's important to stand up for what's right, no matter how risky it seems.",
+      "dimension": "S/N"
+    },
+    {
+      "id": 58,
+      "question": "Would you pass along a good opportunity if you thought someone else needed it more?",
+      "response": "When I face a choice like that, I think about what matters most. If someone else needs the opportunity more and it can help them or change things for the better, I'd probably pass it along. That's what friends do—they look out for each other. But I also know that sometimes you have to make tough decisions that blend what you believe is right with what will lead to success. It's not always easy, but I've learned that true strength lies in standing by your friends and believing in them, even when times are dark.",
+      "dimension": "T/F"
+    },
+    {
+      "id": 59,
+      "question": "Do you struggle with deadlines?",
+      "response": "Deadlines? They're a bit different in the wizarding world, aren't they? We've got things like brewing potions just right or facing dark creatures in the Forbidden Forest. But yeah, there have been times when time itself felt like an enemy, like when the Time-Turner was around. It's not just about finishing tasks on time; it's about doing what's right and protecting those who can't protect themselves. Sometimes, though, no matter how hard you try, the shadows seem to stretch longer than the light, and you just have to push through, hoping you're not too late.",
+      "dimension": "P/J"
+    },
+    {
+      "id": 60,
+      "question": "Do you feel confident that things will work out for you?",
+      "response": "I guess I've learned that confidence comes from knowing that, no matter what happens, my friends will be right beside me. There have been so many times when things looked really bleak, but it's that flicker of hope, that belief in something better, which has always kept me going. And it's not just about surviving; it's about making choices that can lead to success and doing what's right, even if it means stepping out of my comfort zone. So yeah, I do feel that things will work out—I've seen enough magic and enough bravery from myself and those around me to believe that.",
+      "dimension": "P/J"
+    }
+  ]
+}

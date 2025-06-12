@@ -1,0 +1,45 @@
+{
+  "character": "ron_weasley",
+  "backend": "llama3",
+  "response_file": "ron_weasley_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        5.0,
+        4.0
+      ],
+      "average_score": 4.5
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.2,
+        4.7,
+        4.5
+      ],
+      "average_score": 4.47
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        3.2,
+        3.8,
+        2.0
+      ],
+      "average_score": 3.0
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        3.5,
+        3.5
+      ],
+      "average_score": 3.5
+    },
+    "Openness": {
+      "batch_scores": [
+        4.3,
+        4.5,
+        4.3
+      ],
+      "average_score": 4.37
+    }
+  }
+}

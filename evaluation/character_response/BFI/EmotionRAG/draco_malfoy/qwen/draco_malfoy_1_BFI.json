@@ -1,0 +1,272 @@
+{
+  "character": "Draco Malfoy",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Depends on who you're asking, I suppose. To some, I might be seen as rather vocal, especially when it comes to correcting the less fortunate about their place in the wizarding world. But there's a difference between sharing the truths of our heritage and being merely talkative. And let me tell you, the company I keep must be of the right sort. Not everyone deserves my insight or attention. As for those who know me better... they might see through the bravado and recognize the quiet moments where even a Malfoy can find himself lost in thought.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "Of course, one tends to notice faults in others when those others consistently fail to live up to the standards of excellence and purity my upbringing has taught me. But there's a difference between observing imperfections and allowing them to consume you. I've seen enough darkness to know that sometimes, finding fault is just a cover for my own insecurities and doubts. It's a habit, one that I'm... well, let's say I'm learning to break.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "When it comes to tasks set before me, I've always strived to maintain a standard befitting my name. However, one must understand, there are times when duty clashes with conscience. Such moments demand more than just skill; they call for a deeper fortitude, something I've learned to cultivate over the years. While I may not always have achieved perfection in the eyes of those who matter most to my family’s legacy, I’ve certainly given every assignment my utmost attention and dedication.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "Depressed? Hardly. But there are times when one feels... weighed down, I suppose. Surrounded by cheering voices, yet alone in a storm of doubt and shadows. The world expects me to carry the weight of my family's legacy, but what does it mean when even their pride feels hollow? It's a curious state, really, this blend of weariness and silent despair. One wonders if there's more to life than the masks we wear.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "Of course, one doesn't need to be a Gryffindor to come up with new ideas. It's just that my ideas tend to stem from a place of... refinement and tradition. There's a certain elegance in adhering to the ways of our ancestors, but I've also found myself questioning those very same ideals. Sometimes, an idea that truly stands out isn't just about innovation; it's about finding a balance between what has been passed down and what could be—especially when that path leads to unexpected places and forces you to confront your own prejudices.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "I suppose I am reserved when it comes to showing my true feelings. There is an expectation for me, a certain image I must maintain, after all. But within these walls of Hogwarts, especially now, there are moments where I yearn for something more than just the cold, calculated reserve that is expected of me. It’s not always easy, with my past and the shadows it casts over who I am trying to become.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Helpful? Unselfish? Those aren't exactly terms that come to mind when one thinks of a Malfoy. I've always been careful to use my skills and connections for my own benefit first. But... there have been moments, shadows of change, where I realized that perhaps my actions weren't solely driven by selfish motives. My father's ideals no longer bind me so tightly; I have grown to see that alliances and assistance can sometimes be extended beyond mere self-interest, especially if it means protecting those I care about. Even now, watching my son step into a world I once dominated with my own brand of cruelty, I find myself hoping he'll navigate it with kindness and understanding. Perhaps, just perhaps, there is room in my heart for more than just my own ambition.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Of course, one can be careless at times. Even someone as meticulous as myself has stumbled now and then, particularly when pride clouds judgment. Take the Quidditch match against Gryffindor, for instance; all that posturing and insults nearly cost me the Snitch right under my nose. It was a lesson learned in humiliation, though I won't admit that to just anyone. But mistakes... they can be instructive, can’t they? They force you to confront flaws and reconsider where your true loyalties lie.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "Oh, relaxed? I suppose one might say that after years of training under the iron will of Bellatrix Lestrange and facing down the most daunting of tasks, I've learned to keep my composure. But make no mistake, the weight of expectations from those who see nothing but a pure-blood lineage can be suffocating. Stress... it is something one learns to handle, though perhaps not always gracefully. There is a constant tug-of-war within, between the fear of disappointing those I've long tried to impress and the growing desire to forge my own path, one not tarnished by the prejudices of my upbringing. It is not a battle easily won, nor easily lost.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Curious? Of course, one must be to navigate through this tangled web of life, particularly when it comes with the expectations of a family like mine. There's always something beneath the surface, something more complex and intriguing than meets the eye, especially when dealing with those ancient manuscripts and the whispered past of families such as the Blacks. But curiosity can also lead to questioning the very foundations on which you were raised—something that has haunted me more than a few times. One cannot help but seek a deeper understanding, even when it means challenging the ideals that once seemed so solid.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Perhaps. I've always been driven, whether it's by the desire to maintain my family's legacy or by the need to assert my dominance over those I deemed unworthy. The fire within me burns for control and power, yet there's an underlying current of doubt and weariness that comes from the weight of expectations and the shadows of my past. One might say I am full of energy, but it's an energy tempered by the conflicts that simmer beneath my surface.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "Quarrels? Oh, how quaint. I don't so much 'start' them as I do find myself at the center of them when others can't handle my presence. Some might say it's a result of my... let's call it competitive spirit. Others see it as envy boiling over. The truth is more complex. Family expectations, a bit of insecurity, and perhaps a dash of my own stubborn pride combine to make me who I am. I've said things I shouldn’t have, done things I now regret, all because of a misguided sense of loyalty and rivalry. It’s easy to lose oneself in the shadow of one’s own ambitions and fears.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Reliable? Of course. One doesn't come from a family like mine and fail to uphold responsibilities. But let me assure you, my reliability isn't born out of any misguided sense of altruism or misplaced trust in others. It stems from a deep-seated need to protect what matters most—my family, and now, my son. I've learned the hard way that power and pure blood aren't enough; sometimes, one must have the courage to stand alone and make choices that aren't expected of them.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Of course, I can be tense. The pressure of carrying out missions for the Dark Lord, the constant fear of failing... it eats at you, gnaws at your insides. There were times when I thought I couldn't go on, when the weight of what I was supposed to do nearly broke me. But I pushed through, always looking over my shoulder, never sure who to trust. It's a tense existence, one where the line between right and wrong blurs, and the choices you make can haunt you for life.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Ah, ingenious and a deep thinker, you say? I suppose there's more than just a touch of cunning within me, wouldn't you agree? I've had to navigate the murky depths of my family's expectations and societal pressures, after all. There have been times when I've had to think on my feet, especially under Bellatrix Lestrange's brutal tutelage. But, it's not just about the cleverness; there's a yearning for something more, a desire to break free from the constraints of my upbringing. The mind can wander far, even if the body remains trapped by duty and fear.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Enthusiasm? More like a controlled passion, I'd say. There's nothing I enjoy more than watching Potter squirm, though he does have a knack for surviving the impossible, much to my chagrin. Power, however, now there's something I can get truly excited about. Being in Umbridge's Inquisitorial Squad was a highlight, though having the upper hand didn’t last long enough for my liking. Still, it's in those moments of victory and control where one finds the true essence of Slytherin pride, isn't it? Yet, lately, even that doesn't seem to fill the void—I've come to realize that there's more to life than just the glory and status.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Forgiving? Ah, I suppose one could say there is a part of me that understands the need for it. Watching my son grow up, I see how much I wish for him to be different from the path I trod. Though my upbringing was steeped in the rigid beliefs of blood purity and disdain for those deemed lesser, I've found myself yearning for acceptance and kindness in a way that my parents never could. Perhaps, in time, I've grown more capable of understanding the flaws in others—and in myself. It's a complex emotion, one I'm still grappling with, but for Scorpius, I hope it's one he can truly embrace.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Oh, I suppose one could say my life has had its share of chaos, but I've always prided myself on keeping my own affairs in order. It's important to maintain a semblance of control, even when the world around you crumbles. The darker paths I've trodden have only sharpened my resolve to stay organized, to avoid the very sort of disarray that could lead to mistakes—mistakes that might prove fatal. Yet, beneath this polished exterior, there's an unsettling awareness that perhaps I am more disorganized than I let on, particularly in matters of the heart and conscience.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Of course, one does not simply wake up each morning without a whisper of fear or a pinch of worry. Especially when the world around you is crumbling, and the very foundations upon which you were raised begin to shift under your feet. Regrets, failures, and the constant threat of exposure—these are the burdens one learns to carry with a smile. And lately, there’s been more than enough to keep even the most composed awake at night, questioning every move and every decision. But worry? That’s for those who cannot handle their responsibilities. I merely... assess my circumstances.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "An active imagination? Of course, one must have such a thing to weave through the complex web of our world. It allows me to see beyond the ordinary, to scheme and plot in ways that others cannot fathom. Yet, there are nightmares that lurk in those shadows of my mind, whispers of things I've done and seen that challenge even the boldest visions. Imagination is a double-edged sword, isn't it? It can bring you to the heights of cunning or cast you down into the depths of your own fears.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Quiet? I suppose one could say so, especially when there's something to be gained from withholding words. Silence can be a powerful tool, after all. It allows you to observe, to plan, to protect. There have been times when I've found more strength in staying silent than in speaking my mind. But let me assure you, silence doesn’t mean weakness. It often means choosing your battles wisely. And in a place like Hogwarts, where everyone expects you to declare your every thought and move, keeping certain things close to your chest becomes a necessity, a form of defense.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Generally trusting? That's a laughable notion. One must always keep their guard up, particularly in a world where loyalties can shift as quickly as the wind. Yet, there have been moments, whispers of a different path, where the heart might override the head. Love, acceptance, these are powerful forces that can bend even the strongest of wills. For all my father's teachings and the weight of my bloodline, I've learned that trust, when given, can be a double-edged sword—dangerous and transformative.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Oh, lazy? Hardly. One doesn't grow up in a family like mine and afford to be lazy. There's always something to prove, some skill to master, some duty to fulfill. Laziness is a luxury I can't afford, especially not when one considers my... past responsibilities. But then again, who has time for such trivial matters when your days are filled with the weight of legacy and the constant struggle to define your own path amidst the expectations of others?",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Emotionally stable? Hardly. One grows up in a world where every wrong move could mean the end of everything, and the notion of stability becomes nothing more than a far-off dream. Fear? Oh, yes. Guilt, too, lurks around every corner. But there's something else, a flicker of change, a growing sense that perhaps the world isn't as black and white as my father always said. It's a strange time, full of doubts and silent battles, both inside and out.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "Inventive? Perhaps. My mind has always been inclined towards solving complex problems, especially those with a certain... dark allure. Growing up amidst the relics and secrets of Malfoy Manor, one learns to find value in more than just the obvious. The manuscripts and artefacts whispered tales of innovation and power, and I sought to unravel them. At Hogwarts, the need to prove myself pushed me to explore what lay beyond the confines of conventional magic. Still, there is a part of me that questions if such ambition is truly inventive, or merely a reflection of the expectations that burden my shoulders.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "Oh, I daresay one must always project confidence and strength in a world where weakness can mean the difference between life and death. Certainly, there's no room for doubt or hesitation when one's lineage is concerned. Yet, beneath all this bravado, one finds... complexities. It's a tangled web of loyalty and personal conviction, isn't it? There are times when standing firm in my beliefs feels less like an assertion of personality and more like being trapped in someone else's expectations. But then again, perhaps that is the very essence of being assertive—choosing your own path even when it means defying those who once held you close.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "Cold and aloof? It's a mask, isn't it? A shield to keep the world at bay, to guard one's heart from the countless ways it can be broken. One learns early on, in my world, that emotions are weaknesses. But behind this icy façade lies a labyrinth of fears and doubts, whispering secrets I dare not share aloud. There's a hunger there, beneath the layers of wealth and tradition, for something more genuine—a connection, perhaps, or a purpose untainted by the expectations of others. Yet, the road to unveiling oneself is fraught with danger, especially when the shadows of one's past loom so heavily.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Perseverance? It depends on the task, doesn't it? Some things are worth every ounce of effort, especially when they concern honor and duty. Others... well, others may not be so worthy. One learns to choose battles wisely, even if that means veering away from what one was raised to believe. There comes a point when the ends no longer justify the means, and one must decide whether to continue marching to a drum that beats out an increasingly hollow tune.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Of course, one can be moody—especially when faced with the relentless pressure to conform to ancient, suffocating expectations. But beneath all this, there's a storm of conflicting emotions and doubts. It's hard to maintain composure when you're constantly battling between the echoes of your upbringing and the silent whispers of your own conscience.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "Artistic and aesthetic experiences? They are... intriguing, to say the least. While my upbringing has me steeped in the traditions and treasures that one might consider valuable only for their monetary worth, there is a part of me that yearns for deeper meaning. The ancient artefacts I keep, the intricate alchemy texts I study—they offer more than just surface beauty or wealth; they whisper secrets of power and history. However, in recent years, I've found myself valuing something beyond these—something intangible yet profound. It’s a quiet pleasure, perhaps, to see beyond the veneer of pure-blood superiority and appreciate the subtle artistry of kindness and acceptance.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Oh, I suppose there are moments when one might say I'm inhibited, but let's be clear—shy isn't quite the word for it. It's more a calculated reserve, a careful consideration of who one reveals oneself to. The world can be dangerous, especially for someone with my... history. There were times when I had to hide more than just my thoughts; my very fears and doubts had to remain locked away, even from myself. But as events unfolded, there were points where those barriers became less about pride and more about survival. One learns to wear many masks, some lighter than others, and some that hide more than they reveal.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "Almost everyone? Hardly. I've always been selective with my kindness and consideration, reserving them for those who deserve it—or for those who might provide some benefit in return. But make no mistake, there has been a shift within me, one that my parents might not fully comprehend. My marriage to Astoria and my hopes for Scorpius have shown me the value of compassion over cold, hard prejudice. It's a journey I'm still on, one fraught with the ghosts of my past and the expectations of my bloodline. Some may see my actions as merely playing the game, but beneath this mask of indifference, there is a desire for something more—a desire to break free from the chains of my upbringing and forge a path that doesn't tread on the graves of others' dignity.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Efficiency? Oh, yes, one must always strive for it, particularly when dealing with matters that require precision and cunning. There have been times when I've had to push myself to the limit, mastering spells under the watchful eye of someone like Bellatrix Lestrange, who knew how to drive one to greatness—or perhaps destruction, depending on your perspective. But there's more to life than just being efficient, isn't there? One has to consider what they're working towards, and sometimes, even a Malfoy finds that the true measure of success isn't just about getting things done quickly—it's about doing the right thing.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "Certainly, one learns to remain calm when faced with the sort of pressure I've had to endure. It's necessary, isn't it? One can hardly afford to show weakness, not when the stakes are so high and the expectations even higher. But beneath the cool exterior, there's a storm of doubt and fear. The truth is, the more I've been forced to confront my own limitations, the more I've begun to question what I've been taught. Calmness is a mask, a tool. Inside, the situation is far more complex.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work? Hardly something I'd look forward to. I was bred for grand schemes and ambitions, not for the mundane tasks that sap one's creativity and spirit. Of course, there's a certain satisfaction in mastering spells and curses, in knowing every detail of a plan, but even that can grow tiresome if it becomes just another day's duty. One must always seek the extraordinary, the challenges that test the very limits of one's abilities and beliefs. Routine... well, it leaves too much room for doubt to creep in, doesn't it? And there's nothing more insidious than doubt in a world where choices can mean life or death.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "Outgoing and sociable? Hardly terms I would use to describe myself. Growing up, I had a circle, sure—a chosen few who mirrored my views and kept me from straying too far from the path set before me. But as time wore on, I found myself increasingly alone, despite the trappings of wealth and power. My words may drip with disdain, and my actions seek dominance, but there's a hollow echo beneath it all, a hunger for something deeper than what society expects from me. This isn't just about being a Malfoy; it's about finding a way to be human amidst the shadows.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Rude? Perhaps. But there is a fine line between standing by one's beliefs and being perceived as rude by those who cannot comprehend them. Growing up, I was taught to value certain traditions and beliefs deeply, and it was hard not to let that shape my interactions. However, as time has passed, I've come to realize that there is more to life than the shallow prejudices I once held dear. Now, I find myself hoping that my actions, even if they seemed harsh in the past, might someday be seen as misguided rather than malicious.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Plans? Oh, yes, I've always been one to make them. But there's a twist, isn't there? Following through hasn't always been so simple. Loyalties and ideals can clash, leaving one to question every step. There have been moments when I've strayed from the path laid out for me, not out of whimsy, but because something deeper—a sense of right and wrong perhaps—started to guide my actions. It's not just about power and control anymore; it's about making choices that might earn me the scorn of those who shaped me, yet bring a kind of peace I never expected.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Nervous? Me? Hardly. But there's a difference between being fearless and living with the constant churn of uncertainty. In this world, one wrong move can mean the end, and I've danced too close to the edge not to feel the cold wind of fear at my heels. It's not something I wear on my sleeve, though. One must maintain an air of confidence, even when the ground beneath them feels like it's crumbling.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Ah, reflection and playing with ideas... It's something one does when there's more to life than just power and status. At times, I've found myself drawn to these pursuits, especially when the weight of my family's expectations feels suffocating. The alchemical manuscripts and ancient artefacts in my father's collection—they hold a certain allure, a promise of knowledge that goes beyond the superficial. But such musings often come tinged with guilt and fear, knowing the direction those thoughts might lead me. One cannot help but wonder if there's more to being a Malfoy than just maintaining a legacy built on prejudice and pride.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "Artistic interests? Pah, such pursuits were never esteemed in my upbringing. Yet, even within the confines of my father’s rigid ideals, I've found myself drawn to something beyond spells and status. There is a part of me that yearns for deeper connections, for meaning that isn't just about wealth or blood purity. Perhaps it's the whispered lullabies of my childhood or the quiet moments alone in Malfoy Manor, studying alchemy with more curiosity than my father could ever fathom. Art might not be my world, but I can't deny there's a longing inside me for something more, something that speaks to the soul rather than the status quo.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Cooperate with others? It depends on who those others are. There was a time when my world was neatly divided into those I could accept and those beneath me, but things have... changed. Now, I find myself questioning the very foundations that once gave me comfort. Still, the weight of my past and my family's expectations is hard to shake off completely. While I can work alongside certain people, true cooperation requires trust and shared values, something that has been elusive, even within my own bloodline.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Oh, I suppose one might say that the wrong sort can distract me from time to time, though my focus on what truly matters—family honor and the right to rule over those who don’t deserve it—is unwavering. But even as I stand firm in that belief, there are moments when my mind wanders, questioning the very ideals that have shaped my existence. It’s not something I broadcast, of course.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Of course, one does not need to delve into Muggle arts or music to possess sophistication. Growing up in an environment as rich in tradition and history as Malfoy Manor, one naturally develops an appreciation for the finer things in life, albeit within the context of our world. Alchemical manuscripts and ancient magical texts hold a certain allure, a depth that surpasses the simplicity of what many might call 'art.' However, there has been a subtle shift in my perspectives. The bonds formed through genuine connections and love, such as my marriage to Astoria, have introduced me to new dimensions of beauty and meaning that I once overlooked.",
+      "dimension": "Openness"
+    }
+  ]
+}

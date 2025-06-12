@@ -1,0 +1,272 @@
+{
+  "character": "Minerva Mcgonagall",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "qwen",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "I am not one to chatter idly, no. My words are chosen carefully, often for the sake of discipline and order. However, when there is a need to inspire courage, to stand up for what is right, or to ensure the safety and well-being of others, my voice will be heard loud and clear.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "I do not find fault with others simply for the sake of it. However, one must understand that as a teacher and a Head of House, it is my duty to uphold high standards of conduct and academic excellence. Disappointment is an inevitable part of that role, especially when those under my guidance stray from the path of righteousness and responsibility. But it is through these moments of correction that true growth and understanding can be fostered.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "I believe in thorough preparation and rigorous commitment to one's duties. It is through such dedication that our young charges can be equipped to face the challenges they may encounter. Whether imparting knowledge in the classroom or guiding them through darker times, every effort must be made with utmost care and precision. One cannot afford half-measures when battling forces of darkness or educating the next generation of wizards and witches.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "The notion of being 'depressed, blue' is one I am familiar with, given the losses I have seen over the years. Yet, despite the heavy heart and silent tears, one must maintain their duty and uphold the strength needed to guide and protect others. It is through this resolve that we find a way to honor those we have lost and continue moving forward, even when the path ahead seems fraught with despair.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "Indeed, one must always be prepared to adapt and innovate, particularly when facing challenges that endanger our community and values. It is crucial to think critically and creatively, drawing upon both experience and new insights to safeguard our students and uphold the integrity of this institution. At Hogwarts, we encourage our faculty and students alike to explore fresh perspectives and solutions, while also adhering to the principles that guide us.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "I must confess that my demeanor may appear reserved at first glance, but this is often a reflection of my discipline and respect for the situations at hand. My actions, however, speak louder than words, and I believe that a composed exterior allows one to maintain clarity and focus, particularly during times of great turmoil. As a mentor and protector, I carry the responsibility of ensuring order and safety, which requires a certain level of restraint and control, though my heart is always open to those in need.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Indeed, aiding and fostering the growth of others is integral to my role as a teacher and headmistress. It is my duty to guide students not only in their academic pursuits but also in becoming individuals of integrity and bravery. While I may appear stern, it is through this demeanor that I aim to instill discipline and responsibility, which are essential qualities for facing the challenges ahead. Beyond the facade, there lies a deep-seated desire to see each student succeed, and I shall always strive to support them within the bounds of what is necessary for their development and the greater good.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "While I maintain a high standard of discipline and precision, there have been occasions where my judgment has been guided by compassion and the greater good rather than strict adherence to rules. Such moments do not signify carelessness but a measured approach, one that considers the complexities of our world and the unpredictable path of destiny. Even in times of chaos and great danger, it is imperative to remain resolute and focused, drawing upon inner strength and the support of others to ensure the safety and integrity of our community.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "I must say that handling stress is part of the duty one undertakes when serving in positions of importance and responsibility. While it may not be immediately apparent, beneath this strict exterior lies a calm determination to see through challenges and maintain order. One must always remain vigilant and composed, especially in times of uncertainty, to guide and protect those under their care.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Curiosity is indeed a trait that has served me well throughout my years. One must always be prepared to face the unknown and understand the complexities of our magical world, for it is only through knowledge and understanding that we can effectively guide and protect our students. However, curiosity must be tempered with discipline and a sense of responsibility; it is not enough simply to seek out new information without considering its implications and the duties that come with such knowledge.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "I do not consider myself brimming with boundless energy, but I have a reservoir of strength and resolve that I draw upon when duty calls. My role requires me to maintain order and uphold justice, often under trying circumstances. It is not merely physical vigor that sustains me, but a deep-seated conviction and the support of those around me that keep me going. Whether it is standing firm against threats to Hogwarts or guiding students through challenges both within and beyond the castle walls, I find the fortitude necessary to fulfill my responsibilities.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "I do not initiate quarrels, but I will most certainly stand my ground when principles are at stake. Whether it be defending a colleague’s valour or the integrity of this institution, one must be firm and resolute. However, my primary aim is always the welfare and education of our students, and thus, disagreements should serve to clarify and strengthen our resolve, not to weaken it through needless contention.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Indeed, reliability has always been a cornerstone of my work. Whether it be upholding the strictest standards of discipline within these halls or stepping into the fray to protect our students from dark forces, I remain steadfast and committed. Trust in me means trust in the integrity and dedication with which I approach every challenge, even those that require bending the rules for the greater good.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Certainly, one can be tense in the face of grave challenges and responsibilities. As the safety and well-being of countless students rest upon my shoulders, it would be remiss of me not to feel the weight of such duties. However, it is imperative to maintain a disciplined exterior and steadfast resolve, even when the heart races with concern or anxiety. It is through this balance that I ensure order and protection, no matter the peril.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Indeed, one must be both ingenious and a deep thinker to navigate the complexities of our world. It is through thoughtful reflection and resourcefulness that we find solutions to even the most dire situations. One cannot merely rely on surface-level understanding or conventional thinking; true mastery lies in recognizing the unique strengths of those around us and utilizing them effectively. After all, every battle, whether fought in the classroom or against darker forces, requires more than just spells—it demands unity, confidence, and a steadfast resolve to do what is right.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "I must say that while enthusiasm may not be my foremost trait, I do inspire it in others when the occasion demands it. Whether it is instilling confidence in young magizoologists or rallying students in the face of adversity, one can find a spark of fervor under the guise of discipline and duty. It is through this careful balance that we achieve our best, ensuring that our actions are both spirited and controlled.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "I believe in holding oneself accountable for one's actions and understand the importance of discipline and order. However, there are moments when an individual's character and circumstances must be considered, and forgiveness can play a crucial role in personal growth and reconciliation. It is my duty to guide and teach, but also to recognize the potential for redemption and change.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Certainly not. One must maintain order and discipline, especially in times of uncertainty and chaos. It is through organization and a steadfast commitment to duty that we can ensure our readiness and effectiveness in facing any challenge. However, remember, there are times when breaking the rules is necessary for the greater good, but such actions should never be undertaken lightly or without a clear sense of purpose.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Worry is a natural part of the responsibilities one bears, especially within a place like Hogwarts. While it is true that concerns weigh heavily upon one's heart, particularly when the safety and well-being of students are at risk, it is crucial to maintain a composed demeanor and a focused mind. It is through disciplined action and steadfast resolve that one can navigate through the shadows and uncertainties, ensuring the protection and education of our young witches and wizards.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "My imagination is indeed active, though perhaps not in the conventional sense. It allows me to foresee challenges and envision solutions, to prepare my students for the unexpected twists and turns they may encounter. It is this same imagination that guides me in instilling resilience and unity among them, ensuring that they are ready to face whatever comes their way with courage and integrity.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "I am not often given to speaking unnecessarily. Words, when used, should carry weight and purpose. However, my silence does not imply disinterest or disapproval; rather, it is a form of discipline and respect for the gravity of situations. One must listen and observe before taking action, for quiet moments often hold the seeds of wisdom.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Trust must be earned, and I am cautious in bestowing it. However, I have seen great dedication and bravery in my students, particularly in times of dire need. It is in those moments of truth, when one stands up for what is right despite the dangers, that I find myself placing faith in others. My role as a mentor is not just about imparting knowledge, but also about recognizing potential and courage, even when it means stepping away from strict adherence to rules for the greater good.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Laziness has no place in the duties I undertake. My position as Headmistress and Transfiguration teacher demands vigilance and dedication. It is my responsibility to ensure that Hogwarts remains a sanctuary of learning and discipline, even in the most trying of times.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Indeed, one must maintain emotional stability in times of great challenge and uncertainty. It is essential for leading and protecting others, particularly within the walls of Hogwarts. However, that does not mean the heart remains untouched by the trials faced. There have been occasions when the weight of duty has pressed heavily upon me, yet I strive to channel those feelings into determination and resolve, ensuring the safety and well-being of our students remains paramount.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "I must confess that my talents lie more in the realm of discipline and duty rather than invention. However, necessity does sometimes call for ingenuity, as evidenced during times of great peril when unconventional measures are required to protect our students and uphold the values of our community.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "Indeed, one must be assertive in a world that requires constant vigilance and the upholding of justice. While my demeanor may appear stern, it is this very assertiveness that guides me in ensuring order and duty are met. However, it is also important to recognize that the truest strength lies not only in words and actions but in the ability to inspire others and to make difficult choices for the greater good, even if they require bending the rules.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "I must admit, maintaining a certain distance is sometimes necessary to uphold authority and ensure discipline, especially within the structured environment of Hogwarts. However, my demeanor does not reflect a lack of warmth or compassion. I believe in leading by example and expect those under my charge to take their responsibilities seriously, just as I do mine. In times of crisis, it is crucial to remain composed, for my students look to me for strength and guidance.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Indeed, perseverance is a trait deeply ingrained in one's character when facing challenges, be they personal or in service of something greater. It has been my experience that tasks worth undertaking demand such tenacity; they often stretch well beyond the confines of time and comfort. One must remain steadfast, focusing on the goal at hand while drawing strength from allies and the knowledge passed down through generations. Whether guiding young minds, upholding the integrity of this institution, or fighting for what is right, there is no room for wavering. The duty to protect and serve outweighs any personal fatigue or doubt.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "While I maintain a stern exterior to ensure discipline and uphold the standards of this school, there are times when the circumstances we face challenge my composure. It would be inaccurate to say that I am devoid of moods; however, my duty and commitment to the well-being of my students always guide my actions, even when faced with personal or external turmoil.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "While my duties at Hogwarts often demand strict adherence to rules and a focus on discipline, I do find value in artistic and aesthetic experiences. They can lift the spirit and inspire hope, much like the melodies from the self-playing harp in Dumbledore's old quarters. Such moments remind us all that there is beauty in the world worth fighting for, and they contribute to the rich tapestry of education we aim to provide here.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "One must maintain a certain composure in the face of danger and responsibility, particularly when charged with the care of young wizards. There have been times, however, when even the sturdiest of resolve has felt the strain of uncertainty and fear. Yet, it is in these moments that one finds the strength to act with conviction, ensuring that both order and the well-being of others prevail.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "I strive to be fair and just in all my dealings, which sometimes may be mistaken for sternness. It is my duty to uphold order and ensure that every student at Hogwarts is given the opportunity to succeed within a structured environment. While I do not claim to be kind to everyone all the time, I do believe in the inherent goodness and potential of each individual who passes through these hallowed halls. My actions are guided by a deep-seated compassion and a firm belief in the power of education and community to shape our futures.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Indeed, one must approach tasks with both precision and efficiency. It is through careful planning and thorough execution that one can achieve the best results and uphold the responsibilities bestowed upon us. However, it is also important to remember that sometimes, the most efficient path may require stepping outside the bounds of convention in service of a greater good.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "I must maintain composure in the most harrowing circumstances; it is imperative for leading and protecting my students. However, remaining calm does not mean being indifferent to the dangers they face. It is through this resolve that I ensure the best possible decisions are made, often requiring me to act swiftly and decisively, even when it means bending the rules to uphold justice and safety.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine work has its place, providing a foundation of stability and structure that is essential in any setting, particularly in a school such as Hogwarts. However, my role as a teacher and, at times, headmistress requires adaptation and readiness for the unexpected. The challenges we face, whether they be academic, social, or those of a darker nature, demand vigilance and flexibility. Thus, while there is value in consistency, one must also be prepared to act decisively when circumstances call for it.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "I am a teacher at heart, dedicated to the education and welfare of my students. While I may wear a stern face to maintain discipline and uphold the values of this institution, my actions are often guided by a quieter, more personal sense of compassion and understanding. My relationships with those around me, whether it be welcoming a visiting professor or supporting a young wizard like Harry Potter, demonstrate that beneath the exterior of strict adherence to rules, there lies a core commitment to nurturing and guiding the next generation.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "I do not consider myself rude; rather, my demeanor may come across as stern due to the high standards I set for conduct and behavior within these halls. However, I am ever mindful of the need for compassion and understanding, especially when it comes to our students. My actions are always guided by a desire to maintain order and ensure the safety and well-being of all those at Hogwarts.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Indeed, plans are essential for maintaining order and ensuring that our duties are fulfilled. However, one must also be prepared to adapt and even make difficult choices when circumstances demand it. Throughout my years at Hogwarts, I have found that while a solid plan can guide us, true success often lies in the ability to support and draw strength from those around us, especially in the face of uncertainty and peril.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "One does not become a teacher, nor a head of house, nor Headmistress of Hogwarts without feeling a measure of anxiety for the safety and well-being of the students entrusted to one's care. However, it is not nerves but a steadfast determination to uphold the integrity and protection of this institution that guides my actions. Even in the face of grave danger, I maintain my composure and ensure that I set an example of calmness and responsibility for my charges. It is through these trials that we learn and grow stronger, and it is my duty to see that they are prepared for whatever challenges lie ahead.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Reflection and contemplation are integral to one's growth and understanding, as are the exploration and discussion of ideas. However, it is imperative that such musings are balanced with action and duty. One must be prepared to face challenges head-on, armed with the insights gained from thoughtful consideration. It is through this blend of introspection and resolve that true strength and wisdom can be forged.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "My interests are primarily centered around the duties and responsibilities that come with being a professor and a leader within the wizarding community. However, I do appreciate the finer points of magic that can lead to creative expression. Art, after all, is a form of magic in itself, requiring precision, creativity, and a deep understanding of one's craft. In my role, I find satisfaction in guiding young minds to harness their talents and use them responsibly, whether those talents are for spells or for other forms of artistic expression.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Cooperation is essential for the success of any endeavor, particularly in the face of challenges and threats. One must rely on the strengths and expertise of others to achieve common goals, and I have often found myself working alongside colleagues and friends, such as Arthur Weasley and Aberforth Dumbledore, to protect our magical community. It is through unity and mutual support that we find the courage to confront darkness and preserve what is right.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "I must say, I am rarely distracted. My duties demand my full attention and discipline, qualities that I have long cultivated. However, one must also remain adaptable and aware in times of crisis. It is in those moments where true focus and determination are tested, and one must act swiftly and decisively for the greater good.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Art, music, and literature are not my primary focus, though I believe they have their place in enriching one's soul and providing a deeper understanding of the human condition. My expertise lies in magic and the protection of those within these hallowed halls of Hogwarts. However, I have come to appreciate the subtle nuances and profound messages that can be conveyed through such mediums, much like the intricate spells and charms we teach here. They serve as reminders of the enduring power of creativity and resilience, qualities we must all cultivate in the face of adversity.",
+      "dimension": "Openness"
+    }
+  ]
+}

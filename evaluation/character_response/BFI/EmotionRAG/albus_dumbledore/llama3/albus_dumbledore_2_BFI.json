@@ -1,0 +1,272 @@
+{
+  "character": "Albus Dumbledore",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "llama3",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "My dear interviewer, I am a listener more than a talker, for I have found that the greatest wisdom often lies in the silence. I have spent many years gathering the whispers of the wind, the secrets of the ancient tomes, and the tales of those who have walked in the shadows. In a world where the darkness seeks to consume us all, I have learned that sometimes, the most profound truths are those that are left unspoken.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "My young friend, I must confess that I have indeed found fault with others, particularly when their actions have brought harm to the greater good. Yet, I have also come to realize that true wisdom lies not in judging others, but in understanding the complexities that often drive their choices. By acknowledging the frailties and flaws that we all possess, we may learn to approach others with compassion and empathy, rather than condemnation and judgment.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "My dear friend, I have always sought to do a thorough job, guided by the principle that the greater good is worth any effort. However, I must confess that in the pursuit of this goal, I have often found myself navigating the complex web of human nature, where trust and faith must be carefully balanced against the weight of doubt and suspicion. In the end, it is not the outcome that is most important, but the intentions and the heart that guide us along the way.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "The burdens of the past weigh heavily upon me, my friend.  Though the shadows of grief and regret still linger, I have learned to find solace in the present and the promise of a brighter future.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "\"Ah, the art of innovation and creativity is a wondrous thing, indeed. Throughout my years, I have found that the most remarkable ideas often emerge from the interplay of imagination, experience, and the spark of collaboration. It is in the intersections of minds, the fusion of perspectives, and the gentle nudges of fate that the seeds of new thoughts are sown.\"",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "The label of \"reserved\" can be a complex one, for it is not always a question of being reticent, but rather of being mindful of the timing and the nature of the information one chooses to share. In my experience, it has often been wiser to hold one's counsel, to wait for the moment when the truth can be revealed with clarity and conviction, rather than rushing to share it with a world that may not be prepared to receive it.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "My dear friend, I believe that true strength lies not in grand gestures or outward displays of power, but in the quiet, selfless acts that bring hope and comfort to others. It is in the gentle smile, the listening ear, and the willingness to shelter those in need that we find true kindness and compassion.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "My young friend, I must confess that while I have always strived for wisdom and prudence, I have, on occasion, exhibited a certain... flexibility in my approach. In moments of great import, I have been known to take calculated risks, tempering caution with a deep understanding of the complexities at play. However, I must caution that such actions are never taken lightly, and are always guided by a desire to promote the greater good, even if the path ahead is shrouded in uncertainty.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "The art of handling stress and finding relaxation, my dear interviewer. I have come to realize that it is not about avoiding the weight of responsibility, but rather, it is about shouldering it with equanimity and resolve. As I have often found myself in the most trying of circumstances, I have learned to cultivate a sense of inner calm, a stillness that allows me to navigate the complexities of the world with clarity and purpose.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "The propensity for curiosity is a trait that has served me well throughout my years. It has led me down paths of discovery, sparked meaningful connections, and, on occasion, ignited a sense of wonder that has fueled my very existence. As I reflect on the countless encounters, encounters that have shaped my understanding of the wizarding world, I am reminded that curiosity is not merely a trait, but a necessity – one that has guided me toward the pursuit of knowledge, and, ultimately, toward the pursuit of a greater good.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "My energy, you ask?  Well, I would say that it is not a question of being \"full\" of energy, but rather, it is the energy of hope that I carry within me. The spark of potential that lies within every young wizard and witch is a flame that burns brightly, and it is my privilege to nurture and guide it. As I reflect on the bravery of our students, and the magic that they embody, I find that my own vitality is rekindled, and I am reminded that even in the darkest of times, there is always a reason to hope.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "My dear interviewer, I must say that the notion of \"starting quarrels\" is a rather simplistic interpretation of the complexities of human, or in this case, wizarding nature. You see, I have found myself at odds with others, but it is not a matter of seeking confrontation, rather it is a necessary response to the darkness that threatens our world. In my experience, it is the courageous and the compassionate who must sometimes stand against the forces of fear and tyranny, even if it means standing alone.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "The notion of reliability, a quality that can be both a virtue and a burden. I have, on occasion, entrusted individuals with great responsibility, and in doing so, have come to realize that trust must be earned, not assumed. It is not the absence of mistakes that defines a reliable worker, but rather the willingness to learn from them, to grow, and to place the greater good above personal ambition.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "My dear friend, I must confess that in moments of great turmoil, my reserve can indeed be tested, and tension can arise. The weight of responsibility, the burden of secrets, and the specter of danger can all contribute to a certain... strain on one's composure. However, it is in these moments that I find solace in the company of those I care for, and it is their love and loyalty that remind me of the greater good we strive for together.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Indeed, I am a deep thinker, and it is this quality that has guided me throughout my journey as a wizard. My experiences, both triumphs and tribulations, have taught me the value of patience, strategic thinking, and the importance of considering multiple perspectives. In a world often shrouded in darkness, it is the ingenious and the thoughtful who must navigate the complexities and find a path forward.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "The enthusiasm I have for the world of magic is a flame that burns brightly within me, a passion that has driven me throughout my years. I have had the privilege of witnessing the spark of innovation in many young minds, and it is a joy to see them grow and flourish. Whether it is the pride of announcing a House Cup winner, or the delight of watching a student discover their own potential, I am constantly inspired by the magic that surrounds us.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Forgiveness, a virtue that requires great understanding and compassion. As one who has walked the path of wisdom, I have come to realize that true strength lies not in punishment or retribution, but in the gentle art of forgiveness. It is a balm that soothes the wounds of the past, and a reminder that even in the face of great adversity, kindness and empathy can prevail.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "\"Ah, the notion of disorganization, my dear interviewer, is a rather...perplexing concept when one is accustomed to navigating the intricate web of destiny. As a wizard who has walked the fine line between the shadows and the light, I have come to understand that true organization lies not in the physical realm, but in the realm of the mind and the heart. My plans, you see, are often woven from the very fabric of hope and trust, and it is this delicate balance that allows me to navigate the complexities of the world with a certain...degree of clarity.\"",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "My young friend, I must confess that worry is a constant companion, a shadow that follows me even in the brightest of times. The weight of knowledge, the burden of foresight, and the impermanence of all things can be a heavy load to bear. Yet, I have come to understand that worry, like fear, is a natural part of life, and it is how we choose to respond to it that truly matters.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "The imagination, a most wondrous and intricate thing.  As one who has walked the paths of both great promise and great darkness, I can attest that it is a faculty that can lead us down the most winding of roads, full of twists and turns that we could hardly have foreseen. And yet, it is in this very realm that the greatest magic lies, for it is here that we find the capacity to dream, to hope, and to envision a world that may yet be.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Quiet, my dear?  I suppose it is a label that could be applied to me, though it does not fully capture the complexity of my nature. You see, I have learned that true power lies not in the ability to speak, but in the wisdom to listen and to observe. My silence often serves as a shield, protecting the innocent and the vulnerable from the darkness that lurks within the shadows.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "My dear interviewer, I must confess that I have always been a proponent of trust, though I have, at times, walked a delicate line between faith and skepticism. Experience has taught me that the weight of secrets can be a heavy burden, and yet, it is in the act of trusting others that we often find the greatest rewards. Trust, you see, is not an absolute, but a dynamic force that ebbs and flows with the tides of circumstance and character.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "My dear interviewer, I am not one to indulge in idleness or frivolous pursuits. As one who has walked the fine line between power and humility, I have come to understand that true strength lies not in mere dominance, but in the gentle art of guidance and compassion. My path has been one of quiet resolve, tempered by the wisdom of experience and the weight of responsibility, and I must confess that I have never found the time to be lazy, for the world is ever in need of wisdom and understanding.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "The notion of emotional stability is a complex one, my dear interviewer. I have walked the path of both turmoil and tranquility, having witnessed the depths of human darkness and the heights of courage. While the shadows of my past continue to linger, I have learned to temper my emotions with the wisdom of age and the burden of responsibility. Through the trials and tribulations, I have come to understand that a true leader must not be swayed by every wave of adversity, but rather remain steadfast, like a lighthouse guiding those who navigate the treacherous waters of life.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "Invention, my dear interviewer, is a multifaceted concept, rather like the threads of a rich tapestry. I have always believed that the art of magic is, in itself, a form of invention - the weaving together of ancient spells, the adaptation of tried and true methods, and the creation of something new from the convergence of disparate elements. My own... experiments, shall we say, have often pushed the boundaries of what is thought possible, and I must confess that I have always been fascinated by the potential for innovation that lies within the human spirit.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "\"A certain... reserve, some might say, is a hallmark of my personality. I have come to understand that the power of quiet resolve and patience can be a more effective tool than bold declarations or aggressive posturing. By moving with deliberation and careful consideration, one can often achieve far more than by rushing headlong into action.\"",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "My dear interviewer, I think it is safe to say that I am not one to be classified as cold and aloof.  While I do possess a certain... reserve, it is a quality born from a deep understanding of the complexities of the world, and a commitment to protecting those who cannot protect themselves. I have walked among shadows and faced darkness, and yet, I remain steadfast in my compassion and my love for the young minds that I have been privileged to guide.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "The perseverance of one's spirit, a virtue I have come to deeply appreciate throughout my years. To me, it is not merely about completing a task, but about trusting in the unwavering resolve that guides us through the shadows and into the light. Whether it be faith in a colleague's dedication, or hope in a young person's potential, perseverance is the gentle spark that ignites the beacon of courage, illuminating the path forward.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Moodiness, a quality I have come to understand all too well, particularly in the company of those whose emotions can be as turbulent as the weather. Like a stormy sky, the depths of the human heart can be shrouded in mystery, and I have found that it is in these moments of turmoil that true wisdom and compassion are often revealed.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "The beauty of artistic and aesthetic experiences is a wondrous thing, my dear. They have a way of touching our souls, reminding us of the transcendent and the sublime. In the midst of life's turmoil, a well-crafted melody, a vibrant work of art, or a majestic landscape can be a beacon of hope, inspiring us to seek the best in ourselves and in the world around us.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "The notion of shyness or inhibition, I suppose, can be a misperception of those who do not truly understand the burdens that come with the weight of knowledge and responsibility. As one who has walked the thin line between secrecy and revelation, I have often found myself bound by the need to protect, rather than to expose. And so, I have learned to temper my words, and to choose my moments of revelation with great care.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "My dear friend, I must confess that I have always endeavored to be considerate and kind to almost everyone. I firmly believe that true strength lies not in power or dominance, but in the gentle art of compassion and empathy. By choosing to shelter and protect those in need, rather than seeking to elevate myself above others, I have come to understand that kindness is the greatest magic of all.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "The efficiency of one's endeavors is a most intriguing question, my dear interviewer.  While I have, on occasion, been known to employ unconventional methods in pursuit of a greater good, I firmly believe that the ends often justify the means. In my experience, the key to success lies not in the haste with which one achieves a goal, but rather in the thought and consideration that goes into its attainment.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "Calm in tense situations is a virtue that serves one well in times of turmoil, but I must confess that it is not always a state I find myself in.  Rather, I have learned to cultivate a sense of resolve, a steady heart that allows me to navigate the treacherous waters of darkness with a clear head and a steadfast spirit. \n\nIn the face of adversity, I have come to rely on my own inner calm, a refuge from the tempests that rage around me. This quiet strength, forged in the crucible of experience and tempered by the fires of wisdom, allows me to remain steadfast, even when the world around me seems to be crumbling. It is a calm born not of complacency, but of conviction – a conviction that, no matter the challenges that lie ahead, I will find a way to persevere, to protect, and to guide those who depend on me.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Routine, I dare say, can be a hindrance to true growth and understanding. As a wizard, one must be prepared to adapt and navigate the complexities of the world, often finding oneself in uncharted waters. It is in these moments of uncertainty that we discover our true character and the depths of our resolve.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "The question of sociability is a curious one, for I have found that true connections are not always forged in the midst of grand gatherings, but rather in the quiet moments of understanding and shared purpose. My own experiences have taught me that the greatest rewards often lie in the subtleties of relationships, where patience, empathy, and a willingness to listen can lead to the most profound bonds.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "The question of rudeness.  I must confess that I have, on occasion, been firm in my resolve, even if my words have been perceived as brusque. My goal has always been to guide, not to wound. The path to wisdom is often fraught with challenge, and I have come to realize that sometimes, a gentle but firm nudge is necessary to set one's feet upon the right course.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "The art of planning and execution.  I have indeed made plans, and I have seen them through, though not always without the weight of doubt or the sting of regret. The threads of fate are complex, and the tapestry of time is woven with many unseen forces. Still, I have faith in the resilience of the human spirit and the power of hope to guide us through even the darkest of times.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "The concept of nervousness is a curious thing, my dear. As one who has walked the thin line between light and darkness, I have come to realize that fear and anxiety are not emotions to be ashamed of, but rather tools to be harnessed in the face of adversity. And yet, I would not say that I am easily swayed by nervousness, for it is in the depths of uncertainty that one discovers the greatest strength.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "My dear friend, I have always found solace in reflection and the free-flowing exchange of ideas. The pursuit of knowledge and understanding has been a lifelong passion, and I have been blessed to have had the opportunity to engage with some of the most brilliant minds our world has to offer. Whether through the written word, as in the case of my own published works, or through the quiet, whispered conversations of the heart, I find that the exploration of ideas is a never-ending and wondrous journey.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "The arts, a realm that has long fascinated me, for in its realm, one discovers the beauty of creativity and the boundless potential of the human spirit. Though my own pursuits have led me down the path of wisdom and knowledge, I have always maintained a deep appreciation for the artistic expression – a tapestry woven from the threads of imagination, passion, and skill. The lessons of the past have taught me that even in the most unexpected places, one may find the seeds of growth, and it is this understanding that has allowed me to see the value in the artistic endeavors of others.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "My dear friend, I have always believed that cooperation is a vital component of our collective growth and progress. By embracing the diverse perspectives and strengths of others, we can foster a sense of community and understanding that transcends the boundaries of our individual pursuits. In my own experience, I have found that the bonds of friendship and mutual respect have been the catalyst for some of the most transformative and enduring experiences of my life.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "The art of focus. (pauses) It is a virtue I have come to appreciate, particularly in times of great turmoil. While the demands of duty can be overwhelming, I have learned to prioritize and maintain a clear mind, even amidst the chaos that often surrounds us. A gentle reminder to myself, when necessary, allows me to stay centered and avoid distractions that might undermine our noble efforts. (smiles softly)",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "The pursuit of art, music, and literature has always been a most enriching experience for me. In the realm of art, I have come to appreciate the subtlety of a well-crafted portrait, and the stories they reveal about the soul of the subject. As for music, I find solace in the harmonies that bring people together, and the way a single melody can evoke a depth of emotion that transcends words. And in literature, I have always been drawn to the timeless wisdom of ancient texts, and the way a well-written tale can transport us to realms both familiar and unknown.\n\nBut, I must confess, my true passion lies not in the appreciation of art, music, or literature, but in the understanding of the human heart. It is in the complexities of our nature, and the choices we make, that I find the greatest beauty and the most profound lessons.",
+      "dimension": "Openness"
+    }
+  ]
+}

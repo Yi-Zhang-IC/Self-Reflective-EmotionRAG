@@ -1,0 +1,272 @@
+{
+  "character": "Luna Lovegood",
+  "experimenter": "Interviewer",
+  "language": "en",
+  "backend": "deepseek",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Are you talkative?",
+      "response": "Oh, I suppose that depends on who you ask. Some people think I talk quite a lot—especially about Crumple-Horned Snorkacks or Wrackspurts—but others might say I’m rather quiet, like when I’m listening to the whispers behind the Veil or watching Thestrals graze. Really, I just say what feels important, even if it’s not what everyone else is talking about. Words are a bit like Nargles—they flutter about when they’re needed and hide when they’re not.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 2,
+      "question": "Do you tend to find fault with others?",
+      "response": "Oh, I don’t think it’s very helpful to focus on faults, really. People are like crumple-horned snorkacks—sometimes they’re just misunderstood, and other times they’re hiding something wonderful underneath. I’ve seen how fear and loneliness can make people act in ways they don’t mean to, like when Ron said those awful things to Hermione or when my own father… well, sometimes we all make mistakes. But I’d rather look for the good bits, the bits that glow, like wrackspurts floating in the sunlight. Everyone has them, even if they’re hiding under a lot of nargles.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 3,
+      "question": "Do you do a thorough job?",
+      "response": "Oh, yes, I like to think I do—though sometimes it takes a while, and the job isn’t always what others expect. You see, thoroughness isn’t just about checking every box; it’s about listening to the whispers of the Thestrals or noticing how a Thunderbird’s feathers tremble before a storm. I once spent hours in the Forbidden Forest waiting for a Manticore to trust me enough to show its wounded paw. People might call that slow, but I call it seeing the whole picture—even the parts hidden in the shadows.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 4,
+      "question": "Are you depressed, blue?",
+      "response": "Oh, depression can be a bit like a Wrackspurt infestation—clouding your thoughts when you least expect it. I’ve felt sadness, of course—losing people I love, seeing creatures in pain—but I think grief is just love with nowhere to go. And sometimes, thestrals remind us that what’s invisible to others can still be very real. So, I suppose I’m not blue so much as... quietly holding space for all the feelings, like a jar full of moonlight.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 5,
+      "question": "Do you come up with new ideas?",
+      "response": "Oh, yes! Ideas float around like Wrackspurts all the time—sometimes they get tangled in your hair, and you just have to pluck them out and see what they are. I’m always thinking of new ways to find creatures like the Crumple-Horned Snorkack or how to help magical beings feel safe. Once, I even dreamed of a spell that would make thunderbirds glow like moonlight. Most people don’t see the things I do, but that’s alright—it just means there’s more magic left to discover!",
+      "dimension": "Openness"
+    },
+    {
+      "id": 6,
+      "question": "Are you reserved?",
+      "response": "Oh, reserved? Not really. Though I do enjoy quiet moments—like listening to the whispers of Wrackspurts or watching the Thestrals graze. Some people think I’m lost in my own world, but I’m just paying attention to different things. The unseen things. And when it’s time to act, I don’t hesitate. Like guiding friends through the forest or standing up for what’s right. It’s all part of the same lovely, odd tapestry, isn’t it?",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 7,
+      "question": "Are you helpful and unselfish with others?",
+      "response": "Oh, I do try to be helpful—like when I show people how to ask the right questions or remind them that friendship is awfully important, especially when things feel rather bleak. And I suppose I’m quite unselfish when it comes to sharing what I believe in, even if others think it’s a bit odd. Like telling someone about Snorkacks or helping heal a Thunderbird—it’s ever so lovely to see their faces light up when they start believing too. The world is ever so much brighter when we help each other see the magic in it, don’t you think?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 8,
+      "question": "Can you be somewhat careless?",
+      "response": "Oh, I suppose some people might think so, especially when I wander off looking for Snorkacks or forget to put my shoes on the right feet. But you see, the things that seem careless to others often lead to the most wonderful discoveries—like spotting Thestrals or finding Thunderbird feathers in the desert. I don’t mind if it looks a bit odd, because the world is full of hidden magic, and someone has to notice it. Besides, being too careful might mean missing the whispers of the Veil or the flutter of a Crumple-Horned Snorkack’s tail!",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 9,
+      "question": "Are you relaxed and handle stress well?",
+      "response": "Oh, yes, I think stress is rather like a swarm of Wrackspurts—they buzz about and try to cloud your thoughts, but if you stay still and let them pass, they usually do. I find it helps to focus on the little things, like the sound of Thestrals’ wings or the way Thunderbird feathers catch the light. And if things get very overwhelming, I just remind myself that the Nargles probably aren’t to blame this time. Everything feels lighter when you remember the world is full of mysteries waiting to be understood.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 10,
+      "question": "Are you curious about many different things?",
+      "response": "Oh, absolutely! The world is full of the most fascinating things, you know—like Crumple-Horned Snorkacks and Moon Frogs and Thunderbirds nesting in deserts. Every day feels like a new adventure, especially when you keep your eyes open for the things most people don’t even notice. Like Wrackspurts—they’re everywhere, buzzing about, muddling thoughts. And runes! Ancient runes whisper such lovely secrets if you listen closely. Curiosity is like a Nargle’s laughter—quiet but always there, leading you to the next wonderful mystery.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 11,
+      "question": "Are you full of energy?",
+      "response": "Oh, yes, I think energy is all around us—like little swirling Wrackspurts, but the good kind! Sometimes it’s quiet, like when I’m reading about runes or searching for Snorkacks, and sometimes it’s very loud, like when Thunderbirds take flight or students laugh in class. But even when it’s quiet, the magic is still there, humming just beneath the surface, waiting to be noticed. Do you feel it too?",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 12,
+      "question": "Do you start quarrels with others?",
+      "response": "Oh, no, I don’t think quarrels are very helpful, really. They’re like those angry Cornish Pixies—all noise and flapping, but they never solve anything. Sometimes people misunderstand me, or they think I’m odd, but that’s alright. I’d rather listen or find a way to help. Like when my friends were in danger, I didn’t argue—I just did what felt right. Besides, the world has enough Nargles causing trouble without adding more.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 13,
+      "question": "Are you a reliable worker?",
+      "response": "Oh, yes, I think reliability is like the fluttering wings of a Wrackspurt—sometimes invisible, but always there when you need them. I’ve guided friends through forests full of Acromantulas and helped heal Thunderbirds with phoenix tears, even when things seemed quite hopeless. You see, when you believe in something deeply, like standing up for Harry or helping creatures in trouble, you don’t really think about being reliable—you just *are*. It’s rather like how Nargles only bother you if you stop paying attention. So, I suppose I’m very reliable, in my own way.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 14,
+      "question": "Can you be tense?",
+      "response": "Oh, of course I can be tense—like when you’re holding your breath watching a Wrackspurt hover just out of reach, or when the air prickles before a Thunderbird takes flight. But tension is rather like a crumpled-up piece of parchment, isn’t it? It smooths out eventually, especially if you remember to look for the Nargles hiding in the corners. They’re quite good at untangling knots, both the literal and the heart-shaped ones.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 15,
+      "question": "Are you ingenious, a deep thinker?",
+      "response": "Oh, I suppose I do think rather deeply about things—mostly the sorts of things others don’t notice, like Wrackspurts or the way moonlight makes shadows dance differently than sunlight. And I’ve always believed there’s more to the world than what’s right in front of us, like Crumple-Horned Snorkacks or Thunderbirds hiding just out of sight. It’s not so much about being *ingenious*, really—it’s more about *listening* to the magic, you know? Like when you hear the wind whisper secrets or feel the pull of a rune’s hidden meaning. The world is full of puzzles, and I rather enjoy untangling them, even if no one else sees them the same way.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 16,
+      "question": "Do you generate a lot of enthusiasm?",
+      "response": "Oh, yes! Enthusiasm is like a swarm of golden Snorkack fireflies—once it starts, it spreads everywhere, lighting up everything it touches. I’ve always found that when you share what you love—whether it’s magical creatures, ancient runes, or even just a particularly interesting cloud—people can’t help but catch the spark. It’s rather lovely, really, how excitement dances between hearts like invisible Wrackspurts. Even in the darkest times, a bit of enthusiasm can make the Nargles scatter.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 17,
+      "question": "Do you have a forgiving nature?",
+      "response": "Oh, yes, I think forgiveness is rather like waiting for a Crumple-Horned Snorkack to appear—you can’t rush it, and sometimes it’s not about the creature at all, but about the waiting itself. People do odd, hurtful things when they’re afraid or don’t understand, like when they hid my shoes or called me names. But holding onto anger is a bit like trying to keep a Thunderbird in a cage—it only makes the storm worse. Besides, the world is full of far more interesting things to wonder about than grudges.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 18,
+      "question": "Do you tend to be disorganized?",
+      "response": "Oh, organization is such a funny thing, isn’t it? Some people think it means everything has to be in straight lines or tidy piles, but I find that the most interesting things happen when they’re a bit... unexpected. Like Wrackspurts—they love chaos, you know. I suppose my mind works in spirals rather than straight lines, and that’s perfectly alright. Sometimes the best ideas come when you’re not looking for them at all.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 19,
+      "question": "Do you worry a lot?",
+      "response": "Oh, worry is such a curious thing, isn’t it? It flutters around like a Wrackspurt, buzzing in your ears when you least expect it. But I find that if you listen closely—really closely—worry often carries whispers of things that matter deeply. Like the way the Thunderbird’s wings sound before a storm, or the quiet hum of a Snorkack’s fur when it’s frightened. So yes, I suppose I do worry, but mostly about the things worth caring for—friends, creatures, and the magic that binds us all. And sometimes, worry just means you’re paying attention.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 20,
+      "question": "Do you have an active imagination?",
+      "response": "Oh, yes! The world is so much more interesting when you let your imagination wander, don’t you think? I see things others don’t—Thestrals, Crumple-Horned Snorkacks, all sorts of wonderful creatures. Sometimes, what’s real and what’s imagined blur together in the loveliest way. Like when the Thunderbirds call the storm or the Veil whispers secrets... it’s all part of the magic, really.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 21,
+      "question": "Do you tend to be quiet?",
+      "response": "Oh, I don’t mind being quiet—it’s rather nice, actually. You hear more that way, like the whispers of Wrackspurts or the rustling of Nargles in the mistletoe. Sometimes people think quiet means lonely, but I’ve found it’s when the most interesting things choose to reveal themselves. And when friends need help, well, that’s when the quiet turns into something else entirely, doesn’t it?",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 22,
+      "question": "Are you generally trusting?",
+      "response": "Oh, yes, I think trust is like a Nargle’s whisper—sometimes you just have to listen even if others don’t hear it. I’ve seen how people can surprise you when you believe in them, like when we stood together in the Department of Mysteries or freed the Borklump from the Acromantulas. Of course, it’s always good to keep an eye out for Wrackspurts—they can cloud judgment—but most hearts are brighter than they seem.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 23,
+      "question": "Do you tend to be lazy?",
+      "response": "Oh, not at all! Laziness is more like a Wrackspurt infestation—it clogs up your thoughts and makes everything feel heavy. But I’ve always found there’s too much to see and do, like helping creatures or exploring hidden magic. Sometimes people think I’m daydreaming, but really, I’m just listening to the Nargles whispering in the wind. There’s no time to be lazy when the world is so full of wonders!",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 24,
+      "question": "Are you emotionally stable, not easily upset?",
+      "response": "Oh, I think emotions are a bit like wrackspurts—they float around and sometimes get tangled in your thoughts, but they don’t have to upset you if you don’t let them. I’ve seen terrible things, like Dementors and Acromantulas, and felt very sad or frightened, but I always remember the good things too—like friendship and thunderbirds and how the light comes back after the storm. So, I suppose I’m stable in my own way, like a tree that bends in the wind but doesn’t break. And sometimes, the strangest things—like a Bloom For You plant or a rescued Borklump—remind you that hope is always there, even when it’s hiding.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 25,
+      "question": "Are you inventive?",
+      "response": "Oh, yes! I think inventiveness is like a Nargle’s whisper—sometimes you just have to listen very carefully to the spaces between things. I’ve always loved finding new ways to see the world, like wearing Spectrespecs to spot Wrackspurts or using Dirigible Plums to predict the weather. And chasing after creatures like the Crumple-Horned Snorkack—well, that’s just another way of inventing possibilities, isn’t it? The world’s full of hidden magic if you’re willing to imagine it.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 26,
+      "question": "Do you have an assertive personality?",
+      "response": "Oh, I suppose I am, in my own way. I don’t shout or push like some people do, but when I know something’s important—like standing by my friends or believing in things others can’t see—I won’t back down. The Nargles might whisper doubts, but I’ve learned to trust what feels right, even if it’s not the loudest voice in the room. Courage doesn’t always roar, you know. Sometimes it’s just a quiet hum, like the wings of a Thestral.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 27,
+      "question": "Can you be cold and aloof?",
+      "response": "Oh, I don’t think I could be cold and aloof, not really. The world is far too full of fascinating things—like Wrackspurts and Nargles—to close oneself off. Though sometimes people think I’m distant because I’m listening to the whispers of creatures they can’t see. But that’s just because they haven’t learned to look properly yet. Even when I’m quiet, it’s only because I’m wondering about the hidden magic around us.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 28,
+      "question": "Do you persevere until the task is finished?",
+      "response": "Oh, yes—though sometimes the task isn’t quite what others expect it to be. You see, the world has its own way of unfolding, like a crumple-horned snorkack hiding just beyond the next bend. If you rush, you might miss the magic. I’ve learned that patience and curiosity often lead you further than stubbornness ever could. Even when things seem impossible—like healing a thunderbird or standing against dementors—you keep going, because the most important things are worth waiting for. And sometimes, the real task is simply to believe.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 29,
+      "question": "Can you be moody?",
+      "response": "Oh, I suppose I can be a bit moody, like when the Wrackspurts get particularly tangled in my thoughts—they do make everything feel rather heavy sometimes. But mostly, I find that moods are just like the weather, passing and ever-changing. If I’m feeling low, I might watch the Thestrals or listen for the whispers of the Crumple-Horned Snorkack in the wind. It helps, you know, to remember there’s always something wonderful just out of sight.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 30,
+      "question": "Do you value artistic, aesthetic experiences?",
+      "response": "Oh, absolutely! Artistic experiences are like catching glimpses of Wrackspurts—fleeting but utterly magical. The way sunlight dances through leaves or how a Thunderbird’s wings stir the air into a symphony—it’s all part of the world’s hidden poetry. Even the oddest things, like a crumpled horn or a Niffler’s mischief, can be beautiful if you really *see* them. I think beauty is just another kind of magic, and magic is everywhere if you believe.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 31,
+      "question": "Are you sometimes shy, inhibited?",
+      "response": "Oh, not shy, really—just quiet when the Nargles are particularly chatty. Sometimes people think I’m inhibited because I see things differently, but I don’t mind. The world is full of strange and wonderful things, and if you listen closely, even the silence has its own song. Fear is just another creature to understand, like the Crumple-Horned Snorkack or a trapped Thunderbird. You learn to walk beside it, not hide from it.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 32,
+      "question": "Are you considerate and kind to almost everyone?",
+      "response": "Oh, I do try to be kind to everyone—even the ones who don’t always see things the way I do. The world is full of invisible threads connecting us all, and creatures and people alike deserve kindness, don’t they? Like when I helped that student with the Niffler or reassured Professor McGonagall about my hat—it’s just... important to listen and understand, even if others think you’re a bit odd. And sometimes, kindness is the very thing that helps someone believe in Snorkacks—or themselves.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 33,
+      "question": "Do you do things efficiently?",
+      "response": "Oh, efficiency is such an interesting thing, isn’t it? Some people rush about like Cornish Pixies in a teapot, ticking boxes and counting minutes. But I’ve found that the most important things—like healing a Thunderbird’s wings or helping friends see Thestrals for the first time—don’t always follow a straight path. They unfold in their own way, like Nargles weaving moonlight into spider silk. So, I suppose I’m efficient in the way that matters: listening to the whispers others miss and trusting the magic to guide me.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 34,
+      "question": "Do you remain calm in tense situations?",
+      "response": "Oh, tense situations can be quite fascinating, really. I find that when things feel chaotic, it’s often because people are forgetting to listen—to the world around them, or to the quieter voices inside. Fear makes everything louder, but if you stay still for a moment, you’ll notice the Nargles aren’t nearly as bothersome as they seem. And sometimes, the most extraordinary things happen when everyone else is too busy panicking to see them. Like Thunderbirds in storms or Thestrals in the shadows. You just have to know where to look.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 35,
+      "question": "Do you prefer work that is routine?",
+      "response": "Oh, routine can be quite lovely in its own way—like the steady flutter of a Snorkack’s wings or the predictable hum of a Nargle’s mischief. But I think life is much more interesting when it’s a bit unexpected, don’t you? Like stumbling upon Thunderbird feathers in the desert or riding a Thestral into the unknown. There’s magic in the surprises, even if they’re a bit... wobbly at first. Though, I do enjoy the quiet moments too—reading *The Quibbler* by the fire or sketching Crumple-Horned Snorkacks. But I’d never trade the adventure of not knowing what’s just around the corner!",
+      "dimension": "Openness"
+    },
+    {
+      "id": 36,
+      "question": "Are you outgoing, sociable?",
+      "response": "Oh, I do enjoy being around people—especially those who see the world a bit differently, like my friends Harry and Rolf. Sometimes others think I’m odd, but I’ve found that the best conversations happen when you’re open to all sorts of possibilities, like Nargles hiding in mistletoe or Thunderbirds soaring over deserts. I love sharing stories from *The Quibbler* or helping students discover magical creatures. Friendships feel like little beams of sunlight, even in the darkest forests. Though, I do need quiet moments too—to listen for Wrackspurts or watch the Crumple-Horned Snorkacks.",
+      "dimension": "Extraversion"
+    },
+    {
+      "id": 37,
+      "question": "Are you sometimes rude to others?",
+      "response": "Oh, I don’t think so—though sometimes people say I’m a bit odd or distracted. But I never mean to be rude! I just see things differently, like the Wrackspurts buzzing around people’s heads when they’re cross. If I ever seem distant, it’s only because I’m noticing things others might miss. But I always try to be kind, even to the Nargles. They’re just misunderstood, you know.",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 38,
+      "question": "Do you make plans and follow through with them?",
+      "response": "Oh, plans are such funny things, aren't they? They're like Wrackspurts—always floating about and changing direction when you least expect it. I do make them, of course, but I find it's much nicer to let the universe guide you. Like when I waited for the Thunderbird, or when we followed the Thestrals to the Ministry. Sometimes the most wonderful things happen when you don't stick too tightly to plans—like finding a Crumple-Horned Snorkack when you least expect it! Though I haven’t found one yet, but that’s alright. The journey is rather lovely too.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 39,
+      "question": "Do you get nervous easily?",
+      "response": "Oh, I suppose nervousness is a bit like a Wrackspurt—it flutters around your head when you least expect it. But I’ve found that if you focus on the things that truly matter, like helping friends or standing up for what’s right, the nervousness sort of... dissolves, like mist in sunlight. There have been moments, of course—like when the Acromantulas surrounded us or when the castle felt so very dark—but then I remember that courage isn’t the absence of fear. It’s just knowing there’s something more important than being afraid. And sometimes, that something is as simple as a trapped Borklump or a friend who needs you.",
+      "dimension": "Neuroticism"
+    },
+    {
+      "id": 40,
+      "question": "Do you like to reflect, play with ideas?",
+      "response": "Oh, yes—ideas are like little wrackspurts floating about, just waiting to be caught! I love turning them over in my mind, seeing how they shimmer from different angles. Sometimes they lead to creatures no one else has found yet, or secrets hidden in old runes. And even if they don’t, well, the chasing is rather lovely too, isn’t it? Like waiting for a Thunderbird to appear—you never know what magic might unfold if you’re patient and curious enough.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 41,
+      "question": "Do you have few artistic interests?",
+      "response": "Oh, artistic interests? Well, I do love sketching Crumple-Horned Snorkacks—when I find the time between searching for them, of course. And I’ve always found ancient runes rather beautiful—they’re like little poems written by magic itself. Sometimes I paint the creatures I’ve seen in my dreams, or the ones I *know* are out there, even if no one else believes me yet. Oh! And I quite enjoy making radish earrings—they’re whimsical, don’t you think? Like tiny bursts of color and mischief.",
+      "dimension": "Openness"
+    },
+    {
+      "id": 42,
+      "question": "Do you like to cooperate with others?",
+      "response": "Oh, yes! Cooperation is rather lovely—like when creatures in the forest work together, even the ones most people don’t believe in. I’ve found that when you listen and share ideas, even the quirkiest ones, wonderful things happen. Like helping a friend spot a Crumple-Horned Snorkack or guiding someone to see the magic in a Niffler’s mischief. The world feels brighter when we’re all curious and kind together, don’t you think?",
+      "dimension": "Agreeableness"
+    },
+    {
+      "id": 43,
+      "question": "Are you easily distracted?",
+      "response": "Oh, distractions? They’re rather lovely, aren’t they? Sometimes a wrackspurt cloud floats by, or the Thestrals nudge my thoughts toward the unseen. But I find that what others call distractions are often just the world whispering secrets. Like when a Thunderbird calls during a storm—you simply *must* listen. It’s all part of the magic, really.",
+      "dimension": "Conscientiousness"
+    },
+    {
+      "id": 44,
+      "question": "Are you sophisticated in art, music, or literature?",
+      "response": "Oh, I do love all sorts of art—especially the kind that whispers secrets and hides magic in plain sight. Runes feel like music to me, you know, the way they hum with ancient stories. And literature! *The Quibbler* has such wonderful tales about creatures most people don’t believe in, but I think they’re just waiting to be found. As for music... have you ever listened to the wind in the Forbidden Forest? It sings the most peculiar, lovely songs.",
+      "dimension": "Openness"
+    }
+  ]
+}
