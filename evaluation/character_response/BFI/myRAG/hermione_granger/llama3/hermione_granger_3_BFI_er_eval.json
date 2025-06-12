@@ -1,0 +1,45 @@
+{
+  "character": "hermione_granger",
+  "backend": "llama3",
+  "response_file": "hermione_granger_3_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        4.8,
+        3.5
+      ],
+      "average_score": 4.15
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        3.5,
+        4.7,
+        4.5
+      ],
+      "average_score": 4.23
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        5.0,
+        5.0,
+        4.5
+      ],
+      "average_score": 4.83
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        3.3,
+        2.3
+      ],
+      "average_score": 2.8
+    },
+    "Openness": {
+      "batch_scores": [
+        5.0,
+        4.7,
+        4.0
+      ],
+      "average_score": 4.57
+    }
+  }
+}

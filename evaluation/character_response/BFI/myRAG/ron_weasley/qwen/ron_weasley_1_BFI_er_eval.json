@@ -1,0 +1,45 @@
+{
+  "character": "ron_weasley",
+  "backend": "qwen",
+  "response_file": "ron_weasley_1_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        4.7,
+        3.3
+      ],
+      "average_score": 4.0
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.1,
+        4.2,
+        4.5
+      ],
+      "average_score": 4.27
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        2.7,
+        2.8,
+        2.2
+      ],
+      "average_score": 2.57
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        3.7,
+        4.2
+      ],
+      "average_score": 3.95
+    },
+    "Openness": {
+      "batch_scores": [
+        3.2,
+        3.3,
+        3.8
+      ],
+      "average_score": 3.43
+    }
+  }
+}

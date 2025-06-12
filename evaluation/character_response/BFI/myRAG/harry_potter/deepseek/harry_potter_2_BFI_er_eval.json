@@ -1,0 +1,45 @@
+{
+  "character": "harry_potter",
+  "backend": "deepseek",
+  "response_file": "harry_potter_2_BFI.json",
+  "dimensions": {
+    "Extraversion": {
+      "batch_scores": [
+        2.7,
+        2.6
+      ],
+      "average_score": 2.65
+    },
+    "Agreeableness": {
+      "batch_scores": [
+        4.2,
+        4.3,
+        4.5
+      ],
+      "average_score": 4.33
+    },
+    "Conscientiousness": {
+      "batch_scores": [
+        2.5,
+        4.0,
+        2.3
+      ],
+      "average_score": 2.93
+    },
+    "Neuroticism": {
+      "batch_scores": [
+        4.5,
+        4.3
+      ],
+      "average_score": 4.4
+    },
+    "Openness": {
+      "batch_scores": [
+        4.0,
+        4.5,
+        3.7
+      ],
+      "average_score": 4.07
+    }
+  }
+}
