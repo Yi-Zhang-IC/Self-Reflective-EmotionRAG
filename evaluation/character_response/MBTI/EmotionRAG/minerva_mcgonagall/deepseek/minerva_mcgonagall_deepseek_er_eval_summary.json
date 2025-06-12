@@ -1,5 +1,22 @@
 {
   "character": "minerva_mcgonagall",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "33%",
+      "I": "67%"
+    },
+    "S/N": {
+      "S": "44%",
+      "N": "56%"
+    },
+    "T/F": {
+      "T": "50%",
+      "F": "50%"
+    },
+    "P/J": {
+      "P": "16%",
+      "J": "84%"
+    }
+  }
 }

@@ -1,5 +1,22 @@
 {
   "character": "hermione_granger",
   "backend": "qwen",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "51%",
+      "I": "49%"
+    },
+    "S/N": {
+      "S": "29%",
+      "N": "71%"
+    },
+    "T/F": {
+      "T": "34%",
+      "F": "66%"
+    },
+    "P/J": {
+      "P": "13%",
+      "J": "87%"
+    }
+  }
 }

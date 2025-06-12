@@ -1,5 +1,22 @@
 {
   "character": "albus_dumbledore",
   "backend": "llama3",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "41%",
+      "I": "59%"
+    },
+    "S/N": {
+      "S": "13%",
+      "N": "87%"
+    },
+    "T/F": {
+      "T": "17%",
+      "F": "83%"
+    },
+    "P/J": {
+      "P": "59%",
+      "J": "41%"
+    }
+  }
 }

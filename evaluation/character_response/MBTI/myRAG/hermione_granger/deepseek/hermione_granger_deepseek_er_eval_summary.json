@@ -1,5 +1,22 @@
 {
   "character": "hermione_granger",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "48%",
+      "I": "52%"
+    },
+    "S/N": {
+      "S": "27%",
+      "N": "73%"
+    },
+    "T/F": {
+      "T": "30%",
+      "F": "70%"
+    },
+    "P/J": {
+      "P": "10%",
+      "J": "90%"
+    }
+  }
 }

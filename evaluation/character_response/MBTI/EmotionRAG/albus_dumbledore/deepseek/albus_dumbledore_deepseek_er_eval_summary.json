@@ -1,5 +1,22 @@
 {
   "character": "albus_dumbledore",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "44%",
+      "I": "56%"
+    },
+    "S/N": {
+      "S": "11%",
+      "N": "89%"
+    },
+    "T/F": {
+      "T": "22%",
+      "F": "78%"
+    },
+    "P/J": {
+      "P": "56%",
+      "J": "44%"
+    }
+  }
 }

@@ -1,5 +1,22 @@
 {
   "character": "luna_lovegood",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "69%",
+      "I": "31%"
+    },
+    "S/N": {
+      "S": "9%",
+      "N": "91%"
+    },
+    "T/F": {
+      "T": "11%",
+      "F": "89%"
+    },
+    "P/J": {
+      "P": "90%",
+      "J": "10%"
+    }
+  }
 }

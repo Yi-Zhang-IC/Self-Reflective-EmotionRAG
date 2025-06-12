@@ -1,5 +1,22 @@
 {
   "character": "minerva_mcgonagall",
   "backend": "qwen",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "53%",
+      "I": "47%"
+    },
+    "S/N": {
+      "S": "45%",
+      "N": "55%"
+    },
+    "T/F": {
+      "T": "53%",
+      "F": "47%"
+    },
+    "P/J": {
+      "P": "14%",
+      "J": "86%"
+    }
+  }
 }

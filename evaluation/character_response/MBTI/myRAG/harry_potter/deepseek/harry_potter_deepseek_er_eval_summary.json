@@ -1,5 +1,22 @@
 {
   "character": "harry_potter",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "46%",
+      "I": "54%"
+    },
+    "S/N": {
+      "S": "57%",
+      "N": "43%"
+    },
+    "T/F": {
+      "T": "19%",
+      "F": "81%"
+    },
+    "P/J": {
+      "P": "74%",
+      "J": "26%"
+    }
+  }
 }

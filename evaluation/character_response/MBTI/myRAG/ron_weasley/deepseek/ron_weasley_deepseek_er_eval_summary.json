@@ -1,5 +1,22 @@
 {
   "character": "ron_weasley",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "72%",
+      "I": "28%"
+    },
+    "S/N": {
+      "S": "81%",
+      "N": "19%"
+    },
+    "T/F": {
+      "T": "18%",
+      "F": "82%"
+    },
+    "P/J": {
+      "P": "84%",
+      "J": "16%"
+    }
+  }
 }

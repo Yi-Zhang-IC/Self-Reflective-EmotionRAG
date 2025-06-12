@@ -1,5 +1,22 @@
 {
   "character": "hermione_granger",
   "backend": "llama3",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "55%",
+      "I": "45%"
+    },
+    "S/N": {
+      "S": "19%",
+      "N": "81%"
+    },
+    "T/F": {
+      "T": "24%",
+      "F": "76%"
+    },
+    "P/J": {
+      "P": "23%",
+      "J": "77%"
+    }
+  }
 }

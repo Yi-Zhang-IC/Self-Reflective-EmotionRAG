@@ -1,5 +1,22 @@
 {
   "character": "severus_snape",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "9%",
+      "I": "91%"
+    },
+    "S/N": {
+      "S": "50%",
+      "N": "50%"
+    },
+    "T/F": {
+      "T": "85%",
+      "F": "15%"
+    },
+    "P/J": {
+      "P": "10%",
+      "J": "90%"
+    }
+  }
 }

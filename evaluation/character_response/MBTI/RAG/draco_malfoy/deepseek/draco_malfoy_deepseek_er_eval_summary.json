@@ -1,5 +1,22 @@
 {
   "character": "draco_malfoy",
   "backend": "deepseek",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "37%",
+      "I": "63%"
+    },
+    "S/N": {
+      "S": "49%",
+      "N": "51%"
+    },
+    "T/F": {
+      "T": "63%",
+      "F": "37%"
+    },
+    "P/J": {
+      "P": "28%",
+      "J": "72%"
+    }
+  }
 }

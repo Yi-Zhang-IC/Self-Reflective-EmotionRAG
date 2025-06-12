@@ -1,5 +1,22 @@
 {
   "character": "albus_dumbledore",
   "backend": "qwen",
-  "averages": {}
+  "averages": {
+    "E/I": {
+      "E": "43%",
+      "I": "57%"
+    },
+    "S/N": {
+      "S": "14%",
+      "N": "86%"
+    },
+    "T/F": {
+      "T": "20%",
+      "F": "80%"
+    },
+    "P/J": {
+      "P": "49%",
+      "J": "51%"
+    }
+  }
 }

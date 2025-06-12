@@ -79,7 +79,7 @@ class PCAProjector(nn.Module):
     def forward(self, x):
         return F.normalize(self.proj(x), p=2, dim=1)
 
-class EmbeddingWithFixedProjector(nn.Module):
+class EmotionEmbeddingModel(nn.Module):
     def __init__(self, encoder_path: str, projector: nn.Module, freeze_encoder=True, dropout_rate=0.3):
         super().__init__()
         self.encoder = AutoModel.from_pretrained(encoder_path)
