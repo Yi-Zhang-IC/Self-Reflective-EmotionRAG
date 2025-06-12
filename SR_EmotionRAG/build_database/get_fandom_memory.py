@@ -7,13 +7,13 @@ from time import sleep
 # === Editable list of characters ===
 character_names = [
     "Severus Snape",
-    # "Harry Potter",
-    # "Albus Dumbledore",
-    # "Luna Lovegood",
-    # "Hermione Granger",
-    # "Ron Weasley",
-    # "Draco Malfoy",
-    # "Minerva McGonagall"
+    "Harry Potter",
+    "Albus Dumbledore",
+    "Luna Lovegood",
+    "Hermione Granger",
+    "Ron Weasley",
+    "Draco Malfoy",
+    "Minerva McGonagall"
 ]
 
 def extract_biography_for_character(character_name):
