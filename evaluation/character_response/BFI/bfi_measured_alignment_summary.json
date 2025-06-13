@@ -1,17 +1,23 @@
 {
-  "RAG": {
-    "MAE_score": 0.0,
-    "Acc_dim": 0.0,
-    "Acc_full": 0.0
+  "qwen": {
+    "MAE_rescaled": 0.1551,
+    "AccDim": 0.8243,
+    "AccFull": 0.4583,
+    "characters_evaluated": 24,
+    "total_dimensions": 96
   },
-  "EmotionRAG": {
-    "MAE_score": 0.0,
-    "Acc_dim": 0.0,
-    "Acc_full": 0.0
+  "deepseek": {
+    "MAE_rescaled": 0.1455,
+    "AccDim": 0.8111,
+    "AccFull": 0.3333,
+    "characters_evaluated": 24,
+    "total_dimensions": 96
   },
-  "myRAG": {
-    "MAE_score": 0.0,
-    "Acc_dim": 0.0,
-    "Acc_full": 0.0
+  "llama3": {
+    "MAE_rescaled": 0.158,
+    "AccDim": 0.8306,
+    "AccFull": 0.5417,
+    "characters_evaluated": 24,
+    "total_dimensions": 96
   }
 }

@@ -1,0 +1,62 @@
+{
+  "qwen": {
+    "EmotionRAG": {
+      "MAE_rescaled": 0.1587,
+      "AccDim": 0.8708,
+      "AccFull": 0.625,
+      "characters": 8
+    },
+    "RAG": {
+      "MAE_rescaled": 0.1577,
+      "AccDim": 0.8292,
+      "AccFull": 0.5,
+      "characters": 8
+    },
+    "myRAG": {
+      "MAE_rescaled": 0.1488,
+      "AccDim": 0.7729,
+      "AccFull": 0.25,
+      "characters": 8
+    }
+  },
+  "deepseek": {
+    "EmotionRAG": {
+      "MAE_rescaled": 0.1412,
+      "AccDim": 0.8458,
+      "AccFull": 0.375,
+      "characters": 8
+    },
+    "RAG": {
+      "MAE_rescaled": 0.1418,
+      "AccDim": 0.8146,
+      "AccFull": 0.375,
+      "characters": 8
+    },
+    "myRAG": {
+      "MAE_rescaled": 0.1535,
+      "AccDim": 0.7729,
+      "AccFull": 0.25,
+      "characters": 8
+    }
+  },
+  "llama3": {
+    "EmotionRAG": {
+      "MAE_rescaled": 0.1686,
+      "AccDim": 0.8229,
+      "AccFull": 0.625,
+      "characters": 8
+    },
+    "RAG": {
+      "MAE_rescaled": 0.1678,
+      "AccDim": 0.8292,
+      "AccFull": 0.5,
+      "characters": 8
+    },
+    "myRAG": {
+      "MAE_rescaled": 0.1377,
+      "AccDim": 0.8396,
+      "AccFull": 0.5,
+      "characters": 8
+    }
+  }
+}
