@@ -84,7 +84,6 @@ def load_pipeline(generation_backend):
     if generation_backend in {"deepseek", "mistral", "qwen", "llama3"}:
         hf_model_map = {
             "deepseek": "deepseek-ai/DeepSeek-V3-0324",
-            "mistral": "mistralai/Mistral-7B-Instruct-v0.3",
             "qwen": "Qwen/Qwen2.5-32B-Instruct",
             "llama3": "meta-llama/Meta-Llama-3-8B-Instruct",  # Add llama3 here
         }
