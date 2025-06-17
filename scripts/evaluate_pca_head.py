@@ -78,8 +78,8 @@ class PCAProjector(nn.Module):
 
     def forward(self, x):
         return F.normalize(self.proj(x), p=2, dim=1)
-
-class EmotionEmbeddingModel(nn.Module):
+    
+class EmbeddingWithFixedProjector(nn.Module):
     def __init__(self, encoder_path: str, projector: nn.Module, freeze_encoder=True, dropout_rate=0.3):
         super().__init__()
         self.encoder = AutoModel.from_pretrained(encoder_path)
@@ -226,7 +226,7 @@ def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_di
         single_labels = [label.argmax().item() for i, label in enumerate(label_vectors) if i in single_indices]
 
         tsne = TSNE(
-            n_components=2, perplexity=50, n_iter=1500,
+            n_components=2, perplexity=50,
             learning_rate=300, metric="cosine", init="pca", random_state=42
         )
         reduced = tsne.fit_transform(single_embeddings.numpy())
@@ -285,7 +285,7 @@ def plot_top_combinations_tsne(embeddings, label_vectors, emotion_names, save_di
             ["A+B"] * len(indices_combo)
         )
 
-        tsne = TSNE(n_components=2, perplexity=50, n_iter=1500, learning_rate=300,
+        tsne = TSNE(n_components=2, perplexity=50, learning_rate=300,
                     metric="cosine", init="pca", random_state=42)
         reduced = tsne.fit_transform(selected_embeddings)
 
@@ -377,16 +377,16 @@ def run_evaluation(
     file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
     logger.addHandler(file_handler)
 
-    logger.info("▶️ Running evaluation...")
-    logger.info(f"📦 Encoder path: {encoder_path}")
-    logger.info(f"🧊 Encoder frozen: {freeze_encoder}")
-    logger.info(f"🎯 Use projection head: {use_projection_head}")
+    logger.info("Running evaluation...")
+    logger.info(f"Encoder path: {encoder_path}")
+    logger.info(f"Encoder frozen: {freeze_encoder}")
+    logger.info(f"Use projection head: {use_projection_head}")
     if projection_head_path:
-        logger.info(f"📎 Projection head path: {projection_head_path}")
+        logger.info(f"Projection head path: {projection_head_path}")
     if use_random_projection:
-        logger.info("🎲 Using random projection")
+        logger.info("Using random projection")
     if pca_components_path:
-        logger.info(f"📐 Using PCA projection from: {pca_components_path}")
+        logger.info(f"Using PCA projection from: {pca_components_path}")
 
     # ---------- Quantitative Evaluation ----------
     metrics_by_k = evaluate_embeddings_at_ks(
@@ -398,7 +398,7 @@ def run_evaluation(
         num_classes=28
     )
 
-    logger.info("📊 Embedding Space Evaluation Metrics:")
+    logger.info("Embedding Space Evaluation Metrics:")
     for k, metric_set in metrics_by_k.items():
         logger.info(f"--- k={k} ---")
         for metric, value in metric_set.items():
@@ -436,7 +436,7 @@ def run_evaluation(
         top_k=8
     )
 
-    logger.info("✅ Evaluation complete.")
+    logger.info("Evaluation complete.")
     return metrics_by_k
 
 run_evaluation(

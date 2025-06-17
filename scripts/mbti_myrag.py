@@ -80,7 +80,7 @@ for backend_name in ["llama3", "qwen", "deepseek"]:
                 print(f"\n=== Asking Question {qid}: {question_text} ===")
 
                 try:
-                    roleplay_prompt, character_response, reasoning_trace, retrieval_counts = run_full_roleplay_pipeline(
+                    roleplay_prompt, character_response, reasoning_trace, retrieval_counts, _ = run_full_roleplay_pipeline(
                         max_steps=2,
                         character=character,
                         user_query=question_text,

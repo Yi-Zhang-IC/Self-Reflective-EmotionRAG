@@ -1,4 +1,13 @@
-import torch
+# --- 🩹 Patch torch.classes to avoid Streamlit crash ---
+import types
+try:
+    import torch
+    if not hasattr(torch, 'classes'):
+        torch.classes = types.SimpleNamespace()
+    torch.classes.__path__ = []  # Fakes module path for Streamlit watcher
+except ImportError:
+    pass  # torch not installed yet
+# ------------------------------------------------------
 import torch.nn as nn
 import torch.nn.functional as F
 import json
@@ -65,14 +74,9 @@ class EmotionEmbeddingModel(nn.Module):
         return self.projector(cls_embed)
 
 # Load frozen model
-model = EmotionEmbeddingModel(
-    dropout_rate=0.3,
-    projection_dim=128,
-    encoder_path=TOKENIZER_PATH,
-    projection_head_path=PROJECTION_HEAD_PATH,
-    freeze_encoder=True,
-    use_projection_head=False
-).to(device)
+pca_components = np.load(PROJECTION_HEAD_PATH)  # shape: (128, 768)
+projector = PCAProjector(pca_components=pca_components)
+model = EmotionEmbeddingModel(encoder_path=TOKENIZER_PATH, projector=projector, freeze_encoder=True).to(device)
 model.eval()
 
 # =======================

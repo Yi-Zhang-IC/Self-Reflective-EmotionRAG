@@ -1,8 +1,29 @@
+# === Project Structure ===
 /InCharacter/
+models/
+outputs/
+/emoenv/
+/.venv/
+venv/
+
+# === Temporary + System Files ===
 *.log
 *.out
 *.zip
 *.png
-models/
-outputs/
+.DS_Store
+*~
+
+# === Virtual Environment + Secrets ===
 **/.env
+
+# === Python Cache ===
+**/__pycache__/
+*.pyc
+
+# === Git Normalization Rules ===
+* text=auto
+*.json text
+*.jsonl text
+*.txt text
+*.ipynb text
