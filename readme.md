@@ -14,7 +14,7 @@ Core implementation of the **Self-Reflective Emotional RAG** system. This includ
 - Response generation pipeline
 
 ### `EmotionRAG/`
-Replicates the baseline method from the [Emotional RAG](https://arxiv.org/abs/2402.13719) paper. Includes:
+Replicates the baseline method from the [Emotional RAG](https://arxiv.org/abs/2410.23041) paper. Includes:
 - Memory construction scripts based on GPT-generated summaries
 - Affective and semantic retrieval modules as described in the original paper
 
